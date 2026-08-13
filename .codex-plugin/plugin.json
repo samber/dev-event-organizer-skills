@@ -1,0 +1,34 @@
+{
+    "name": "dev-event-organizer-skills",
+    "version": "0.1.0",
+    "description": "Skills for technical event operations — conferences, meetups, hackathons, and community programs covering strategy, speakers, sponsors, programming, day-of production, and post-event learning.",
+    "author": {
+        "name": "Samuel Berthe",
+        "email": "dev@samuel-berthe.fr"
+    },
+    "homepage": "https://github.com/samber/dev-event-organizer-skills",
+    "repository": "https://github.com/samber/dev-event-organizer-skills",
+    "license": "MIT",
+    "keywords": [
+        "events",
+        "conferences",
+        "meetups",
+        "hackathons",
+        "community",
+        "event-organizing",
+        "speaker-program",
+        "sponsorship",
+        "ai-agent-skills",
+        "agentic",
+        "skills"
+    ],
+    "skills": "./skills/",
+    "interface": {
+        "displayName": "Dev Event Organizer Skills",
+        "shortDescription": "AI agent skills for technical event operations",
+        "developerName": "Samuel Berthe",
+        "category": "Community",
+        "capabilities": ["Read"],
+        "websiteURL": "https://github.com/samber/dev-event-organizer-skills"
+    }
+}

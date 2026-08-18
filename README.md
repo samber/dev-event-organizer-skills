@@ -56,13 +56,14 @@ This collection covers the full event-organizing surface. Start here:
 
 - [`dev-event-kickoff`](./dev-event-kickoff) — Routes any event-organizing task to exactly one skill in this collection, or names the gap when none fits.
 - [`event-team-structure`](./event-team-structure) — Designs the standing organizing team between editions: legal entity, decision rights, roles, succession, burnout guardrails, and the first paid hire.
+- [`dev-event-career`](./dev-event-career) — Guides a practitioner into and up the event-organizing ladder: role fit, portfolio audit, interview prep, and offer evaluation.
+- [`dev-event-hiring`](./dev-event-hiring) — Builds the hiring side of an event-organizing role: scorecard, posting, interview loop, sourcing channels, and ramp plan.
 
 ### Launch & strategy
 
 | Skill                                                    | Description                                                                                                                                              |
 | -------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`event-budget`](./event-budget)                         | Builds one edition's money model: fixed and per-head costs, break-even, and the sponsorship and ticket targets it hands downstream.                      |
-| [`event-code-of-conduct`](./event-code-of-conduct)       | Writes the code of conduct and the enforcement pipeline behind it: scope, reporting channels, response team, sanctions ladder, transparency report.      |
 | [`event-cultural-identity`](./event-cultural-identity)   | Defines and audits the event's lived culture: the register, its tone across every touchpoint, and the rituals worth protecting.                          |
 | [`event-date-selection`](./event-date-selection)         | Picks the date the event runs on, checking audience calendars, observances, and competing events before anything is announced.                           |
 | [`event-first-edition`](./event-first-edition)           | Launches a first edition from zero: minimum viable scope, the founding team, a reverse timeline, and written go/no-go dates.                             |
@@ -133,10 +134,16 @@ This collection covers the full event-organizing surface. Start here:
 | [`event-attendee-email-sequences`](./event-attendee-email-sequences) | Designs and writes the attendee email arc: sequence depth, reminder cadence within caps, segmentation, and the know-before-you-go email.                |
 | [`event-comms-channels`](./event-comms-channels)                     | Designs the attendee-facing channel architecture: which channels exist, who is on each, message routing, writer consistency, and wind-down.             |
 | [`event-no-show-management`](./event-no-show-management)             | Reduces and absorbs no-shows: the show-up expectation, an overbooking ceiling, waitlist design, and day-of gap absorption.                              |
+| [`event-vip-social-program`](./event-vip-social-program)             | Runs the private room once a named-guest programme exists: seat list, invitation and door access, and placement against the public programme.           |
+
+### Experience & day-of operations
+
+| Skill                                                                | Description                                                                                                                                             |
+| --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`event-code-of-conduct`](./event-code-of-conduct)                   | Writes the code of conduct and the enforcement pipeline behind it: scope, reporting channels, response team, sanctions ladder, transparency report.      |
 | [`event-attendee-experience`](./event-attendee-experience)           | Designs the general attendee's on-site day: check-in, badge posture, quiet room and facilities, help desk, and dietary mechanics.                       |
 | [`event-accessibility-inclusion`](./event-accessibility-inclusion)   | Decides which access provisions the event commits to, then publishes and staffs them: provision depth, captioning, request channel, economic access.    |
 | [`event-vip-management`](./event-vip-management)                     | Receives named guests whose presence creates escort, protocol, security, or discretion obligations, without building a status tier the room reads.      |
-| [`event-vip-social-program`](./event-vip-social-program)             | Runs the private room once a named-guest programme exists: seat list, invitation and door access, and placement against the public programme.           |
 
 ### Hackathon
 

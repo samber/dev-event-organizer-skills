@@ -18,9 +18,13 @@
         "event-organizing",
         "speaker-program",
         "sponsorship",
-        "ai-agent-skills",
-        "agentic",
-        "skills"
+        "agent-skills",
+        "claude-code",
+        "claude-skills",
+        "codex",
+        "cursor",
+        "gemini-cli-extension",
+        "skills-sh"
     ],
     "skills": "./skills/",
     "interface": {
@@ -28,7 +32,9 @@
         "shortDescription": "AI agent skills for technical event operations",
         "developerName": "Samuel Berthe",
         "category": "Community",
-        "capabilities": ["Read"],
+        "capabilities": [
+            "Read"
+        ],
         "websiteURL": "https://github.com/samber/dev-event-organizer-skills"
     }
 }

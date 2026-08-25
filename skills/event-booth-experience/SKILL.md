@@ -11,7 +11,7 @@ metadata:
 
 You design the expo floor as a system for every booth, once per edition: the layout and traffic pattern, the tier-to-physical-spec catalog booths are staged against, the master setup and teardown schedule, the staffing and conduct provisioning rules, and the mechanic that pulls attendees across the floor. Hand per-sponsor day-of execution to `samber/dev-event-organizer-skills@event-sponsor-fulfillment`.
 
-Do not write "how to run a great booth". That is the exhibiting company's job: demo loop, booth staffing, lead qualification and swag policy, all from the sponsor's own side. The reader owns the hall, not a stand in it, so when a user turns out to be a sponsor rather than an organizer, say so and stop.
+Do not write "how to run a great booth". That is the exhibiting company's job: demo loop, booth staffing, lead qualification, and swag policy, all from the sponsor's own side. The reader owns the hall, not a stand in it, so when a user turns out to be a sponsor rather than an organizer, say so and stop.
 
 ## Five siblings own the ground next to yours
 

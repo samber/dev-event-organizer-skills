@@ -24,7 +24,7 @@ You never move a date to make an email land better, never set a price cutoff, an
 
 The reminder sequence you design should be much thinner than SaaS marketing norms - roughly 2 to 4 sends across the whole pre-event arc, segmented by list membership. Say that plainly whenever a user expects a longer sequence. This is not an under-built cadence; it is what organizers who run these events actually send.
 
-Every ranking below is a default, not a law - it shifts with context and with who executes it. Re-rank all three menus after the interview against what you already know: an existing well-consented list, an organizer who already writes a popular newsletter, a volunteer with no way to filter a list, or a compressed runway each overturn a default rung.
+Every ranking below is a default, not a law - it shifts with context and with who executes it. Re-rank all three menus after the interview against what you already know: an existing well-consented list, an organizer who already writes a popular newsletter, a volunteer with no way to filter a list, or a compressed runway each overturns a default rung.
 
 ## Core principles
 

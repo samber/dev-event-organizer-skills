@@ -51,7 +51,7 @@ Ask one question at a time, multiple-choice where possible. Questions 7-9 exist 
 
 An attendee's access need is identical whether an employer or the attendee bought the ticket; no provision changes shape because of who paid.
 
-The axis that does discriminate is **who funds the provision line**. A foundation- or vendor-run event carries a standing accessibility budget, provisioning per-room live captioning, complimentary childcare and equipment rental as normal practice. A community event funds the same provisions out of the money that would otherwise buy lunch - this moves menu 1 (depth), menu 2 (captioning) and menu 4 (economic access).
+The axis that does discriminate is **who funds the provision line**. A foundation- or vendor-run event carries a standing accessibility budget, provisioning per-room live captioning, complimentary childcare, and equipment rental as normal practice. A community event funds the same provisions out of the money that would otherwise buy lunch - this moves menu 1 (depth), menu 2 (captioning) and menu 4 (economic access).
 
 It does **not** move menu 3. A two-person volunteer team and a foundation face the identical problem once an attendee discloses a disability: the same duty of care, the same retention question, the same person who now has to answer. Say so rather than letting the funding pole read as an excuse that reaches every menu.
 

@@ -59,9 +59,14 @@ Update with `gemini extensions update dev-event-organizer-skills`.
 
 ## 📦 Skills
 
-This collection covers the full event-organizing surface. Start here:
+This collection covers the full event-organizing surface.
 
-- [`dev-event-kickoff`](./dev-event-kickoff): Routes any event-organizing task to exactly one skill in this collection, or names the gap when none fits.
+### Start here
+
+[`dev-event-kickoff`](./dev-event-kickoff): Routes any event-organizing task to exactly one skill in this collection, or names the gap when none fits.
+
+### Meta
+
 - [`event-team-structure`](./event-team-structure): Designs the standing organizing team between editions: legal entity, decision rights, roles, succession, burnout guardrails, and the first paid hire.
 - [`dev-event-career`](./dev-event-career): Guides a practitioner into and up the event-organizing ladder: role fit, portfolio audit, interview prep, and offer evaluation.
 - [`dev-event-hiring`](./dev-event-hiring): Builds the hiring side of an event-organizing role: scorecard, posting, interview loop, sourcing channels, and ramp plan.

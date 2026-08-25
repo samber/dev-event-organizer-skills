@@ -21,7 +21,7 @@ Consume prices - ticket, sponsor, venue, vendor - never derive them. Hand back e
 
 Treat every ranking below as a default, not a law. Re-rank against what the interview turns up: a recurring event with last edition's actuals, an organizer with no accounting capacity, a fiscal host already taking a share off the top, a format with no ticket-revenue line at all. Each overturns a default rung.
 
-**No currency amount appears anywhere in this file.** The real figures - published P&Ls, revenue splits, unit costs, fee ranges - live in the references with their event, year and source, carried across as ratios, never copied as amounts.
+**No currency amount appears anywhere in this file.** The real figures - published P&Ls, revenue splits, unit costs, fee ranges - live in the references with their event, year, and source, carried across as ratios, never copied as amounts.
 
 ## Ticketed or free-by-construction
 

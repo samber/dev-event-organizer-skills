@@ -17,7 +17,7 @@ Say **company-run** and **community-run**. Use those two pole names everywhere, 
 
 ## Sizing constraints
 
-State no headcount, city count, agenda length, ticket price or budget figure, here or in any deliverable built from this skill. Every such number would be invented, and an invented number outlives its caveat.
+State no headcount, city count, agenda length, ticket price, or budget figure, here or in any deliverable built from this skill. Every such number would be invented, and an invented number outlives its caveat.
 
 Every effort, value and compliance ordering below is argued from these shapes' mechanics and contestable on its own terms: a reasoned default, not an industry ranking.
 

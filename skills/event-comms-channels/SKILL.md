@@ -88,7 +88,7 @@ The repeats and the quiet channels are next edition's roster changes.
 
 ## Menu 1 - Channel roster
 
-An additive ladder: each rung adds a channel to the ones below it. Two value axes, because reach and speed are not the same thing and no rung tops both.
+An additive ladder: each rung adds a channel to the ones below it. Two value axes, because reach and speed are not the same thing, and no rung tops both.
 
 - value, a routine message reaches everyone who registered: `announcement list > chat space == event app > status page`
 - value, a change of plan reaches people fast enough to act on it during the event: `event app == chat space > status page > announcement list`

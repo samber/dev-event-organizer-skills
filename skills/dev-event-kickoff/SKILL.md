@@ -37,7 +37,7 @@ On a cold start, ask at most 5-7 questions, one question per message, and offer 
 6. **Is there a date the result has to land by?** - (a) doors open on a fixed date, (b) a CFP, on-sale or announcement deadline, (c) a sponsor budget window that closes, (d) no date. Give the date in cases (a) to (c).
 7. **One-off outcome or a standing system - and what is your effort ceiling?** - (a) one-off, hours only, (b) one-off, a week of work is fine, (c) standing, a few hours weekly, (d) standing, with paid staff or a funded budget.
 
-Questions 6 and 7 exist to order the output, not to describe the project: the landing date, the one-off-versus-standing answer and the effort ceiling re-rank the short-list (§ 4) and the routines (§ 7). Ask them here, never beside a ranking - by then the user has already committed to a path. Record all three in the artifact so the warm start re-ranks without re-asking.
+Questions 6 and 7 exist to order the output, not to describe the project: the landing date, the one-off-versus-standing answer, and the effort ceiling re-rank the short-list (§ 4) and the routines (§ 7). Ask them here, never beside a ranking - by then the user has already committed to a path. Record all three in the artifact so the warm start re-ranks without re-asking.
 
 On a warm start, ask only question 5. Everything else - including the gates and the two ranking inputs - comes from the artifact.
 

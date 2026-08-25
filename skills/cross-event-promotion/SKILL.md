@@ -52,7 +52,7 @@ Ask one question at a time, multiple-choice where possible. Questions 5-7 exist 
 
 The axis that changes the deal is who owns each event, the same split this collection's positioning, format, and sponsorship skills argue:
 
-- **Community-run on both sides** - organizers deal as peers: a swap is agreed in a chat thread, sealed by a short written recap, and honored on reputation. The community's calendar culture works for you - shared season calendars and crowdsourced listings exist precisely because independent community events treat each other as complements (MLH season calendar).
+- **Community-run on both sides** - organizers deal as peers: they agree a swap in a chat thread, seal it with a short written recap, and honor it on reputation. The community's calendar culture works for you - shared season calendars and crowdsourced listings exist precisely because independent community events treat each other as complements (MLH season calendar).
 - **Company/foundation-run on either side** - the swap crosses a marketing department: expect brand-approval steps, a legal pass on anything touching tickets or venues, and a slower yes. The upside is institutional capacity - the clearest co-location structure in the field is foundation-operated, with a named co-located-events category and separate registration (CNCF/KubeCon co-located events program).
 - **Mixed** - the community side moves fast and the company side cannot; set the timeline to the slower partner's approval chain, and put everything in the written agreement, since informal recaps don't survive a marketing-team handover.
 

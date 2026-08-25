@@ -65,7 +65,7 @@ Full ladder detail, skill-overlap data explaining why titles blur, and the CMX b
 
 Other sourced routes:
 
-- **Transferable-skills route** - customer service, administrative, or project-management backgrounds transfer directly on organization, multi-tasking, and clear communication.
+- **Transferable-skills route** - customer service, administrative, or project-management backgrounds transfer directly to organization, multi-tasking, and clear communication.
 - **Internships/entry-level roles** - agencies and corporate event teams offer these, sourced via LinkedIn, university career boards, hospitality job sites, and agency/venue career pages directly.
 - **Self-practice** - organizing personal or community events as a low-pressure way to build budgeting, communication, and time-management reps before a first paid or volunteer role.
 

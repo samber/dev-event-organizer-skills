@@ -65,7 +65,7 @@ Ask one question at a time, multiple-choice where possible. Questions 6-9 carry 
 ## Workflow
 
 1. Run the interview. Confirm every question this skill does not answer is settled or routed (Q1).
-2. Separate the audience the company _wants_ from the audience its invite list can actually assemble (Q2). A company-run event usually runs on the company's own user and customer list; a goal aimed at people that list lacks depends on an acquisition campaign nobody has budgeted.
+2. Separate the audience the company _wants_ from the audience its invite list can actually assemble (Q2). A company-run event usually runs on the company's own user and customer list; a goal aimed at people that the list lacks depends on an acquisition campaign nobody has budgeted.
 3. Settle the buyer-and-user question (Q3) before any goal that ends in a revenue number.
 4. Choose the goal mix from the menu below. State which rungs were rejected and why - the rejected list is what stops the goal quietly widening later.
 5. Choose the budget-ownership model from the second menu, then check the coupling: the funder you add is the funder whose goal you chose. Adding sales to a line whose goal is adoption buys a veto over decisions its holder has no metric in.

@@ -9,7 +9,7 @@ metadata:
 
 # Dev Event Hiring
 
-Build the artefacts a hiring manager needs to recruit a tech-event-organizing role: a scorecard calibrated to operating context, an interview loop assembled from the field's real (if partial) evidence, a sourcing plan, and a compensation stance that names its source instead of blending numbers together.
+Build the artefacts a hiring manager needs to recruit a tech-event-organizing role: a scorecard calibrated to operating context, an interview loop assembled from the field's real (if partial) evidence, a sourcing plan, and a compensation stance that names its source instead of blending numbers.
 
 Out of scope, hand off instead:
 

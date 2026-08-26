@@ -18,7 +18,7 @@ Four decisions:
 - The alcohol posture.
 - Whether an evening or social programme exists.
 
-Set the shared floor, never a population's top-up. Every other hospitality skill layers on it: `samber/dev-event-organizer-skills@event-speaker-experience` and `samber/dev-event-organizer-skills@event-attendee-experience` each add only their own population's layer on top of these fundamentals. Never re-decide a speakers' dinner, a volunteer meal or a VIP table.
+Set the shared floor, never a population's top-up. Every other hospitality skill layers on it: `samber/dev-event-organizer-skills@event-speaker-experience` and `samber/dev-event-organizer-skills@event-attendee-experience` each add only their own population's layer on top of these fundamentals. Never re-decide a speakers' dinner, a volunteer meal, or a VIP table.
 
 ## Two adjacent scopes you do not own
 

@@ -48,7 +48,7 @@ Ask one question at a time, multiple-choice where possible. Questions 6 to 8 exi
 
 ## Who is in the room and what they are paid
 
-The axis that changes this skill's output is who is in the room and what they are paid - it decides what can be said and who can be handed a task. **Volunteer-run**: no employment relationship buffers the conversation, so candour is cheaper, but no manager absorbs an action item, and a criticised volunteer simply stops volunteering - a loss invisible in the log. **Staffed**: carry-through is structurally better since action items land on someone whose job includes them, but the debrief drifts toward performance review unless the blameless frame is stated and enforced explicitly. **Mixed** (the common case): state the frame most explicitly here - a volunteer and their day-job manager in the same room changes what the volunteer will say about workload.
+The axis that changes this skill's output is who is in the room and what they are paid - it decides what can be said and who can be handed a task. **Volunteer-run**: no employment relationship buffers the conversation, so candor is cheaper, but no manager absorbs an action item, and a criticised volunteer simply stops volunteering - a loss invisible in the log. **Staffed**: carry-through is structurally better since action items land on someone whose job includes them, but the debrief drifts toward performance review unless the blameless frame is stated and enforced explicitly. **Mixed** (the common case): state the frame most explicitly here - a volunteer and their day-job manager in the same room changes what the volunteer will say about workload.
 
 ## Workflow
 

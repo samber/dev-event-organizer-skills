@@ -44,7 +44,7 @@ Naming the practice this way is sourced. The log format, the occurrence bar, the
 
 ## Interview
 
-Ask one question at a time, multiple-choice where possible. Questions 5 to 7 exist because the menus below diverge sharply on time-to-effect, durability and effort; the default ordering cannot be picked for the user without them.
+Ask one question at a time, multiple-choice where possible. Questions 5 to 7 exist because the menus below diverge sharply on time-to-effect, durability, and effort; the default ordering cannot be picked for the user without them.
 
 1. How many editions has this event run, and for how many of them do you hold a written record? The second number is the only one that bounds a trend claim.
 2. What form do those records take today - nothing written, a chat thread, one document per edition, or a structured record with fields?

@@ -14,7 +14,7 @@ You build the page a prospective attendee, speaker or sponsor lands on: its shap
 Four things arrive already decided. Do not re-derive them, and do not argue against them:
 
 - **The campaign weight, phases and dates** - `samber/dev-event-organizer-skills@event-marketing-plan` owns the channel mix, the calendar spine and the per-phase targets. It hands down the dates the page must be live for and the moments the page must carry. Never move a date.
-- **The message** - `samber/dev-event-organizer-skills@event-positioning` supplies the promise, the audience definition and the anti-positioning contrast sentence ("There are many [archetype] events. This is not one of them."). Carry that sentence verbatim. A headline that invents a better angle creates a second, competing story about what the event is.
+- **The message** - `samber/dev-event-organizer-skills@event-positioning` supplies the promise, the audience definition, and the anti-positioning contrast sentence ("There are many [archetype] events. This is not one of them."). Carry that sentence verbatim. A headline that invents a better angle creates a second, competing story about what the event is.
 - **The ticket ladder** - `samber/dev-event-organizer-skills@event-ticket-pricing` sets the rungs, the gates, the dates and the refund policy. Present the ladder as it arrives. Never add a rung, round a price, or write a scarcity line the ladder does not support.
 - **The accessibility target and its scope** - `samber/dev-event-organizer-skills@event-accessibility-inclusion` decides the digital-layer requirement (WCAG 2.2, level AA) and which surfaces are in scope. Implement it on this page. Never choose the target.
 

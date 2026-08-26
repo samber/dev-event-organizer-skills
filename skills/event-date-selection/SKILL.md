@@ -114,7 +114,7 @@ If your harness has persistent memory, record the chosen date and day type, the 
 
 - **Announcing before payment handling exists.** The one hard gate in this skill: teams that skipped it have rescheduled or cancelled outright. A date is a promise the moment it is public.
 - **Averaging the weekday/weekend rule across audience types.** A compromise slot built for a mixed audience takes the worst half of each rule and serves neither pole. Pick the pole.
-- **Treating a competing event as automatically fatal.** Piggybacking is documented practice: adjacency to a big event in the same city can raise turnout by letting travellers justify one trip. Decide per event; do not reflexively flee.
+- **Treating a competing event as automatically fatal.** Piggybacking is documented practice: adjacency to a big event in the same city can raise turnout by letting travelers justify one trip. Decide per event; do not reflexively flee.
 - **Inventing a holiday calendar from memory.** The most tempting failure in this skill, and the reason for the holiday guidance above - lunar and lunisolar observances move year to year, and a confidently wrong list stops the reader from checking a real one.
 - **Applying a generic "avoid all school breaks" rule.** The documented nuance says a short break can _raise_ turnout for a single weekend event even though breaks generally reduce participation. Check the specific break, not the category.
 - **Fixing one date before talking to the venue.** Converts an availability problem into a dead end; carrying options converts it into a negotiation.

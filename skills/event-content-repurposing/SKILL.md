@@ -40,7 +40,7 @@ Each of these overturns a default rung.
 
 ## Interview
 
-Ask one question at a time, multiple-choice where possible. Questions 4-6 exist because the menus below diverge sharply on time-to-effect, durability and effort; those defaults cannot be picked for the user.
+Ask one question at a time, multiple-choice where possible. Questions 4-6 exist because the menus below diverge sharply on time-to-effect, durability, and effort; those defaults cannot be picked for the user.
 
 1. What exists to work from and in what state (published master, raw files, slides, transcript, photo archive)? Who handed it over, anything still owed?
 2. Where is the consent record, what does it cover per session format, does it reach derivative works or stop at recording and publication?

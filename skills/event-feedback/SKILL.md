@@ -34,7 +34,7 @@ The question craft comes from customer-discovery interviewing, and half of it do
 
 ## Interview
 
-Ask one question at a time, multiple-choice where possible. Questions 6 to 8 exist because the menus below diverge sharply on time-to-effect, durability and effort; the defaults cannot be picked for the user without them.
+Ask one question at a time, multiple-choice where possible. Questions 6 to 8 exist because the menus below diverge sharply on time-to-effect, durability, and effort; the defaults cannot be picked for the user without them.
 
 1. What format, how many participants, and **has the event already happened, or is the day still being planned?** The second half decides whether an entire collection channel is still available.
 2. Which roles actually exist, and which do you need to hear from? Ask which exist before which you want.

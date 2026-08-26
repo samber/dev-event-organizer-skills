@@ -42,7 +42,7 @@ Ask one question at a time, multiple-choice where possible. Questions 6-8 exist 
 What changes the menus is who owns the event (same split `samber/dev-event-organizer-skills@event-market-fit` and `samber/dev-event-organizer-skills@event-first-edition` use):
 
 - **Community-run** - ticketed or donation-funded, external sponsors, volunteer-heavy: every financial axis below applies in full, and all the documented evidence in this skill comes from this pole.
-- **Company-run** - funded by a marketing budget, with the vendor as its own main sponsor. The venue-contract exposure is real, but the revenue math changes: growth is judged on pipeline and adoption outcomes, not ticket revenue, and sponsor-concentration risk collapses into "the budget owner changes their mind." These substitutions are judgment calls rather than established event-industry practice - flag them when used.
+- **Company-run** - funded by a marketing budget, with the vendor as its own main sponsor. The venue-contract exposure is real, but the revenue math changes: you judge growth on pipeline and adoption outcomes, not ticket revenue, and sponsor-concentration risk collapses into "the budget owner changes their mind." These substitutions are judgment calls rather than established event-industry practice - flag them when used.
 
 A free, volunteer-run community event is a third posture worth naming. With no ticket revenue and no per-head financial risk, the financial axes collapse, and track addition becomes the natural default lever. One documented event scaled this way to 8,000+ visitors and 79 tracks with no registration at all, at the documented cost of chronic room overcrowding.
 

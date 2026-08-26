@@ -116,7 +116,7 @@ Only when the deadline (interview Q3) is shorter than the chosen format's source
 - **A personal or company email as the public contact.** Makes one organizer's employer look like the event's owner - fatal to a community-run event's neutrality. Use a neutral shared alias from day one.
 - **Best-tier budget committed on stated-interest evidence.** Hold spend at the Good tier until real registrations exist.
 - **Over-engineering the planning apparatus.** Sourced MLH warning: the simplest shared tracker the whole team actually adopts beats an elaborate one - the internal-tooling twin of over-scoping the event itself.
-- **A launch brief that reads as more decided than it is.** Good formatting flattens the gap between what the team has actually settled and what it is still guessing at; a bulleted programme reads as fixed the moment it looks tidy, whatever confidence anyone actually has in it. Label the guess where it is written, in the section itself, not in a separate risk list nobody re-reads once the plan starts moving.
+- **A launch brief that reads as more decided than it is.** Good formatting flattens the gap between what the team has actually settled and what it is still guessing at; a bulleted program reads as fixed the moment it looks tidy, whatever confidence anyone actually has in it. Label the guess where it is written, in the section itself, not in a separate risk list nobody re-reads once the plan starts moving.
 
 ## Measurement
 

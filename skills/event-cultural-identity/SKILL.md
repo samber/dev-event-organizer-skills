@@ -124,7 +124,7 @@ Ranking (default, not a law - re-rank against Q5-Q7, Q9):
 - value (memorability + belonging + return-pull): `self-built ritual world > identity throughline everywhere > one protected signature tradition > pop-up rules + scripted opening/closing > no deliberate ritual`
 - efficiency: `pop-up rules + scripted opening/closing > one protected signature tradition > identity throughline everywhere > self-built ritual world > no deliberate ritual`
 
-**Dominance check: 5 rungs, 10 pairs, zero strict-dominance relations - clean only by construction, and by-construction is never a pass.** Value and effort are the same list, so one mechanism blocks all ten pairs: whichever rung leads on memorability costs strictly more to design, rehearse and keep. That includes every pair against the do-nothing rung, which loses on value rather than winning it for free.
+**Dominance check: 5 rungs, 10 pairs, zero strict-dominance relations - clean only by construction, and by-construction is never a pass.** Value and effort are the same list, so one mechanism blocks all ten pairs: whichever rung leads on memorability costs strictly more to design, rehearse, and keep. That includes every pair against the do-nothing rung, which loses on value rather than winning it for free.
 
 No third axis is printed. The check catches no misordering; the efficiency line rests entirely on the arguments below.
 

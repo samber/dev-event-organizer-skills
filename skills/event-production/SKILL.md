@@ -173,7 +173,7 @@ Ranking (default, not a law - Q1, Q8, Q9 and Q11 re-rank it):
 - value (the technical failure that does happen gets caught by somebody whose job it was): `full role split per room > contracted supplier plus a named counterpart > audio and video split > one named production owner`
 - efficiency: `one named production owner > audio and video split > contracted supplier plus a named counterpart > full role split per room`
 
-**Dominance check: 4 rungs, 6 pairs, zero strict-dominance relations.** Clean only by construction, and by-construction is never a pass. Value and effort are the same list, so one mechanism blocks all six pairs: the staffing that catches more failures costs strictly more people, hours and money.
+**Dominance check: 4 rungs, 6 pairs, zero strict-dominance relations.** Clean only by construction, and by-construction is never a pass. Value and effort are the same list, so one mechanism blocks all six pairs: the staffing that catches more failures costs strictly more people, hours, and money.
 
 No third axis is printed to block or rescue a pair. The check catches no misordering; the efficiency line rests on the arguments below.
 

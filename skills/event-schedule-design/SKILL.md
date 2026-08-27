@@ -179,7 +179,7 @@ Named organizers vary session format and density across the day rather than hold
 
 Two concrete techniques these sources describe, beyond reading your own grid:
 
-- **Format substitution over content substitution.** DevOpsDays does not just avoid content after lunch, it swaps the format - lecture-style talks give way to self-organized Open Space, matching the slot to the audience's actual energy state instead of fighting it.
+- **Format substitution over content substitution.** DevOpsDays does not just avoid content after lunch; it swaps the format - lecture-style talks give way to self-organized Open Space, matching the slot to the audience's actual energy state instead of fighting it.
 - **Track no-show rate per slot as a diagnostic** (see Measurement below). Recording which slots underperform their expected turnout, slot by slot and edition over edition, turns "which slot is a graveyard here" from received wisdom into something you measure at your own event.
 
 The heijunka (levelled production sequencing) analogy in `references/production-scheduling-concepts.md` still supplies the closest thing to a mechanism for why front-loading intensity helps: the sources above confirm its direction but say nothing about why, and the post-lunch dip they add is a second risk window the end-of-shift-crunch analogy misses entirely. State that a claim is sourced or judgment when you present the pacing read, and do not invent a number for either.

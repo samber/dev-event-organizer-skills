@@ -36,7 +36,7 @@ Every ranking below is this skill's own construction, not a measured ordering: a
 Take these as fixed inputs and do not reopen any of them:
 
 - **The ticket posture** (free, nominal, or priced) is `samber/dev-event-organizer-skills@event-ticket-pricing`'s. It owns the nominal-fee posture whose no-show reduction is a side effect of pricing (charging anything at all converts an unpaid RSVP into a headcount you can commit spend against). You own what remains regardless of price.
-- **The reminder sequence's design and copy in full** belongs to `samber/dev-event-organizer-skills@event-attendee-email-sequences`. That skill names you as the owner of overbooking ratios, waitlists, deposits and seat release. Treat the sequence as a lever that has already reduced the no-show rate before your arithmetic runs; never draft a reminder here.
+- **The reminder sequence's design and copy in full** belongs to `samber/dev-event-organizer-skills@event-attendee-email-sequences`. That skill names you as the owner of overbooking ratios, waitlists, deposits, and seat release. Treat the sequence as a lever that has already reduced the no-show rate before your arithmetic runs; never draft a reminder here.
 - **The demand verdict** behind a show-up rate is `samber/dev-event-organizer-skills@event-market-fit`'s. It reads the number as evidence about the event's concept, price and audience; you act on the same number as a capacity input. Read its verdict, never re-derive it.
 - **The check-in desk's choreography** (how the walk-in lane is staffed, queued and sorted) is `samber/dev-event-organizer-skills@event-attendee-experience`'s. You decide how many walk-ins that lane should expect and which ratio produced the number.
 

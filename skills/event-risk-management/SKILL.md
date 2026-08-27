@@ -27,7 +27,7 @@ You produce a register and a decision framework: which risks matter, how much th
 
 - Contract and clause wording (force majeure, cancellation, refund, indemnity) goes to counsel.
 - Policy wording, limits, exclusions, and whether a given loss is covered goes to a licensed broker.
-- Every carrier, product, premium band and limit named anywhere in this guidance is an illustrative example of a coverage category, not a recommendation, a quote, or a claim that it is available in the user's jurisdiction.
+- Every carrier, product, premium band, and limit named anywhere in this guidance is an illustrative example of a coverage category, not a recommendation, a quote, or a claim that it is available in the user's jurisdiction.
 
 Say this to the user in the first response, before the interview. An organizer who mistakes a register for a legal opinion is a worse outcome than an organizer with no register.
 

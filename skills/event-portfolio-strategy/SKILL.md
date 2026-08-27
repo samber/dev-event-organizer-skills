@@ -41,7 +41,7 @@ What changes the menus is who owns the properties:
 
 - **Community-run** - the properties compete for the same volunteer hours. Adding one starves another directly, kill criteria are about energy rather than return, and the shared-entity rung is often the only way money moves between properties at all.
 - **Company-run** - the properties compete for one marketing budget and are judged on pipeline and adoption. A property can survive a weak year on strategic grounds and die instantly when its budget owner leaves. Cross-property sponsor packaging is largely moot since the company is its own sponsor: wire the KPIs through `samber/dev-event-organizer-skills@corporate-event-strategy` and present these substitutions as reasoned stand-ins, never as established practice.
-- **Mixed** - a community meetup and a company-funded conference under one team. Worth naming as its own pole because it is the one case where the shared-entity rung stops being optional: whose brand, whose list and whose money each property uses has to be written down before a sponsor, a member or a tax authority asks. A reasoned pole rather than an observed one.
+- **Mixed** - a community meetup and a company-funded conference under one team. Worth naming as its own pole because it is the one case where the shared-entity rung stops being optional: whose brand, whose list, and whose money each property uses has to be written down before a sponsor, a member or a tax authority asks. A reasoned pole rather than an observed one.
 
 ## Workflow
 

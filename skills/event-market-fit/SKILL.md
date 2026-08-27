@@ -60,7 +60,7 @@ If your harness has persistent memory, record the declared thresholds and each i
 
 Ranking (default, not a law; re-rank against the interview, especially an owned asset like an existing meetup or sponsor relationships; stage gates availability - mid-sale and post-edition instruments only exist once there is a sale or an edition to read):
 
-- effort: `paid probe series > sponsor-renewal audit == sales-pace instrumentation > deposit-backed waitlist > CFP probe > saturation scan` (tie argued: each is a standing routine rather than a one-off; a weekly read across the whole sale, or a 72-hour reporting cycle per sponsor every edition. The waitlist sits above the CFP probe rather than tied with it: a deposit needs a payment rail, refund terms and a refund pass, where the CFP is one published form.)
+- effort: `paid probe series > sponsor-renewal audit == sales-pace instrumentation > deposit-backed waitlist > CFP probe > saturation scan` (tie argued: each is a standing routine rather than a one-off; a weekly read across the whole sale, or a 72-hour reporting cycle per sponsor every edition. The waitlist sits above the CFP probe rather than tied with it: a deposit needs a payment rail, refund terms, and a refund pass, where the CFP is one published form.)
 - value (evidence strength toward the go call): `paid probe series > sponsor-renewal audit > sales-pace instrumentation > deposit-backed waitlist > CFP probe > saturation scan`
 - efficiency: `saturation scan > CFP probe > deposit-backed waitlist > sponsor-renewal audit > sales-pace instrumentation > paid probe series` (the two tied-effort instruments keep their value order here; at equal effort the stronger evidence wins the ratio)
 

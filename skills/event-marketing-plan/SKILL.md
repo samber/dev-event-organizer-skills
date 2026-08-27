@@ -86,7 +86,7 @@ For the in-between case - a nominal-fee event, or a free event with a hard capac
 4. Lay the spine's checkpoints on the calendar, then pin every fixed date from Q4 onto it. Work backward from doors, not forward from today. Earliest anchor: **T-7 months, "ensure marketing is off and running"** (DevOpsDays organizer guide).
 5. Allocate budget with the posture menu below. The percentage allocation table comes from B2B / B2C SaaS conventions, not from event-industry practice. Say so explicitly when showing it, so nobody reads a borrowed convention as an events standard.
 6. Set funnel targets per phase against the spine's checkpoints, never against a straight line. Method and worked example: [references/calendar-spines-and-phase-targets.md](references/calendar-spines-and-phase-targets.md).
-7. Route each channel to the sibling that executes it (see References). Hand over the weight, the phase and the dates. Do not write the sibling's content here.
+7. Route each channel to the sibling that executes it (see References). Hand over the weight, the phase, and the dates. Do not write the sibling's content here.
 8. Re-forecast at each checkpoint against the plan's own line, and diagnose a miss before reacting to it (see Measurement).
 
 If your harness has persistent memory, record for each edition:

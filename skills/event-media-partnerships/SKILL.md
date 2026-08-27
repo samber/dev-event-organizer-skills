@@ -62,7 +62,7 @@ Say which pole each deal assumes before structuring it.
    - One-way coverage ask with nothing promised back → `samber/dev-event-organizer-skills@event-press-relations`.
    - Cash anywhere in the deal → split it: cash goes to the sponsor block.
    - What remains, a two-way, no-cash visibility exchange with a media or community property, is this skill.
-3. Map partner types to the Q2 answers: media outlets/blogs, newsletters, podcasts, communities and developer-ambassador programs (GitHub Campus Experts, student-ambassador and developer-group programs are the sourced examples - MLH guide). Taxonomy and where each type's audiences concentrate: [references/partner-types-and-scoring.md](references/partner-types-and-scoring.md). This menu is deliberately unranked: which type is worth pursuing first depends entirely on where Q2 found the audience, and ranking types without that answer is false precision - the format menu below is where ranking earns its place.
+3. Map partner types to the Q2 answers: media outlets/blogs, newsletters, podcasts, communities, and developer-ambassador programs (GitHub Campus Experts, student-ambassador and developer-group programs are the sourced examples - MLH guide). Taxonomy and where each type's audiences concentrate: [references/partner-types-and-scoring.md](references/partner-types-and-scoring.md). This menu is deliberately unranked: which type is worth pursuing first depends entirely on where Q2 found the audience, and ranking types without that answer is false precision - the format menu below is where ranking earns its place.
 4. Score each candidate on six criteria (a general partner-scoring frame rather than an events-specific one, say so to the user):
    - Audience fit
    - Audience size

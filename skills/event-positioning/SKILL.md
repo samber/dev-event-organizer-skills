@@ -74,7 +74,7 @@ Two rules fall out of the evidence:
 9. This is a strategy deliverable: present 2-3 candidate positionings with trade-offs and one recommendation, validate section by section, and get explicit approval before finalizing. When the direction is contested, enter an explicit brainstorming mode - one question at a time - instead of forcing a draft. Score the result against the 0-10 alignment rubric in [references/positioning-canvas.md](references/positioning-canvas.md) (borrowed from product positioning); treat below 7 as unfinished and iterate.
 10. If your harness has persistent memory, record the spectrum placement, the named alternatives, the chosen category strategy, the statement, and the re-run triggers from Measurement - the next edition's review starts from those instead of re-arguing the defaults.
 
-For hackathons and meetups, the default is to lead with learning, building, sharing, and explicit beginner inclusion - not prize money or competitive stakes. MLH ("invention marathon"), PennApps, Papers We Love ("low ego"), and NASA Space Apps all exemplify this, even where the underlying format is genuinely competitive.
+For hackathons and meetups, the default is to lead with learning, building, sharing, and including beginners explicitly - not prize money or competitive stakes. MLH ("invention marathon"), PennApps, Papers We Love ("low ego"), and NASA Space Apps all exemplify this, even where the underlying format is genuinely competitive.
 
 Positioning is not messaging: only once every step above is settled does "why attend" copy get written, and a customer-as-hero messaging framework (e.g. StoryBrand's SB7) is a reasonable downstream layer - a pointer, not part of this skill's scope.
 

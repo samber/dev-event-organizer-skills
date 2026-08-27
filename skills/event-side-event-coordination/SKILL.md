@@ -29,7 +29,7 @@ You own the relationship with an event you do not run. Four questions, and only 
 Ask one question at a time, multiple-choice where possible. Questions 5-8 exist because the menus turn on them and no other question surfaces what they carry.
 
 1. Has anyone actually asked to run something around your event - a party, a user-group meetup, a company dinner, a workshop - or are you designing for a possibility nobody has raised yet?
-2. Is any third party already using your event's name, logo or dates in materials they have published? Answer for materials you have seen, not for what you assume.
+2. Is any third party already using your event's name, logo, or dates in materials they have published? Answer for materials you have seen, not for what you assume.
 3. Does the organizing team hold a legal entity that could be a counterparty to anything, and who actually holds the event's name and marks - the team, a parent body, or nobody in particular?
 4. Whose events are these: a sponsor who bought a side-event slot, a local user group, an attendee organising a dinner, or another organizer running a full second event?
 5. Which hours of your own published grid must not lose their audience - keynotes, the evening programme, an awards moment - and is that grid published yet?

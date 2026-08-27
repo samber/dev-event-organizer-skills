@@ -35,7 +35,7 @@ Nothing in the collection covers that. Nothing covers what a host organization -
 
 Route any question other than those two decisions to the owners above, and stop. This skill is short because those two decisions are all it owns.
 
-Do not invent a number for any deliverable built from this skill. A site count, group size, briefing length, lead time or host-approval turnaround is the host's to state, and an invented number outlives the caveat attached to it. Describe the constraint qualitatively and ask the host.
+Do not invent a number for any deliverable built from this skill. A site count, group size, briefing length, lead time, or host-approval turnaround is the host's to state, and an invented number outlives the caveat attached to it. Describe the constraint qualitatively and ask the host.
 
 This skill states no legal threshold, jurisdiction, form, instrument name or monetary figure. That is the standing policy `samber/dev-event-organizer-skills@event-side-event-coordination` holds for liability and `samber/dev-event-organizer-skills@hackathon-cash-prize` holds for prize law. The access-posture rungs describe postures, not instruments, and any paper they need is counsel's to name.
 

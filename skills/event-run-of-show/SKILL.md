@@ -57,7 +57,7 @@ The community-run versus vendor-run split holds for one part of the day and fail
 **It holds for hosting.** DevOpsDays writes "one or more MCs" - plural, as a legitimate design, not a fallback. That is a real fork:
 
 - **Community pole:** distributes hosting among organizers who already embody the event's norms, against no set playbook. Plan a rotation of organizer-hosts and a separate speaker-introducer per session.
-- **Vendor pole:** treats hosting as a named craft with a briefed and rehearsed single host. Practitioner guidance there covers scripting to the culture and rehearsing together beforehand. It also covers the discipline that "the first 90 seconds set the tone for the entire event" (guidance from professional-host services that sell MC work, so read it with that interest in mind). Plan one host, one script and one rehearsal, and let cue-sheet depth move up a rung on its own.
+- **Vendor pole:** treats hosting as a named craft with a briefed and rehearsed single host. Practitioner guidance there covers scripting to the culture and rehearsing together beforehand. It also covers the discipline that "the first 90 seconds set the tone for the entire event" (guidance from professional-host services that sell MC work, so read it with that interest in mind). Plan one host, one script, and one rehearsal, and let cue-sheet depth move up a rung on its own.
 
 **It fails for everything else.** A transition takes the same seconds to execute, a radio reaches the same distance, and a handoff drops the same context whoever paid for the venue.
 

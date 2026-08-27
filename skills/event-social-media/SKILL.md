@@ -140,7 +140,7 @@ Ranked menu - evidence and in-room amplification bought per unit of effort on a 
 - efficiency: `single recap > roving poster > full live desk > scheduled skeleton`
 - compliance cost (consent obtained, reversibility spent): `full live desk > roving poster == single recap`; the scheduled skeleton carries none.
 
-The compliance tie is argued: the roving poster and the recap both publish images of identifiable attendees, so both need the same consent mechanism in place beforehand - the badge-carried photo opt-out owned by `samber/dev-event-organizer-skills@event-accessibility-inclusion`. They differ in volume, not in the permission required. The full desk adds live-quoting speakers and often streaming, which needs a recording consent the speaker agreement may or may not already grant.
+The compliance tie is argued: the roving poster and the recap both publish images of identifiable attendees, so both need the same consent mechanism in place beforehand - the badge-carried photo opt-out owned by `samber/dev-event-organizer-skills@event-accessibility-inclusion`. They differ in volume, not in the permission required. The full desk adds live-quoting speakers and often streaming, which needs recording consent the speaker agreement may or may not already grant.
 
 The skeleton ranks last on efficiency despite costing little, and that is deliberate: pre-written "doors are open" posts produce no artifact and reach mostly people already standing in the room. Its work goes into looking active rather than into anything reusable.
 

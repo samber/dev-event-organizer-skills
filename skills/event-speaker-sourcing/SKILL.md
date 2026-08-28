@@ -103,7 +103,7 @@ The mechanism is filtering, not searching harder: the directories that publish r
 
 Two gates before an international name enters the shortlist:
 
-- **Travel lead time.** Speakers need roughly four to six weeks to arrange travel or time off. That floor is the minimum, not the target, and it applies broadly to travel in general; treat it as the earliest a confirmed international speaker could plausibly commit.
+- **Travel lead time.** Speakers need roughly four to six weeks to arrange travel or time off. That floor is the minimum, not the target, and it applies broadly to travel; treat it as the earliest a confirmed international speaker could plausibly commit.
 - **Visa and entry.** Some routes need months and a formal invitation letter, and processing times swing by passport and destination and change without notice, so check the actual requirement rather than assuming one. If the answer arrives after your confirmation date (Q4), the candidate is a Skip for this edition and a Hot lead for the next one.
 
 Budget honesty binds both: if travel is unconfirmed (Q8), an international candidate is being asked to fund their own trip. Say that in the handoff so the invitation says it too, rather than discovering it during negotiation.

@@ -144,7 +144,7 @@ MLH itself gates sponsorship behind a contact form and publishes reach numbers, 
 Prospectus quality has no close-rate figure behind it, so never quote one. What is observable is downstream and self-set. Pick 2-3 and write down the revision each triggers:
 
 - **Reply-to-ask rate** (self-set): prospects replying to ask for information the document should carry - price, dates, audience composition, what a tier includes - flag a document defect, not a sales problem. Have `samber/dev-event-organizer-skills@event-sponsor-outreach` log these by section.
-- **Forwardability** (self-set): the document should survive being forwarded to the budget holder without the organizer on the thread. A champion who has to explain it over the top signals a missing section.
+- **Forwardability** (self-set): the document should survive being forwarded to the budget holder without the organizer on the thread. A champion who has to explain it from the top signals a missing section.
 - **Per-edition freshness check** (self-set): before each edition's first send - dated title matches the edition, testimonials and logos are from the latest edition, every printed cap re-verified against real inventory.
 
 ## Invocation examples

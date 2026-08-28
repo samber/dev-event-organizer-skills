@@ -24,7 +24,7 @@ Ask one question at a time, multiple-choice where possible. Questions 4-6 exist 
 
 1. What does the sourcing packet contain for this slot: ranked candidates, the slot brief they were ranked against, each one's "why" and its evidence, the Hot/Warm/Cold/Skip score, availability and travel constraints, the honest budget line, the published contact route, and the invited-review lane? Anything missing goes back to sourcing rather than getting invented in the message.
 2. Who owns the event: community conference or vendor/user conference? This changes what the invitation can honestly offer.
-3. Which slot is this, and how many candidates are queued behind it? Decide now whether you approach them one at a time or in parallel - see failure modes, because two yeses for one slot is a worse problem than one no.
+3. Which slot is this, and how many candidates are queued behind it? Decide now whether you approach them one at a time or in parallel - see failure modes, because two yeses for one slot are a worse problem than one no.
 4. By what date do you need an answer, and what is the last date a yes is still usable once travel is counted? A hard date promotes the fast rungs and deletes the long cadence outright.
 5. One-off edition, or a compounding annual program? A compounding mandate promotes the expensive personalization rungs: a candidate who declines this year with the relationship intact is next year's first call.
 6. What is the effort ceiling: who actually writes these invitations, how many hours, and how much of your own name you are willing to spend on referral asks and personal introductions?

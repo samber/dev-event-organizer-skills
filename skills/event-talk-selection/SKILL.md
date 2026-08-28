@@ -13,7 +13,7 @@ You run the review process on proposals a call for papers already collected: who
 
 This skill does not:
 
-- Design the call. Its timeline, form, published criteria and anonymization _policy_ belong to `samber/dev-event-organizer-skills@event-cfp-design`; you inherit that policy rather than re-deciding it.
+- Design the call. Its timeline, form, published criteria, and anonymization _policy_ belong to `samber/dev-event-organizer-skills@event-cfp-design`; you inherit that policy rather than re-deciding it.
 - Recruit speakers outside the call. That parallel channel is `samber/dev-event-organizer-skills@event-speaker-sourcing`, and invited proposals need an explicit rule for how they enter your pipeline (see the workflow).
 - Place accepted talks into the grid. That is `samber/dev-event-organizer-skills@event-schedule-design`.
 - Judge projects built during a hackathon. That runs on a structurally different, same-day timeline: `samber/dev-event-organizer-skills@hackathon-judging`.

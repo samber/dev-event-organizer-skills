@@ -90,7 +90,7 @@ All three ties are argued:
 
 ## Proof-point instruments
 
-Every claim in the How needs evidence a diligent sponsor would accept - their due-diligence list (audience composition, geography, track record, sponsor density, programme quality) is exactly what to gather answers for. Ranking (default, not a law - Q8's ceiling re-ranks):
+Every claim in the How needs evidence a diligent sponsor would accept - their due-diligence list (audience composition, geography, track record, sponsor density, program quality) is exactly what to gather answers for. Ranking (default, not a law - Q8's ceiling re-ranks):
 
 - effort (collection + analysis hours): `deep attendee survey > post-event sponsor report > sponsor testimonials > registration-form demographics > returning-sponsor rate == program-content ratio`
 - value (perceived-likelihood lift for a diligent sponsor): `deep attendee survey > registration-form demographics > post-event sponsor report > returning-sponsor rate > program-content ratio > sponsor testimonials`

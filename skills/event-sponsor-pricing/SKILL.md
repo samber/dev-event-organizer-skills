@@ -182,7 +182,7 @@ Expected output: a rate card, presented section by section for validation, every
 
 See also, same collection:
 
-- `samber/dev-event-organizer-skills@event-sponsor-value-proposition` - articulates what each tier's price buys; run it first, its claims justify this card.
+- `samber/dev-event-organizer-skills@event-sponsor-value-proposition` - articulates what each tier's price buys; run it first, since its claims justify this card.
 - `samber/dev-event-organizer-skills@event-sponsor-prospectus` - presents this ladder as a document; it inherits the card, never edits it.
 - `samber/dev-event-organizer-skills@event-sponsor-outreach` - sells the card and feeds objections and deviation requests back into the log.
 - `samber/dev-event-organizer-skills@event-ticket-pricing` - the attendee side of the revenue mix; the two targets must reconcile in the budget.

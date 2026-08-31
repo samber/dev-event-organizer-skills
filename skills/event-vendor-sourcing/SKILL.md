@@ -149,7 +149,7 @@ Re-rank this menu against the interview too:
   - When their failure has no fallback because they are the only one in the category.
   - When the contract's remedy for failure is plainly worth less than the failure would cost.
 
-**Comparing headline prices is deleted from this menu, not ranked last.** It is what a spreadsheet naturally produces and it reappears as "supplier B is cheaper" at exactly the moment the decision is made. Its numerator is not merely small, it is negative: it produces a confident wrong answer, and it is how an organizer signs the supplier who excluded delivery, staff and rentals from the number they quoted.
+**Comparing headline prices is deleted from this menu, not ranked last.** It is what a spreadsheet naturally produces and it reappears as "supplier B is cheaper" at exactly the moment the decision is made. Its numerator is not merely small; it is negative: it produces a confident wrong answer, and it is how an organizer signs the supplier who excluded delivery, staff and rentals from the number they quoted.
 
 ## Why the categories themselves are not ranked
 

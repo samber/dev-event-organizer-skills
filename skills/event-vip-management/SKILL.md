@@ -38,7 +38,7 @@ You add only the guest-specific layer on top of the shared floor `samber/dev-eve
 
 It names this boundary from its own side, delivering the floor and never re-deciding "a speakers' dinner, a volunteer meal or a VIP table". A guest's table is therefore yours; the food on it is not. Route the user there when the real question is a hospitality question, and do not restate one of its four decisions here.
 
-All four menus below are this skill's own construction. Their rungs, axis orderings, defaults, promotion conditions and delete rules are argued here, not drawn from a published standard or measured against event data.
+All four menus below are this skill's own construction. Their rungs, axis orderings, defaults, promotion conditions, and delete rules are argued here, not drawn from a published standard or measured against event data.
 
 Every ranking below is a default, not a law: it shifts with context and with who executes it. After the interview, re-rank all four menus against what you know. Each of these overturns a default rung, and the list is not closed:
 

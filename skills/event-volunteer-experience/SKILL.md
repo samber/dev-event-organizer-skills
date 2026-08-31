@@ -116,7 +116,7 @@ The volunteer-specific top-up on the general standard, for time off post. The sh
 
 Efficiency: **off-duty catering access > volunteer rest space > volunteer social meal > attendee parity only**.
 
-- value (a volunteer still functioning late in a long day, and who says yes next edition): rest space > social meal > off-duty catering access > attendee parity only
+- value (a volunteer who is still functioning late in a long day, and who says yes next edition): rest space > social meal > off-duty catering access > attendee parity only
 - effort (rooms, budget lines, headcounts, an evening): social meal > rest space > off-duty catering access > attendee parity only
 
 No compliance-cost axis is derived here. The dietary, allergen and alcohol exposure these rungs carry is the general standard's, already decided in `samber/dev-event-organizer-skills@event-hospitality` and inherited rather than re-argued - deriving it twice is how two skills end up with two policies.

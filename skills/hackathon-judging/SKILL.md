@@ -185,7 +185,7 @@ Ranking (default, not a law - Q1 and Q4 re-rank it):
 
 Promotion condition, keyed to Q4: a judge pool small enough to sit in one room, with window slack left after the visits. **Delete it, from this menu and from the axis lines above, when judging is async or when judges leave straight after their slot** (Q1, Q4) - a meeting nobody will attend parked at the bottom silently becomes a plan.
 
-**An organizer override of the judges' combined result is not a rung on this menu; it is deleted outright.** A rejected talk was never promised a skill-based rank, and a losing team competing for a prize was. An override is the exact mechanic that makes a result contestable, and weeks after the ceremony is the wrong moment for a team to discover one was reversed.
+**An organizer override of the judges' combined result is not a rung on this menu; it is deleted outright.** A rejected submission was never promised a skill-based rank, and a losing team competing for a prize was. An override is the exact mechanic that makes a result contestable, and weeks after the ceremony is the wrong moment for a team to discover one was reversed.
 
 ## Conflict of interest and disclosure
 

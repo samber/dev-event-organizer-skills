@@ -191,7 +191,7 @@ An obligation determines the response; efficiency only orders the options that r
 
 **On intellectual property, this skill states no clause and recommends none.** The MLH rule set carries no IP-ownership term and no originality warranty at all; its only ownership-adjacent requirement is that submitted code be public and stay public to remain prize-eligible.
 
-Whether a team, an organizer or a sponsor owns submitted work is a jurisdictional legal question. Route it to counsel through `samber/dev-event-organizer-skills@event-sponsor-agreement` when a sponsor asks for it, and never let a plausible-sounding sentence stand in for the answer.
+Whether a team, an organizer, or a sponsor owns submitted work is a jurisdictional legal question. Route it to counsel through `samber/dev-event-organizer-skills@event-sponsor-agreement` when a sponsor asks for it, and never let a plausible-sounding sentence stand in for the answer.
 
 ## Sponsor-challenge integration depth
 

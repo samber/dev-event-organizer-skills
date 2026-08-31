@@ -79,7 +79,7 @@ Say which pole a recommendation assumes wherever they differ. The pole moves Men
 
 1. Run the interview. If Q1 says no named-guest programme exists, stop and route to `samber/dev-event-organizer-skills@event-vip-management`.
 2. Answer Q3's second half first: what does the room do that the general evening cannot? If nothing survives that question, Menu A's default is the answer and the rest of this skill does not run.
-3. Set the seat-list construction rule (Menu A). Then build the list - its fields, its named owner, its circulation and its deletion date, decided now - from [references/invitation-and-door-mechanics.md](references/invitation-and-door-mechanics.md).
+3. Set the seat-list construction rule (Menu A). Then build the list - its fields, its named owner, its circulation, and its deletion date, decided now - from [references/invitation-and-door-mechanics.md](references/invitation-and-door-mechanics.md).
 4. Set the invitation and access mechanics (Menu B). Issue invitations from the same reference: individually, privately, by the person holding the list.
 5. Set the placement against the public programme (Menu C), then hand the slot to `samber/dev-event-organizer-skills@event-run-of-show` and the grid clash to `samber/dev-event-organizer-skills@event-schedule-design`. Tell them the slot. Never move a public session to make room for a private one.
 6. Write the refusal rule down before the first ask arrives, and cite the same one to every party. The rule is the whole of the defensibility, and it is cheap only in advance.

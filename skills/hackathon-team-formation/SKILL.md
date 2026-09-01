@@ -262,7 +262,7 @@ One published figure covers project supply. At themed hackathons: "ensure that t
 
 Carry all four of its bounds on every use:
 
-- **themed** events only, where projects are confined to one problem domain
+- it is **themed** events only, where projects are confined to one problem domain
 - it counts **non-expert participants**, not teams and not registrations
 - its expert is a **domain expert embedded in one project**, not a floating mentor
 - it is a **project-supply** target, whose purpose is to stop the room splitting off a third group of "participants struggling to find something relevant to work on" rather than to staff anything

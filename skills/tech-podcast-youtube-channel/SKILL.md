@@ -211,7 +211,7 @@ By-construction is still never a pass.
 
 ## Failure modes
 
-- **A cadence with no named owner.** It reads as a commitment in the plan and as a dead show once the misses start repeating - no count is given here, because none is sourced. Fix: Q3 names the person before Menu 1 is chosen, or the posture is archive-only or no channel by decision.
+- **Stating a cadence with no named owner.** It reads as a commitment in the plan and as a dead show once the misses start repeating - no count is given here, because none is sourced. Fix: Q3 names the person before Menu 1 is chosen, or the posture is archive-only or no channel by decision.
 - **Reusing a stage consent as an episode release.** A speaker agreed to be recorded on stage under a stated format and opt-out. A conversational episode is a different publication of a different recording, and `samber/dev-event-organizer-skills@event-production` already refuses to publish past the consent record.
 - **Absorbing the technical layer.** Microphone counts, room choice, signal path and editing execution belong to `samber/dev-event-organizer-skills@event-production`. The moment a plan starts specifying equipment, it has left this skill.
 - **Turning a one-edition derivative into "the channel".** An audio cut of one talk is `samber/dev-event-organizer-skills@event-content-repurposing`'s artifact. It becomes an episode only when a property with a format and a cadence exists to receive it.

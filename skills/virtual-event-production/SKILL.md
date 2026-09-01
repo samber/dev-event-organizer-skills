@@ -146,7 +146,7 @@ Ranking (default, not a law - Q3, Q4, Q8, Q10 and Q11 re-rank it):
 - The other four pairs are blocked by the pre-recording trade specifically: it buys certainty by spending presence, so it wins insurance and loses liveness against every rung it meets, including the pair where it is also the cheaper option.
 - Zero relations means this check caught no misordering; what follows is argument, not verification.
 
-- **A written home-setup note** - the default: sent with the join link, asynchronous, reusable next edition, and it costs the speaker minutes. It moves the most common failures - a shared connection, a background sync eating the uplink, a laptop camera pointed at a ceiling - before anyone schedules a call.
+- **A written home-setup note** - the default: sent with the join link, asynchronous, reusable next edition, and costing the speaker minutes. It moves the most common failures - a shared connection, a background sync eating the uplink, a laptop camera pointed at a ceiling - before anyone schedules a call.
 
   Contents in [references/remote-speaker-readiness.md](references/remote-speaker-readiness.md). Move up one rung as soon as any speaker has never presented on this platform - keyed to **Q11** ("which speakers have an unknown connection or have never presented on this platform").
 

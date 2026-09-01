@@ -274,7 +274,7 @@ All three share a shape. Each fires on a single interview answer, and each has t
 - **Re-deriving the judge-coverage arithmetic.** It already exists, worked through. A second copy is a second thing to keep correct and a chance to get it wrong.
 - **Building a meeting-booking mechanic.** Once the design grows slots, confirmations and a quota, it is another skill's job. Route it.
 - **Treating a demo day as a hackathon with better slides.** No build phase means no window to rescue anything, and nothing at the event improves what is judged.
-- **An unpublished technical preference deciding the result.** An organizer or judge's private enthusiasm for one technical approach - deeper engineering over a thin wrapper, say - shapes who wins even when it never became a published criterion. A company that optimized against the published list then loses to one nobody could have known to match.
+- **Letting an unpublished technical preference decide the result.** An organizer or judge's private enthusiasm for one technical approach - deeper engineering over a thin wrapper, say - shapes who wins even when it never became a published criterion. A company that optimized against the published list then loses to one nobody could have known to match.
 
 ## Measurement
 

@@ -95,7 +95,7 @@ Ask one question at a time, multiple-choice where possible. Questions 1-4 and 6-
 
 Name which answer moved which rung as you re-rank:
 
-- A close roster date (Q9) promotes community and alumni only, since a warm list answers in days where a sponsor staffing negotiation runs weeks. It demotes the expertise-matched roster, whose tagging and alignment pass are the last work to finish.
+- A close roster date (Q9) promotes community and alumni only, since a warm list answers in days while a sponsor staffing negotiation runs weeks. It demotes the expertise-matched roster, whose tagging and alignment pass are the last work to finish.
 - A recurring event (Q7) promotes the boundary-plus-scenario-walkthrough briefing, written once and reused across editions rather than paid for again.
 - A low effort ceiling (Q8) demotes the request channel with organizer routing, whose cost is a standing job for the whole window rather than a one-off setup.
 

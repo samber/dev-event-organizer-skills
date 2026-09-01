@@ -25,7 +25,7 @@ Four things are genuinely left, covered by three menus and one section:
 
 - Which sessions the remote audience gets.
 - How far a remote attendee's voice reaches the stage.
-- The cue track the stream needs beside the room's.
+- What cue track the stream needs beside the room's.
 - Who staffs the remote side.
 
 That is the whole skill. Its shortness is the correct outcome, not a gap.

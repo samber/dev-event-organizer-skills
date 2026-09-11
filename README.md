@@ -31,8 +31,8 @@ npx skills add samber/dev-event-organizer-skills
 **Claude Code**: install the plugin:
 
 ```bash
-/plugin marketplace add samber/cc
-/plugin install dev-event-organizer-skills@samber
+/plugin marketplace add samber/dev-event-organizer-skills
+/plugin install dev-event-organizer-skills@dev-event-organizer-skills
 ```
 
 **Codex (OpenAI)**: install via the Codex CLI:

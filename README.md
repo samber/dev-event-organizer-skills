@@ -73,8 +73,8 @@ This collection covers the full event-organizing surface.
 
 ### Launch & strategy
 
-| Skill                                                    | Description                                                                                                                                              |
-| -------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Skill                                                           | Description                                                                                                                                              |
+| --------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`event-budget`](./skills/event-budget)                         | Builds one edition's money model: fixed and per-head costs, break-even, and the sponsorship and ticket targets it hands downstream.                      |
 | [`event-cultural-identity`](./skills/event-cultural-identity)   | Defines and audits the event's lived culture: the register, its tone across every touchpoint, and the rituals worth protecting.                          |
 | [`event-date-selection`](./skills/event-date-selection)         | Picks the date the event runs on, checking audience calendars, observances, and competing events before anything is announced.                           |
@@ -91,8 +91,8 @@ This collection covers the full event-organizing surface.
 
 ### Program & speakers
 
-| Skill                                                          | Description                                                                                                                                                      |
-| -------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Skill                                                                 | Description                                                                                                                                                      |
+| --------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`event-cfp-design`](./skills/event-cfp-design)                       | Designs the published call for papers: timeline, form depth, anonymization posture, review criteria, speaker benefits, and first-time-speaker support.           |
 | [`event-talk-selection`](./skills/event-talk-selection)               | Runs the review process on submitted proposals: committee shape, rubric, anonymization, conflict recusal, the cut rule, and decline messages.                    |
 | [`event-speaker-sourcing`](./skills/event-speaker-sourcing)           | Finds and qualifies the speakers a call for papers will not bring in, and returns a ranked shortlist with evidence.                                              |
@@ -104,8 +104,8 @@ This collection covers the full event-organizing surface.
 
 ### Sponsors & partnerships
 
-| Skill                                                                  | Description                                                                                                                                             |
-| ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Skill                                                                         | Description                                                                                                                                             |
+| ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`event-sponsor-value-proposition`](./skills/event-sponsor-value-proposition) | Articulates what each sponsor segment genuinely buys, one segment at a time, and what the event can honestly promise.                                   |
 | [`event-sponsor-prospectus`](./skills/event-sponsor-prospectus)               | Assembles the prospectus itself: section anatomy, tier table, add-on cards, audience evidence, and the per-edition refresh routine.                     |
 | [`event-sponsor-outreach`](./skills/event-sponsor-outreach)                   | Runs the sponsor sales motion: scored target list, budget-cycle timing, first-touch channels, objection handling, pipeline tracking, and renewals.      |
@@ -120,8 +120,8 @@ This collection covers the full event-organizing surface.
 
 ### Venue & logistics
 
-| Skill                                                                    | Description                                                                                                                                       |
-| ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Skill                                                                           | Description                                                                                                                                       |
+| ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`event-venue-sourcing`](./skills/event-venue-sourcing)                         | Finds and negotiates the venue: one written space program, a sourcing ladder, site-visit depth, negotiation posture, and contract traps.          |
 | [`event-vendor-sourcing`](./skills/event-vendor-sourcing)                       | Sources, vets, and contracts the suppliers the venue does not include: caterers, AV, security, insurance, swag, and print.                        |
 | [`event-hospitality`](./skills/event-hospitality)                               | Sets the food, drink, and social floor: catering service style, break content, alcohol posture, and the evening programme.                        |
@@ -136,8 +136,8 @@ This collection covers the full event-organizing surface.
 
 ### Tickets & attendees
 
-| Skill                                                                | Description                                                                                                                                             |
-| -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Skill                                                                       | Description                                                                                                                                             |
+| --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`event-ticket-pricing`](./skills/event-ticket-pricing)                     | Prices attendee tickets: the free-to-commercial posture, the tier ladder, gating rules, scholarships, group discounts, and refund policy.               |
 | [`event-marketing-plan`](./skills/event-marketing-plan)                     | Builds the attendee-acquisition plan: segment-to-channel mapping, a campaign calendar spine, ranked channel mix, budget posture, and per-phase targets. |
 | [`event-social-media`](./skills/event-social-media)                         | Runs the event's own social presence: platform set, hashtag split, post calendar, amplification asks, and staffed live coverage.                        |
@@ -150,17 +150,17 @@ This collection covers the full event-organizing surface.
 
 ### Experience & day-of operations
 
-| Skill                                                                | Description                                                                                                                                             |
-| --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`event-code-of-conduct`](./skills/event-code-of-conduct)                   | Writes the code of conduct and the enforcement pipeline behind it: scope, reporting channels, response team, sanctions ladder, transparency report.      |
-| [`event-attendee-experience`](./skills/event-attendee-experience)           | Designs the general attendee's on-site day: check-in, badge posture, quiet room and facilities, help desk, and dietary mechanics.                       |
-| [`event-accessibility-inclusion`](./skills/event-accessibility-inclusion)   | Decides which access provisions the event commits to, then publishes and staffs them: provision depth, captioning, request channel, economic access.    |
-| [`event-vip-management`](./skills/event-vip-management)                     | Receives named guests whose presence creates escort, protocol, security, or discretion obligations, without building a status tier the room reads.      |
+| Skill                                                                     | Description                                                                                                                                          |
+| ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`event-code-of-conduct`](./skills/event-code-of-conduct)                 | Writes the code of conduct and the enforcement pipeline behind it: scope, reporting channels, response team, sanctions ladder, transparency report.  |
+| [`event-attendee-experience`](./skills/event-attendee-experience)         | Designs the general attendee's on-site day: check-in, badge posture, quiet room and facilities, help desk, and dietary mechanics.                    |
+| [`event-accessibility-inclusion`](./skills/event-accessibility-inclusion) | Decides which access provisions the event commits to, then publishes and staffs them: provision depth, captioning, request channel, economic access. |
+| [`event-vip-management`](./skills/event-vip-management)                   | Receives named guests whose presence creates escort, protocol, security, or discretion obligations, without building a status tier the room reads.   |
 
 ### Hackathon
 
-| Skill                                                    | Description                                                                                                                                                    |
-| -------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Skill                                                           | Description                                                                                                                                                    |
+| --------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`hackathon-brief-design`](./skills/hackathon-brief-design)     | Writes the challenge document teams read before building: problem statements, tracks, rules, eligibility, submission checklist, and evaluation category names. |
 | [`hackathon-judging`](./skills/hackathon-judging)               | Designs the rubric and scoring process: judge-allocation arithmetic, weighted criteria, score combination, conflict recusal, and tie-breaks.                   |
 | [`hackathon-cash-prize`](./skills/hackathon-cash-prize)         | Structures what a hackathon awards: prize medium, pool size, split shape, payout rigor, and the exposures routed to counsel.                                   |
@@ -169,8 +169,8 @@ This collection covers the full event-organizing surface.
 
 ### Post-event
 
-| Skill                                                            | Description                                                                                                                                              |
-| ---------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Skill                                                                   | Description                                                                                                                                              |
+| ----------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`event-feedback`](./skills/event-feedback)                             | Designs and runs participant feedback for one edition: per-format instrument, role modules, anonymity posture, collection channel, and closing the loop. |
 | [`event-debrief`](./skills/event-debrief)                               | Runs the organizing team's retrospective on a finished edition: timeline, reconciliations against risk, budget and schedule, and owned action items.     |
 | [`event-continuous-improvement`](./skills/event-continuous-improvement) | Turns a run of debrief logs into cross-edition trends and one deliberate change, routed to the sibling that owns it.                                     |

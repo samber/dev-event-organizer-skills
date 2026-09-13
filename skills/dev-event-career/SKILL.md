@@ -36,12 +36,12 @@ Ask one question at a time, multiple-choice where possible. Skip anything alread
 
 Never assume one operating context predicts the others - the day-to-day, the ladder, and the pay all differ:
 
-| Context | Shape of the work | Ladder visibility |
-| --- | --- | --- |
-| In-house at a tech company | Often blends producer and manager into one hybrid title; heavy cross-functional pull from sales, marketing, product, design | Some, but title-inconsistent (see below) |
-| Event-production agency | Specializes by function (production, client/account management, logistics) since the agency serves many clients in parallel; tolerates and rewards a freelance/contractor posture | The clearest documented internal ladder of the four |
-| Non-profit/foundation or volunteer-community-run | The first paid role, when one appears, is consistently an event coordinator/manager - never a community-manager role first - once the event crosses roughly low-thousands of attendees or a six-figure budget | No documented career ladder; closer to succession planning than progression |
-| A standing for-profit conference business (the product is running the conference) | Not sourced in this field's current research - treat as an open question, not an assumption; likely closer to the agency model (dedicated full-time functions) but unverified |
+| Context                                                                           | Shape of the work                                                                                                                                                                                             | Ladder visibility                                                           |
+| --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| In-house at a tech company                                                        | Often blends producer and manager into one hybrid title; heavy cross-functional pull from sales, marketing, product, design                                                                                   | Some, but title-inconsistent (see below)                                    |
+| Event-production agency                                                           | Specializes by function (production, client/account management, logistics) since the agency serves many clients in parallel; tolerates and rewards a freelance/contractor posture                             | The clearest documented internal ladder of the four                         |
+| Non-profit/foundation or volunteer-community-run                                  | The first paid role, when one appears, is consistently an event coordinator/manager - never a community-manager role first - once the event crosses roughly low-thousands of attendees or a six-figure budget | No documented career ladder; closer to succession planning than progression |
+| A standing for-profit conference business (the product is running the conference) | Not sourced in this field's current research - treat as an open question, not an assumption; likely closer to the agency model (dedicated full-time functions) but unverified                                 |
 
 Full comparison and what's known vs. genuinely unsourced for each: [references/company-type-bar.md](./references/company-type-bar.md).
 
@@ -49,9 +49,9 @@ Full comparison and what's known vs. genuinely unsourced for each: [references/c
 
 **No universal title ladder exists across this field - three sourced orderings disagree with each other** on whether "Producer" sits above or below "Manager." State this plainly rather than picking one silently:
 
-- One data-driven hierarchy puts Producer *below* Manager.
-- A UK events-recruiter source puts Producer *below* Manager in a different order: Junior Producer -> Producer -> Senior Producer -> Conference Manager -> Director.
-- A special-events-industry framing puts Producer at the *top*, calling it the CEO-equivalent role.
+- One data-driven hierarchy puts Producer _below_ Manager.
+- A UK events-recruiter source puts Producer _below_ Manager in a different order: Junior Producer -> Producer -> Senior Producer -> Conference Manager -> Director.
+- A special-events-industry framing puts Producer at the _top_, calling it the CEO-equivalent role.
 
 **The one real, named ladder worth anchoring against** (not the only correct one - the closest sourced anchor): Junior Producer -> Producer -> Senior Producer -> Conference Manager -> Conference/Divisional Director, from a UK events-recruitment agency. This is a general B2B conference-industry ladder, not tech-native - say so when using it.
 

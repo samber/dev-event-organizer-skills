@@ -15,13 +15,13 @@ You run the organizing team's retrospective on one finished edition: the meeting
 
 Five things arrive already decided. Read them, reconcile against them, never reopen them:
 
-| Sibling | Owns | You do |
-| --- | --- | --- |
-| `event-feedback` | Collecting from attendees, speakers, sponsors | Consume its summary, never survey or write to participants |
-| `event-risk-management` | Taxonomy, scoring, treatments | Check what fired against it, hand back a reconciliation |
-| `event-budget` | P&L, next edition's numbers | Compare actual vs. planned, hand back the variance |
-| `event-run-of-show` | Day-of execution | Log what broke as raw input, never re-diagnose |
-| `event-market-fit` | Whether the concept still meets demand | Surface whether this edition hit the goals _this team_ set, as a signal, never a go/no-go |
+| Sibling                 | Owns                                          | You do                                                                                    |
+| ----------------------- | --------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| `event-feedback`        | Collecting from attendees, speakers, sponsors | Consume its summary, never survey or write to participants                                |
+| `event-risk-management` | Taxonomy, scoring, treatments                 | Check what fired against it, hand back a reconciliation                                   |
+| `event-budget`          | P&L, next edition's numbers                   | Compare actual vs. planned, hand back the variance                                        |
+| `event-run-of-show`     | Day-of execution                              | Log what broke as raw input, never re-diagnose                                            |
+| `event-market-fit`      | Whether the concept still meets demand        | Surface whether this edition hit the goals _this team_ set, as a signal, never a go/no-go |
 
 Upstream boundary: **trends across editions are not yours.** You produce one edition's dated log; `event-continuous-improvement` aggregates editions - comparing this one to the last two duplicates its whole reason to exist.
 
@@ -101,7 +101,7 @@ When the "team" is one or two people, **delete both track-based rungs** rather t
 
 ## The retro table
 
-A single meeting produces minutes; a **standing table kept open across the cycle** produces something a meeting cannot - room for dissent to survive past the moment it was raised. Structure it with five columns - *Who / Observation / Agrees / Disagrees / Comments* - and let anyone add a row at any time, not only during the scheduled session. Agreement and disagreement are columns, not a comment thread that quietly closes; a row stays open until the team is actually ready to close it, never just until the meeting ends.
+A single meeting produces minutes; a **standing table kept open across the cycle** produces something a meeting cannot - room for dissent to survive past the moment it was raised. Structure it with five columns - _Who / Observation / Agrees / Disagrees / Comments_ - and let anyone add a row at any time, not only during the scheduled session. Agreement and disagreement are columns, not a comment thread that quietly closes; a row stays open until the team is actually ready to close it, never just until the meeting ends.
 
 Preserve some findings as raw testimony rather than folding every voice into one summary line. Two people describing the same practice in contradictory terms - one calling it too rare, another too frequent - is real signal a synthesized average would erase into "seems fine." Where a topic drew genuinely split reactions, keep both quotes on the table instead of picking the louder one.
 
@@ -158,12 +158,12 @@ For a final or one-off edition, **delete the carry-over and the standing tracker
 
 Say which answer moved which option, per menu, rather than silently reordering.
 
-| Interview answer                       | Depth                                                                                                        | Publication                                                                                                                                                       | Tracking                                                                                    |
-| --------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------- |
-| Q6 - planning starts within weeks       | Promotes both single-session rungs, demotes both track-based rungs (they need cross-lead calendar coordination the deadline doesn't allow) | Barely moves, and say so - a recap isn't on the planning critical path, so let it slip rather than cutting the debrief short                                     | Promotes the plan carry-over hard - the document opens now and items can go in the same week |
-| Q7 - final or one-off edition           | Demotes the written review unless a successor organisation will read it                                     | Promotes the retrospective and the transparency report - a closing edition's public account is the only record the community gets, which is why the JSConf EU and !!Con statements are still cited | Deletes the carry-over and the standing tracker                                              |
-| Q7 - compounding, recurring edition      | -                                                                                                             | -                                                                                                                                                                   | Promotes the carry-over and the standing tracker                                             |
-| Q8 - low effort ceiling / exhausted team | Deletes both track-based rungs outright                                                                     | Demotes the transparency report, since anonymisation is where its hours go, and keeps the recap                                                                   | Demotes the standing tracker and leaves the default untouched - the point of a default costing one field and one paste |
+| Interview answer                         | Depth                                                                                                                                      | Publication                                                                                                                                                                                        | Tracking                                                                                                               |
+| ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| Q6 - planning starts within weeks        | Promotes both single-session rungs, demotes both track-based rungs (they need cross-lead calendar coordination the deadline doesn't allow) | Barely moves, and say so - a recap isn't on the planning critical path, so let it slip rather than cutting the debrief short                                                                       | Promotes the plan carry-over hard - the document opens now and items can go in the same week                           |
+| Q7 - final or one-off edition            | Demotes the written review unless a successor organisation will read it                                                                    | Promotes the retrospective and the transparency report - a closing edition's public account is the only record the community gets, which is why the JSConf EU and !!Con statements are still cited | Deletes the carry-over and the standing tracker                                                                        |
+| Q7 - compounding, recurring edition      | -                                                                                                                                          | -                                                                                                                                                                                                  | Promotes the carry-over and the standing tracker                                                                       |
+| Q8 - low effort ceiling / exhausted team | Deletes both track-based rungs outright                                                                                                    | Demotes the transparency report, since anonymisation is where its hours go, and keeps the recap                                                                                                    | Demotes the standing tracker and leaves the default untouched - the point of a default costing one field and one paste |
 
 ## Failure modes
 

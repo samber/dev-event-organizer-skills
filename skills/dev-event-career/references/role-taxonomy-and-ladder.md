@@ -6,9 +6,9 @@ Contents: the title-inconsistency finding · the one real named ladder · why ti
 
 No universal industry standard orders "Event Producer" above or below "Event Manager." Three sourced orderings disagree:
 
-- One data-driven hierarchy (JobTrees) puts Producer *below* Manager: Entry: Event Specialist -> Experienced: Event Producer -> Mid: Event Manager -> Senior: Event Director, roughly 18.3 years entry-to-senior.
-- A UK events-recruiter source (Regan & Dean, quoting recruiter Diana Dixon) puts Producer *below* Manager in a different direction: Junior Producer -> Producer -> Senior Producer -> Conference Manager -> Conference/Divisional Director.
-- A special-events-industry framing puts Producer at the *top*, calling it CEO-equivalent ("the buck stops here"), with Manager as the operational role executing the producer's vision day-to-day.
+- One data-driven hierarchy (JobTrees) puts Producer _below_ Manager: Entry: Event Specialist -> Experienced: Event Producer -> Mid: Event Manager -> Senior: Event Director, roughly 18.3 years entry-to-senior.
+- A UK events-recruiter source (Regan & Dean, quoting recruiter Diana Dixon) puts Producer _below_ Manager in a different direction: Junior Producer -> Producer -> Senior Producer -> Conference Manager -> Conference/Divisional Director.
+- A special-events-industry framing puts Producer at the _top_, calling it CEO-equivalent ("the buck stops here"), with Manager as the operational role executing the producer's vision day-to-day.
 
 **Never promise a fixed universal ladder.** State the inconsistency up front, then use the recruiter-sourced ladder below as one real, named ordering to anchor against - not the only correct one.
 

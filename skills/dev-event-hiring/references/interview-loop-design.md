@@ -23,11 +23,11 @@ No single, fully-documented tech/developer-conference hiring loop exists publish
 
 ## Work-sample design, by role shape
 
-| Role shape | Work sample | Never |
-| --- | --- | --- |
-| Community-manager-shaped, senior/final candidate | A paid mini-audit of the existing community - a real, bounded, compensated deliverable | An unpaid, open-ended audit |
-| Community-manager-shaped, junior/moderator-track | A sample-thread-response exercise in a shared document | Live, public-facing moderation as a "trial" |
-| Producer/manager-shaped | A scenario walkthrough (the venue-change or vendor-no-show question, scored live) | An unpaid mock full-event plan requiring real hours of client-style work |
+| Role shape                                       | Work sample                                                                            | Never                                                                    |
+| ------------------------------------------------ | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| Community-manager-shaped, senior/final candidate | A paid mini-audit of the existing community - a real, bounded, compensated deliverable | An unpaid, open-ended audit                                              |
+| Community-manager-shaped, junior/moderator-track | A sample-thread-response exercise in a shared document                                 | Live, public-facing moderation as a "trial"                              |
+| Producer/manager-shaped                          | A scenario walkthrough (the venue-change or vendor-no-show question, scored live)      | An unpaid mock full-event plan requiring real hours of client-style work |
 
 ## Scoring mechanics
 

@@ -98,12 +98,12 @@ Submissions are distributed to reviewers by track preference. Once a submission 
 
 ### Rubric: 0-3 numeric scale
 
-| Score | Meaning |
-| ----- | ------- |
-| 0 | No, strong - would argue against accepting |
-| 1 | No, indifferent - doesn't support it, wouldn't argue against it |
-| 2 | Yes, indifferent - supports it, wouldn't argue strongly for it |
-| 3 | Yes, strong - would argue strongly in favor |
+| Score | Meaning                                                         |
+| ----- | --------------------------------------------------------------- |
+| 0     | No, strong - would argue against accepting                      |
+| 1     | No, indifferent - doesn't support it, wouldn't argue against it |
+| 2     | Yes, indifferent - supports it, wouldn't argue strongly for it  |
+| 3     | Yes, strong - would argue strongly in favor                     |
 
 **A comment justifying the score is mandatory on every review** - the same non-negotiable Model B applies to its star ratings, enforced here on a numeric scale instead. Reviewers evaluate against a fixed set of guiding questions (is the topic current and relevant, how detailed is the submission, what problem does it address, what are the takeaways) plus a named positive/negative list: ethics discussion, open-source tooling and practical methodology score positively; a submission whose main aim is selling a product or service, closed-source software, or a talk already given at very similar conferences score negatively.
 

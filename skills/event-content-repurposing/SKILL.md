@@ -17,14 +17,14 @@ You decide what happens to an edition's captured output once a master file alrea
 
 ## Where you start, and the six lines you never cross
 
-| Sibling | Owns | The line |
-| --- | --- | --- |
-| `event-production` | Master recording, capture through published file | Take the master as handed over; never re-edit, re-publish, or send a speaker their own link. You begin at the _derivative_. |
-| `event-social-media` | The event's own channels | You decide which derivative exists and when it drops; that skill owns platform, hashtag, copy, and posting. |
-| `event-speaker-experience` | The consent record, post-event follow-up | Enforce the consent record; never collect or re-ask it. You decide only whether the speaker amplifies the derivative. |
-| `event-marketing-plan` | The attendee-acquisition plan and its funnel targets | Repurposed content is inventory you hand up, never a target you set. |
-| `tech-podcast-youtube-channel` | Any standing owned-media property | A one-off derivative is yours; a format outliving any single edition is a property and belongs there. |
-| `event-debrief` | The organizers' public recap | That skill covers how the edition went; yours covers what was _said_ in the sessions. Write one of each. |
+| Sibling                        | Owns                                                 | The line                                                                                                                    |
+| ------------------------------ | ---------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| `event-production`             | Master recording, capture through published file     | Take the master as handed over; never re-edit, re-publish, or send a speaker their own link. You begin at the _derivative_. |
+| `event-social-media`           | The event's own channels                             | You decide which derivative exists and when it drops; that skill owns platform, hashtag, copy, and posting.                 |
+| `event-speaker-experience`     | The consent record, post-event follow-up             | Enforce the consent record; never collect or re-ask it. You decide only whether the speaker amplifies the derivative.       |
+| `event-marketing-plan`         | The attendee-acquisition plan and its funnel targets | Repurposed content is inventory you hand up, never a target you set.                                                        |
+| `tech-podcast-youtube-channel` | Any standing owned-media property                    | A one-off derivative is yours; a format outliving any single edition is a property and belongs there.                       |
+| `event-debrief`                | The organizers' public recap                         | That skill covers how the edition went; yours covers what was _said_ in the sessions. Write one of each.                    |
 
 Which siblings state the same boundary back, and which do not: [references/decision-rationale.md](references/decision-rationale.md).
 

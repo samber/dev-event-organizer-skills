@@ -123,6 +123,7 @@ Compliance cost is the one axis that departs from that order, and its `==` is ar
 - **No posture** - every guest absorbed into the general, speaker or sponsor flow, unchanged. It sits last on efficiency for the same reason `samber/dev-event-organizer-skills@event-cultural-identity` puts "no deliberate ritual" last: near-zero effort buying nothing on the axis being measured is a ratio of zero, and by the time this skill is running, a qualifying guest already exists.
 
   **Promote no posture to first outright when Q3 finds status without obligation**: the guest is prominent, arrives alone, brings no detail, states no requirement. Every rung above it then manufactures a tier for nothing. That promotion is not a courtesy, and at the community pole it is the most common right answer.
+
 - **Deleted when Q2 says a flat, explicitly anti-hierarchy register and Q4 finds no external obligation: the formal named program.** Delete it from this menu and from the axis lines above. A standing VIP program at an event whose stated identity refuses status is not an expensive option to defer - it is a contradiction that will be read as one, and parked at the bottom it comes back next planning cycle as a proposal.
 
 ## Menu B - visibility and discretion posture

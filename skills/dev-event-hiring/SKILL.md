@@ -92,15 +92,15 @@ Score the artefacts against these checks before final delivery.
 
 ## Common failure modes
 
-| Failure | Fix |
-| --- | --- |
+| Failure                                                                               | Fix                                                                                          |
+| ------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
 | Solo hire expected to own sponsorship, content, and production with no team or budget | Split the scope across more than one hire, or state the resourcing explicitly in the posting |
-| Copying an agency-style specialized scorecard for a first non-profit/community hire | Recalibrate against the actual operating context and the coordinator/manager-first pattern |
-| Using CMX's community-manager loop for a pure production/logistics hire | Match the loop to the actual role shape, not the nearest documented one |
-| Unpaid, open-ended "test project" as a work sample | Use a bounded, paid mini-audit or sample-thread-response exercise instead |
-| Quoting one blended salary figure with no named source | State PCMA, BLS, or Glassdoor explicitly, and the tech-industry premium if relevant |
-| Inventing a tech-specific job board that doesn't exist | Use the real general event-industry boards, or CMX for community-manager-shaped roles |
-| Hiring a first paid role at a community event before the threshold is reached | Route to event-team-structure first to confirm the hire is warranted |
+| Copying an agency-style specialized scorecard for a first non-profit/community hire   | Recalibrate against the actual operating context and the coordinator/manager-first pattern   |
+| Using CMX's community-manager loop for a pure production/logistics hire               | Match the loop to the actual role shape, not the nearest documented one                      |
+| Unpaid, open-ended "test project" as a work sample                                    | Use a bounded, paid mini-audit or sample-thread-response exercise instead                    |
+| Quoting one blended salary figure with no named source                                | State PCMA, BLS, or Glassdoor explicitly, and the tech-industry premium if relevant          |
+| Inventing a tech-specific job board that doesn't exist                                | Use the real general event-industry boards, or CMX for community-manager-shaped roles        |
+| Hiring a first paid role at a community event before the threshold is reached         | Route to event-team-structure first to confirm the hire is warranted                         |
 
 ## Reference
 

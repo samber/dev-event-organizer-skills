@@ -74,7 +74,7 @@ The brief already named the categories (interview Q2). Weighting them is one dec
 1. Write the categories down in the brief's own words. Do not rename them - teams optimized against the published wording.
 2. Assign integer percentage weights summing to 100. Integers, because a judge or a sponsor reading the rubric should not have to parse a decimal.
 3. Test the weights against the event's own purpose: if the highest weight is not on the thing the organizers would name as the point of the event, either the weights or the purpose statement is wrong.
-4. Keep the exact weights internal by default. Publishing the category names (step 1) and the elimination list already satisfies disclosure - undisclosed *categories*, not undisclosed weights, are what score a competition nobody entered. Publish the weights too only where the event has a specific reason to prefer transparency over anti-gaming protection (a sponsor-track dispute that needs an auditable number, or a multi-edition event whose published rules already promise it).
+4. Keep the exact weights internal by default. Publishing the category names (step 1) and the elimination list already satisfies disclosure - undisclosed _categories_, not undisclosed weights, are what score a competition nobody entered. Publish the weights too only where the event has a specific reason to prefer transparency over anti-gaming protection (a sponsor-track dispute that needs an auditable number, or a multi-edition event whose published rules already promise it).
 5. Check the highest-weighted criterion is one a judge can actually observe in the slot. "Long-term commercial viability" cannot be seen in four minutes; "working demo" can.
 
 ## Worked rubric: single track

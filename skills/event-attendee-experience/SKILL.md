@@ -17,15 +17,15 @@ You add only the attendee-specific layer on top of the population-agnostic funda
 
 Each states its own side of the boundary. Consume them; do not re-derive them.
 
-| Sibling | The line |
-| --- | --- |
-| `event-cultural-identity` | Sets the register you carry; you decide where the desk stands and how the queue moves. Ask which register it set, never redesign it. |
-| `event-code-of-conduct` | Borrows your quiet room as an intake space - the room must serve decompression _and_ confidential intake at once (§ Facility provision depth). |
-| `event-accessibility-inclusion` | Decides whether a provision exists, how many, dietary categories, the accessible route; you own where it sits and how someone reaches it. |
-| `event-run-of-show` | Staffs and executes what you design. Its named organizer-on-duty is this skill's escalation at check-in. |
-| `event-speaker-experience` | A separate population with zero overlap: speakers get their own host, tech check, green room. |
-| `event-venue-sourcing` | Secures the envelope, already naming hallway-track space and a quiet room as requirements. Work inside the signed floor plan; never reopen square footage. |
-| `event-schedule-design` | Owns the grid. Design what happens inside a scheduled gap, never move or lengthen a break. |
+| Sibling                         | The line                                                                                                                                                   |
+| ------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `event-cultural-identity`       | Sets the register you carry; you decide where the desk stands and how the queue moves. Ask which register it set, never redesign it.                       |
+| `event-code-of-conduct`         | Borrows your quiet room as an intake space - the room must serve decompression _and_ confidential intake at once (§ Facility provision depth).             |
+| `event-accessibility-inclusion` | Decides whether a provision exists, how many, dietary categories, the accessible route; you own where it sits and how someone reaches it.                  |
+| `event-run-of-show`             | Staffs and executes what you design. Its named organizer-on-duty is this skill's escalation at check-in.                                                   |
+| `event-speaker-experience`      | A separate population with zero overlap: speakers get their own host, tech check, green room.                                                              |
+| `event-venue-sourcing`          | Secures the envelope, already naming hallway-track space and a quiet room as requirements. Work inside the signed floor plan; never reopen square footage. |
+| `event-schedule-design`         | Owns the grid. Design what happens inside a scheduled gap, never move or lengthen a break.                                                                 |
 
 Five further siblings now ship: `samber/dev-event-organizer-skills@event-hospitality`, `event-booth-experience`, `event-volunteer-experience`, `event-attendee-email-sequences` and `event-no-show-management`. Every boundary against them below is stated from this side only - check theirs before relying on it.
 

@@ -152,7 +152,7 @@ Compliance cost earns its axis here. Every rung except the last holds or publish
 
 **Deleted, not demoted: a formal reward with real cash value** - a raffle prize, a travel grant, a comped ticket to a different event as payment for the shift. Delete it from this menu and from the axis lines above. Once a reward reads as wages, the arrangement is no longer volunteering, and that question is not reversible after the first reward is handed out. This mirrors the sibling's own cash-stipend deletion. TechCrunch runs exactly this shape at its own events: a stated minimum-hours commitment earns a named-dollar-value pass to a different, later event in the same company's portfolio. That is what the deleted rung looks like in practice, and the reason it stays deleted rather than becoming a menu option with guardrails.
 
-A comped ticket offered as an invitation, not as payment, is a different thing. If you offer one, say in writing which it is. No convention ties a comped ticket to the *same* event's next edition: the named programs that exist run cross-event, inside one organizer's own portfolio, rather than volunteer-this-year-attend-free-next-year at one recurring conference.
+A comped ticket offered as an invitation, not as payment, is a different thing. If you offer one, say in writing which it is. No convention ties a comped ticket to the _same_ event's next edition: the named programs that exist run cross-event, inside one organizer's own portfolio, rather than volunteer-this-year-attend-free-next-year at one recurring conference.
 
 ## Failure modes
 

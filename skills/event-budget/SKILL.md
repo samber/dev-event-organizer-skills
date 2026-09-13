@@ -36,17 +36,17 @@ Name which one the model assumes in the first line of the output. Keep the two c
 
 Take these as inputs. Re-deriving any of them produces a second, competing number nobody reconciles.
 
-| Sibling | Owns | You do |
-| --- | --- | --- |
-| `event-ticket-pricing` | The ticket price ladder | Hand it the ticket target and the paid capacity after comps; it returns the actual sold total for variance |
-| `event-sponsor-pricing` | Tier splits | Own the sponsorship-share target; it splits into tiers |
-| `event-venue-sourcing` | Real quotes, terms | Hold the line-item slot, fixed/per-head character, deposit timing |
-| `event-vendor-sourcing` | Every other supplier quote | Same split: it quotes, you shape |
-| `event-production` | The Media line, pre-split by tier | Take it as handed |
-| `event-no-show-management` | The expected-show-up number | Budget from it, never the registration count; the overbooking buffer is the gap |
-| `event-team-structure` | Which entity holds the money | Model what it costs and how fast it releases funds |
-| `event-risk-management` | The risk case for a reserve, go/no-go placement | **You pick the contingency number** |
-| `event-growth-strategy` / `event-portfolio-strategy` | Whether the edition grows, portfolio split | Re-run this model at whatever scale they set |
+| Sibling                                              | Owns                                            | You do                                                                                                     |
+| ---------------------------------------------------- | ----------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| `event-ticket-pricing`                               | The ticket price ladder                         | Hand it the ticket target and the paid capacity after comps; it returns the actual sold total for variance |
+| `event-sponsor-pricing`                              | Tier splits                                     | Own the sponsorship-share target; it splits into tiers                                                     |
+| `event-venue-sourcing`                               | Real quotes, terms                              | Hold the line-item slot, fixed/per-head character, deposit timing                                          |
+| `event-vendor-sourcing`                              | Every other supplier quote                      | Same split: it quotes, you shape                                                                           |
+| `event-production`                                   | The Media line, pre-split by tier               | Take it as handed                                                                                          |
+| `event-no-show-management`                           | The expected-show-up number                     | Budget from it, never the registration count; the overbooking buffer is the gap                            |
+| `event-team-structure`                               | Which entity holds the money                    | Model what it costs and how fast it releases funds                                                         |
+| `event-risk-management`                              | The risk case for a reserve, go/no-go placement | **You pick the contingency number**                                                                        |
+| `event-growth-strategy` / `event-portfolio-strategy` | Whether the edition grows, portfolio split      | Re-run this model at whatever scale they set                                                               |
 
 Hand post-edition variance to `event-debrief`, never re-modelling it, and hand a cost line creeping across editions to `event-continuous-improvement`. Plan and track one edition only.
 

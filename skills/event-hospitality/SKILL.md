@@ -31,17 +31,17 @@ What survives is food, drink, breaks, alcohol and the evening.
 
 ## Where every boundary sits
 
-| Sibling | The line |
-| --- | --- |
-| `event-vendor-sourcing` | Sources, vets, contracts the caterer from your decision; owns delivery buffers, lead times, the fire-code trap. Decide the style; never the supplier or contract term. |
-| `event-attendee-experience` | Owns on-site distribution choreography (table, line, how a restricted meal reaches the right person) - refuses to rank its two fulfilment models since your style decision is what the contract carries. |
-| `event-accessibility-inclusion` | Decides which dietary needs the event commits to and at what depth. Never invent that list; choose a style that can carry it. |
-| Alcohol (one-sided seam) | You set the default posture and design the alcohol-free provision; `event-accessibility-inclusion` owns it only where a medical/religious/recovery accommodation turns a default into an access commitment. |
-| `event-schedule-design` | Places breaks and lunch in the grid. You own what a break contains and hand it the service window needed; never move or lengthen a slot. |
-| `event-no-show-management` | Owns the expected-show-up number. Take it; never derive your own. |
-| `event-venue-sourcing` | Negotiates the F&B minimum and mandated-caterer clause. Your style/headcount are inputs, never terms you sign. |
-| `event-volunteers` | Owns food at the post as a shift mechanic. |
-| `event-volunteer-experience` | Owns the off-duty top-up, inheriting dietary/allergen/alcohol exposure from this skill's output. |
+| Sibling                         | The line                                                                                                                                                                                                    |
+| ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `event-vendor-sourcing`         | Sources, vets, contracts the caterer from your decision; owns delivery buffers, lead times, the fire-code trap. Decide the style; never the supplier or contract term.                                      |
+| `event-attendee-experience`     | Owns on-site distribution choreography (table, line, how a restricted meal reaches the right person) - refuses to rank its two fulfilment models since your style decision is what the contract carries.    |
+| `event-accessibility-inclusion` | Decides which dietary needs the event commits to and at what depth. Never invent that list; choose a style that can carry it.                                                                               |
+| Alcohol (one-sided seam)        | You set the default posture and design the alcohol-free provision; `event-accessibility-inclusion` owns it only where a medical/religious/recovery accommodation turns a default into an access commitment. |
+| `event-schedule-design`         | Places breaks and lunch in the grid. You own what a break contains and hand it the service window needed; never move or lengthen a slot.                                                                    |
+| `event-no-show-management`      | Owns the expected-show-up number. Take it; never derive your own.                                                                                                                                           |
+| `event-venue-sourcing`          | Negotiates the F&B minimum and mandated-caterer clause. Your style/headcount are inputs, never terms you sign.                                                                                              |
+| `event-volunteers`              | Owns food at the post as a shift mechanic.                                                                                                                                                                  |
+| `event-volunteer-experience`    | Owns the off-duty top-up, inheriting dietary/allergen/alcohol exposure from this skill's output.                                                                                                            |
 
 Every ranking below is a default, not a law. Re-rank all four menus after the interview, against what you already know about this event. Each of these overturns a default rung:
 

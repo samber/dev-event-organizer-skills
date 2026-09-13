@@ -117,7 +117,7 @@ Selection criteria to offer as a starting point:
 
 Start from the venue-checklist question: does the venue provide its own security, or must the organizer source it separately? Choosing a specific firm, and the licensing and coverage level required, still turn on local knowledge no single source resolves.
 
-A published US standard describes what a professional security provider does and gives selection-relevant criteria to check a firm's proposal against: ANSI ES1.40-2023, *Event Safety - Event Security* (Entertainment Services and Technology Association and the Event Safety Alliance). Treat it as a vetting checklist, not a licensing bar - the standard itself says there is no one correct number of guards and no single best practice for staffing a given event.
+A published US standard describes what a professional security provider does and gives selection-relevant criteria to check a firm's proposal against: ANSI ES1.40-2023, _Event Safety - Event Security_ (Entertainment Services and Technology Association and the Event Safety Alliance). Treat it as a vetting checklist, not a licensing bar - the standard itself says there is no one correct number of guards and no single best practice for staffing a given event.
 
 1. Ask the venue first. Many venues include security, mandate their own, or will only permit firms they already work with - and if they will not permit an outside firm, the category closes.
 2. Ask the venue and peer organizers in the same city for firms that have worked that building. This is the same referred-single-source posture the main menu defaults to, and here it is close to the only responsible one.

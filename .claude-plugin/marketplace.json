@@ -9,7 +9,6 @@
             "name": "dev-event-organizer-skills",
             "source": "./",
             "description": "Skills for technical event operations — conferences, meetups, hackathons, and community programs covering strategy, speakers, sponsors, programming, day-of production, and post-event learning.",
-            "version": "1.0.0",
             "author": {
                 "name": "Samuel Berthe",
                 "email": "dev@samuel-berthe.fr"

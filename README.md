@@ -4,6 +4,8 @@
 
 Written for **event organizers, conference producers, hackathon leads, and community builders**, covering strategy through day-of production. Every skill is **tool-agnostic**: it teaches the decision, not one vendor's ticketing console.
 
+<img width="1904" height="640" alt="image" src="https://github.com/user-attachments/assets/11c1a293-6267-4b81-8476-c7cbcb380cfb" />
+
 ## 📚 Related Collections
 
 - [`developer-relations-skills`](https://github.com/samber/developer-relations-skills): DevRel strategy & execution: _for developer advocates, DevRel managers, community managers_

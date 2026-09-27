@@ -17,33 +17,46 @@ _Part of the [samber skills ecosystem](https://github.com/samber?tab=repositorie
 
 Install every skill in this repo, not just one. Skills here are atomic by design and reference each other freely: picking a single skill leaves its sibling skills uninstalled, so cross-references and routed handoffs go nowhere.
 
-**skills.sh (universal)**: works with any Agent Skills-compatible tool:
+<details>
+<summary><b>skills.sh</b> — universal, works with any Agent Skills-compatible tool</summary>
 
 ```bash
 npx skills add samber/dev-event-organizer-skills
 ```
 
-**Claude.ai**:
+</details>
+
+<details>
+<summary><b>Claude.ai</b></summary>
 
 1. add as a plugin marketplace: open **Settings -> Capabilities -> Plugins**
 2. click **Add -> Add marketplace -> Add from a repository**
 3. enter `samber/dev-event-organizer-skills`
 4. then **Sync**
 
-**Claude Code**: install the plugin:
+</details>
+
+<details>
+<summary><b>Claude Code</b></summary>
 
 ```bash
 /plugin marketplace add samber/dev-event-organizer-skills
 /plugin install dev-event-organizer-skills@dev-event-organizer-skills
 ```
 
-**Codex (OpenAI)**: install via the Codex CLI:
+</details>
+
+<details>
+<summary><b>Codex (OpenAI)</b></summary>
 
 ```bash
 codex plugin add github:samber/dev-event-organizer-skills
 ```
 
-**Cursor**: copy into Cursor's skills directory:
+</details>
+
+<details>
+<summary><b>Cursor</b></summary>
 
 ```bash
 git clone https://github.com/samber/dev-event-organizer-skills.git ~/.cursor/skills/dev-event-organizer-skills
@@ -51,13 +64,24 @@ git clone https://github.com/samber/dev-event-organizer-skills.git ~/.cursor/ski
 
 Cursor auto-discovers skills from `.agents/skills/` and `.cursor/skills/`.
 
-**Gemini CLI**: install as a Gemini extension:
+</details>
+
+<details>
+<summary><b>Gemini CLI</b></summary>
 
 ```bash
 gemini extensions install https://github.com/samber/dev-event-organizer-skills
 ```
 
 Update with `gemini extensions update dev-event-organizer-skills`.
+
+</details>
+
+### First run
+
+```
+/dev-event-kickoff I'm running a 200-person developer conference in March and the call for papers still isn't open.
+```
 
 ## 📦 Skills
 

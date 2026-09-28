@@ -6,7 +6,7 @@ The format menu and its ranking live in SKILL.md; this file carries execution de
 
 ### Calendar cross-listing
 
-- Submit your event to every calendar the candidate-mapping step used: your family's aggregator, any ecosystem season calendar you qualify for, crowdsourced cross-topic calendars, and local tech-community calendars.
+- Submit your event to every calendar the candidate-mapping step used: your family's aggregator, any ecosystem season calendar you qualify for, crowdsourced cross-topic calendars (dev.events covers hackathons, meetups, and conferences; confs.tech, conferences only - examples of the type, not dependencies), and local tech-community calendars.
 - Needs no partner consent, so it never waits on a deal - do it as soon as dates are public, and refresh per edition.
 - Passive by design: a listing puts you where comparers look, but documents no reciprocity (confirmed for ecosystem season calendars - MLH). Treat it as the floor under every active swap, never as the swap itself.
 

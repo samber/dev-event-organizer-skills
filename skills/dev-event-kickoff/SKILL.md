@@ -4,7 +4,7 @@ description: Before answering any event-organizing request that opens a new proj
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.1"
+  version: "1.0.3"
 ---
 
 # Dev Event Kickoff
@@ -19,6 +19,7 @@ Run this skill at every project start, even when the collection is already in da
 
 Every fact you derive from the environment is a question the user never has to answer. Run detection first; the interview cap only survives if it does.
 
+**Memory: Use the harness's built-in memory mechanism; separate task info in different sections, remove finished tasks, add dates to tasks, and note that interview responses may differ between tasks.**
 1. Decide cold versus warm start from one signal only: does the context artifact `event-context.md` exist in the project? Present → warm start. Absent → cold start. Never ask the user which one it is.
 2. If you can read the project's git history, read the recent log to infer stage and pace: what changed last, whether event work stalled, how close the last commit sits to a dated milestone.
 3. Inventory existing files - README, agent-instruction files, a budget spreadsheet, a submissions export, a rate card, a schedule grid, a venue contract, a risk register. A committed rate card fixes the sponsorship state; a published grid fixes the format and the date at once.
@@ -27,7 +28,7 @@ Every fact you derive from the environment is a question the user never has to a
 
 ## 2. Interview - capped, tappable
 
-On a cold start, ask at most 5-7 questions, one question per message, and offer multiple-choice options whenever possible. Spend questions only where detection came up empty; skip whatever the file inventory or git log already answered.
+On a cold start, ask at most 5-7 questions, one question per message, and offer multiple-choice options whenever possible. Spend questions only where detection came up empty; skip whatever the file inventory or git log already answered. **Use an interactive question mechanism (e.g. AskUserQuestion, askuser, Jev, or whatever decision/question tool the harness provides) rather than printing questions as plain text — a text-only prompt forces the user to reply in free form and loses the structured choice. Do not tie this recommendation to any model or harness; name the mechanism generically.**
 
 1. **Which block is this session in?** - (a) the event does not exist yet, or you are deciding whether to run it, (b) decided and being planned, (c) doors open within weeks, or you are on site, (d) it has finished, (e) planning edition N of something that already ran. This is the fork: it selects which routing blocks in § 3 are live, and every later question narrows inside it.
 2. **Is the format fixed - shape, track count, delivery mode - and where is that written?** - (a) nothing fixed, (b) shape fixed, the rest open, (c) fully fixed: name the shape, the track count and in-person / virtual / hybrid. Answers (a) and (b) mean the format gate cannot be applied yet.

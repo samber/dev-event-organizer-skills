@@ -4,7 +4,7 @@ description: Design the attendee-facing communication channel architecture for o
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.1"
+  version: "1.1.0"
 ---
 
 # Event Comms Channels
@@ -151,7 +151,7 @@ The first value axis is deliberately scoped to _the messages that actually go ou
 All four orderings, the five rungs and every promotion condition are this skill's own construction, not measured rankings. See [references/menu-ranking-rationale.md](references/menu-ranking-rationale.md) for the dominance relation this scope protects.
 
 - **Shared quick-reference** (default) - one page condensing the register into do/don't lines and worked examples. Near-zero effort since the thinking is done. Move up when Q3 says a writer has never written for this event before.
-- **Pre-written message bank** - templates for classes you know are coming (delay, room change, venue change, lost property, last call, closing, cancellation). Freezes the register into exact messages sent under time pressure. For the nudges that repeat every edition on a predictable clock - a venue-closing warning, a meal-ready ping, a "starting in 3 minutes" call - go one step further than a template on standby: write the whole day's script against literal timestamps in advance. Nobody then has to remember to compose and send a message at a specific hour while also running the event.
+- **Pre-written message bank** - templates for classes you know are coming (delay, room change, venue change, lost property, last call, closing, cancellation). Freezes the register into exact messages sent under time pressure. For the nudges that repeat every edition on a predictable clock - a venue-closing warning, a meal-ready ping, a "starting in 3 minutes" call - go one step further than a template on standby: write the whole day's script against literal timestamps in advance. Nobody then has to remember to compose and send a message at a specific hour while also running the event. The same applies after the event: organizers send the post-event satisfaction survey automatically. Schedule the survey message on the closing channel before the event, with its send time written down. The survey's questions belong to `samber/dev-event-organizer-skills@event-feedback`; this skill only routes and schedules the message carrying its link.
 - **Named owner per channel** - one person accountable per channel's output. Buys consistency the bank doesn't cover, at the cost of a slower message when the owner is away. `event-social-media` owns the public social account.
 - **Ad hoc** - no shared reference. Fourth, not last, on efficiency: real speed for no effort, but a poor ratio - its one virtue is bought better by the message bank.
 - **Editorial sign-off before publish** (starved rung) - tops consistency and effort, bottoms speed, which hurts most at a live event. Promote when the edition is recorded/livestreamed/press-covered, a sponsor contract fixes verbatim wording, or Q3 says most writers have never seen the register - even then, exempt time-critical classes to the bank.
@@ -213,6 +213,7 @@ Every threshold below is self-set, not a measured benchmark. Fix each one before
 - **Repeat rate** (self-set): the share of messages that had to be re-sent on a second channel because the first did not reach. Every repeat is a routing rule that was wrong or a channel that was unstaffed. Pick a ceiling in advance.
 - **Unrouted questions** (self-set): questions that arrived somewhere with no owner - a personal DM, a social reply, a speaker's inbox. Count them and note where they landed. That is your missing channel or your missing directory line.
 - **Channel silence** (self-set): any channel with no organizer post for a period fixed in advance. A silent channel is a deletion candidate for next edition, not a moderation problem.
+- **Survey message sent on schedule** (binary): the post-event survey link went out automatically at its pre-set time, on the channel the routing rule names. Response rates belong to `samber/dev-event-organizer-skills@event-feedback`.
 - **Wind-down completion** (binary): every channel opened has a closed state and a date, on the day the wind-down was scheduled. This is the only gate here that passes or fails cleanly.
 - Attendee satisfaction and return rate read on the whole event, not on the channels. They belong to `samber/dev-event-organizer-skills@event-feedback` and `samber/dev-event-organizer-skills@event-market-fit`.
 

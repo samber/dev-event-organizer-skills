@@ -4,7 +4,7 @@ description: Write the hackathon challenge document teams read before they build
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.1"
+  version: "1.1.0"
 ---
 
 # Hackathon Brief Design
@@ -59,6 +59,7 @@ Ask one question at a time, multiple-choice where possible. Questions 3-5 and 8-
    - When must the brief be published?
    - Is this a one-off, or a recurring edition whose rules should still hold next year?
    - What is the effort ceiling: organizer hours before publication, and whether counsel is available at all?
+10. How narrow is the theme - one vertical, or open to any domain - and has anyone tested whether enough people want to build on it? (Decides whether § Theme demand test runs before the problem statements.)
 
 Q9's three answers each move a named rung. Say which as you re-rank:
 
@@ -70,7 +71,7 @@ Q9's three answers each move a named rung. Say which as you re-rank:
 
 1. Run the interview. Read last edition's published rules first if one exists.
 2. Fix the rules and eligibility text **before** the problem statements. It deletes rungs from the other menus and it carries the real exposure. Load [references/rules-and-eligibility-source-text.md](references/rules-and-eligibility-source-text.md).
-3. Decide the challenge-track structure, then write one problem statement per track. Load [references/problem-statement-patterns.md](references/problem-statement-patterns.md).
+3. Run the theme demand test when Q10 names a narrow theme (see § Theme demand test). Then decide the challenge-track structure, and write one problem statement per track. Load [references/problem-statement-patterns.md](references/problem-statement-patterns.md).
 4. Convert each sponsor commitment into a track prompt or a bonus-prize criterion, and write the fallback sentence for a sponsor platform that fails.
 5. Name the evaluation categories. Say plainly in the brief who weights them and when the weights get published, then hand the categories to `samber/dev-event-organizer-skills@hackathon-judging`.
 6. Build the submission checklist from the chosen demo structure, never from a generic template. Load [references/submission-checklist-and-categories.md](references/submission-checklist-and-categories.md).
@@ -93,7 +94,9 @@ If your harness has persistent memory, record:
 - the published rule set and which fields were edited
 - the specificity rung chosen per track
 - the sponsor fallback sentences
-- every question a participant actually asked during the event, the most useful of the four, since each one names a sentence the next brief needs
+- every question a participant actually asked during the event, the most useful of these, since each one names a sentence the next brief needs
+- the theme demand checkpoint: date, self-set count, actual count, and whether the theme widened
+- post-event outcomes per project (see § Measurement), re-checked at a self-set interval after the event
 
 ## Problem-statement specificity
 
@@ -125,6 +128,20 @@ The design consequence runs through every rung below: write each prompt so that 
   Promotion condition, keyed to Q1 and Q5: a time box of a week or longer, **or** a sponsor whose own integration tests already exist and can be handed over as-is. Below roughly a weekend it also changes what the event is, turning a build into a graded exercise.
 
   No source publishes a formula converting a specificity rung to an hour count. A second, independent source agrees on the direction and nothing more: guidance for writing AI/ML challenge prompts tiers them by complexity, and states plainly that its hardest tier - real-world systems, unpredictable data, enterprise-grade reliability - "often exceed[s] the standard 24-72 hour window and may be better suited to extended formats," while its lower tiers fit inside it. Never read it as a second data point for the same quantity as the 25% figure above; they measure different things.
+
+## Theme demand test
+
+The theme is a demand bet, and a narrow one can fail before any brief is read. A hackathon with a narrow vertical theme drew too few entrants. Roughly a month before the event, the team widened the theme and the event filled. One event, self-reported: read it as a reason to test demand, not as proof that wide themes always fill.
+
+Run the test before publishing problem statements, not after:
+
+1. **Set a checkpoint date** far enough ahead that a rewrite still fits: problem statements, sponsor prompts and promotion copy all change when the theme does.
+2. **Set a self-set pre-registration count** for that date, from your own capacity and prior editions. Never borrow another event's number.
+3. **Pre-agree the widening trigger** with organizers and theme sponsors before registration opens: below the count on the checkpoint date, the theme widens. Write down the wider theme now, so the decision is mechanical rather than a debate.
+4. **Pre-agree what survives a widening.** A sponsor who funded the narrow theme keeps a sponsor challenge track inside the wider one; see the track structure below. Confirm that with the sponsor before the checkpoint, not at it.
+5. **Freeze after the checkpoint.** The widening is the last theme change. Workflow step 8 still holds: nothing moves once teams start building.
+
+Hand the checkpoint date and count to `samber/dev-event-organizer-skills@event-marketing-plan`, which owns registration targets. This skill owns only the theme consequence.
 
 ## Challenge-track structure
 
@@ -269,6 +286,7 @@ Set the submission deadline as a wall-clock time in a named time zone, and say w
 - **A sponsor track written from the sponsor's marketing copy.** Marketing copy names benefits, not buildable constraints. Rewrite it as a problem, then have the sponsor confirm the rewrite.
 - **Carve-out fractions adjudicated after teams form.** A required fraction - "at least half the team" - has to be published before people choose teammates, or the rule quietly excludes teams that already exist.
 - **Adopting a published rule set without editing its event-specific fields.** The set arrives with somebody else's hacking hours, eligibility scope and judging mode in it.
+- **Locking a narrow vertical theme with no demand test.** A narrow theme can fail to attract entrants until it is widened with weeks to go. Without a pre-agreed trigger, the widening becomes a late debate with sponsors while registration stalls.
 
 ## Measurement
 
@@ -297,6 +315,15 @@ Signals to record for the next edition (self-set):
 - challenge tracks that drew no entries
 
 Each one names a sentence the next brief needs, or a track that should not exist.
+
+**Post-event outcomes as impact evidence (self-set).** Organizers report that their hackathons repeatedly produced companies, and that at least one community was born from a hackathon and grew from it. The report carries no count. Log, per edition:
+
+- projects still active after a self-set interval
+- companies founded from a hackathon team or project
+- communities, meetups or recurring groups started by participants
+- participants who came back as mentors, sponsors or organizers
+
+Record each outcome with its source - the team said so, a public page shows it - and never a rate. Hand the log to `samber/dev-event-organizer-skills@event-sponsor-fulfillment` for the sponsor report and to `samber/dev-event-organizer-skills@event-debrief` for the impact record, and use it when writing the next brief's context paragraph. Ask participants at submission time whether they may be contacted later about what became of the project; otherwise the follow-up has no consent behind it.
 
 ## Invocation examples
 

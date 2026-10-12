@@ -4,7 +4,7 @@ description: Design a technical event's call for papers - the published call, no
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
 # Event CFP Design
@@ -76,6 +76,18 @@ The sourced floor (DevOpsDays organizing guide): "open your CFP as soon as possi
 - **Floor-compressed** - the minimum the source allows: ~4 weeks open, close at 6-8 weeks out, 2 weeks of review - about 10-12 weeks from open to event, total. Legitimate under a hard date; nothing below it is.
 - **Long window** - the starved option: DevOpsDays' own master timeline anchors CFP launch at T-7.5 months, submission voting at T-4.5, program launch at T-3.5 - roughly a three-month review-to-launch runway. Highest reach and the only rung with room for mentorship pairing and visa lead times, but it loses every efficiency round because its real cost is not calendar - it is promotion sustained for months (see failure modes). Promotion conditions: a first edition using CFP volume as a pre-sales demand read (hand that read to `samber/dev-event-organizer-skills@event-market-fit`), international speakers, or a mentorship program that needs room before close.
 
+**Late-held slots in a fast-moving field** (a note outside the menu, compatible with every rung): organizers in a fast-moving field report that last year's hot topic goes stale within months. The longer the window, the larger the gap between submission and stage. Reserve a self-set number of slots outside the call, fill them by invitation close to the event via `samber/dev-event-organizer-skills@event-speaker-sourcing`, and say so in the call - submitters deserve to know the slot count they compete for. Any "state of the art" theme in the call needs the same freshness check at review.
+
+**Headliners first, call second** (a note outside the menu, compatible with every rung): recruit the big names by hand before the open call fills the program, and use the call for the rest.
+
+- **Who counts.** Well-known people and well-known companies whose presence draws an audience. Source and qualify them through `samber/dev-event-organizer-skills@event-speaker-sourcing`; a sponsor relationship never substitutes for the qualification evidence.
+- **Why by hand.** Attendees see a program, not a pipeline. They never learn which talks came through the call, so a manual headliner and an accepted submission look the same on stage. The call then fills the remaining slots with the voices a closed list would miss.
+- **Fallback order.** Source headliners first. If the shortlist fills fewer slots than the structure needs, the call fills the gap. Never leave a slot empty for a name that has not confirmed.
+- **Approach early.** The most in-demand companies and speakers book far ahead and are asked by many events. Contact them before the call opens, at the long-window anchor or earlier. A late ask reaches a full calendar.
+- **Keep the call honest.** Say in the call how many slots are reserved outside it (self-set), as in the late-held slots note above. The public program need not mark which route each talk took.
+- **Play the long game.** A declined or unavailable name is a relationship, not a closed lead. Keep the roster, stay in touch between editions, and re-ask the next edition with a fresh slot brief.
+- **Offer a hand-off when travel is the blocker.** If a speaker will not travel to your city, introduce them to an organizer in another city. The speaker stays reachable, the other event gains a talk, and you earn goodwill for the next ask. Do it only with the speaker's consent before sharing contact details.
+
 Below the floor - an event closer than ~10 weeks, or a close date inside 6 weeks of the event - the open CFP is deleted, not demoted: speakers cannot arrange travel inside the sourced 4-6 weeks, so the program goes invited via `samber/dev-event-organizer-skills@event-speaker-sourcing`.
 
 ## Submission form depth
@@ -122,6 +134,8 @@ Write the criteria into the call itself. The sourced template is DevOpsDays' six
 
 The call redirects vendor pitches to the format that fits them, which only works if the structure chose an open-space block upstream.
 
+Where no open-space block exists, use a different line: a start-up or vendor may speak when what the audience takes away is the lesson or the inspiration, not the product, and no commercial demo runs on stage. Publish it as a seventh criterion if you adopt it - a **lesson-transfer test** - worded so a founder can self-check before submitting: "If the audience forgot your product name tomorrow, would they still keep the lesson?" `samber/dev-event-organizer-skills@event-talk-selection` applies the test at review, and the acceptance email repeats it as a one-line commercial-content rule.
+
 Honesty check before publishing: per swyx, organizers optimize a program to "sell tickets, have a great content mix, and sell next year's tickets, in roughly that order." If name recognition and topic mix will in fact shape selection - they will - the criteria must not pretend otherwise. Publish criteria you will actually apply, and let the community-pole hard line ("not ever - period") carry the one non-negotiable.
 
 ## Speaker benefits stated in the call
@@ -162,6 +176,8 @@ No conference organizer or CFP platform has published a channel-by-channel break
 - **A CFP below the floor.** Closing inside 6 weeks of the event, or open under a month, asks speakers to defy the sourced 4-6 week travel reality. Delete the open call; go invited.
 - **One text box for everything.** An abstract that must carry topic, outline, and "why me" at once can't be scored on any of them - the split form exists so review can separate topic quality from speaker fit.
 - **A call offering the wrong formats.** Formats in the call that the chosen structure doesn't have (or missing ones it does) create submissions nobody can schedule. The format menu is an input from upstream, not a CFP-time decision.
+- **A vendor line with no test.** "No sales pitches" published with nothing a submitter can check against. Founders self-censor useful lessons, and pitches still get through. Publish the lesson-transfer question instead.
+- **Every slot committed months ahead in a fast-moving field.** The call fills the whole program at close, and the hottest topic on the day is absent. Hold slots outside the call and say so.
 - **Reading oversubscription as failure.** Turning away most submissions is the normal state of a healthy CFP (see measurement) - the fix for volume is review capacity, not a narrower call.
 
 ## Measurement

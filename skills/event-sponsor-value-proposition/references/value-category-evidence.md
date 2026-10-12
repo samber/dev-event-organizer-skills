@@ -46,3 +46,18 @@ Two lists worth answering before any statement ships:
   - "The Force": gut feel about organizer competency and professionalism to date - the last one means every interaction before the pitch is already part of the value proposition
 
 One framing note from MLH's guide: "You should consider this as a sales pitch for your hackathon" - the value proposition is a persuasion document built on true claims, not a neutral inventory.
+
+## Sponsor demand follows the hiring market
+
+Treat it as field experience, not established practice, and check it against the organizer's own sponsor history.
+
+- **Two buying reasons dominate.** Local tech-event sponsors pay either to recruit tech staff or to sell to tech teams. Most other categories in this file ride on one of those two budgets.
+- **Recruiting sponsors leave first.** When hiring slows or budgets shrink, the talent budget is cut before the marketing or DevRel budget, so the recruiting segment shrinks fastest.
+- **Booths stop selling before visibility does.** A booth costs the sponsor staff days on top of the fee - the denominator this skill already tells you to name. In a tight year, logo and digital visibility still sells while booth-led packages stall.
+- **Implication for the proposition.** Read the segment's current hiring pressure before choosing recruiting as co-lead, and give every segment a staff-free way to buy. The pricing consequence (a staff-free visibility tier) belongs to `samber/dev-event-organizer-skills@event-sponsor-pricing`.
+
+Signals of hiring pressure the organizer can check without paid data, all self-read:
+
+- Open tech roles posted by the companies on the prospect list, compared with the same period last year.
+- Whether past recruiting sponsors still send talent-acquisition contacts or have gone silent.
+- Attendee-side signal: more job-seekers and fewer hiring managers in the room, as reported by the organizers themselves.

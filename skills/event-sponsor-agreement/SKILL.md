@@ -1,10 +1,10 @@
 ---
 name: event-sponsor-agreement
-description: Turn a sold event sponsorship into a term sheet a lawyer can review - never a signable contract or legal advice. Covers the clause checklist an organizer hands to counsel - a deliverables schedule mirroring the sold tier, payment and late-fee terms, sponsor-withdrawal refunds plus the narrower organizer-cancels remedy, a force-majeure remedy, category exclusivity bounded by published caps, liability and insurance, a code-of-conduct clause with an ejection right, mutual logo licensing, term and renewal. Use whenever the user mentions a sponsorship agreement or contract, sponsor payment or cancellation terms, exclusivity, or a force-majeure clause - even if they never say "agreement". Do NOT use to set prices - use samber/dev-event-organizer-skills@event-sponsor-pricing.
+description: Turn a sold event sponsorship into a term sheet a lawyer can review - never a signable contract or legal advice. Covers the clause checklist an organizer hands to counsel - a deliverables schedule mirroring the sold tier, payment and late-fee terms, sponsor-withdrawal refunds plus the narrower organizer-cancels remedy, a force-majeure remedy, category exclusivity bounded by published caps, liability and insurance, a code-of-conduct clause with an ejection right, an editorial-independence clause denying sponsors program control, mutual logo licensing, term and renewal. Use whenever the user mentions a sponsorship agreement or contract, sponsor payment or cancellation terms, exclusivity, or a force-majeure clause - even if they never say "agreement". Do NOT use to set prices - use samber/dev-event-organizer-skills@event-sponsor-pricing.
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
 # Event Sponsor Agreement
@@ -69,10 +69,11 @@ Neither pole changes the not-legal-advice constraint, and neither pole makes a c
 6. Draft the exclusivity section **only if exclusivity was actually sold** - the PyCon US 2020 contract carries none at all. When sold, it needs all three enforceability elements together and must honor the published cap exactly. See [references/exclusivity-and-renewal.md](references/exclusivity-and-renewal.md).
 7. Draft liability, indemnification and insurance. Indemnification is a negotiated term with two real shapes (one-sided organizer-favoring, or mutual) - present both rather than hardcoding one. Take the insurance posture from the menu below.
 8. Draft the code-of-conduct clause binding the sponsor's own staff, with an organizer ejection right and the no-refund consequence stated in the same clause. This is confirmed across conferences and hackathons of very different sizes; it is a default, not an option.
-9. Draft logo and brand licensing as reciprocal by default: a limited, non-exclusive, promotion-only licence each way, each subject to the other party's brand guidelines, expiring automatically at agreement end unless extended in writing.
-10. Draft term, termination and renewal: a cure period (default 30 days, the most common verified length), termination for convenience and for cause, and the renewal mechanic. Confidentiality, data handling, governing law and the general provisions close the document.
-11. Mark every open question, every jurisdiction-dependent clause and every figure you could not confirm with an explicit flag, then hand the whole term sheet to counsel (Q5), stating there again that it is not a contract and not legal advice. Name in the handoff what you drafted from an example clause versus what you left for them to decide.
-12. On countersignature, hand the deliverables exhibit to `samber/dev-event-organizer-skills@event-sponsor-fulfillment` and the payment milestones to whoever invoices.
+9. Draft the editorial-independence clause: the sponsor gets no say over speakers, topics or content, and the organizer keeps the right to refuse or drop sponsor content and sponsor-nominated speakers without refund. Published contracts are silent on program control, so write the denial down rather than relying on the prospectus. Add a self-set cap on sponsor-affiliated speakers when the organizer runs one, enforced by `samber/dev-event-organizer-skills@event-talk-selection`. See [references/clause-library.md](references/clause-library.md).
+10. Draft logo and brand licensing as reciprocal by default: a limited, non-exclusive, promotion-only licence each way, each subject to the other party's brand guidelines, expiring automatically at agreement end unless extended in writing.
+11. Draft term, termination and renewal: a cure period (default 30 days, the most common verified length), termination for convenience and for cause, and the renewal mechanic. Confidentiality, data handling, governing law and the general provisions close the document.
+12. Mark every open question, every jurisdiction-dependent clause and every figure you could not confirm with an explicit flag, then hand the whole term sheet to counsel (Q5), stating there again that it is not a contract and not legal advice. Name in the handoff what you drafted from an example clause versus what you left for them to decide.
+13. On countersignature, hand the deliverables exhibit to `samber/dev-event-organizer-skills@event-sponsor-fulfillment` and the payment milestones to whoever invoices.
 
 If your harness has persistent memory, record per sponsor:
 
@@ -177,6 +178,7 @@ The compliance ordering is argued too - each added coverage line is another cert
 - **Exclusivity wider than what was published.** A prospectus capping Gold at 3, Silver at 6 and Bronze at 20 has already told the market what exclusivity means here; a contract promising more contradicts the published document every other sponsor bought against. Fix: exclusivity language quotes the published cap, and is drafted only when exclusivity was actually sold.
 - **A data or attendee-list clause the event cannot honour.** Published sponsorship contracts carry none, including at the foundation-run pole, and community-run organizers publish rules forbidding it. Fix: a data clause is draftable only where a consented lead-retrieval benefit was genuinely sold; otherwise it does not exist, and the sponsor gets the aggregate-demographics substitute `samber/dev-event-organizer-skills@event-sponsor-fulfillment` delivers.
 - **Citing a "PSF 15-day cure period".** This claim is unverified and contradicted by the only public PSF sponsorship contract, which contains no cure period at all - termination there is at the organizer's sole discretion. Fix: default to 30 days (the most common verified length: SAGE World, AFCEA, American Pets Alive), or the event-proximate 3-day variant for breaches found close to the date; never attribute 15 days to the PSF.
+- **Program control left unwritten.** No published sponsorship contract quoted here denies a sponsor influence over the program, so the question gets settled under pressure, by whichever sponsor pays most. The end state: an event that cannot refuse its largest funder's speakers depends on that one company. Fix: draft the editorial-independence clause in every agreement, with the refusal right and its no-refund consequence, and keep enough sponsors that losing any one is survivable.
 - **A deliverables exhibit rebuilt from the prospectus.** The prospectus is the sales document; what the sponsor actually bought, including negotiated deltas, is what the contract must carry. Fix: build the exhibit from the accepted proposal, per sponsor.
 - **Treating the output as the contract.** A term sheet that reads like finished legalese invites signature without review - the failure this whole skill is shaped to prevent. Fix: keep the counsel flags visible in the document itself, and state the constraint again at handoff.
 
@@ -202,7 +204,7 @@ Expected output: a term sheet organized as numbered clause sections plus a deliv
 
 ## References
 
-- [references/clause-library.md](references/clause-library.md) - clause shapes with verbatim language and attribution: payment, late fees and non-payment, both cancellation directions, force majeure with the case law, cure periods and termination, indemnification and insurance, code of conduct, logo licensing, confidentiality and governing law.
+- [references/clause-library.md](references/clause-library.md) - clause shapes with verbatim language and attribution: payment, late fees and non-payment, both cancellation directions, force majeure with the case law, cure periods and termination, indemnification and insurance, code of conduct, editorial independence, logo licensing, confidentiality and governing law.
 - [references/exclusivity-and-renewal.md](references/exclusivity-and-renewal.md) - category exclusivity's three enforceability elements, the cap-honouring rule, definition traps and carve-outs, premium bands, and the renewal mechanics that avoid a full redraft.
 - [references/term-sheet-template.md](references/term-sheet-template.md) - the output artifact: the section-by-section term-sheet checklist with counsel flags, the deliverables exhibit shape, and a negative example.
 
@@ -211,4 +213,5 @@ See also, same collection:
 - `samber/dev-event-organizer-skills@event-team-structure` - confirms the legal-entity posture (see Interview Q4); unincorporated organizers need counsel before this skill can run.
 - `samber/dev-event-organizer-skills@event-risk-management` - owns the cancellation-decision process; this skill only formalizes the consequences for one sponsor.
 - `samber/dev-event-organizer-skills@event-venue-sourcing` - negotiates the venue contract whose insurance requirements flow down to sponsors; read its result before picking the insurance rung in step 7.
+- `samber/dev-event-organizer-skills@event-talk-selection` - owns the selection process that enforces the editorial-independence clause in step 9, including any cap on sponsor-affiliated speakers.
 - `samber/dev-event-organizer-skills@event-code-of-conduct` - owns the policy the code-of-conduct clause in step 8 points at; this skill only writes the clause and the ejection right.

@@ -81,4 +81,6 @@ Two non-transfers, both load-bearing here:
 1. A dormant archive has no ongoing interaction, so the thresholds say nothing about it.
 2. A member list is a stock, not a group. Five hundred members of whom a handful talk is a normal shape for an event's space and is not a failure against Allen's numbers.
 
+The same break shows from the other side: some local communities plateau around 100 people per gathering and treat that as a good format, not a growth failure. Read it as one report consistent with Allen's break near 100, not as a ceiling. Whether to push past it is `event-growth-strategy`'s call.
+
 Use the thresholds only to set expectations about how many members actually talk to each other under the two continuous rungs. Never as a target membership number, and never quoted as a benchmark this skill's output is scored against.

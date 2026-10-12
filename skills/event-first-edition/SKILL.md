@@ -4,7 +4,7 @@ description: Launch the first edition of a tech event (conference, hackathon, la
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
 # Event First Edition
@@ -22,7 +22,7 @@ Ask one question at a time, multiple-choice where possible. Each answer changes 
 3. Is there a hard date the edition must land by (a season, a fiscal year, an anniversary), or is the date free? (A hard deadline promotes the timeline-compression levers; a free date lets the format's full runway run.)
 4. Is edition 1 a one-off bet, or the start of a compounding annual asset? (A compounding mandate promotes the slower, credibility-building rungs - full CFP over invited speakers.)
 5. What is the effort ceiling: organizer hours/week alongside day jobs, headcount available, budget appetite, and how reversible commitments must stay?
-6. What assets already exist: a meetup and its audience, community channels, venue access through an employer or sponsor, warm sponsor relationships? (Re-rank every menu against these - an owned asset can beat the default rung.)
+6. What assets already exist: a meetup and its audience, community channels, venue access through an employer, sponsor, school, or host company, warm sponsor relationships, a network of independent communities on the same topic in other cities that could accompany you? (Re-rank every menu against these - an owned asset can beat the default rung.)
 7. Who is on the team today - how many committed organizers, from how many different organizations?
 8. Which city is the edition in, and which larger events land near your window there?
 
@@ -93,6 +93,8 @@ Value and effort are the same list, so one mechanism blocks every pair: more fun
 
 Solo launch is deleted from this menu, not demoted: both sources set the floor at three. The usual unspoken worry (see the pre-mortem's Elephants) is bandwidth alongside day jobs - headcount on paper doesn't fix it, but a real second and third organizer partly do. For a volunteer team, prefer async written updates over standing meetings.
 
+**Launching a new local chapter with accompaniment.** When a network of local communities exists (interview Q6), ask it for four things before forming the team: a playbook for the first event type, access to its speaker bank, a mentor-organizer reachable during the first edition, and the network's manifesto and membership terms. Accompaniment does not replace the team gate: the new chapter still needs its own local co-organizers, and finding them was the most common pain in that same report. The network side - membership, opt-out, shared assets - belongs to the peer-network section of `samber/dev-event-organizer-skills@event-team-structure`.
+
 ## Timeline-compression levers
 
 Only when the deadline (interview Q3) is shorter than the chosen format's sourced runway. Ranking (default, not a law):
@@ -102,7 +104,7 @@ Only when the deadline (interview Q3) is shorter than the chosen format's source
 - efficiency: `cut a scope rung > borrowed venue > invited-speaker program > piggybacked scheduling`
 
 - **Cut a scope rung** - the default lever and the standing circuit-breaker: the date never moves to fit scope; scope moves to fit the date.
-- **Borrowed venue** - venue search is the longest lead item in the sourced conference timeline (T-12 months; large venues book years out). Promote this lever above the default whenever interview Q6 surfaced venue access through an employer, sponsor, or community partner.
+- **Borrowed venue** - venue search is the longest lead item in the sourced conference timeline (T-12 months; large venues book years out). Promote this lever above the default whenever interview Q6 surfaced venue access through an employer, sponsor, or community partner. Cost-free venues - school or university premises, a host company's space - also lower the edition's downside, since no deposit is at risk if the edition is cut. Check the host's own constraints first: access hours, security, and whether the host expects visibility the neutrality rule forbids.
 - **Invited-speaker program** - replaces the ~4-month CFP-open-to-vote cycle. Costs what the sourced guide says a long CFP buys: submission volume and program quality, plus the community-openness signal a compounding-asset mandate (Q4) needs - a one-off bet spends that more freely.
 - **Piggybacked scheduling** - the starved lever: schedule immediately before/after a major event in the same city so travelling attendees justify both. Sourced as a deliberate DevOpsDays tactic, not just conflict avoidance. High coordination cost and calendar dependence - **promotion condition, keyed to Q8**: such an anchor event actually exists in the target city and season.
 
@@ -135,6 +137,7 @@ Trend to watch, never a gate here: the ticket-sale spike checkpoints (early-bird
 - "We want to launch a DevOps conference in Lyon next year - nothing exists locally. Where do we start?"
 - "Our company wants to run its first user conference in 9 months. Scope it so we don't overreach."
 - "Three of us run a 200-person meetup and want to turn it into a one-day conference. Build the launch plan."
+- "I want to start a meetup in my city, and a network of similar meetups in other cities offered to help. What do I ask them for?"
 
 Expected output: a launch brief with (1) appetite and written no-gos, (2) chosen scope tier with the 2-3 candidates considered, (3) team plan against the gate, (4) reverse timeline with go/no-go dates and budget-tier downgrade dates, (5) pre-mortem table with owners. Deliver it section by section for validation, not as one block.
 

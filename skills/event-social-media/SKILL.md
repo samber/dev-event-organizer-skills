@@ -4,7 +4,7 @@ description: Run a technical event's own social presence inside the weight, phas
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
 # Event Social Media
@@ -30,7 +30,7 @@ Ask one question at a time, multiple-choice where possible. Questions 5-7 exist 
 1. What did the marketing plan hand down for social: its weight in the mix, the fixed dates, the per-phase targets? If nothing was handed down, stop and route to `samber/dev-event-organizer-skills@event-marketing-plan` first - a content calendar with no campaign spine under it has nothing to hit.
 2. Does this event deliberately opt out of promotion? Some do, and it is a real strategy, not a gap (see the opt-out below).
 3. Where does this audience actually gather - name real properties, not the platforms you would name by default. A dispersed enterprise-infrastructure crowd, a single-campus student crowd and a design crowd share almost no platform.
-4. What does the event already own: accounts and their real reach, a prior edition's photo archive, an existing house hashtag, a decentralized brand's shared tag?
+4. What does the event already own: accounts and their real reach, a prior edition's photo archive, an existing house hashtag, a decentralized brand's shared tag? Which organizers will post from their personal accounts, and how far do those reach compared with the event's own page?
 5. What is the doors date, and how much runway is there before it? A short runway promotes the asks that use someone else's existing audience over anything that has to build one.
 6. One edition's push, or an account meant to compound across editions? Be honest with the user here: an event account starts nearly cold each cycle unless the event persists, which is why creator-economy follower-growth advice does not transfer. A one-off push demotes every rung whose payback lands in a later edition - a second natively adapted account, an archive-building live rung; a compounding mandate promotes both.
 7. Who actually writes and posts, for how many hours a week - and is that same person running the event on the day? This one answer decides the live-coverage rung more than any other.
@@ -73,6 +73,7 @@ An event that opts out still needs the practical posts - dates, location, link, 
 4. Pick the platform set with the breadth menu. Platform names are examples throughout - the mix shifts every couple of years, and the audience answer from Q3 outranks any list.
 5. Decide the hashtags by purpose, not by habit. Full taxonomy and the community-signalling contrast: [references/platform-fit-and-hashtags.md](references/platform-fit-and-hashtags.md).
 6. Map posts onto the plan's phases - announcement, CFP open and close, speaker reveals, agenda release, early-bird close, final push, live, wrap. Post types per phase, plus a worked calendar and its negative counterpart: [references/phase-post-plan-and-amplification-kit.md](references/phase-post-plan-and-amplification-kit.md).
+   - Batch the writing. Organizers report writing and scheduling about a month of posts in one session with a scheduling or automation tool. It suits volunteer hours: one sitting instead of a daily duty. Anchor every batched post to a real campaign date, and re-check the batch whenever the plan's dates move - a scheduled post announcing a moved date is worse than no post.
 7. Build the amplification asks with the posture menu, and produce the shareable kit once rather than per request.
 8. Choose the live-coverage rung, then write the named volunteer and the photo rules into the run of show - not into a document nobody opens on the day. Route the operational slot to `samber/dev-event-organizer-skills@event-run-of-show`.
 9. Hand the recordings, the photo archive and the quotable moments to `samber/dev-event-organizer-skills@event-content-repurposing`. Say what you are handing over; do not start cutting clips.
@@ -127,6 +128,15 @@ Ranked menu - borrowed reach per unit of coordination effort. The ordering is ju
 
 **The starved option is the coordinated partner push** - second on value, first on effort. Promote it when the partnership deal is already signed (the marginal effort is then only date coordination, not negotiation), and for a first edition with no audience of its own, where borrowed audiences are the only audiences available.
 
+**Organizer personal accounts - a note outside the menu, low confidence.** Organizers report that per-chapter and per-event social pages reach fewer people than the organizers' own personal accounts. It fits the near-cold-start problem from Q6: a person's account compounds across editions, an event page restarts each cycle. It is not a rung because it is not an ask of a third party - it is the team posting from its own accounts. Use it this way:
+
+- Ask each organizer whether they will reshare or originate posts from a personal account, and record who agreed. Never assume it; a personal account is the person's, not the event's.
+- Give organizers the same ready-made kit speakers get, so their posts carry the positioning sentence and the tracked link rather than an improvised angle.
+- Give each organizer's personal account its own tracked link, so the claim can be tested against the event page in this edition's data.
+- Keep the event page anyway as the canonical home for practical details. Personal accounts amplify; they do not replace the source of truth.
+
+For a multi-chapter network, this weakens the case for opening one page per chapter. Ask whether a chapter page has a named poster before creating it, per the platform-breadth delete rule above.
+
 For an event with no sponsors, **delete the sponsor rung** rather than leaving it as an aspiration on the menu. Same for the partner push when no partnership exists and none is being pursued this cycle.
 
 A note on posting _before_ asking: check whether the sponsor agreement already contracts a social mention. If it does, the post is a fulfilment item owned by `samber/dev-event-organizer-skills@event-sponsor-fulfillment` and missing it is a breach, not a missed courtesy.
@@ -178,6 +188,7 @@ One real event-account figure exists and is worth naming precisely so it is not 
 
 - **Every dated post in the plan shipped on its date** (self-set, binary): the only measure fully inside your control, and the one that fails most often on volunteer teams.
 - **Per-platform tracked link** (self-set): a distinct link per platform, decided before launch because it cannot be added retroactively. The marketing plan owns reading these; you own creating them.
+- **Personal account versus event page** (self-set): clicks on each organizer's personal-account link against the event page's link, for the same post. It is the only way to test whether personal accounts reach more people than chapter pages, in your own audience.
 - **Amplification take-up** (self-set): how many speakers and partners actually posted, out of those asked. A low rate diagnoses the ask, not the audience - usually an ask that arrived without a ready-made asset attached.
 - **The archive produced** (self-set, and the one that pays next edition): photos, quotes and recordings usable by `samber/dev-event-organizer-skills@event-content-repurposing` and by next edition's promotion. A day covered by nobody produces nothing to promote with next year.
 

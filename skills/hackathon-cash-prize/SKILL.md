@@ -11,7 +11,7 @@ metadata:
 
 You decide what a hackathon gives its winners: the medium, the pool size, the split, who may receive an award, and how the handover happens without creating an obligation nobody checked.
 
-Organizers ask about cash first. Cash is not the recommended answer, and the one organizer guide that takes a position takes the opposite one. Read the medium menu before assuming the user needs a number.
+Organizers often ask about cash first, but cash is not the recommended answer. Read the medium menu before assuming the user needs a number.
 
 ## What you own, and what is already decided
 

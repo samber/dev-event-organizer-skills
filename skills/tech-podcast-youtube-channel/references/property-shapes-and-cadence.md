@@ -49,7 +49,10 @@ conference -> channel   EXISTS       confirmed speakers are the booking pool for
 channel    -> conference EXISTS      a past guest is a warm first contact for the next call for speakers
 channel    -> conference ASPIRATIONAL show notes link to the ticket page; nobody has measured whether anyone follows it
 channel    -> swap       EXISTS      episodes are the inventory another organizer's swap can trade against
+channel    -> speakers   ASPIRATIONAL a well-watched channel makes prospective speakers want to come; practitioner hypothesis, untested here
 ```
+
+The last line is the speaker-recruitment loop. It stays `ASPIRATIONAL` until the team's own speaker answers support it; the test is in [low-effort-formats-and-speaker-loop.md](low-effort-formats-and-speaker-loop.md).
 
 The fourth line is the one that matters most, and it stays `ASPIRATIONAL` permanently unless the team measures it themselves: `samber/dev-event-organizer-skills@event-portfolio-strategy` states in its own words that whether a media property converts listeners into attendees is unmeasured, and that no figure in its record supports a conversion claim. Marking it `EXISTS` because a link exists is the failure.
 

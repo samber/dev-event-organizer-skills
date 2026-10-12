@@ -4,7 +4,7 @@ description: Design how a hands-on technical workshop or training session actual
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.1"
+  version: "1.1.0"
 ---
 
 # Workshop Program Design
@@ -139,6 +139,13 @@ Workshop mechanics for day-of execution - see [references/coverage-and-room-mech
 - Build the recovery time into the plan rather than hoping it fits: "build time into your schedule to do breakout sessions, troubleshooting, and questions".
 - Size the opening to the room: "For workshops with fewer attendees, we recommend starting with an icebreaker".
 - Lower the cost of admitting you are stuck. MLH puts this squarely on the instructor: "be extremely aware of how intimidating code reviews and questions will be for participants".
+- Run breakout discussions in small groups, not as one room-wide round. Mechanics:
+  - Cap each group at about 10; a speaking round above 10 takes an hour, and 13 proved unworkable. Split instead.
+  - One convener per group, ideally whoever proposed the question. They balance speaking time; they need not be the expert.
+  - Rotate groups after about 20 minutes.
+  - Capture each group by voice note, then a short plenary synthesis.
+  - Quiet participants who spoke in a small group asked for help and interacted more afterwards, which lowers the cost of admitting you are stuck.
+  - Full mechanics: `samber/dev-event-organizer-skills@event-format-selection`, `references/session-format-catalog.md` § Open space, Small-group mechanics.
 - Give the material somewhere to live afterwards: "Have a channel in slack/Discord so hackers can ask follow-up questions about the workshop topic after it ends." Publish the window that access lasts (common examples are 72 hours or a month after the conference).
 
 ## Failure modes
@@ -148,6 +155,7 @@ Workshop mechanics for day-of execution - see [references/coverage-and-room-mech
 - **Treating a provisioned environment as the safe option.** It removes the local-install failure and replaces it with total dependence on the room's connection for the whole session, plus the compliance exposure above. It is safer only against the failures you named.
 - **Copying a session length off another event's page.** Each event's length reflects its rooms, cohort and exercise. Take the granularity if it helps; do not take the number.
 - **Letting the venue's WiFi answer be "it's fine".** Real network breakages are often policy - blocked device classes, blocked protocols, a VPN, an ad-blocker - none of which a bandwidth figure would have caught.
+- **A room-wide discussion round in a workshop of 15 or more.** One round of speaking eats the session, and the quiet half never speaks. Fix: split into groups of about 10 with a convener each (§ In the room, and after it).
 - **Reopening the format decision.** If the conversation drifts to whether the workshop day should exist or how to price it, that is `samber/dev-event-organizer-skills@event-format-selection` and it is already decided.
 - **Confusing attendee-side failure with production failure.** A room of laptops that cannot install a dependency is yours; a dropped camera feed on the recording is `samber/dev-event-organizer-skills@event-production`.
 

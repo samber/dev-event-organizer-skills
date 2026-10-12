@@ -1,20 +1,22 @@
 ---
 name: event-sponsor-outreach
-description: Run the sponsor sales motion for a technical event, from target list to signed yes - target list building and scoring, outreach timed against sponsor fiscal-year budget lock-in, first-touch channel choice (warm intro, referral ask, cold email under sponsor-specific etiquette), the exploratory call, capped follow-up cadences, objection handling, pipeline tracking, and renewal versus net-new as distinct motions. Use whenever the user mentions finding sponsors, a sponsor outreach email, pitching a sponsorship, a sponsor objection, or chasing renewals - even if they never say "outreach". Do NOT use for the rate card - use samber/dev-event-organizer-skills@event-sponsor-pricing; post-sale delivery is samber/dev-event-organizer-skills@event-sponsor-fulfillment.
+description: Run the sponsor sales motion for a technical event, from target list to signed yes - target list building and scoring, outreach timed against sponsor fiscal-year budget lock-in, first-touch channel choice (warm intro, referral ask, cold email under sponsor-specific etiquette), the needs-discovery exploratory call, capped follow-up cadences, objection handling, pipeline tracking, and renewal versus net-new as distinct motions. Use whenever the user mentions finding sponsors, a sponsor outreach email, pitching a sponsorship, a sponsor objection, or chasing renewals - even if they never say "outreach". Do NOT use for the rate card - use samber/dev-event-organizer-skills@event-sponsor-pricing; post-sale delivery is samber/dev-event-organizer-skills@event-sponsor-fulfillment.
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
 # Event Sponsor Outreach
 
-You run the sale itself: everything between having a sponsor value story and having a signed sponsor. You consume three inputs from sibling skills and output a signed yes, or a tracked no:
+You run the sale itself: everything between having a sponsor value story and having a signed sponsor, mainly for one-day and multi-day conferences. You consume three inputs from sibling skills and output a signed yes, or a tracked no:
 
 - **The claims** - `samber/dev-event-organizer-skills@event-sponsor-value-proposition`.
 - **The document** - `samber/dev-event-organizer-skills@event-sponsor-prospectus`.
 - **The rate card** - `samber/dev-event-organizer-skills@event-sponsor-pricing`.
 - **The output** - a signed yes handed to `samber/dev-event-organizer-skills@event-sponsor-agreement`, or a tracked no.
+
+Sponsors often cannot see an event's value by themselves. The first real conversation with a prospect is therefore needs discovery, not a pitch: find what this partner needs, then whether the event can genuinely serve it. That event-sponsor fit is the sale; a package shown before it is a guess.
 
 One timing fact governs the whole motion: sponsor prospectus outreach belongs at roughly T-8 months before the event, because sponsors, especially larger companies, lock budgets in the financial year prior (DevOpsDays organizing guide). Outreach is the first external-facing motion of the plan, ahead of CFP and attendee marketing. Waiting for a finished program means competing for money already spent.
 
@@ -30,7 +32,7 @@ Every ranking below (target-list sources, first-touch channels, follow-up cadenc
 Ask one question at a time, multiple-choice where possible. Questions 6-8 exist because the menus below diverge sharply on time-to-effect and effort - the default rankings cannot be picked for the user.
 
 1. Which pole does the event sit on: community-run (independent, volunteer organizers, sponsors as cost recovery) or company/foundation-run (vendor-owned, marketing budget, sponsors as pipeline)? This decides which warm channels exist and what the call can honestly promise.
-2. Which inputs exist already: a per-segment value proposition, a prospectus, a rate card? First touch and the exploratory call run before the prospectus is sent (MLH organizer guide), so start without the deck. The proposal step needs packages and prices, so route missing inputs to the siblings above before that step.
+2. Which inputs exist already: a per-segment value proposition, a prospectus, a rate card? Which sponsor-facing activities does the program actually contain (hiring corner, hands-on feedback session, opt-in demo space, or talks only)? First touch and the exploratory call run before the prospectus is sent (MLH organizer guide), so start without the deck. The proposal step needs packages and prices, so route missing inputs to the siblings above before that step. Outreach pitches only activities already in the program; a talks-only program convinces sponsors less than one with a business-oriented layer, and adding that layer belongs to `samber/dev-event-organizer-skills@event-positioning` and `samber/dev-event-organizer-skills@business-event-formats`, not to the sales call.
 3. Which sponsors from the last edition are renewal candidates, and which portion of the revenue goal must come from net-new? Renewal and net-new run as distinct motions in the same pipeline (see Renewal vs net-new).
 4. How far out is the event date, and when do the top targets plan next year's budget? Under T-8 months, the fiscal-year window is already closing - flag it and prioritize targets whose budget cycle is still open.
 5. What is the sponsorship revenue goal and the average package price? These size the target list backward (see [references/pipeline-and-renewal.md](references/pipeline-and-renewal.md)). The close and reply rates in that math are self-set assumptions, not benchmarks.
@@ -43,7 +45,7 @@ Ask one question at a time, multiple-choice where possible. Questions 6-8 exist 
 
 The axis that changes the sales motion is who owns the event, the same split `samber/dev-event-organizer-skills@event-first-edition`, `samber/dev-event-organizer-skills@event-format-selection` and `samber/dev-event-organizer-skills@event-sponsor-value-proposition` argue:
 
-- **Community-run** - the strongest warm channel is structural: many organizers in a community event's network work at sponsor companies themselves ("talk to the other organizers on Slack - many of them work at sponsors!", DevOpsDays guide). The motion is run by volunteers, which favors the capped cadence and hard follow-up ceilings. The call must never promise attendee lists or purchasable slots - the honesty constraint owned by `samber/dev-event-organizer-skills@event-sponsor-value-proposition`.
+- **Community-run** - the strongest warm channel is structural: many organizers in a community event's network work at sponsor companies themselves ("talk to the other organizers on Slack - many of them work at sponsors!", DevOpsDays guide). The motion is run by volunteers, which favors the capped cadence and hard follow-up ceilings. The call must never promise attendee lists or purchasable talk slots, nor anything else the event structurally cannot deliver - the honesty constraint owned by `samber/dev-event-organizer-skills@event-sponsor-value-proposition`. What the sponsor buys is access to a qualified audience: presence and conversations attendees choose, never their contact data.
 - **Company/foundation-run** - pipeline promises are honestly on the table, and the motion is usually run by a paid events or field-marketing team, which promotes the higher-effort rungs (full cold sequences, deeper personalization). Published organizer guidance is written for the community pole; treat every company-run adjustment as judged rather than established practice.
 
 ## Workflow
@@ -53,8 +55,8 @@ The axis that changes the sales motion is who owns the event, the same split `sa
 3. Qualify and score each candidate Hot / Warm / Cold / Skip with a source URL and date per claim, public business contact channels only (detail in [references/pipeline-and-renewal.md](references/pipeline-and-renewal.md)).
 4. Run the warm-path check per target before anything colder: does anyone in the organizing team or community network work at, or know someone at, the target? The MLH and DevOpsDays organizer guides both put the personal/community network first.
 5. Make the first touch through the channel menu below. Cold email obeys the sponsor-specific etiquette: no links, no attachments, no images in the first email - corporate phishing filters auto-trash them (MLH guide; full craft in [references/outreach-process-and-email-craft.md](references/outreach-process-and-email-craft.md)).
-6. Run the exploratory call pre-prospectus. Pitch the event and team briefly, then let the sponsor talk: ask what success metrics they used in past sponsorships and what they spent. Qualify authority, need, urgency, and money as you go (call script and the ANUM qualification overlay in [references/outreach-process-and-email-craft.md](references/outreach-process-and-email-craft.md)). Schedule the follow-up call before hanging up (MLH guide).
-7. Send the proposal immediately after the call: the standard prospectus with the most relevant package highlighted, or a custom proposal when the tiers don't fit. State why it fits this sponsor and attach a deadline (MLH guide).
+6. Run the exploratory call pre-prospectus as a needs-discovery conversation. Pitch the event and team briefly, then let the sponsor talk: ask what this partner needs from the event - employer brand or hiring, selling to the audience, product feedback, brand awareness, community goodwill - and map the answer onto the value categories of `samber/dev-event-organizer-skills@event-sponsor-value-proposition` (its discovery question, Q3), not onto a new taxonomy. Ask what success metrics they used in past sponsorships and what they spent. A need the event cannot honestly carry is a polite no, not a stretched package. Qualify authority, need, urgency, and money as you go (call script and the ANUM qualification overlay in [references/outreach-process-and-email-craft.md](references/outreach-process-and-email-craft.md)). Schedule the follow-up call before hanging up (MLH guide).
+7. Send the proposal immediately after the call: the standard prospectus with the most relevant package highlighted, or a custom proposal when the tiers don't fit. State why it fits the need heard on the call, name only activities the program actually contains (Q2), and attach a deadline (MLH guide).
 8. Follow up on the cadence menu below, respecting its cap. Honor an opt-out immediately, mid-sequence - not at the next scheduled touch.
 9. Track every prospect in a pipeline (a CRM, an email follow-up tool, or a spreadsheet all work; MLH guide), and name a dedicated liaison per sponsor relationship (DevOpsDays guide). Log every objection by sponsor segment and feed the log back to `samber/dev-event-organizer-skills@event-sponsor-value-proposition`. Gate the closing step itself by deal size, not only the deliverables it buys: a small pledge needs a signature and nothing else; the largest pledge tier warrants a values-alignment check inside the organizing team before it is finalized. On a yes:
    - Invoice immediately.
@@ -158,6 +160,8 @@ Prepare before outreach, not during the call. Have the fixed sponsor question ch
 
 A sponsor who has to chase these answers reads the event as poorly run (DevOpsDays guide; the "gut feel" competence concern, MLH guide).
 
+"We don't see the value" is a discovery signal, not a price objection: the prospect has not yet named its need, so ask what it needs before defending the price or cutting it.
+
 Build the objection library in [references/objection-handling.md](references/objection-handling.md), using a five-field response structure and a two-format delivery (quick-reference table for the live call, detailed doc for prep) borrowed from general B2B sales enablement. Fill it with sponsor-specific content built from the four sponsor concerns (attendee value, co-sponsor mix, package value, organizer competence) and the organizers' own answers. That framework's "Technical" objection category has no sponsor equivalent: it is dropped, not force-fit.
 
 ## Renewal vs net-new
@@ -174,7 +178,8 @@ Never cold-pitch a returning sponsor as if net-new: an email explaining what the
 
 - **Starting outreach after the program goes live.** The budget window closed at roughly T-8 months. A beautiful prospectus in month T-4 competes for money already allocated. Fix: outreach is the first external motion, before CFP, before marketing.
 - **Links, attachments, or images in the first cold email.** Corporate phishing filters auto-trash it unread. Save the prospectus and every link for the follow-up.
-- **Pitching packages before the exploratory call.** The call exists to surface the sponsor's own success metrics and budget first. A proposal sent cold answers questions nobody asked. The prospectus follows the call, highlighted to what was heard.
+- **Pitching packages before the exploratory call.** The call exists to surface the sponsor's own need, success metrics and budget first. A proposal sent cold answers questions nobody asked. The prospectus follows the call, highlighted to what was heard.
+- **Selling activities the program does not contain.** A hiring corner or demo space promised on the call but absent on the day turns a signed yes into a lost renewal. Pitch the program as it stands; route missing activities to `samber/dev-event-organizer-skills@business-event-formats`.
 - **Following up past the cap.** Every touch past it costs more goodwill than it recovers (the collapse curve is a B2B SaaS sales benchmark, not a sponsorship one - the community-reputation cost is the sponsorship-specific reason).
 - **Ignoring an opt-out until the next scheduled touch.** Remove them the moment they ask, mid-sequence.
 - **Treating renewals as net-new.** See Renewal vs net-new - it wastes the warmest leads in the pipeline and insults them in the same email.
@@ -207,12 +212,13 @@ Expected output:
 ## References
 
 - [references/outreach-process-and-email-craft.md](references/outreach-process-and-email-craft.md) - the five-step process, the first-email content checklist and etiquette rules, title targeting by sponsor motivation, the referral-ask mechanic, the exploratory-call script with the ANUM overlay, proposal rules, and both cadences with what each rate behind them is worth.
-- [references/objection-handling.md](references/objection-handling.md) - the five-field objection framework and its two-format delivery, filled with a sponsor-specific objection set built from the four sponsor concerns; inferred rows flagged as such.
+- [references/objection-handling.md](references/objection-handling.md) - the five-field objection framework and its two-format delivery, filled with a sponsor-specific objection set built from the four sponsor concerns, including "we don't see the value" handled as discovery; inferred rows flagged as such.
 - [references/pipeline-and-renewal.md](references/pipeline-and-renewal.md) - the Hot/Warm/Cold/Skip scoring rubric and lead-sheet shape, backward pipeline math with its self-set-rate caveat, tracking and liaison practice, close mechanics, and the renewal motion's boundary with fulfillment.
 
 See also, same collection:
 
-- `samber/dev-event-organizer-skills@event-sponsor-value-proposition` - supplies the pitch content this skill sells; consumes this skill's objection log.
+- `samber/dev-event-organizer-skills@event-sponsor-value-proposition` - supplies the pitch content and the need-to-category mapping the discovery call uses; consumes this skill's objection log.
+- `samber/dev-event-organizer-skills@event-positioning` and `samber/dev-event-organizer-skills@business-event-formats` - own the business-oriented program layer that outreach can only pitch once it exists.
 - `samber/dev-event-organizer-skills@event-sponsor-prospectus` - the document sent after the exploratory call.
 - `samber/dev-event-organizer-skills@event-sponsor-pricing` - the rate card the proposal step draws packages from.
 - `samber/dev-event-organizer-skills@event-sponsor-agreement` - contracts the yes this skill produces.

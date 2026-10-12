@@ -4,7 +4,7 @@ description: Lay a technical event's already-selected talks into a published ses
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
 # Event Schedule Design
@@ -40,6 +40,7 @@ Ask one question at a time, multiple-choice where possible. Questions 4-6 exist 
 8. Which sessions are fixed points rather than free pieces: keynotes, an opening, a closing, a sponsor slot, a session a speaker can only give on one day?
 9. What already exists that should re-rank the menus: last edition's grid and its complaints, recorded overruns, a scheduling tool with clash detection, a known corridor bottleneck, an attendee survey naming the clashes that hurt?
 10. What has to physically change between two consecutive sessions in each room - AV reset, furniture, staging?
+11. How mixed is the audience - developers only, or developers alongside non-technical attendees - and does the field move fast enough that a talk booked months ahead may be stale on the day?
 
 ## Single-track vs multi-track
 
@@ -182,6 +183,27 @@ Two concrete techniques these sources describe, beyond reading your own grid:
 - **Format substitution over content substitution.** DevOpsDays does not just avoid content after lunch; it swaps the format - lecture-style talks give way to self-organized Open Space, matching the slot to the audience's actual energy state instead of fighting it.
 - **Track no-show rate per slot as a diagnostic** (see Measurement below). Recording which slots underperform their expected turnout, slot by slot and edition over edition, turns "which slot is a graveyard here" from received wisdom into something you measure at your own event.
 
+### Bookend each conference day with a keynote in a different format
+
+Open and close every conference day with a keynote, and make each one a format unlike the talks between them: a fun act, an inspiring story, an artistic performance, a live demo or a show. The organizer's own experience supports this; no published source is cited here.
+
+- **Opening bookend.** It sets the tone and gathers the room before the tracks split. The unusual format signals that this event differs from a talk marathon.
+- **Closing bookend.** It gives the day a shared ending and a reason to stay to the last slot, which the graveyard-slot finding above shows is the weakest position. Put the closing keynote there deliberately, in the whole room, so no track holds it.
+- **Different from the talks.** A third technical talk in the same register fails the purpose. Brief the performer on the room, the slot length and the audience's energy at that hour.
+- **Fixed points first.** Place both bookends with the other fixed points (Q8) before the tracks fill in.
+
+Check it at your own event: attendance in the closing slot against the same slot in an edition without one.
+
+### Depth gradient for a single-track evening
+
+One ordering rule for a mixed room (Q11):
+
+- **Order the evening from the broadest talk to the most advanced.** The non-technical part of the room gets the first talks fully, and the specialists get the last ones. Nobody sits through a deep-dive before they have the context for it.
+- **Pair it with funnel talks.** Each talk opens where nearly everyone follows and ends deep; the acceptance brief from `samber/dev-event-organizer-skills@event-talk-selection` and the coaching in `samber/dev-event-organizer-skills@event-speaker-experience` carry that instruction. The grid only sets the order.
+- **Why not two tracks**: the same organizers report trialling a split technical and non-technical track. It worked somewhat, but attendees got lost choosing between rooms. The track count itself is `samber/dev-event-organizer-skills@event-format-selection`'s decision; report the trial result there rather than re-opening it in the grid.
+
+The gradient conflicts with the graveyard-slot finding above: the most advanced talk lands last, in the weakest slot. Accept that trade for an evening meetup where the specialists stay for the deep end, and watch the no-show rate per slot to check it.
+
 The heijunka (levelled production sequencing) analogy in `references/production-scheduling-concepts.md` still supplies the closest thing to a mechanism for why front-loading intensity helps: the sources above confirm its direction but say nothing about why, and the post-lunch dip they add is a second risk window the end-of-shift-crunch analogy misses entirely. State that a claim is sourced or judgment when you present the pacing read, and do not invent a number for either.
 
 ## Speaker constraints and disruption
@@ -222,6 +244,8 @@ The check catches nothing here.
 - **Versioned release** - the starved option: publish early _and_ carry a visible marker of what changed since, so someone who planned their day can see what moved. Highest planning value, highest effort because maintaining it is a standing job rather than a task. Promotion conditions: a multi-day multi-track grid people build personal agendas against, a change landing after tickets are sold, or a compounding annual event whose audience returns expecting the same reliability.
 - **Delete, do not demote:** lock-late publication whenever attendees travel to reach you. A grid published a fortnight out cannot inform a flight booked two months earlier, and keeping the option parked at the bottom is how a busy program chair takes it. It survives only for a same-city, meetup-scale event nobody buys a ticket to travel for.
 
+**Late-held topical slot** (outside the menu, compatible with every rung): in a fast-moving field (Q11), organizers report that last year's hot topic goes stale fast. Publish the grid with a self-set number of slots marked "topic announced later", and fill them close to the event via `samber/dev-event-organizer-skills@event-speaker-sourcing`. The slot, room and time are fixed; only the talk arrives late.
+
 ## Failure modes
 
 - **Double-booking a multi-speaker talk.** Each co-speaker's window was checked, the intersection was not. Compute the intersection explicitly; a session cannot sit where even one co-speaker is unavailable.
@@ -230,6 +254,7 @@ The check catches nothing here.
 - **No buffer for room turnover.** A grid whose gaps assume nothing physical happens between two sessions, in a room where the format changes. Turnover is real and session-pair-dependent.
 - **Treating a borrowed heuristic as an events fact, or a sourced finding as universally transferable.** The heijunka analogy is manufacturing, not events, and stays labelled as such. The graveyard-slot and post-lunch-dip sources are real events- and physiology-specific findings, but their measured magnitudes come from economics-conference and lab data, not developer conferences - cite the direction, not the number, unless you have your own.
 - **Re-litigating the track count in the grid.** A grid that will not fit is not a signal to add a track - `samber/dev-event-organizer-skills@event-format-selection` owns that decision and already made it, and adding a track mid-build silently changes the content mix it was coupled to.
+- **A deep-dive opening a mixed evening.** The most advanced talk placed first loses the non-technical part of the room for the rest of the night. Order broad to advanced.
 - **Clash detection run once.** Every move invalidates the previous pass. Re-run after each change, including the ones made after publication.
 
 ## Measurement

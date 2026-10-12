@@ -4,7 +4,7 @@ description: Recruit and organize the volunteer workforce that staffs one editio
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
 # Event Volunteers
@@ -127,6 +127,8 @@ Compliance cost is a genuine axis here, not filler. Any channel that collects si
 
 FOSDEM sits at exactly that condition.
 
+**Note outside the ranking: the call for help from the stage.** A public call for help at the end of a hackathon or meetup recruited new organizers. For day-of volunteers it is a form of the direct network ask, not a sixth rung: the room is warm and already knows the organizers. Name concrete posts, dates, and hours in the call, and give it a named coordinator who answers every reply within days - otherwise it becomes the deleted rung below. Route anyone who wants a standing role rather than a shift to `samber/dev-event-organizer-skills@event-team-structure`.
+
 **Deleted, not demoted: an open call with no named coordinator and no confirmation step.** Delete it everywhere. A call for volunteers posted to an announcement channel with nobody answering the replies produces a list of names and an unstaffed desk, and it is indistinguishable from a real channel until the morning of the event.
 
 ### Role-catalog depth
@@ -169,6 +171,8 @@ Access in exchange for the shift is the mechanism both built-out programmes use,
 
 The t-shirt is ranked as recognition but earns its place operationally: it is how an attendee finds a volunteer in a corridor. FOSDEM colour-codes it - orange for general volunteers, green for the video team - which turns a perk into a wayfinding system, and is why it survives a budget cut that a pure perk would not.
 
+Ask on the sign-up form what each volunteer wants from the day: a talk they want to see, people they want to meet, a skill to practise, visibility. organizers named network, learning, less isolation, fun - and, for freelancers, leads - as what kept them involved; volunteers on the path to organizing want the same things. Matching a post to the stated want is free, and it is what the access-in-exchange rung buys when it works.
+
 **Default: access in exchange, plus food at the post.** Both are near-zero at a free or self-catered event, and both appear at every rung of the ladder.
 
 **Starved: feeding them properly** - it tops the value axis and still loses the top of the order to two near-zero-effort options, because it is a catering line and a headcount the caterer needs weeks in advance. Promote it whenever a shift runs past roughly three hours, covers a mealtime, or falls outside event hours. FOSDEM feeds exactly those cases:
@@ -189,6 +193,7 @@ The t-shirt is ranked as recognition but earns its place operationally: it is ho
 - **A briefing that omits arrival buffers.** "Your shift starts at 14:00" produces a volunteer who arrives at 14:00, collects a t-shirt, finds the room, and reaches the post at 14:20. Fix: publish the buffer as part of the shift time and graduate it for first-timers.
 - **Several people directing the same volunteer during a shift, each unaware of what the other told them.** This is a coordination failure distinct from the confirmation step in Q6/step 9: it happens live, mid-shift, to someone already covering a post. Fix: the coverage protocol names exactly one referent per shift who owns live direction for that post, so a volunteer has a single person to check with rather than whoever happens to walk past.
 - **Merging the two "runner" roles.** FOSDEM's Runner is a general-purpose floater waiting in a staging area for task calls; PyCon US's Session Runner is a speaker shepherd working tight fifteen-minute intervals. Same word, different jobs. Fix: name them separately in your own catalog; an event that merges them gets neither.
+- **A successful call that swamps the coordinator.** A call for help that lands well can multiply the pool in a week; one team grew from one operational person to about fifteen. Fix: publish the role catalog before the call, pair each first-timer with a returning volunteer for their first shift, and hold the briefing as a scheduled session rather than one-to-one.
 - **Building the volunteer site for a 150-person event.** Over-investment is a real failure, not just under-investment. Fix: match the rung, and re-read the starved option's promotion condition before building anything reusable.
 
 ## Measurement

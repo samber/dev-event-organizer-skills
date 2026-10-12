@@ -4,7 +4,7 @@ description: Run the organizing team's own internal retrospective on one finishe
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
 # Event Debrief
@@ -58,6 +58,9 @@ The axis that changes this skill's output is who is in the room and what they ar
 4. **Reconstruct the timeline before any analysis.** Walk the edition chronologically. Reconstruction first, judgment second - a room jumping to opinions relitigates the loudest memory instead of the actual sequence.
 5. **Separate well from poorly as two explicit passes.** Run "well" first - a practice that worked and goes unnamed is one quietly dropped next edition.
 6. **Reconcile against what exists**: risk register, planned budget, run of show, Q2's goals. Four checks, four outputs, each to its owning sibling. Checklists: [references/reconciliation-and-session-agenda.md](references/reconciliation-and-session-agenda.md).
+   - If the team keeps a KPI shortlist (2-3 KPIs, each with an owner and an action - defined in `samber/dev-event-organizer-skills@event-continuous-improvement`), read this edition's value of each against its declared threshold here. Never add KPIs in the debrief; a number with no owner and no action is the long dashboard nobody re-reads.
+   - If the team scores a self-rated "impact intensity" per event, score it now, by at least two organizers independently, on the scale fixed before the season. Record disagreement instead of averaging it.
+   - **Capture outcomes.** List what has already come out of the edition - projects started, collaborations, companies founded, jobs found - with the source of each, and hand the list to the outcome log in `samber/dev-event-organizer-skills@event-continuous-improvement`. Nearly every hackathon edition can produce at least one company; outcomes like that are invisible in a findings-only log. Expect more to surface months later; this is the first entry, not the full count.
 7. **Surface team-health findings and route them without solving them.** Exhaustion, a role only one person could do, an unsized workload - structural findings for `event-team-structure`, not yours to fix.
 8. **Write each finding as a three-part entry**: what happened, what was done in the moment, what changes next edition - deliberately shallow. Format and escalation criteria: [references/lessons-learned-entries.md](references/lessons-learned-entries.md).
 9. **Give every open entry an owner and a due date, or close it explicitly.** No orphans - an entry with no owner is a wish, not a lesson. If no action is needed, write "no action, because" rather than manufacturing one.
@@ -68,6 +71,7 @@ If your harness has persistent memory, record:
 
 - the dated log itself
 - the goals this edition was measured against
+- the KPI shortlist values, the impact-intensity scores, and the outcomes captured
 - every action item with its owner and due date
 - which findings were routed to which sibling
 
@@ -106,6 +110,8 @@ A single meeting produces minutes; a **standing table kept open across the cycle
 Preserve some findings as raw testimony rather than folding every voice into one summary line. Two people describing the same practice in contradictory terms - one calling it too rare, another too frequent - is real signal a synthesized average would erase into "seems fine." Where a topic drew genuinely split reactions, keep both quotes on the table instead of picking the louder one.
 
 **A documented refusal is itself the artifact, not a failure to act.** Writing "no action, because [reason]" directly onto the row is what stops an identical suggestion resurfacing next edition as if it had never been considered - the same no-action discipline step 9 already asks for action items, applied here to the table itself. Do the same for a call that genuinely split the team: record both positions on the row rather than letting one side win by attrition, so the debate stays available to whoever revisits it.
+
+One recurring split worth a row of its own: who judges this edition's impact, the team or the attendee questionnaires. Organizers disagree on exactly this. Keep both readings on the row - the team's impact-intensity score beside the questionnaire result - rather than letting either overwrite the other.
 
 ## Publication posture
 
@@ -188,6 +194,7 @@ The rest are signals to record, not targets to hit:
 - **Days from doors closing to the debrief**. Record yours so the team can see the trend across editions.
 - **Named-role coverage**: how many people who held a named role were in the room or submitted written input, out of the total. A low share explains a thin log better than any other number.
 - **Carry-through rate** (only measurable from edition two onward): how many of last edition's action items were actually done. Record it as an input; the trend belongs to `samber/dev-event-organizer-skills@event-continuous-improvement`.
+- **Outcomes captured at the debrief** (self-set): projects, collaborations, companies, jobs. A first count only; later ones arrive through the outcome log.
 
 ## Invocation examples
 

@@ -129,7 +129,7 @@ What happens to the people who arrive after the ceiling. Ranking (default, not a
 **This menu is clean by construction, not by care**: value and effort run in the same order, so no rung dominates another and any efficiency ordering is admissible. That is not a pass; it means the dominance check cannot catch a mistake here, and the ordering rests entirely on each rung's own argument. Treat it as the menu most worth arguing with.
 
 - **FIFO on a fixed date** - the default: collect above the ceiling, promote in one batch on a date you name when the waitlist opens. Mechanical, defensible to whoever is skipped, and it costs one afternoon rather than a standing job.
-- **Proximity-prioritised** - the starved option: order the waitlist by how close someone is to the venue. The MLH hackathon organizer guide gives this as its priority rule, reasoning that people closer to the event are more likely to show up, and it is the one non-FIFO ordering rule with organizer practice behind it. The guide attaches no figure, so treat the size of the gain as unquantified. What it buys, on that reasoning, is a higher show-up rate per promoted seat. What it spends:
+- **Proximity-prioritised** - the starved option: order the waitlist by how close someone is to the venue. This approach assumes people closer to the event are more likely to show up. What it buys is a higher show-up rate per promoted seat. What it spends:
   - The hours to order the list by hand.
   - An allocation decision made on registrants' location data that you must be able to state publicly and cannot quietly change mid-window.
 

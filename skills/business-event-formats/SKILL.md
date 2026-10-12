@@ -1,15 +1,15 @@
 ---
 name: business-event-formats
-description: Choose which company-run event shape to run - invite-only dinner, executive summit, single-city user conference, multi-city roadshow, or a floor-primary trade-show event - plus how its program is sourced and what shape its floor takes. Use whenever a company weighs a user conference against a roadshow or a summit, asks what kind of event to put on for developers, customers or partners, or asks whether to run its own floor or exhibit on someone else's, even if they only say "we want to do an event". Format catalog only. Do NOT use for track count or session mix - use samber/dev-event-organizer-skills@event-format-selection; for floor operations use samber/dev-event-organizer-skills@event-booth-experience; for goals and budget use samber/dev-event-organizer-skills@corporate-event-strategy.
+description: Choose which company-run event shape to run - invite-only dinner, executive summit, single-city user conference, multi-city roadshow, or a floor-primary trade-show event - plus how its program is sourced and what shape its floor takes. Also owns the business-oriented activity layer any conference can run beside its program for sponsors (hiring corner, hands-on product feedback session, opt-in demo space, matchmaking). Use whenever a company weighs a user conference against a roadshow or a summit, asks what kind of event to put on for developers, customers or partners, or asks whether to run its own floor or exhibit on someone else's, or an organizer asks what to offer sponsors beyond talks, even if they only say "we want to do an event". Format catalog only. Do NOT use for track count or session mix - use samber/dev-event-organizer-skills@event-format-selection; for floor operations use samber/dev-event-organizer-skills@event-booth-experience; for goals and budget use samber/dev-event-organizer-skills@corporate-event-strategy.
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.1"
+  version: "1.2.0"
 ---
 
 # Business Event Formats
 
-You pick which company-run event shape a company runs this year: invite-only dinner or roundtable, executive summit, single-city user conference, multi-city roadshow, or floor-primary event. Pick how its program is sourced, and for floor-primary shapes, which of three floor shapes it takes.
+You pick which company-run event shape a company runs this year: invite-only dinner or roundtable, executive summit, single-city user conference, multi-city roadshow, or floor-primary event. Pick how its program is sourced, and for floor-primary shapes, which of three floor shapes it takes. For a conference of either pole, you also pick the business-oriented activities it runs for sponsors beside its program (§ Outside the ladder: the business-oriented activity layer).
 
 Decide the shape and stop. Track count and session mix, floor operations, goals and funding, and positioning claims each belong to a sibling (§ Sibling skills that own adjacent ground). Never re-derive them.
 
@@ -28,11 +28,11 @@ Every effort, value and compliance ordering below is argued from these shapes' m
 - **`samber/dev-event-organizer-skills@corporate-event-strategy`**: names this skill by `owner/repo@skill` as owner of the company-run shape catalog, and tells its reader never to re-derive which shape to run. It owns the goal mix, the funding and the measurement commitment: this skill answers _which shape_, that one answers _why, funded by whom, measured how_. It does **not** own access pricing, which is `samber/dev-event-organizer-skills@event-ticket-pricing`'s.
 - **`samber/dev-event-organizer-skills@event-positioning`**: its governance spectrum argues what a company-run event can honestly claim about itself, including the roughly 30-40% single-vendor-content share above which a neutrality claim is forfeit (a reasoned default, not an industry standard). The program-sourcing menu picks the posture; that skill decides what the posture entitles the event to say. Cite it, and never re-derive an identity claim here.
 
-The sponsor block (`samber/dev-event-organizer-skills@event-sponsor-value-proposition`, `-pricing`, `-prospectus`, `-agreement` and `-fulfillment`) owns none of this. A summit and a roadshow change what a sponsor is buying; this skill states the shape, and those skills price and deliver against it.
+The sponsor block (`samber/dev-event-organizer-skills@event-sponsor-value-proposition`, `-pricing`, `-prospectus`, `-agreement` and `-fulfillment`) owns none of this. A summit and a roadshow change what a sponsor is buying; this skill states the shape, and those skills price and deliver against it. For the activity layer, the value proposition names the categories each segment buys, this skill picks the activities that deliver them, and the rest of the block prices and fulfils them.
 
 ## Interview
 
-Ask one question at a time, multiple-choice where possible. Questions 3, 6, 8 and 10 exist because the menus below diverge on which value is being bought, not merely on how much it costs. Those defaults cannot be picked for the user.
+Ask one question at a time, multiple-choice where possible. Questions 3, 6, 8, 10 and 11 exist because the menus below diverge on which value is being bought, not merely on how much it costs. Those defaults cannot be picked for the user.
 
 1. Which decision is on the table: the whole shape from scratch, or one axis (program sourcing, floor shape)? Skip menus already settled.
 2. Who is the intended attendee, named: existing customers, buyers inside a target-account list, the broad developer public, or partners and ecosystem builders?
@@ -44,11 +44,12 @@ Ask one question at a time, multiple-choice where possible. Questions 3, 6, 8 an
 8. What is the effort ceiling: how many people can own this end to end, how much runway exists, and how much political capital to tell an executive their slot is not on the agenda?
 9. What already exists that would overturn a default: a field-marketing team running city events, a venue you control, a partner ecosystem exhibiting elsewhere, an advisory board already meeting, a recorded-content pipeline?
 10. Is the partner and ecosystem story what you are selling this year, or is the product?
+11. Conference with sponsors, either pole: what does each sponsor segment buy (recruiting, product feedback, selling, partnerships), and which activities does the program contain beyond talks? Which of those do the local alternatives already run? (Decides the activity-layer menu.)
 
 ## Workflow
 
 1. Run the interview; skip settled menus (Q1).
-2. Confirm this is a company-run event. If the user is a community or volunteer organizer, route to `samber/dev-event-organizer-skills@event-format-selection` and stop: its ladder serves community-run events.
+2. Confirm this is a company-run event. If the user is a community or volunteer organizer, route to `samber/dev-event-organizer-skills@event-format-selection` and stop: its ladder serves community-run events. One exception: a conference of either pole asking what to offer sponsors beyond talks runs only the activity-layer menu (§ Outside the ladder: the business-oriented activity layer), then stops.
 3. Fix the value axis from Q3 before touching the shape ladder. Volume selects the reach axis; a named account list selects the account-depth axis.
 4. Pick the **shape** from the ladder, applying its delete rule before ranking anything.
 5. Pick the **program-sourcing posture**, applying its delete rule.
@@ -57,7 +58,7 @@ Ask one question at a time, multiple-choice where possible. Questions 3, 6, 8 an
 8. Present 2-3 candidate shapes with trade-offs and one recommendation. Validate section by section, never as one block, and get explicit approval before finalizing.
 9. Hand off: the chosen shape goes to `samber/dev-event-organizer-skills@event-format-selection` for internal structure, to `samber/dev-event-organizer-skills@corporate-event-strategy` for goals and funding, and to `samber/dev-event-organizer-skills@event-positioning` for what the shape entitles you to claim.
 
-Every ranking below is a default, not a law. It shifts with context and with who executes it. Re-rank all three menus against Q9 before recommending anything:
+Every ranking below is a default, not a law. It shifts with context and with who executes it. Re-rank every menu against Q9 before recommending anything:
 
 - A field-marketing team already on the road makes the roadshow's marginal city near-free and promotes it a rung.
 - An advisory board already meeting makes the summit nearly an agenda change rather than a new event.
@@ -127,6 +128,41 @@ No pair strictly dominates. The two third-party-rung pairs split because ecosyst
 - **Program-plus-floor event**: **the starved option.** Top of ecosystem visibility, top of effort, so it never wins an efficiency round. Promotion condition: Q10 says the ecosystem rather than the product is what you're selling this year, so the program exists to give partners something to be adjacent to.
 - **Presence on a third party's floor**: pick this when Q4 produced no audience of your own. It is the only rung that borrows an assembled audience, and the only one this collection cannot support afterwards: `samber/dev-event-organizer-skills@event-booth-experience` serves the organizer who owns the hall, not a company exhibiting on it. Say that limit out loud instead of improvising booth advice.
 
+## Outside the ladder: the business-oriented activity layer
+
+For a conference of one or several days, at either pole. It is not a company-run shape, so it sits outside the ladder and its ranking lines. A conference with a business-oriented approach convinces sponsors more easily than one that only showcases talks: sponsors often cannot see the value alone, and talks deliver little of what they buy. In effect the attendees are what a sponsor buys access to - presence and conversations, never a list.
+
+Whether the layer belongs in the event's promise is `samber/dev-event-organizer-skills@event-positioning`'s call; which categories each sponsor segment buys is `samber/dev-event-organizer-skills@event-sponsor-value-proposition`'s. This menu picks the activities. Two rules run before any ranking:
+
+- **Coherence** - every activity answers a category a sponsor segment actually buys (Q11), and every category the prospectus claims has an activity behind it. Delete an activity no segment buys: it becomes staffed empty space.
+- **Outside the CFP program** - sponsor activities run beside the program (breaks, a separate room, a side slot), never as CFP sessions. A sponsor activity scheduled as a talk is the sold program slot `samber/dev-event-organizer-skills@event-format-selection`'s community-pole guardrail forbids. Delete it, not demote it.
+
+Ranking (default, not a law - re-rank against Q11 and Q9):
+
+- effort (setup, staffing, scheduling, opt-in handling): `matchmaking > hands-on product feedback session > opt-in demo space > hiring corner`
+- value (depth of the attendee-sponsor conversation, per attendee who opts in): `matchmaking > hands-on product feedback session > hiring corner > opt-in demo space`
+- compliance cost (attendee data that moves, consent to collect): `matchmaking > hiring corner > hands-on product feedback session > opt-in demo space`
+- efficiency (conversation depth per unit effort): `hiring corner > opt-in demo space > hands-on product feedback session > matchmaking`
+
+One pair nearly dominates: the hiring corner beats the opt-in demo space on effort and value. Compliance blocks it, because CVs and contact details move at a hiring corner and nothing has to move at a demo space. Every other pair trades effort for value. The ranking only orders activities that already passed the coherence rule; a deep activity for a category nobody buys is still deleted.
+
+- **Hiring corner** - the default when a sponsor segment recruits. A staffed table and a job board beside the coffee, where an attendee asks about a role on their own initiative. Contact details and CVs move only when the attendee hands them over.
+- **Opt-in demo space** - the default when a segment sells. Attendees choose to walk in; nobody is routed through it. Lowest compliance cost. Its physical layout belongs to `samber/dev-event-organizer-skills@event-booth-experience`.
+- **Hands-on product feedback session** - attendees who signed up try a sponsor's product while its product team watches and asks. Promote it when a segment buys product feedback **and** the sponsor sends product people, not sales. Ask consent before recording anything.
+- **Matchmaking** - **the starved option.** Top of value, top of effort and compliance, so efficiency never picks it. Promotion condition: a segment buying sales or partnership conversations, attendees who ask for meetings, and someone to run the scheduling. At a community-run event, meetings are attendee-initiated or double opt-in only, and never a list handed over.
+
+The four rungs are starting points, not a catalog to tick. Do not copy another event's activity recipe: in a city already saturated with events, an activity nobody nearby runs differentiates the conference for sponsors as much as for attendees. Pricing and packaging go to `samber/dev-event-organizer-skills@event-sponsor-pricing` and `-prospectus`; on-site delivery goes to `samber/dev-event-organizer-skills@event-sponsor-fulfillment`.
+
+## Outside the ladder: hosting a community breakfast
+
+A company can buy local presence without running any shape above: host a community-run meetup's breakfast. It is not a company-run shape, so it sits outside every menu and ranking line.
+
+- **What it is** - a weekday morning, roughly 8:00 to 10:30, in the company's own space. The company pays the room and coffee; the community organizers run the program. Hosts rotate among large local actors from one edition to the next.
+- **Program shapes seen** - a news review then a round-table, an expert panel, a beginner-friendly session.
+- **What it buys the host** - local visibility, and business introductions between attendees and the host as a side effect.
+- **Failure mode** - the host's calendar decides the dates and the host's brand dominates the room. The community then reads it as the host's event, and the next host declines. Leave program control with the organizers, and agree in writing what the host gets.
+- **Routing** - the format and its mechanics belong to `samber/dev-event-organizer-skills@event-format-selection` § Recurring meetup variants. A company that wants program control is choosing a company-run shape instead: come back to the ladder.
+
 ## Failure modes
 
 - **Ranking the shape ladder before Q3 is answered.** The two value axes are exact inverses, so an unanswered Q3 leaves the ladder genuinely unordered. A recommendation made anyway is really a recommendation to run the cheapest thing.
@@ -136,7 +172,10 @@ No pair strictly dominates. The two third-party-rung pairs split because ecosyst
 - **Answering floor questions inside this skill.** The moment the conversation reaches layout, tiers, power or setup windows, it has left this skill. Hand it over mid-sentence.
 - **Deciding the shape and the goals together.** Shape is here; goal mix, funding and metrics are `samber/dev-event-organizer-skills@corporate-event-strategy`. A shape chosen to fit a metric nobody agreed on gets rebuilt after the budget conversation.
 - **A company-supplied program marketed to non-customers.** That is the delete condition on the sourcing menu, not a rung to demote. It is the failure `samber/dev-event-organizer-skills@event-positioning`'s neutrality threshold exists to catch.
-- **Copying a named company's shape without its constraints.** The precedents describe how those companies talk about their own events, not a template. Import the reasoning; the audience, launch cadence and installed base are not transferable.
+- **Turning a hosted community breakfast into a company event.** Taking over the calendar or the stage forfeits the visibility the hosting bought. Fix: § Outside the ladder; pick a company-run shape if control is the goal.
+- **A talks-only conference sold on business value.** The prospectus claims recruiting, feedback or sales access the program never stages, and renewals fail. Fix: § Outside the ladder: the business-oriented activity layer, one activity per category claimed.
+- **A sponsor activity inside the CFP program.** A product demo or hiring pitch scheduled as a session is a sold program slot, whatever it is called. Move it beside the program.
+- **Copying a named company's shape without its constraints.** The precedents describe how those companies talk about their own events, not a template. Import the reasoning; the audience, launch cadence and installed base are not transferable. The same holds for another event's sponsor activities: copied, they differentiate nothing.
 
 ## Measurement
 
@@ -145,6 +184,7 @@ Every check below is a gate set in advance, not a threshold read off a benchmark
 - **Shape-versus-axis check**: name in advance, in writing, what the shape had to move on the axis Q3 selected: accounts touched for depth, or people reached for volume. A shape that scored well on the axis not picked chose the wrong rung, however good the event felt.
 - **Roadshow stop rule**: fix before the first city what a stop must return for the next one to run, and hold to it. This is the only defence available against a marginal-city question that has no general answer.
 - **Sourcing-posture check**: if the posture was mixed or open, count how many company slots ended up on the program against what was planned. Drift here is what turns a labelled program into the deleted rung by accident.
+- **Activity-layer check**: per activity, count the sponsors who used it and the attendees who opted in, against a level fixed in advance. An activity no sponsor used argues for cutting it next edition; a claimed category with no activity is a coherence failure, not a sales one.
 - **Floor-shape check**: count exhibitors who returned, not attendees who walked past. Attendee traffic reads on the floor's operation, which is `samber/dev-event-organizer-skills@event-booth-experience`'s outcome, not this skill's.
 
 ## Invocation examples
@@ -153,6 +193,8 @@ Every check below is a gate set in advance, not a threshold read off a benchmark
 - "We have eleven target accounts and a quarter. What kind of event moves them?"
 - "Should we run our own floor for partners, or just take a big booth at the industry show?"
 - "Our summit agenda is all product marketing. Is that a problem if we are inviting prospects?"
+- "A local AI meetup asked if they can run a breakfast in our office. What do we get, and what should we not do?"
+- "Our two-day community conference only has talks and sponsors keep asking what they get. What can we add without selling program slots?"
 
 Expected output: a shape brief with:
 
@@ -160,8 +202,9 @@ Expected output: a shape brief with:
 2. The chosen shape with the rungs deleted and the reason each was cut.
 3. The program-sourcing posture and what it entitles the event to claim.
 4. The floor shape when one applies.
-5. For each choice, the interview answer that would flip it next year.
-6. An explicit list of the questions handed to `corporate-event-strategy`, `event-format-selection` and `event-booth-experience`.
+5. For a conference with sponsors, the activity layer: one activity per category claimed, each placed outside the CFP program.
+6. For each choice, the interview answer that would flip it next year.
+7. An explicit list of the questions handed to `corporate-event-strategy`, `event-format-selection` and `event-booth-experience`.
 
 Presented section by section for validation, with 2-3 candidate shapes and one recommendation up front.
 

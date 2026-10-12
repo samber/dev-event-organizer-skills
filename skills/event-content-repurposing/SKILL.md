@@ -4,7 +4,7 @@ description: Turn one edition's already-captured material into derivative publis
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.1"
+  version: "1.1.0"
 ---
 
 # Event Content Repurposing
@@ -146,7 +146,9 @@ The `==` on new reach is argued rather than a dodge: neither an audio cut nor a 
 **Dominance audit:** one strict relation among the 5 rungs - the written write-up dominates the audio cut on both value axes and effort, and ranks above it. The other nine pairs are trades. Full audit: [references/decision-rationale.md](references/decision-rationale.md).
 
 - **Written write-up** - one piece covering what the sessions actually said, audience-facing rather than organizer-facing. Reusable as the link that answers "what is this event", which is why it leads on efficiency despite leading on neither value axis outright.
-- **Short clips** - a cut from the master carrying one moment worth watching without deciding to. Tops new reach because a clip travels through other people's feeds. Finding the moment is the work, not the cut.
+- **Short clips** - a cut from the master carrying one moment worth watching without deciding to. Tops new reach because a clip travels through other people's feeds. Finding the moment is the work, not the cut. Organizers confirm that clips need real extraction work, and report two ways to lower it:
+  - **Automatic clip tools.** An automatically generated clip from an invited speaker's session can draw notable views. Review every generated clip by a human before publishing - the tool finds a moment, not a consent check.
+  - **Wider clip sources.** Key conference moments (an opening, a full room, a closing) and behind-the-scenes footage of the organizing work also make clips. Both usually show identifiable attendees, so both sit at the top rung of Menu 4. Behind-the-scenes footage is about the organizing, which overlaps the debrief's subject - keep it a clip, not a recap.
 - **Social thread from the archive** - photos, quotes and links assembled from what already exists. Near-zero effort, near-zero durability, reaches only people who were already there.
 - **Transcript-derived text page** - the talk as searchable, quotable, translatable text. Tops durability because search keeps finding it long after a feed has moved on. Tops effort too: a correction pass per talk across a programme is a standing job.
 - **Audio cut** - the talk as audio. Dominated by the write-up and last on efficiency: a one-off audio file with no property behind it has nowhere to land. Stops being dominated once Q8 says a standing audio property already exists - building one is `samber/dev-event-organizer-skills@tech-podcast-youtube-channel`'s job.
@@ -242,6 +244,8 @@ Where either bites, publish without an open licence and say so.
 - **Quoting a turnaround as an industry norm.** A release grants a permission, not a publication date. Publish your own date as your own promise.
 - **Writing a recap that competes with the debrief's.** Two documents about the same edition, one about the sessions and one about the organizing, are fine. One document trying to be both serves neither reader.
 - **Setting a view target.** A number nobody measured becomes the thing the plan is judged on.
+- **Repurposing only the flagship edition.** Video channels get posted to mostly around the biggest conferences. Smaller editions then produce nothing repurposable, and the next campaign has no inventory from them. Fix: give every edition at least the cheapest rung - a dump with a date, or one clip - or record "no derivatives this edition" as a decision.
+- **Editing a stream recording that was meant to stay raw.** An unedited live-stream recording published as-is is the master, owned by `samber/dev-event-organizer-skills@event-production`, not a derivative. Organizers in the same network use it precisely because it skips editing; a standing stream series is `samber/dev-event-organizer-skills@tech-podcast-youtube-channel`'s format choice. Cut clips from it; do not re-edit it.
 
 ## Measurement
 

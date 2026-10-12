@@ -4,7 +4,7 @@ description: Run the speaker-side experience from the moment a speaker confirms 
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
 # Event Speaker Experience
@@ -41,6 +41,9 @@ Ask one question at a time, multiple-choice where possible. Questions 4-6 exist 
 8. Who is speaking for the first time, or for the first time at this scale? Ask rather than assume - a senior engineer's first conference talk is still a first talk.
 9. What does the venue actually give you: a green room or not, a house A/V technician or a volunteer with an adapter, a confidence monitor or not?
 10. Is any speaker presenting material their employer restricts, or otherwise sensitive?
+11. How mixed is the room: developers only, or developers alongside non-technical attendees? A mixed room changes the brief (depth gradient, jargon) and the question format.
+12. Does the event promise a recurring moment every edition, and who on the team has hours to coach speakers toward it? (See Talk coaching.)
+13. Is the event outside the region's main hub, so most invited speakers travel in from elsewhere?
 
 ## Community-run vs vendor/user conference
 
@@ -64,8 +67,10 @@ Say which pole a recommendation assumes whenever they differ, and treat every ve
    - On-site arrival instructions.
    - The contact from step 2.
    - Whether the deck is collected right after the talk for redistribution to attendees, if that is this event's practice - tell the speaker before they build it, not while they are still on stage.
+   - The commercial-content rule, in one line: no commercial demo or sales pitch; the audience leaves with the lesson, not the product. It repeats the line the acceptance email carried (`samber/dev-event-organizer-skills@event-talk-selection`), so a vendor or start-up speaker hears it twice before building the deck.
+   - For a mixed room (Q11): define every term half the room may not know, the first time it appears, and expect few spoken questions. See Mixed rooms below.
 5. **Collect A/V requirements early enough to act on them.** The date that matters is the last date the venue can still add something, not the day before - an adapter, a second microphone, a wired network drop, an audio feed for a demo. Ask what the talk does, not just what the laptop is: a live demo, an audio clip, a hardware prop and an internet dependency each fails differently.
-6. **Brief the speaker on what to expect**, at the depth the care menu sets. Where an established orientation course exists for your event's community, recommending it is close to free and carries more weight than your own briefing paragraph. Structure a written brief as an outcome, not a topic reminder: the state you want the room in when the talk ends, plus the specific bad habit this slot should counter (a rushed opening act, over-claiming what a tool replaces, whatever this programme's own recurring failure is) - naming the failure mode is what a slot-and-subject reminder never does.
+6. **Brief the speaker on what to expect**, at the depth the care menu sets. Where an established orientation course exists for your event's community, recommending it is close to free and carries more weight than your own briefing paragraph. Structure a written brief as an outcome, not a topic reminder: the state you want the room in when the talk ends, plus the specific bad habit this slot should counter (a rushed opening act, over-claiming what a tool replaces, whatever this programme's own recurring failure is) - naming the failure mode is what a slot-and-subject reminder never does. For a mixed room, add the depth gradient: where the talk sits in the evening's broad-to-advanced order, and the instruction to open broad and end deep (see Talk coaching).
 7. **Hold the slide deadline as a real checkpoint**, not a suggestion. State what happens if it slips, and be honest if the answer is nothing.
 8. **Run the pre-event cadence** from the menu below, per speaker rather than as one broadcast.
 9. **On site: host, tech check, green room** - the host from step 2 meets the speaker, walks them to their room, runs the tech check on the actual stage equipment, and knows where they are before their slot. The operating detail is in [references/onsite-speaker-care.md](references/onsite-speaker-care.md). The minute-by-minute conduct of the day belongs to `samber/dev-event-organizer-skills@event-run-of-show`, and speaker timing needs are an input you hand to it.
@@ -101,6 +106,26 @@ What you add on top of what was promised. Anything the call or the invitation al
 - **Speakers' dinner and small appreciation gifts** - a real budgeted expense line, not a nice-to-have somebody improvised. Promote it whenever Q5 says the edition recurs: it is the rung that turns a speaker into next year's referral, and its return lands entirely after this edition is over.
 - **Travel and lodging concierge** - the starved option: book and pay for flights and hotel on the speaker's behalf rather than reimbursing. It ties for the top of value and tops both effort and compliance cost outright, so efficiency never picks it. Promote it for any international speaker, for any speaker who cannot front the cost of a flight - reimbursement quietly filters your lineup by who has a spare month of salary - and wherever a visa letter is needed. Handle the documents it requires under a stated retention limit. See step 10.
 - **Deleted, not demoted: improvised per-speaker care with nothing written down.** Warm messages in a private channel, deadlines that live in one organizer's head, terms agreed verbally. It looks like the friendliest rung on the menu and it is the one that drops a commitment, because nothing outside one person's memory says what was promised. Parked at the bottom it comes back as "we know our speakers personally." It is out.
+
+**Out-of-hub events** (Q13). Organizers of regional meetups report that speakers based in the capital rarely travel to regional events unless travel and lodging are covered. For such an event, travel plus lodging is part of what the invitation promised, not a care rung: it sits below this menu's line and is delivered, never ranked. Reimbursing travel is normal practice; a speaking fee is not, and nothing here creates one. If the invitation said travel only, escalate the missing night at step 1 rather than letting the speaker discover it.
+
+## Talk coaching
+
+Rehearsal (above, under first-time speakers) checks that a talk runs. Coaching shapes what the talk does for this room.
+
+- **Why it belongs here**: if the event promises a memorable moment every edition (Q12), selection alone cannot deliver it. The reported chain is a shared good-talk framework, coaching against it, then rehearsal. Break any link and the promise rests on luck.
+- **Share one framework**: write a short, shared description of a good talk at this event - the outcome for the room, the depth gradient, the commercial-content rule, the jargon rule. Use the same text the committee scored against in `samber/dev-event-organizer-skills@event-talk-selection`.
+- **Coach the funnel**: for a mixed room, help the speaker open where nearly everyone follows and end on material most of the room cannot follow. The reported heuristic: if the speaker did not lose most of the room by the end, the talk did not go deep enough.
+- **Stay on the organizer's side of the line**: coach structure, depth and fit against the brief. The content stays the speaker's own work; point them at `samber/developer-relations-skills@tech-talk-outline` for building it.
+- **Budget the hours up front**: coaching is often the first task dropped when organizers are busy, and talk quality suffers as a result. Book coaching time per speaker in the cadence (step 8) as a named task, and if the hours do not exist this edition, tell whoever owns the brand promise.
+
+## Mixed rooms and silent questions
+
+In mixed-room talks, unexplained jargon can go unquestioned: attendees don't want to admit not knowing it.
+
+- Brief speakers to define each term on first use, and to show one concrete example before the abstraction.
+- Offer an anonymous question channel alongside spoken questions: a shared form, a chat link on the slide, or written cards collected by the host. Tell the speaker in the packet, so they expect questions from it.
+- Have the host read the anonymous questions aloud, starting with the most basic one. It signals that basic questions are welcome.
 
 ## Recording-consent posture
 
@@ -158,6 +183,9 @@ Speaker mentorship programmes work on proposal drafts and close before acceptanc
 - **Leaving first-time speakers unsupported after acceptance.** Mentorship closes at the proposal stage, so assuming somebody else's programme covers this window is how it stays uncovered.
 - **Treating accessibility and dietary answers as trivia.** They were asked for a reason and they have a delivery deadline like any other material.
 - **Keeping passports, tickets and payment details after the event.** Travel handling collects the most sensitive data in this skill. Delete on a stated schedule rather than when someone remembers.
+- **Coaching dropped under load.** The brand promise stays in the marketing while coaching hours vanish from the calendar. Book them as tasks, or soften the promise.
+- **Unasked jargon.** A speaker uses a term half the room does not know, nobody asks, and the room disengages quietly. Brief the definition rule and open an anonymous question channel.
+- **Treating lodging as a perk at a regional event.** A hub-based speaker invited with travel but no night cannot come home the same evening. For an out-of-hub event, travel plus lodging is the offer.
 - **Discovering a speaker's arrival time on the day.** It belongs in the cadence, not in a corridor conversation.
 
 ## Measurement
@@ -193,7 +221,7 @@ Carry anything promised earlier through unchanged, and label every judged or sel
 
 ## References
 
-- `samber/dev-event-organizer-skills@event-talk-selection` - sends the acceptance email this skill starts from.
+- `samber/dev-event-organizer-skills@event-talk-selection` - sends the acceptance email this skill starts from, and scores proposals against the shared good-talk framework this skill coaches toward.
 - `samber/dev-event-organizer-skills@event-cfp-design` - set the speaker benefits and perks this skill delivers.
 - `samber/dev-event-organizer-skills@event-hospitality` - the population-agnostic fundamentals this skill layers on.
 - `samber/dev-event-organizer-skills@event-run-of-show` - owns the day-of minute-by-minute document. Hand it your speakers' timing needs.

@@ -4,7 +4,7 @@ description: Read whether a technical event's concept, audience and price combin
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.0"
+  version: "1.1.1"
 ---
 
 # Event Market Fit
@@ -46,7 +46,7 @@ What changes the signal set is who owns the event (same split the sibling launch
 7. Compose the read (menu 2) into one of four calls, then check the failure differential in the reference before a pivot or stop verdict; shutdown-looking evidence is often a trust, governance, or logistics story, not a demand story.
    - **go** - signals green; route to the launch or growth sibling.
    - **hold-and-fix** - demand exists, experience or ROI leaks; fix before scaling.
-   - **pivot** - concept/price/audience misaligned.
+   - **pivot** - concept/price/audience misaligned. Before choosing it, rule out an audience-level split and a specialist-competitor drain (failure modes below); both look like misalignment and are cheaper to fix in positioning.
    - **stop** - no job, saturated niche, or a persistently failing composite.
 8. If the call is pivot, enter brainstorming mode before drafting anything: 2-3 candidate pivots (narrower vertical, different audience, different price/format band) with trade-offs and a recommendation, questions one at a time, validated section by section.
 9. Deliver the demand read (output shape below) section by section, validating each with the user, then hand the response off.
@@ -97,6 +97,10 @@ A single-signal go/no-go ("it sold out fast, therefore fit") is deleted from thi
 - **Curiosity read as intent.** Free RSVPs, undeposited waitlists, social reach. A waitlist only predicts revenue if its conversion target was declared before it opened; a post-sellout waitlist is strong evidence, a pre-launch one is a mailing list.
 - **Acquisition and retention blended.** A sold-out first edition with weak year-two return is a first-impression win and an experience failure; two different problems with two different owners. Report "did they buy" and "did they come back" as two numbers, never one.
 - **Press-reported shutdowns as demand evidence.** Check whether the organizer's own account cites demand (sales, sponsors, attendance) versus trust, governance, or fraud before using any shutdown as a comparable; the reference carries both kinds, including one contested case with three competing readings from parties directly involved.
+- **A level split read as a demand verdict.** Mixed-level rooms return contradictory feedback - "too technical" and "not technical enough" on the same session. That pair is an undecided audience level, not weak demand. Route it to `samber/dev-event-organizer-skills@event-positioning`'s audience-level decision before calling hold or pivot.
+- **A drained segment read as falling demand.** Specialist meetups on one framework or tool can drain a generalist community's most advanced attendees. Falling attendance concentrated in the advanced segment is a positioning question; check who stopped coming before reading the total.
+- **A promise the event cannot keep, read as a demand gap.** Weak return after a strong first edition can mean the headline promise was undeliverable, not that the job is gone. Check delivery against `samber/dev-event-organizer-skills@event-positioning`'s promise-feasibility check first.
+- **Assuming a technology-scoped concept stays durable.** One organizer argued that communities scoped to one programming language will not last as AI tools reduce language importance - an opinion, not evidence. Treat it as a reason to re-read the composite on a technology-scoped event every edition, never as a stop signal on its own.
 - **First edition measured against mature-brand sellout speed.** Seconds-to-sellout stories come from decade-old brands; a first edition with real demand can still sell slowly because anxiety (unproven event) outweighs pull until the first edition proves itself.
 
 ## Measurement
@@ -109,6 +113,7 @@ Thresholds this skill reads against, each labelled sourced, synthesis or self-se
 - Sponsor renewal ≥70% per edition (sourced).
 - CFP oversubscription 2-3:1 on a first CFP (sourced for flagship 6.5:1; this is a scaled-down proxy); undersubscription is a sourced stop signal.
 - Waitlist conversion target (self-set per event, only valid if set before the list opens).
+- Return rate split by audience level or segment, when the event serves more than one (self-set). A total that holds while the advanced segment falls is the drain signal.
 
 Success for this skill's own output: every signal in the read carries its number, its threshold, its confidence label (sourced / synthesis / self-set), and its stage; the final call cites at least two independent signal classes, never one.
 
@@ -138,3 +143,4 @@ Expected output, delivered section by section for validation, not as one block:
 - `samber/dev-event-organizer-skills@event-growth-strategy` - consumes a green composite read; owns every scaling lever.
 - `samber/dev-event-organizer-skills@event-ticket-pricing` - owns the pricing response when the differential points at price, not demand.
 - `samber/dev-event-organizer-skills@event-marketing-plan` - owns the visibility-push response when the differential points at execution, not demand.
+- `samber/dev-event-organizer-skills@event-portfolio-strategy` - turns a pivot or stop read on falling attendance into a dated call: change the recipe for a fixed number of editions with a named test, then keep or retire.

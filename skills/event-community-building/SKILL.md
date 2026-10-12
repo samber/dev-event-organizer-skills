@@ -4,7 +4,7 @@ description: Animate one recurring technical event's own audience in the gaps be
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.1"
+  version: "1.1.0"
 ---
 
 # Event Community Building
@@ -89,7 +89,7 @@ Say which pole a recommendation assumes whenever the two differ. This split is t
 5. Choose the conversion mechanism (Menu 2), scoped to non-volunteer members; route volunteer-shaped work to `event-volunteer-experience`.
 6. Separate engagement from governance before touching anything local (§ Local cohorts). This is the easiest line here to cross without noticing.
 7. Write the Menu 3 handoff now, not when someone leaves. Include the member list's owner and retention decision, restated.
-8. Publish what the space is for and isn't. An unstated job drifts into a support channel, a job board, or silence.
+8. Publish what the space is for and isn't. An unstated job drifts into a support channel, a job board, or silence. Recruiting requests arrive anyway; give them one bounded outlet rather than the open floor (§ Recruiting requests).
 9. Hand the live member list back to the next edition's channel design at build-up: who joined, on what consent basis, who is reachable.
 10. Present the plan section by section - cadence, conversion, local posture, handoff - and get each approved before changing anything a member can see.
 
@@ -149,15 +149,32 @@ No compliance-cost axis. Every rung reaches people through the attendee list, wh
 - **Delete, never demote:** auto-enrolling every registrant as a member. Manufactures the membership number and spends a ticketing consent basis on a purpose it never granted.
 - **Conditional delete:** fed local cohort where Q5 is one city that doesn't travel - that "cohort" is just your audience, and animating it is Menu 1's job.
 
+### Renewal lever outside the menu: alternate the topic domain
+
+Every rung above converts _last_ edition's audience, so a menu that works perfectly can still close the room in on itself. One series alternated topic domains from one edition to the next (technical, marketing, HR, human topics). It reported roughly two in five attendees as first-timers by show of hands.
+
+- Treat it as a lever on newcomer share (§ Measurement), not a conversion rung: it pulls new people in rather than bringing old ones back.
+- Cost: regulars who came for one domain skip the editions outside it, so carry rate can dip while newcomer share rises.
+- Settle the topic boundary with `samber/dev-event-organizer-skills@event-format-selection` and the register with `event-cultural-identity`, so alternation never reads as a change of identity.
+
 ## Local cohorts: the engagement half only
 
-`event-portfolio-strategy` names the brand-licensing half a genuine gap: "recruiting, vetting and enforcing standards on teams you do not run", which no skill in this collection covers. `event-growth-strategy` puts the decentralized franchise model outside its own scope as well.
+`event-portfolio-strategy` names the brand-licensing half a genuine gap: "recruiting, vetting and enforcing standards on teams you do not run". `event-growth-strategy` puts the decentralized franchise model outside its own scope as well. For the governance of a network of independent chapters, route to `samber/dev-event-organizer-skills@event-team-structure`, § Peer network of independent communities.
 
 Own the engagement half only: keep a local group of your own event's audience warm between visits, in your register, on your surface. The moment the question turns to who may use the brand, or how an independently-run team is vetted, you are standing in that gap. Say so and stop.
 
 The test, this skill's own construction: **does anyone outside your organizing team run an event under your name as a result of this?** Yes means governance, not yours. A chat sub-space, local thread or list segment your team still owns means engagement, yours.
 
 Published chapter models bundle the two halves, so expect to separate them by hand. Read [references/returning-participant-ladder.md](references/returning-participant-ladder.md) for the worked split.
+
+## Recruiting requests
+
+Organizers report a constant stream of "can you introduce me to..." and "do you know someone to hire..." requests. Left open, the standing space turns into a job board, which is the drift Workflow step 8 warns about.
+
+- **Bounded announcement round** - a short slot at the start of each live gathering - "who is looking for work, who is looking for a freelancer or a hire?" State the purpose and the time limit upfront, then close it. Requests get a home, and the rest of the evening stays free of them.
+- In the standing space, mirror it with one pinned, dated thread per edition cycle rather than open posting.
+- Set the slot length yourself; the report gives none.
+- Route anything about the event team's own hiring, or a sponsor's recruiting rights, to `samber/dev-event-organizer-skills@dev-event-hiring`.
 
 ## Menu 3 - Handoff of the community asset
 
@@ -195,7 +212,9 @@ Compliance cost here is not Menu 1's. A handoff is the moment a credential chang
 - **Re-running the volunteer alumni loop** because past volunteers are in the space. Not yours; that skill owns the list, thanks, and flag.
 - **Designing a relay mini-event.** The moment a touchpoint needs a venue, schedule, or speaker, it's an event property for `event-portfolio-strategy`.
 - **Treating the member list as inherited, not decided.** It outlives its edition. Fix: owner and retention decision on day one, restated at every handoff.
-- **Measuring the space instead of the edition.** A noisier space isn't a returning audience. Fix: carry rate is the only number that answers this skill's question.
+- **Measuring the space instead of the edition.** A noisier space isn't a returning audience. Fix: carry rate is the number that answers this skill's question, read beside newcomer share.
+- **Closing in on the regulars.** A rising carry rate with a shrinking newcomer share reads as success and is a room closing in. Organizers disagreed here: some hold that a stable core "carries and federates" newcomers, others that too many repeat faces signals closure. Fix: target a ratio of the two, self-set, not either number alone.
+- **Letting the space drift into a job board.** Recruiting and introduction requests never stop. Fix: one bounded outlet, stated upfront (§ Recruiting requests), with the hiring side routed to `samber/dev-event-organizer-skills@dev-event-hiring`.
 - **Programming into a gap nobody has capacity for.** Choose the posture against Q8's honest answer, not the team's intentions the week after the event.
 
 ## Measurement
@@ -203,6 +222,7 @@ Compliance cost here is not Menu 1's. A handoff is the moment a credential chang
 Every threshold here is self-set rather than an industry benchmark. Fix each one before the gap starts, never after the data arrives.
 
 - **Carry rate** (self-set): the share of one edition's attendees who register for the next one - the skill's own outcome number, handed to `event-market-fit`. Industry-blended context (Freeman's Ken Holsinger, _Trade Show Executive_, 2025): "our industry's blended retention rate is barely above 30%" - blends every event type, none a technical conference. Read as evidence return rates run lower than assumed, never as a target.
+- **Newcomer share** (self-set, counter-metric to carry rate): the share of an edition's attendees who are there for the first time. Collect it by show of hands at the opening, or by a "first time here?" field on the registration form, which `event-attendee-email-sequences`' consent basis already covers. Reported values are roughly a third for one long-running monthly series and roughly two in five for one series alternating topic domains. Read those as two data points, never a target. Set the target as a ratio band against carry rate: either number alone rewards the wrong room.
 - **Cadence kept** (gate, binary): posts planned versus posts made in the gap, on the posture chosen. This is the honest read on whether the rung was affordable, and it is the input to next gap's choice - two missed cycles is a demotion signal, not a discipline problem.
 - **List integrity** (gate): the member list has a named owner and a written retention decision, on the day the gap starts. Failing this is failing the compliance axis, whatever the engagement looks like.
 - **Handoff readiness** (gate): the access document exists, is dated, and names a living holder for every account. Check it on a schedule, not when someone resigns.
@@ -216,6 +236,7 @@ Pass threshold, iterated until met: all three gates. Each one checks against the
 - "Half our attendees are new every edition. How do we get last year's people to come back?"
 - "Our founder is stepping down and she owns the community Slack on her personal account. What has to happen?"
 - "People in three other cities keep asking to run a local version. Is that ours to say yes to?"
+- "The same forty faces come every time. Is that a healthy core or are we closing in?"
 
 Expected output: a between-editions plan with:
 

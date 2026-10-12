@@ -8,6 +8,15 @@ The program backbone. DevOpsDays' guide states ~30 minutes is a deliberately cho
 
 Costs a full CFP-or-invitation cycle per slot; produces the event's durable recorded assets. Community-event guardrail (CNCF, DevOpsDays, NorthSec): ban sales pitches from the curated track explicitly, in writing.
 
+## News recap block
+
+A segment opening a recurring meetup with field news since the last edition.
+
+- **Why it earns a slot:** in a fast-moving field, many attendees value it highly, and some come for it alone.
+- **Trade-off:** those who came only for it leave right after, and others find it too long. A long recap taxes everyone who came for the main session.
+- **Cost:** real preparation every edition: collecting, filtering and ranking the news. It is not free filler.
+- **Rules:** cap it (set the cap yourself; the report's 30 minutes drew "too long" complaints), name one owner per edition, and place it so leavers do not walk out across a speaker. Track departures after it as a session-mix signal.
+
 ## Ignite talk (5 minutes, 20 slides, auto-advancing)
 
 A named format from igniteshow.com, adopted as-is by DevOpsDays. Slides advance on a fixed timer - the presenter cannot control pacing; the mechanic, not organizer discipline, is what enforces the length.
@@ -40,6 +49,16 @@ Four-phase ceremony:
 4. Closing circle - a talking stick, one brief feeling each.
 
 Expect bumblebees (flit between sessions, cross-pollinating) and butterflies (stay put; their quiet conversations are often the most significant).
+
+### Small-group mechanics
+
+Figures are that report's, not a published standard.
+
+- **Cap each discussion group at about 10.** One round of speaking above 10 people takes an hour. A group of 13 was reported unworkable: split it.
+- **One convener per group** - naturally the person who proposed the topic. They want to discuss it and need not be an expert. Their job is balancing speaking time, not answering.
+- **Rotate after about 20 minutes**, so people meet more than one group.
+- **Capture by voice note per group**, then a short plenary synthesis. Cheaper than paper forms at a meetup, and the convener owns it.
+- **Quiet attendees benefit most.** People who spoke in a small group interacted more with others for the rest of the evening.
 
 Treat open space as a distinct structural option, not a lesser fixed-agenda track: it trades program control for self-selected relevance. DevOpsDays also uses it as the pressure valve for its content-mix rule - tool- and vendor-specific depth goes here, keeping the curated track conceptual.
 
@@ -85,3 +104,47 @@ Judge composition shapes the fit:
 - domain experts and sponsor reps work in any format, but need explicit rubric prompts to surface their priority in a time-boxed slot
 
 The scoring rubric and weights belong to `samber/dev-event-organizer-skills@hackathon-judging` - this catalog only covers which demo structure to run.
+
+## Recurring meetup variants
+
+The variants SKILL.md lists under the recurring-meetup rung. Figures are absent on purpose: set your own.
+
+### No-prerequisite discussion café
+
+- **What it is:** a monthly open roundtable. No talks, no expert framing. Pitch: "come with your questions and worries; people who know a bit will talk with you."
+- **Why:** meetups drift toward insiders, and a talk program assumes a baseline. The café is the on-ramp before deeper sessions.
+- **Cost:** a room and someone to host the table; no speakers.
+- **Failure modes:** experts take over and it becomes a talk; regulars treat it as their club. Brief the host to redirect to newcomers' questions.
+- **Mechanics:** reuse the small-group mechanics under § Open space once the table passes about 10.
+
+### Host-company breakfast
+
+- **What it is:** a weekday morning, roughly 8:00 to 10:30, at a host company that pays the room and coffee. Zero organizer cost. Hosts rotate among large local actors.
+- **Program shapes seen:** a news review then a round-table; an expert panel (see § Keynote, fireside chat, panel for the moderator condition); a beginner-friendly session.
+- **Side effect:** business introductions between attendees and hosts - a draw for managers and business roles, a cost for a purely technical crowd.
+- **Failure modes:** the host's calendar decides the dates, and the host's brand dominates the room. Fix: rotate hosts, keep program control, write down what the host gets.
+- **Slot effect:** a morning slot reaches people an evening excludes; see `samber/dev-event-organizer-skills@event-date-selection` § Time of day.
+
+### Bar-hosted after-work
+
+- **What it is:** an evening in a bar, with a sponsor paying drinks.
+- **Strength:** lowest setup cost, social by default.
+- **Failure modes:** noise kills any talk; the sponsor's role drifts into the program. Keep content to a short intro at most.
+
+### Rotating format
+
+- **What it is:** a series that cycles formats (dinner, lunch, after-work, talk, open session) and never reuses the same weekday and hour twice in a row.
+- **Why:** a fixed slot excludes the same people every time. One series reported stable attendance over years this way.
+- **Cost:** each edition needs its own announcement; regulars cannot rely on habit.
+
+### Cross-community joint evening
+
+- **What it is:** many local meetup groups (one report: around twenty) each run a stand or session in one venue on one night.
+- **Cost:** light coordination - one coordinator, a coworking host - but a real energy cost spread across every participating group.
+- **Why:** cross-pollination between communities that rarely meet. Occasional, never the cadence. Partner mechanics belong to `samber/dev-event-organizer-skills@cross-event-promotion`.
+
+### Street-level outreach
+
+- **What it is:** vox-pop video capsules, a stand at a seasonal market.
+- **Why:** general-public acculturation on the topic, reaching people who would never open a meetup page.
+- **Counting:** report it as outreach, never as meetup attendance.

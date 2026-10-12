@@ -4,7 +4,7 @@ description: Find and negotiate the venue for a technical event. Covers the writ
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
 # Event Venue Sourcing
@@ -56,6 +56,8 @@ This correlates with the collection's community-run vs. company-run split but is
 
 Two cheap artifacts pay for themselves across a multi-year relationship with the same venue, and belong in the handoff pack rather than in any one organizer's head: a short recorded video walkthrough of the venue's own idiosyncratic equipment (a sound desk, a coffee machine, a back-room setup a volunteer will have to operate), filmed once and reused; and a room/space inventory kept by striking through entries no longer available rather than deleting them - availability oscillates year to year, and a deleted line loses the memory of a room worth re-requesting later.
 
+**A shared venue database across chapters.** Organizers running several local chapters report wanting one venue database kept in a common tool, so a chapter does not rediscover rooms another chapter already vetted. Build it from the handoff pack and the options grid: one row per venue, with capacity, cost model (free, hosted, paid), host contact role rather than a personal name, the terms in writing, the last date used, and the strike-through rule above for rooms no longer available. Keep personal contact details out of anything shared beyond the organizing team.
+
 If your harness has persistent memory, record the signed terms and the rejected candidates: the cancellation curve, the insurance requirement, the attrition or minimum commitments, every requirement marked not-met with its workaround, and which venues were ruled out and why. The next edition's negotiation starts from this venue's own history, and a candidate rejected for a fixable reason is worth revisiting.
 
 ## Sourcing channel ladder
@@ -81,6 +83,14 @@ Every ranking in this skill is a default, not a law - it shifts with context and
 - **Coworking or community rental** - paid, but with the infrastructure already built in. The named fallback when no free rung works, cheaper than a bare rental plus the build-out it forces. It sits above company-hosted space on effort because being paid means it carries a search, a quote and a rental contract that an offered space does not. For a team-based event, a shared-office building can give each team a real closed room instead of a table in a hall - budget roughly one room per team plus a few spares. The known cost is that helpers get lost navigating a building nobody designed for a single event; when the venue will not consolidate the event onto fewer floors, the accepted fallback is a printed floor map plus signage, not another round asking for a room reshuffle.
 - **Bare commercial rental** - conference centre or hotel. The only rung that can meet any requirement at any scale, and the only one that carries the whole money mechanic. A paid bare venue also shifts infrastructure onto the organizer that a sponsored space absorbs - internet wiring, tables and chairs, a security team - and hidden and additional charges can double the event's total cost.
 - **Host sponsor buys the venue** - the starved option: a sponsor pays for a commercial venue on the organizer's behalf. Highest value on the menu and it loses on efficiency to every free rung, because it needs two negotiations and is gated on a sponsorship sale landing first. Promote it when a sponsor relationship already exists with budget in the right fiscal year _and_ the sheet needs a commercial-grade venue the event cannot fund itself.
+
+**Free-rung variants organizers report.** Organizers say free venues lower their risk, and name three shapes:
+
+- **School premises** - a school or university room, under the educational or civic rung.
+- **A host company paying room and coffee** - a company-hosted morning session where the host covers the room and the coffee. Write down who pays for what, so the host's contribution appears in the sponsor record rather than as an unrecorded favour.
+- **A coworking space hosting a multi-community evening** - several communities share one evening, and the coworking hosts it rather than renting it. This moves the coworking rung from paid to free for that format; agree in writing which community is the venue's contact.
+
+All three still need terms in writing (see the deleted handshake rung below).
 
 **Default rung: the highest-capacity free rung that meets the must-have lines** - educational or civic at conference scale, company-hosted below roughly an office floor. Move down to a paid rung only when no free rung meets the must-haves, or when the free rung's terms cost more than rent would: a sponsor-category restriction that blocks categories already sold, no setup-day access, or an academic calendar that kills every candidate window.
 
@@ -143,6 +153,7 @@ Competitive options beat structured bargaining on value because the grid moves t
 - **Discovering shipping and load-in on the day.** Ask during sourcing from what date shipments are accepted, to what address, with what receiving fees, what hours the team has access, and whether secure overnight storage covers sponsor equipment as well as the organizer's.
 - **Treating a free venue as free of terms.** A hosted space substitutes restrictions for fees - most commonly a limit on which other companies may sponsor or exhibit. Clarify it in writing before selling a single category.
 - **Overcommitting headcount, or pre-paying.** Avoid both until forced: adding a few extra plates is always cheaper and easier than having already paid for too many.
+- **Signing a large, prestigious venue before demand is proven.** A team committed to a big-name venue ahead of proven demand. When the scope had to shrink, sponsors withdrew after the cut, and the venue commitment turned into a budget crisis. The venue's prestige was the bet, and the bet was placed before the demand read. Fix: size the space program from Q1's sourced number, not from the venue the team wants; route a step-up to `samber/dev-event-organizer-skills@event-growth-strategy` first; and read the cancellation curve against a scope cut, not only against a full cancellation.
 - **Asking "can we run overnight?" as one question.** Overnight working is usually permitted where overnight sleeping is against fire code at the same address. Ask both, and get the answer in writing.
 
 ## Measurement

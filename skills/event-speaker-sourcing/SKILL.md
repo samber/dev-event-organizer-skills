@@ -4,7 +4,7 @@ description: Find and qualify speakers for a technical event outside the open ca
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
 # Event Speaker Sourcing
@@ -57,7 +57,7 @@ Say which pole a recommendation assumes when they differ.
 ## Workflow
 
 1. Run the interview; fix the trigger (Q1) and the ownership pole (Q2).
-2. Name the program gaps before naming any person. Write each gap as a slot brief carrying the theme, the format, the audience level, and what would make this slot a success - plus, where the gap is broad enough to need it, the editorial angle, what the audience should walk away knowing, and two or three open questions worth posing on stage. Sourcing without a brief produces a list of impressive people who do not fit the program.
+2. Name the program gaps before naming any person. Write each gap as a slot brief carrying the theme, the format, the audience level, and what would make this slot a success - plus, where the gap is broad enough to need it, the editorial angle, what the audience should walk away knowing, and two or three open questions worth posing on stage. Sourcing without a brief produces a list of impressive people who do not fit the program. A topic that already drew a room at a peer event is a validated brief: reuse the angle and source a local practitioner for it before defaulting to the original speaker. Travel costs less, and the slot widens your local pool instead of replaying someone else's program.
 3. Pick channels from the menu below against the deadline (Q4) and the effort ceiling (Q6). Use at least two; no single channel reaches a whole program (see failure modes).
 4. Build a long list, deliberately larger than the number of slots, because qualification culls hard. How much larger has no defensible general answer; see the conversion figure below. Size it from your own past invitations if you have any, and record the ratio you used so the next edition starts from a real number.
 5. Qualify each candidate against the slot brief at the depth the menu below sets, recording a source link and a date for every claim. An unqualified name is not a shortlist entry, it is a guess someone else will act on.
@@ -95,6 +95,28 @@ Ranking (default, not a law; Q4, Q6, Q7 and Q9 re-rank it):
 - **Community scouting** (the starved option): read who answers hard questions in project forums, issue trackers, mailing lists and community chats, and who explains things well there. It tops value alongside prior-talk review, because it is the only channel that reaches people who have never spoken anywhere and are therefore in no directory and on no referral list, and it tops effort too, so efficiency never picks it. It also carries the highest compliance cost: many communities' codes of conduct treat recruiting and solicitation in their spaces as off-limits, so check the space's rules before harvesting names from it, and approach people through their published contact route rather than the community channel itself.
   - Promotion conditions: a stated new-voices or under-represented-speakers goal with someone accountable for it (Q7), a compounding annual mandate (Q5) where the pool you build outlives this edition, or a topic so specific that no directory covers it.
 
+**Headliners, early and long-term** sits outside this menu. Well-known people and companies are booked far ahead, so contact them before the open call starts (`samber/dev-event-organizer-skills@event-cfp-design` § Headliners first, call second). Treat every answer as the start of a relationship: record a decline with its reason, stay in touch between editions, and re-ask with a fresh slot brief. When a speaker cannot travel to your city, offer an introduction to an organizer in another city, with the speaker's consent before any contact detail is shared.
+
+**Re-inviting past speakers** sits outside this menu because it is not sourcing: the candidate already carries delivery evidence and your own organizer reference. On a compounding mandate (Q5), offer the strongest past deliverers a slot before running any channel. Organizers of a local meetup network report that re-inviting a previous edition's whole slate set the tone and quality of the next one. Set a ceiling on the returning share per edition and write it down. An uncapped alumni slate turns into "Sourcing only from your own network" within two editions.
+
+**Priority for a small team.** Organizers agree that speaker-sourcing quality and re-invitation loops are the top lever a small organizer team controls. When hours are short, cut elsewhere before cutting sourcing depth.
+
+**Quiet practitioners** sit outside every channel's default reach. Organizers report that many practitioners would accept if invited and will never answer a CFP. Community scouting and referral asks find them; record them as candidates with a note that the first ask must be light - a short format, a co-speaker seat, or a call to shape the topic - so `samber/dev-event-organizer-skills@event-speaker-cold-outreach` writes the right invitation.
+
+**Adjacent-field speakers** are a slot brief, not a channel. A non-technical speaker - marketing, storytelling, design, law - can give a developer audience the strongest surprise of the evening. Write one slot brief per edition that names the adjacent field and what developers should take from it, then source against it with the same channels and the same delivery evidence.
+
+**Shared speaker bank across organizers.** Organizers of sibling chapters or neighbouring meetups each hold a different network, and pooling scouting across them widens everyone's reach. Two rules before sharing anything:
+
+- Share a candidate's name and public evidence freely; share contact data only with that candidate's consent, asked for and recorded.
+- Keep one record per candidate with its source chapter, so two organizers do not approach the same person for the same month.
+
+**Assistant-processed capture** applies to every channel and is not a channel itself. If you work with an AI assistant that can browse the web, consider these two uses:
+
+- Save candidates as you meet them (a starred repository, a bookmarked post); the assistant classifies each against the open slot briefs and drafts the "why".
+- Run a research query framed by the slot brief, the region and the event's values; it can surface lesser-known local practitioners that no directory lists.
+
+Two limits bind both uses. The assistant only finds people who publish, so it shares the reach gap of directory search toward quiet practitioners: pair it with referral asks or community scouting. Every claim it returns needs the source link and date that qualification already requires, because a generated profile can be wrong. Spotting candidates and choosing names stay human.
+
 Paid speaker-bureau booking is deleted from this menu, not demoted, whenever the budget cannot confirm a fee (Q8); a bureau's entire mechanism is a negotiated fee, and with no confirmed money it is not a cheap option, it is an unexecutable one. Parked at the bottom of a list it silently returns as scope halfway through sourcing.
 
 ## Sourcing internationally
@@ -105,6 +127,8 @@ Two gates before an international name enters the shortlist:
 
 - **Travel lead time.** Speakers need roughly four to six weeks to arrange travel or time off. That floor is the minimum, not the target, and it applies broadly to travel; treat it as the earliest a confirmed international speaker could plausibly commit.
 - **Visa and entry.** Some routes need months and a formal invitation letter, and processing times swing by passport and destination and change without notice, so check the actual requirement rather than assuming one. If the answer arrives after your confirmation date (Q4), the candidate is a Skip for this edition and a Hot lead for the next one.
+
+**Out-of-hub events.** The same gates apply inside one country when the event sits outside its main hub. Organizers of regional meetups report that speakers based in the capital rarely travel to regional events. For such an event, lodging plus travel is part of the invitation, not a perk: record it in the handoff budget line (Q8). Reimbursement is normal; a speaking fee is not, and nothing here sets one. Where that budget does not exist, weight the shortlist toward local practitioners and score a hub-based candidate no higher than Warm until travel is confirmed.
 
 Budget honesty binds both: if travel is unconfirmed (Q8), an international candidate is being asked to fund their own trip. Say that in the handoff so the invitation says it too, rather than discovering it during negotiation.
 
@@ -181,6 +205,7 @@ Both are unknown, and both invite a plausible-sounding substitute. Tell the user
 - **Treating a directory listing as consent to be pitched.** Being listed is consent to be found, and each directory states its own contact norms. Use the contact route the person published, follow the directory's rules, and keep the ask specific to a real slot.
 - **Sourcing names with no slot brief.** An impressive list nobody can place produces invitations that cannot answer "why me, why this event, why now"; the exact question the invitation has to answer.
 - **Sourcing past the confirmation date.** Adding candidates after the point where travel can still be arranged builds a shortlist of people who must decline. The lead-time gate applies at entry, not at outreach.
+- **Sharing a candidate's contact data across organizers without asking.** A pooled speaker bank is valuable; a pooled address book is a data leak with the candidate as its victim. Consent first.
 - **A shortlist with no reasoning attached.** Names handed over without their "why" force outreach to re-do the qualification or write a generic invitation. The evidence is the deliverable, as much as the names are.
 
 ## Measurement

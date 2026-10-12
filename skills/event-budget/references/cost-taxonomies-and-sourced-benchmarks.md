@@ -86,7 +86,7 @@ Applied to them, the assignment of each named line below is **this skill's own c
 
 - **Fixed** - venue rental, signage, media production setup, insurance, accounting. None of them moves with the twentieth extra attendee.
 - **Per-head** - catering quantity, badges and lanyards, swag, meal counts. All are driven by the expected-show-up number.
-- **Per-speaker** - speaker expenses. A third driver, neither of the first two, and named as its own.
+- **Per-speaker** - speaker expenses. A third driver, neither of the first two, and named as its own. Split it in two: the speakers' dinner and gifts named in the conference taxonomy above, and travel and hotel reimbursement, which that taxonomy does not name. Reimbursing speakers' travel and hotel is normal at community events, while speaker fees are not the norm. The reimbursement line scales with how far each speaker travels, so carry it per confirmed speaker, never as a flat share.
 
 The same financial-modelling material names the cash-timing mismatch directly: revenue is not cash, because of payment terms, and expenses are paid before revenue is collected. That naming is the part that carries over. The recurring-revenue mechanics around it (retention, lifetime value, payback period) do not transfer to a single bounded edition and are not used here.
 

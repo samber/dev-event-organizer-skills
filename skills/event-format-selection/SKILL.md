@@ -4,7 +4,7 @@ description: Choose a technical event's structure before anything is scheduled -
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.0"
+  version: "1.2.0"
 ---
 
 # Event Format Selection
@@ -36,13 +36,17 @@ Ask one question at a time, multiple-choice where possible. Questions 4-6 exist 
 9. Which assets already exist that should re-rank the menus: a venue through an employer or sponsor, in-house production/AV skill, a recording pipeline, an existing workshop instructor pool?
 10. Is there a moderator able and willing to interrupt and steer a panel?
 11. Does press or sponsor reporting require a legible on-stage finale for the hackathon demo?
+12. Recurring meetup only: who is the audience today - practitioners, or mostly people who do not yet practice the topic? Does the meetup read as an insiders' club to newcomers? (Gates the discussion-café variant.)
+13. Recurring meetup only: does a local company offer a room and coffee for free, a bar offer space with a sponsor paying drinks, or a coworking host offer a venue for a multi-community evening? (Gates the cost-free variants.)
+14. Which shapes, session formats and side activities do the local alternatives already run? (Gates the copied-recipe check in workflow step 3; a saturated city makes it decisive.)
+15. Conference only: does the positioning name one target audience or several? If several, which content serves each? (Gates the multi-target rule under track count.)
 
 ## Community vs vendor conference
 
 The split that changes format choice is who owns the event and what it is for (same split `samber/dev-event-organizer-skills@event-first-edition` argues):
 
 - **Community conference** - open CFP, explicit sales-pitch bans ("no product and/or vendor sales pitches" - CNCF's wording), sponsors bought expo and side-event inventory but never program slots, credibility from neutrality. Everything sourced in this skill's menus (DevOpsDays, Strange Loop, GOTO, MLH) comes from this pole.
-- **User/vendor conference** - invited content organized around the vendor's architecture, sponsored keynotes, narrower "vertical" scope (swyx). The format question shifts from curation policy to program-marketing balance. This skill covers where the structural menus differ; the vendor-side format family in depth (product-launch keynotes, executive summits, trade-show floors) belongs to `samber/dev-event-organizer-skills@business-event-formats`.
+- **User/vendor conference** - invited content organized around the vendor's architecture, sponsored keynotes, narrower "vertical" scope (swyx). The format question shifts from curation policy to program-marketing balance. This skill covers where the structural menus differ; the vendor-side format family in depth (product-launch keynotes, executive summits, trade-show floors) belongs to `samber/dev-event-organizer-skills@business-event-formats`, as does the sponsor-facing activity layer a conference of either pole runs beside its program.
 
 Say which pole each recommendation assumes when they differ. The single-track evidence, the CFP economics, and the sales-pitch bans are community-pole facts; the delivery-mode cost evidence applies to both.
 
@@ -50,7 +54,7 @@ Say which pole each recommendation assumes when they differ. The single-track ev
 
 1. Run the interview; skip menus the user has already settled (Q1).
 2. Fix the ownership pole (Q2) - it changes defaults in every menu below.
-3. Pick the **event shape** from the staged ladder. Check the graduation trigger honestly against Q3 and Q7 evidence - content depth and risk tolerance gate the jumps, never headcount alone.
+3. Pick the **event shape** from the staged ladder. Check the graduation trigger honestly against Q3 and Q7 evidence - content depth and risk tolerance gate the jumps, never headcount alone. Then check the candidate structure against what local alternatives already run (Q14): a shape and session mix that reproduce the nearby standard recipe give attendees no reason to choose this event. Innovate on at least one format or activity rather than copy; the differentiation claim itself belongs to `samber/dev-event-organizer-skills@event-positioning`. The check re-ranks nothing: it picks among rungs the ranking already allows.
 4. Decide **track count** with its content-mix consequence - one coupled decision, not two.
 5. Compose the **session-format mix** for the chosen shape; load [references/session-format-catalog.md](references/session-format-catalog.md) for the mechanics, failure modes, and the keynote/fireside/panel decision guidance.
 6. Choose the **delivery mode**; load [references/delivery-mode-evidence.md](references/delivery-mode-evidence.md) before recommending anything hybrid.
@@ -73,12 +77,27 @@ Ranking (default, not a law - re-rank against Q4-Q6, Q9):
 The `==` is argued: a single-day conference and a hackathon carry comparable total effort spent in different places. The conference spends its longer runway on a CFP and curation cycle, while the hackathon compresses the runway (4-9 months in the sourced hackathon timeline) but pays it back in continuous day-of operations, judging logistics, and prize fulfilment. Neither is the cheap option.
 
 - **Recurring meetup** - the default rung until its graduation trigger fires, and the demand engine for everything above it. Stay here while the venue still fits and the speaker pipeline is thin.
+  - A recurring meetup is not one format. Read § Recurring meetup variants before fixing it as "talks in the evening".
 - **Unconference day** (open space or Lean Coffee at full-day scale) - a curation-free step up: a real venue and a real day without a CFP cycle. Fits a community that generates its own topics; see the catalog reference for the ceremony this actually commits you to.
 - **Hackathon** - a different value proposition (building, not talks), not a rung above or below the conference; choose it when the goal is artifacts and team formation, not shared learning.
 - **Single-day single-track conference** - the graduation target. Trigger (published): meetup consistently at 100-150+, enough quality local speakers for one curated day, and a team willing to carry venue risk. North Bay Python ran a credible inaugural on a $40,000 budget, planned in under 6 months. Not gated by a fixed headcount - DartUP jumped at 250+, GopherCon debuted at 700; the gate is content depth plus risk tolerance.
 - **Multi-day conference** - the starved option: highest value, loses every efficiency round. Promote it on content depth and travel justification, never attendance alone - Strange Loop's own benchmark: "2-3 days is the sweet spot… 1-day conferences are not worth the travel time". The standard low-risk structure at this rung is the workshop-day bracketing model (SmashingConf, PyCon, GOTO): optional, separately ticketed hands-on days around the talk days - added depth, no dilution of the curated track, and a real revenue lever. Cite the per-event ratios in [references/format-precedents.md](references/format-precedents.md) rather than averaging them into a single industry figure.
 
 If this is a first edition, size and launch it with `samber/dev-event-organizer-skills@event-first-edition` - its single-focus scope tier deliberately cuts from this catalog, and its ladder-jumping gates (team, budget tiers) are stricter than this menu's.
+
+## Recurring meetup variants
+
+Variants of the recurring-meetup rung, not extra rungs: they share its effort, value and efficiency position on the ladder above, and change who comes and what it costs. Mechanics, costs and failure modes per variant sit in [references/session-format-catalog.md](references/session-format-catalog.md) § Recurring meetup variants.
+
+- **Talk evening** - the default variant: one or two curated talks, then drinks.
+- **No-prerequisite discussion café** - a monthly open roundtable, no talks, no expert framing, pitched as "come with your questions and worries; people who know a bit will talk with you". Meetups drift toward insiders; this is the on-ramp before deeper sessions. **Promotion condition, keyed to Q12**: a mostly non-practitioner audience, or a meetup perceived as an insiders' club.
+- **Host-company breakfast** - a weekday morning at a host company that pays the room and coffee, zero organizer cost, hosts rotating among large local actors. Promote when Q13 names willing hosts and the audience includes managers and business roles. Watch host calendar control and brand dominance.
+- **Bar-hosted after-work** - an evening in a bar, a sponsor paying the drinks. Lowest setup cost, weakest content.
+- **Rotating format** - the series cycles dinner, lunch, after-work, talk, open session, and never reuses the same weekday and hour twice in a row. Pairs with `samber/dev-event-organizer-skills@event-date-selection` § Recurring series.
+- **Cross-community joint evening** - many local meetup groups each run a stand or session in one venue on one night. Light coordination (one coordinator, a coworking host) but a real energy cost on every participating group. Occasional, never the cadence.
+- **Street-level outreach** - vox-pop video capsules, a stand at a seasonal market. General-public acculturation, not a meetup edition; count it as outreach, never as attendance.
+
+Topic-domain alternation across editions (technical, marketing, HR, human topics) is a renewal lever on newcomer share, owned by `samber/dev-event-organizer-skills@event-community-building`. Settle the topic boundary here when a series adopts it.
 
 ## Track count - and the content-mix rule it enables
 
@@ -100,7 +119,9 @@ The two value axes genuinely disagree - that disagreement is the decision. Multi
 - **Multi-track** - the starved option. Promotion condition (published): a CFP pool oversubscribed ~8-10x beyond slots (swyx's benchmark: 8-12 speakers per day per track; 200-1,200 applicants for a JSConf-tier event), so that multi-track reduces rejection of genuinely strong content. Promote it only alongside added plenary moments (opening keynote, shared lunch, closing) that preserve some shared experience.
   - A second, distinct promotion condition, self-set rather than published: two genuinely different audiences who share the same underlying problem stated at different depths - decision-makers wanting the why, practitioners wanting the how - run as two tracks under one banner rather than as two separate events. Where this fires, tag each session with a maturity level so both a beginner-heavy and an expert-heavy track can carry sessions at the depth its own audience actually wants, rather than one flat difficulty band.
 
-Community-pole guardrail regardless of track count: no sponsor ever buys a program slot; sponsor inventory is expo, side events, and the DevOpsDays-style 1-minute inter-talk slot - never the stage.
+**Multi-target rule** (conferences of one or several days only, keyed to Q15): `samber/dev-event-organizer-skills@event-positioning` prefers one target audience. When it names several, every target needs sessions of its own at every edition, or it leaves and the promise breaks. Single track carries this through dedicated slots for each target; multi-track carries it through one track per target. Either way, check the session mix per target before the grid goes to `samber/dev-event-organizer-skills@event-schedule-design`. This changes no ranking: it is a coverage constraint on whichever rung is picked.
+
+Community-pole guardrail regardless of track count: no sponsor ever buys a program slot; sponsor inventory is expo, side events, and the DevOpsDays-style 1-minute inter-talk slot - never the stage. Sponsor-facing activities (hiring corner, hands-on product feedback session, opt-in demo space, matchmaking) run beside the program, never in the CFP; their shapes belong to `samber/dev-event-organizer-skills@business-event-formats`.
 
 ## Session-format mix
 
@@ -160,6 +181,10 @@ Match format to jury composition: technical judges need to touch the demo; busin
 - **A panel scheduled to flatter sponsors or fill a slot.** The sourced consensus is brutal; without the prepared-moderator promotion condition, replace it with a fireside chat or one more curated talk.
 - **Track count and content policy decided separately.** The single curated track is what makes a "conceptual talks on stage, tool talks in open space" rule enforceable - decide them together or the rule dies in track two.
 - **Copying a named event's structure without its constraints.** Monktoberfest's smallness and Strange Loop's curation are worked-backward-from-venue, turn-down-hundreds choices. Import the reasoning, not the surface shape.
+- **Copying the local recipe.** A structure identical to what nearby events already run competes on date and price alone, a losing frame in a saturated city. Fix: run the workflow step-3 check against Q14 and innovate on one format or activity.
+- **A second audience with no sessions of its own.** A multi-target conference programmed for its main target loses the other within an edition. Fix: the multi-target rule under track count, or drop the target in `samber/dev-event-organizer-skills@event-positioning`.
+- **A recurring meetup frozen as one format and one slot.** It keeps the regulars and quietly stops the on-ramp. Fix: pick a variant on purpose (§ Recurring meetup variants), and rotate format and slot when newcomer share drops.
+- **A host-company breakfast the host owns.** Free rooms come with the host's calendar and logo. Fix: rotate hosts, keep the program yours, and write down what the host gets (visibility, introductions) before the first edition.
 - **Selling program slots to cover the format's cost.** Every sourced community event refuses stage inventory to sponsors; funding structure belongs to `samber/dev-event-organizer-skills@event-budget`, not to the program.
 
 ## Measurement
@@ -168,8 +193,9 @@ Format choices are testable edition over edition. Each measure below is marked p
 
 - **Delivery-mode check** (published figures): if a stream or virtual tier ran, compare engaged remote attendance to the sub-10%-of-sign-ups livestream benchmark (indicative only - the figure comes from academic conferencing, not tech; see the reference) and the ~25-30% promotion threshold. Below them, the hybrid spend fails its own test next edition.
 - **CFP pressure** (published figures): applicant-to-slot ratio against the ~8-10x multi-track trigger - the only published trigger for adding a track. Read it as the floor where the conversation opens, not as evidence the CFP is broken: swyx's own figures make 8-30x oversubscription normal at a popular single-track event.
+- **Meetup variant signals** (self-set, recurring meetup only): newcomer share and returning share per variant (definitions in `samber/dev-event-organizer-skills@event-community-building`), and for the discussion café, how many attendees go on to a deeper session.
 - **Workshop sell-through** (self-set): separately ticketed workshop days that don't sell to a threshold you fix in advance (e.g. 60% of capacity) argue for fewer next edition; the bracketing model makes this reversible.
-- **Session-mix signals** (self-set): open-space marketplace filling its wall, ignite-slot application volume, room walkouts during panels. Pick 2-3, decide the revision they would trigger, and write both down before the event.
+- **Session-mix signals** (self-set): open-space marketplace filling its wall, ignite-slot application volume, room walkouts during panels, departures right after a news recap block. Pick 2-3, decide the revision they would trigger, and write both down before the event.
 - Sellout speed, attendee retention, and sponsor renewal read on the whole event, not the format - they belong to `samber/dev-event-organizer-skills@event-market-fit`.
 
 ## Invocation examples
@@ -178,13 +204,15 @@ Format choices are testable edition over edition. Each measure below is marked p
 - "We're debating adding a second track next year - the CFP had 90 submissions for 24 slots."
 - "The CEO wants our user conference hybrid so remote customers can join live. Talk me through it."
 - "Design the day: one day, 200 attendees, community-run, more first-time speakers on stage."
+- "Our AI meetup only attracts people who already build with it. How do we reach the people who are curious but scared?"
+- "A big local company offered to host us for free every month at 8am. Should we take it?"
 
 Expected output: a format brief with (1) the chosen shape and the graduation evidence behind it, (2) track count with the content-mix rule it enables, (3) the session-format mix as a day architecture, (4) delivery mode with its promotion/deletion reasoning, (5) for each choice, the sourced trigger that would revise it next edition. Presented section by section for validation, with 2-3 candidate structures and one recommendation up front.
 
 ## References
 
 - [references/format-precedents.md](references/format-precedents.md) - graduation trajectories (DartUP, GopherCon, RailsConf/Rails World, North Bay Python), the five single-track manifestos with quotes, the DevOpsDays day architecture, per-event workshop ratios, community-vs-vendor session-selection evidence.
-- [references/session-format-catalog.md](references/session-format-catalog.md) - mechanics, costs, and failure modes per session format: curated talks, Ignite, open space, Lean Coffee, keynote/fireside/panel guidance with the named critics, workshop-day model, hackathon judging-format table.
+- [references/session-format-catalog.md](references/session-format-catalog.md) - mechanics, costs, and failure modes per session format: curated talks, news recap block, Ignite, open space with small-group mechanics, Lean Coffee, keynote/fireside/panel guidance with the named critics, workshop-day model, hackathon judging-format table, recurring meetup variants.
 - [references/delivery-mode-evidence.md](references/delivery-mode-evidence.md) - CHI's published hybrid finances, SIGMETRICS retreat, the sub-10% livestream figure, MLH's anti-hybrid failure-mode list, and the benchmarks that would revise the default.
 
 See also, same collection:

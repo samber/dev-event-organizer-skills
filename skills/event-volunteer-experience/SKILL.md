@@ -4,7 +4,7 @@ description: Design what a volunteer gets when they are not standing at a post, 
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.1"
+  version: "1.1.0"
 ---
 
 # Event Volunteer Experience
@@ -146,7 +146,7 @@ Compliance cost earns its axis here. Every rung except the last holds or publish
 
 - **Retained past-volunteer list** - the default, and the load-bearing rung. `samber/dev-event-organizer-skills@event-volunteers` ranks a past-volunteer call-back second on efficiency among recruitment channels and names it in its own default, so without this list that channel structurally does not exist next edition. That is a sibling's published default, not external evidence: it says the list matters, and nobody has measured the payoff. Give it a named owner and a deletion date on the day you create it.
 - **Public thank-you** - names and a post, with consent asked before anyone is named. Second on efficiency because it costs an afternoon, and it is the only rung visible to people who did not volunteer, which makes it recruitment surface as well as closure. It reaches everyone who showed up, including the ones you will never see again.
-- **Nomination path** - a named route from a standout volunteer to a candidate conversation with the standing team. High value and no data exposure at all. Its cost is coordination and political capital. Raise the flag and hand over: `samber/dev-event-organizer-skills@event-team-structure` owns everything after that. Design the route to fit your own standing team rather than looking for a template to copy. `references/alumni-list-and-handoff.md` borrows DEF CON's own vouching criteria as a starting checklist for what the flag should capture.
+- **Nomination path** - a named route from a standout volunteer to a candidate conversation with the standing team. High value and no data exposure at all. Its cost is coordination and political capital. Raise the flag and hand over: `samber/dev-event-organizer-skills@event-team-structure` owns everything after that. Design the route to fit your own standing team rather than looking for a template to copy. `references/alumni-list-and-handoff.md` borrows DEF CON's own vouching criteria as a starting checklist for what the flag should capture. Add one field to the flag: what the volunteer would get back from organizing. Organizers stay for network, learning, less isolation, fun, and - for freelancers - service leads; finding local co-organizers was the most common pain, and a public call for help at the end of a hackathon or meetup recruited new ones. The closure message is the natural place for that call: thank the volunteers, then name the open organizing roles.
 - **Standing alumni channel** - a space that keeps the list warm between editions. Tops both effort and compliance cost, so efficiency never picks it, and Q9 may say it is not yours to build at all. Promote it only for a multi-year recurring event with someone already funded to moderate.
 - **Returning-volunteer marker** - a status carried across editions. It cannot exist without the retained list, so it never saves the work of the rung above it, and it spends its recognition on people who have already returned: the one group whose return is no longer in question. That is why it sits last on efficiency. **Promotion condition, keyed to Q10**: returning volunteers take on genuinely different work.
 

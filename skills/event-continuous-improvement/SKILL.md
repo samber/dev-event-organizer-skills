@@ -4,7 +4,7 @@ description: Turn several editions of a recurring technical event's debrief logs
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.1"
+  version: "1.1.0"
 ---
 
 # Event Continuous Improvement
@@ -144,6 +144,22 @@ Value and effort disagree at the top for a domain-specific reason: the only grou
 
 **Default rung: the kickoff pass.** **Starved option: the standing audit owner** - first on effort, second on value, last on efficiency, so the ratio never picks it. Promotion conditions, and which rungs to delete outright: [references/reranking-by-interview-answers.md](references/reranking-by-interview-answers.md).
 
+## KPI shortlist and outcome log
+
+It is field testimony, not established practice.
+
+Tracking many KPIs moves nothing. Keep a shortlist instead:
+
+1. **Choose 2-3 KPIs**, never more. Each needs a named owner and an action that moves it; a KPI missing either is dropped, not parked.
+2. **Split local from network KPIs** when the community belongs to a peer network (`samber/dev-event-organizer-skills@event-team-structure`). A chapter owns what it can move; the network owns what only the network can move.
+3. **Pick from the candidates reported**: social followers, video views or subscribers, satisfaction from a survey sent automatically after each event, financials, number of events and speakers, new vs returning ratio, share of women, projects or companies spawned, and a self-rated "impact intensity" score organizers assign per event.
+4. **Declare each threshold before reading it** (self-set), and read the KPI across editions here; a demand-shaped KPI (new vs returning, sellout) still routes to `samber/dev-event-organizer-skills@event-market-fit`.
+5. **Keep an outcome log** - projects, collaborations, companies founded, jobs found because of the event, appended after each event and re-opened at the kickoff audit, since outcomes surface months later and reveal impact trends over time.
+
+Organizers disagreed on who judges impact - the team, or attendee questionnaires. Record both. A gap between them that persists two editions is a finding for `samber/dev-event-organizer-skills@event-positioning`, not a tie to break.
+
+Candidate table with caveats, the shortlist card, the impact-intensity scoring rules, and the outcome-log template: [references/kpi-shortlist-and-outcome-log.md](references/kpi-shortlist-and-outcome-log.md).
+
 ## Re-ranking against the interview answers
 
 Re-rank all three menus above against Q1, Q3, and Q5 to Q8, and say out loud which answer moved which option rather than silently reordering. Full breakdown, menu by menu and answer by answer: [references/reranking-by-interview-answers.md](references/reranking-by-interview-answers.md).
@@ -157,6 +173,8 @@ Re-rank all three menus above against Q1, Q3, and Q5 to Q8, and say out loud whi
 - **A log that only grows.** This is the failure above reached by a second route. Without the audit, a superseded entry from three editions ago still reads as live, and the log gets too long for anyone to re-read. Audit it so no entry sits unexamined.
 - **Bundling four changes into one edition.** Nothing can then be attributed, and next cycle's closure pass has no verdict to give. One deliberate change at a time is what makes the loop measurable at all.
 - **Naming people in a persisted log.** A performance criticism that was uncomfortable in the room becomes indefensible in a document read by people who never met the person. File the structural finding, route it to `samber/dev-event-organizer-skills@event-team-structure`, and keep the name out of the record.
+- **A dashboard of fifteen KPIs.** Every number reported, none owned, nothing moved. Cut to 2-3, each with an owner and an action, or the dashboard becomes the archive nobody re-reads.
+- **Impact read from one side only.** Team-judged impact flatters effort; attendee questionnaires miss outcomes that appear months later. Keep both, and the outcome log beside them.
 - **Borrowing a cadence from software.** Quarterly reviews, per-sprint retros and per-run gates all assume a cycle far shorter than one edition. Take the filing discipline; leave the calendar.
 - **An artifact kept for appearances after nobody uses it as designed.** A scoring sheet, a checklist or a process step the team quietly stopped following in full is a finding about the artifact, not about the team. Audit it the same pass, and fix it one of two ways, never a third: make the design's own output visible enough that skipping it is no longer possible, or simplify the design down to what people actually do. Keeping the unused version because rewriting it feels like admitting failure is the failure.
 
@@ -174,6 +192,8 @@ The rest are signals to record, not targets to hit:
 - **Share of deliberate changes traceable to a filed pattern** (self-set), rather than to an opinion in the planning room. A low share means the log is decoration.
 - **Closure rate on last cycle's changes** (self-set): how many shipped, and how many had their outcome checked. `samber/dev-event-organizer-skills@event-debrief` records per-edition carry-through; the trend across editions is yours.
 - **Whether the log was opened before planning, and by whom** (self-set, binary per cycle). Blunt, and the single best predictor of whether any of this worked.
+- **KPI shortlist size and ownership** (self-set): 2-3 KPIs, each with a named owner and action. More than three, or any unowned, is a finding.
+- **Outcome-log entries per edition** (self-set): projects, collaborations, companies. Compare only to your own previous editions.
 
 ## Invocation examples
 
@@ -183,6 +203,7 @@ The rest are signals to record, not targets to hit:
 - "We changed the schedule last edition because of feedback. How do we tell whether it worked?"
 - "Our learning log is forty entries long and I don't think half of it is still true."
 - "Attendance dropped for the second year. Is that something this skill handles?"
+- "We track twenty numbers for our meetup and none of them change anything. Which ones should we keep?"
 
 Expected output:
 
@@ -190,6 +211,7 @@ Expected output:
 - A short list of deliberate changes with the evidence behind each and the check that will confirm it.
 - Routing hand-offs to the siblings that own the demand, size, structural, vendor and scheduling consequences.
 - A persistence rung and an audit cadence chosen with their reasons.
+- A KPI shortlist of 2-3 cards (local and network split where relevant) and an outcome log.
 - Every claim marked as either published organizer practice or this skill's own judgment.
 
 ## See also, same collection

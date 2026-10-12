@@ -1,10 +1,10 @@
 ---
 name: cross-event-promotion
-description: Set up reciprocal promotion between independent technical events run by different organizers - partner-event scoring, the swap-format menu (community-calendar cross-listing, newsletter or social mention swaps, ticket-discount code swaps, speaker-pipeline sharing, conference-week co-location), the organizer-to-organizer ask, a lightweight swap agreement, and delivery measurement on both sides. Use whenever asked to cross-promote with another event, arrange a promo or ticket-code swap, co-locate with a bigger conference, or coordinate speakers across a circuit of independent events. Do NOT use for one organizer's own portfolio - use samber/dev-event-organizer-skills@event-portfolio-strategy - or deals with media outlets - use samber/dev-event-organizer-skills@event-media-partnerships.
+description: Set up reciprocal promotion between independent technical events run by different organizers - partner-event scoring, the swap-format menu (community-calendar cross-listing, newsletter or social mention swaps, ticket-discount code swaps, speaker-pipeline sharing, joint inter-meetup events, conference-week co-location), the organizer-to-organizer ask, a lightweight swap agreement, and delivery measurement on both sides. Use whenever asked to cross-promote with another event, arrange a promo or ticket-code swap, run a joint event with another meetup, co-locate with a bigger conference, or coordinate speakers across a circuit of independent events. Do NOT use for one organizer's own portfolio - use samber/dev-event-organizer-skills@event-portfolio-strategy - or deals with media outlets - use samber/dev-event-organizer-skills@event-media-partnerships.
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
 # Cross-Event Promotion
@@ -16,6 +16,7 @@ You broker visibility swaps between independent events run by independent organi
 - Booth and flyer exchanges.
 - Speaker-pipeline sharing.
 - Conference-week co-location.
+- Joint events co-run by two or more meetups.
 - Community-calendar cross-listing.
 
 The currency exchanged is mutual visibility, not money: no commission, no reseller mechanics, no cash changing hands.
@@ -72,12 +73,19 @@ If your harness has persistent memory, record: the scored candidate list, each a
 
 ## Swap formats
 
-Six formats, one goal: attendees moved between the two events. Ranking (default, not a law - Q2, Q3, and Q5 re-rank):
+Seven formats, one goal: attendees moved between the two events. Ranking (default, not a law - Q2, Q3, and Q5 re-rank):
 
-- effort: `co-location deal > booth or flyer exchange > speaker-pipeline sharing == ticket-discount swap > mention swap > calendar cross-listing`
-- value (registrations moved): `co-location deal > ticket-discount swap > booth or flyer exchange > mention swap > speaker-pipeline sharing == calendar cross-listing`
-- efficiency: `calendar cross-listing > mention swap > ticket-discount swap > speaker-pipeline sharing > booth or flyer exchange > co-location deal`
-- compliance cost (review triggered, reversibility lost): `co-location deal > booth or flyer exchange > ticket-discount swap`; the other three carry none - nothing in a mention, a listing, or a speaker recommendation touches a contract.
+- effort: `co-location deal > booth or flyer exchange > joint event > speaker-pipeline sharing == ticket-discount swap > mention swap > calendar cross-listing`
+- value (registrations moved): `co-location deal > joint event > ticket-discount swap > booth or flyer exchange > mention swap > speaker-pipeline sharing == calendar cross-listing`
+- efficiency: `calendar cross-listing > mention swap > ticket-discount swap > joint event > speaker-pipeline sharing > booth or flyer exchange > co-location deal`
+- compliance cost (review triggered, reversibility lost): `co-location deal > joint event > booth or flyer exchange > ticket-discount swap`; the other three carry none - nothing in a mention, a listing, or a speaker recommendation touches a contract.
+
+Where the joint event lands, argued (the six existing rungs keep their relative order):
+
+- **Effort, below the booth exchange** - for two meetups it replaces an edition each side would run anyway, so the added cost is coordination, not a second production; the booth exchange adds travel and staffing on top of both events.
+- **Value, second** - it puts both audiences in one room, which no code or mention does, but it moves people one evening at a time where co-location moves a whole traveling crowd.
+- **Efficiency, below the ticket swap** - the ticket swap yields attributable registrations from a few hours of setup; the joint event needs a co-designed program before it yields anything.
+- **Compliance, second** - it puts both communities under one code of conduct and one registration list, with attendee data each side may only reuse on its own consent; the booth exchange's exposure is one sponsor's exclusivity clause.
 
 Tie justifications:
 
@@ -88,6 +96,14 @@ Default rungs:
 
 - **Default rung: the mention swap.** Calendar cross-listing sits as the always-on floor beneath it - cross-listing is near-free and needs no deal, so it never waits for a partner.
 - **Promote to: the ticket-discount swap**, once both sides can issue codes and read redemptions (Q8). It is the cheapest format that produces attributable registrations, which is what the measurement section needs.
+
+Partner collaboration, mainly between meetups:
+
+- **The joint event** - two or more meetups co-run one edition, in the same city (Q9) or online, so each audience meets the other's community first-hand. Promote it only when all four hold:
+  - **Complements, not substitutes** - each audience gains something it cannot get at home. Two meetups whose attendees would pick one _instead of_ the other gain nothing from a joint evening (same failure as co-locating with a substitute below). If both are also declining, that is a merge conversation, not a swap - see the merge option in `samber/dev-event-organizer-skills@event-portfolio-strategy`.
+  - **A format that serves both rooms** - a program built on the overlap, with something each audience came for; never one side's usual talk with the other side invited as guests.
+  - **Work and credit split in advance** - in the agreement before the announcement: who books the venue, who hosts, who runs registration, whose code of conduct applies, logo and name order, who announces where, and which sponsors appear.
+  - **A cross-over measure** - a registration field asking which community each attendee comes from, so each side can count the share new to it, plus how many of those reach the partner's next regular edition. Targets self-set.
 
 Starved option:
 
@@ -125,7 +141,7 @@ Per-criterion checks, the parity heuristic for asymmetric swaps, and the outreac
 
 - **Audience mismatch** - a big partner with the wrong audience produces zero redemptions. Fix upstream: audience fit is the first screen, and a mention in front of the wrong crowd is worth less than silence.
 - **The one-sided swap** - audience-size asymmetry makes "one mention each" a bad trade for the larger side, and resentment kills the recur decision. Fix: name the asymmetry and balance it in units (e.g. more mentions, a richer placement, or a longer discount window from the smaller side) - the parity heuristic is in the scoring reference.
-- **Co-locating with a substitute** - sharing a week with an event your attendees would pick _instead of_ yours cannibalizes both. Piggyback complements; load-balance dates against substitutes (DevOpsDays guide).
+- **Co-locating with a substitute** - sharing a week with an event your attendees would pick _instead of_ yours cannibalizes both. A joint event with a substitute fails the same way: the room fills with people who already attend one or the other, and the new-to-each share comes back near zero. Piggyback complements; load-balance dates against substitutes (DevOpsDays guide).
 - **A booth swap that breaks a paid sponsor's deal** - comped booth space is in-kind value that can violate a paying sponsor's category exclusivity or occupy inventory they bought. Check the sponsor agreements' exclusivity clauses before promising floor space - delivery obligations live with `samber/dev-event-organizer-skills@event-sponsor-fulfillment`.
 - **Unmeasurable claims** - a swap launched without attribution gets debriefed with invented numbers, because the alternative is admitting nobody knows. Fix: attribution before launch (workflow step 7); if a channel genuinely can't be attributed, report it as unmeasured - an invented figure has nothing behind it and survives longer than the caveat next to it.
 - **The partner's incident becomes yours** - cross-promotion ties reputations; a code-of-conduct failure at their event lands on the events that promoted it. Fix: the brand-alignment screen, plus an exit clause in the agreement that lets either side withdraw promotion.
@@ -138,6 +154,7 @@ Keep a per-partner ledger, both directions, tracking:
 - Tagged-link clicks.
 - Codes redeemed.
 - Registrations attributed.
+- For a joint event: the share of attendees new to each side, and how many of them reach the partner's next regular edition.
 - Ease of collaboration (qualitative).
 - Both sides' intent to recur (qualitative).
 
@@ -154,12 +171,13 @@ Set redemption and referral targets before launch and label them self-set: refer
 
 - "The Rust conference two cities over has roughly our audience - set up a cross-promo with them for our October edition."
 - "We want to run our one-day community event the day before the big vendor conference in the same city. How do we approach them?"
+- "Our Python meetup and the local data-engineering meetup want to run one evening together. How do we make it worth it for both?"
 - "Draft the swap agreement: they post us twice to their newsletter, we give their attendees a 20% ticket code."
 
 ## References
 
 - [references/partner-scoring-and-outreach.md](references/partner-scoring-and-outreach.md) - candidate-mapping sources, per-criterion scoring checks, the parity heuristic, the organizer-to-organizer outreach template.
-- [references/swap-formats-and-agreement.md](references/swap-formats-and-agreement.md) - per-format execution detail, the co-location model, the lightweight agreement outline, the delivery ledger.
+- [references/swap-formats-and-agreement.md](references/swap-formats-and-agreement.md) - per-format execution detail, the joint-event split and cross-over count, the co-location model, the lightweight agreement outline, the delivery ledger.
 
 See also:
 

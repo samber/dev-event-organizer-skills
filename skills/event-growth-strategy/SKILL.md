@@ -4,7 +4,7 @@ description: Grow an established technical event edition over edition, or decide
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
 # Event Growth Strategy
@@ -20,7 +20,10 @@ The decentralized franchise model is out of scope:
 - A brand licenses independently-run city editions, the model one community event used to grow from one city in 2009 to 80+ documented editions.
 - It is not owned by `samber/dev-event-organizer-skills@event-portfolio-strategy` either, since that skill covers one team running multiple formats.
 
-Name it as an open edge when a user asks for it. Do not absorb it.
+Route it out when a user asks for it. Do not absorb it:
+
+- Growing by voluntary cooperation with independent local communities - a shared manifesto, no licensed brand - goes to the peer-network section of `samber/dev-event-organizer-skills@event-team-structure`.
+- The brand-licensing half (recruiting, vetting and enforcing standards on teams you do not run) remains an open edge no skill covers yet.
 
 ## Interview
 
@@ -205,3 +208,4 @@ See also, same collection:
 - `samber/dev-event-organizer-skills@event-venue-sourcing` - executes the venue search and negotiation once a step-up is decided.
 - `samber/dev-event-organizer-skills@event-planning-timeline` - turns a committed lever and its 9-18 month lead into the work-back plan.
 - `samber/dev-event-organizer-skills@event-portfolio-strategy` - one team running several events or formats; the franchise edge named above belongs fully to neither skill.
+- `samber/dev-event-organizer-skills@event-team-structure` - its peer-network section covers independent local communities cooperating under a shared manifesto, the voluntary form of the franchise edge.

@@ -1,6 +1,6 @@
 # Budget failure case studies, read for their financial mechanism
 
-Contents: how to use this set · five cases · what each one changes in the model · what this set does not prove.
+Contents: how to use this set · five published cases · one anonymized case · what each one changes in the model · what this set does not prove.
 
 ## How to use this set
 
@@ -46,6 +46,16 @@ The publisher's president stated the company could not plan for or execute a bus
 
 **Mechanism: demand collapse resolved as a corporate portfolio decision**, not a single event's budget failure. Included as the honest counter-example: not every ended event ended for a budget reason, and a budget model should not claim credit for surviving a decision made at portfolio level.
 
+## Anonymized case - scope cut, sponsors out
+
+Event, organizer, place and figures withheld; read it as one reported shape, not a published case.
+
+A large multi-day community event signed a big venue before ticket sales were known. Months before the date, sales sat well behind plan, so the organizers cut the budget drastically. Sponsors then withdrew, because the event they had bought into no longer reached the audience they had priced. Only digital visibility kept selling.
+
+**Mechanism: a scope cut that also cut revenue.** The downgrade was modelled as a cost saving only, while sponsorship moved with reach, so the saving and the lost sponsorship partly cancelled.
+
+**What it changes in the model:** price every downgrade rung net of the sponsor revenue it forfeits, and keep a staff-free digital visibility surface that survives a downgrade. It is also a second instance of the over-built venue shape below: the commitment was made before demand was proven.
+
 ## The over-built venue, as the recurring shape
 
 Across these venue cases, the single largest financial risk named directly is over-building capacity relative to proven demand and then carrying deposit and attrition exposure on it. One organizer described the 1,500-capacity space he had committed to as "an amazing (but very expensive) venue" while the edition was still running.
@@ -54,6 +64,6 @@ That is the shape most of these cases share: the money was committed against a h
 
 ## What this set does not prove
 
-- It says nothing about **frequency**. Five published cases are the ones that were written up, and events that quietly absorbed a shortfall published nothing.
+- It says nothing about **frequency**. Five published cases and one reported one are the ones that were written up or told, and events that quietly absorbed a shortfall published nothing.
 - It contains **no counterfactual**. No case here shows an event that held a larger contingency and survived a comparable shock, so it cannot be used to argue for any particular reserve size.
 - It is **not the only reading** of these events. Comdex and XOXO are just as correctly told as demand failures; the financial mechanism is one layer of the cause, never the whole of it.

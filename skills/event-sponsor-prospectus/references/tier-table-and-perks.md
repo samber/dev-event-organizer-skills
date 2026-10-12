@@ -34,6 +34,8 @@ The table closes, on the same page, with an explicit custom-tier escape hatch ("
 
 A named perk feels more real than a described one: real add-ons read "Photo Booth Sponsor", "Party Sponsor", "Merch Sponsor" - never "branding add-on 1/2/3". Two elements of general offer naming carry over: name the perk, and use a container word that signals format - "Track", "Fair", "Lounge", "Corner" for prize tracks, recruiting fairs, sponsor lounges, demo corners. Avatar-in-the-name and time-frame elements belong to consumer offers, not sponsorship perks.
 
+An access provision can carry a named add-on card too: "Captioning Sponsor" ("live captioning presented by ..."). Print it with its boundary - visibility on the captioning line only, no say over the program or what gets captioned - and never print it as the condition for captioning to exist; the provision is budgeted whether or not the card sells (see `samber/dev-event-organizer-skills@event-accessibility-inclusion` § Who funds it).
+
 ## Perk stacking against objections
 
 Map each perk to a real sponsor concern rather than piling on extras. Organizer guidance names four:

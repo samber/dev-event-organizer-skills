@@ -28,6 +28,14 @@ The format menu and its ranking live in SKILL.md; this file carries execution de
 - Compounds edition over edition - the value lands in program quality and speaker-community goodwill, not in attributable registrations; say so in the debrief instead of forcing a number onto it.
 - Speaker consent is non-negotiable: a CFP submission is not yours to hand to a third party unasked.
 
+### Joint event (mainly between meetups)
+
+- Pick the program from the overlap: a topic where each community holds half the answer, one speaker or facilitator from each side, or a hands-on format mixing both crowds at each table. Test it by asking what a regular of each meetup would say they got from the evening; if one side's answer is "a talk we've already seen", the format fails.
+- Write the split into the agreement outline below, items 2 and 5 at minimum: venue booking, host and opening words, registration platform, whose code of conduct applies and who handles a report on the night, name and logo order, who announces in which channel, which sponsors appear and whose they are. Credit decided after the event is a dispute.
+- Run one registration with a source field ("which community do you come from", "first time at either") so the cross-over is countable. Each side may contact only attendees who opted into its own list; the joint registration does not merge the two lists.
+- Debrief on two numbers per side: the share of attendees new to that side, and how many of them appear at its next regular edition. Both are self-set targets; record them as the baseline for the next joint edition.
+- Treat a joint edition between two declining meetups with the same audience as a merge trial, not a swap: route that decision to the merge option in `samber/dev-event-organizer-skills@event-portfolio-strategy`.
+
 ### Booth / flyer exchange
 
 - Each side gets a table, flyer placement, or a short stage mention at the other's event - in-kind value with real logistics (staffing, travel, shipping).

@@ -44,14 +44,15 @@ Every section below is either drafted or explicitly marked not applicable with a
 | 8   | Liability and indemnification                   | 🔴         | Two real shapes exist; scope is negotiated, and the cap's enforceability is local   |
 | 9   | Insurance                                       | 🟢         | Menu choice, gated on event scale; certificate deadline named or the clause dropped |
 | 10  | Code of conduct and ejection right              | 🟢         | Default, with the no-refund consequence in the same clause                          |
-| 11  | Logo and brand licensing                        | 🟢         | Reciprocal, promotion-only, auto-expiring                                           |
-| 12  | Category exclusivity                            | 🟠         | Only if sold; all three enforceability elements or none                             |
-| 13  | Attendee data                                   | 🟠/🔴      | Usually "not applicable - no lead benefit was sold"; 🔴 the moment one was          |
-| 14  | Confidentiality                                 | 🟠         | Counsel usually has a house position                                                |
-| 15  | Term, cure period, termination, renewal         | 🟢         | 30-day cure default; renewal by exhibit replacement                                 |
-| 16  | Governing law, jurisdiction, dispute resolution | 🔴         | The most jurisdiction-dependent section in the document                             |
-| 17  | General provisions                              | 🟠         | Entire agreement, amendments, assignment, severability, notices                     |
-| 18  | Signature block                                 | 🔴         | Present as a placeholder only, after counsel review                                 |
+| 11  | Editorial independence                          | 🟢         | Default; sponsor gets no say over speakers, topics or content                       |
+| 12  | Logo and brand licensing                        | 🟢         | Reciprocal, promotion-only, auto-expiring                                           |
+| 13  | Category exclusivity                            | 🟠         | Only if sold; all three enforceability elements or none                             |
+| 14  | Attendee data                                   | 🟠/🔴      | Usually "not applicable - no lead benefit was sold"; 🔴 the moment one was          |
+| 15  | Confidentiality                                 | 🟠         | Counsel usually has a house position                                                |
+| 16  | Term, cure period, termination, renewal         | 🟢         | 30-day cure default; renewal by exhibit replacement                                 |
+| 17  | Governing law, jurisdiction, dispute resolution | 🔴         | The most jurisdiction-dependent section in the document                             |
+| 18  | General provisions                              | 🟠         | Entire agreement, amendments, assignment, severability, notices                     |
+| 19  | Signature block                                 | 🔴         | Present as a placeholder only, after counsel review                                 |
 
 ## 3. The deliverables exhibit
 

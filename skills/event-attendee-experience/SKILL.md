@@ -4,7 +4,7 @@ description: Design the general-attendee on-site journey for a technical event  
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
 # Event Attendee Experience
@@ -160,6 +160,8 @@ Value and effort run in one order, so the rung ahead on value always costs more.
 - **Give the first twenty minutes a destination.** A first-timer's worst moment is the gap between badge and first talk, standing alone. Name a place to go, with a person in it.
 - **A standalone welcome session and a one-to-one buddy pairing are two published shapes for that destination.** PyCon US runs a named Newcomer Orientation, a short workshop hosted by community organizers before the opening reception that covers how to get involved. Several professional-association conferences (NAPFA, the Electrochemical Society) instead pair each newcomer with a returning attendee one-to-one before the event. A single scheduled session suits a venue with one entrance and one corridor; a standing pairing programme scales past the room size a single session can hold.
 - **Never build it as a separate track.** Anything that visibly segregates first-timers converts the awkwardness into a label they wear all day.
+- **Small groups break the silence that a plenary keeps.** Quiet attendees who spoke once in a small discussion group, about 10 people with a convener, interacted more with others for the rest of the evening. Where the program has a discussion segment, keep groups small; the mechanics sit in `samber/dev-event-organizer-skills@event-format-selection`'s `references/session-format-catalog.md` § Open space.
+- **Count first-timers at the opening.** A show of hands ("who is here for the first time?") takes ten seconds, tells the host how much orientation to say aloud, and feeds the newcomer-share counter-metric owned by `samber/dev-event-organizer-skills@event-community-building`. Never single anyone out afterwards.
 
 ## Failure modes
 
@@ -180,6 +182,7 @@ Everything below is self-set except the three completeness gates, and only becom
 - **Quiet-room dual-purpose check** (gate) - the room has a door, is findable without crossing the main thoroughfare, and is signed in a way that makes ordinary use unremarkable. Fail any one and it serves one purpose, not two.
 - **Longest check-in queue, and the hour it happened** (self-set) - the single number that tells you whether the model in § Check-in model was the right rung.
 - **Signs added by hand on the day** (self-set) - count them and keep them. Each one is a decision point your wayfinding design missed.
+- **First-timer share** (self-set) - show of hands at the opening, recorded per edition. Hand it to `samber/dev-event-organizer-skills@event-community-building`, which reads it against carry rate.
 - **Peak moments** (self-set) - organizers systematically believe they deliver a memorable "peak moment" more often than attendees report having had one. Ask attendees whether they had one rather than assuming you provided it - see [references/journey-audit-and-first-timers.md](references/journey-audit-and-first-timers.md) for the full caveat against over-reading the correlation this is drawn from.
 
 Pick two, write down what each would change next edition, and record both before the doors open.

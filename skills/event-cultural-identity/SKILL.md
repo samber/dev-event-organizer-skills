@@ -4,7 +4,7 @@ description: Design and audit the lived culture of a technical event - the regis
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
 # Event Cultural Identity
@@ -67,6 +67,16 @@ Say which pole each recommendation assumes when they differ.
 
 - Legitimate: a vendor event borrowing a community mechanic, e.g. HashiConf's couch "Hallway Track".
 - Culture-washing: a vendor event using community _framing_ without community investment - the failure modes section names it.
+
+### Optional register note: provocation with care
+
+Low priority; use only when the purpose sentence calls for a "wake-up call".
+
+- **Pair the sting with care.** Warn the room that the message will sting before delivering it.
+- **Aim at action, not fear.** The stated goal is turning a diffuse fear (of a technology, of falling behind) into concrete next steps the attendee can take - an "empower" register, not a doom register.
+- **Expect disagreement on reassurance.** Organizers disagree on whether to reassure the audience afterwards. Decide it per event, write the choice into the host brief, and review it in the worked/not-worked retro.
+
+In "X, but never Y" form: "provocative, but never fear-mongering".
 
 ## Workflow
 
@@ -186,6 +196,7 @@ At every rung: sizing is asked at registration, never guessed, and goes beyond u
 - **CoC as legal shield only.** A minimal harassment-liability document under an event claiming community warmth contradicts the register where attendees read it most carefully. The sourced counter-model: a CoC that explicitly defines the culture (!!Con's "How to be !!Con"). Fix the alignment here; write the policy with the sibling skill.
 - **Midpoint hedging.** "Welcoming but professional, fun but serious" - every axis at the center is no register at all. Apply the anti-midpoint rule and force a lean.
 - **Spectacle outshining purpose.** The party everyone remembers at the event nobody can state the point of. HashiCorp's ball-pit rule is the sourced discipline; the retro question below is the check.
+- **A wake-up call that only frightens.** Provocation without a warning and without next steps leaves a diffuse fear in the room instead of action. If the register uses provocation, pair it with care (optional register note above).
 - **Opening with logistics.** Wifi passwords and fire exits as the event's first impression. Logistics get a slot; they never get the opening (Parker, sourced).
 
 ## Measurement

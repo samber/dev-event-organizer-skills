@@ -1,10 +1,10 @@
 ---
 name: event-budget
-description: Build the budget and P&L for a technical event - every cost line split into fixed and per-head, the revenue mix against the funding model, a Good/Better/Best scope-tier ladder so break-even has three answers instead of one, a contingency sized as a stacked floor, pad and downgrade ladder, and outflows scheduled against the dates sponsor and ticket money actually lands. Use whenever asked to build an event budget, model conference or hackathon costs, find break-even, size a contingency reserve, plan event cash flow, or decide what to cut when revenue falls short. Consumes prices and real vendor quotes, never sets them. Do NOT use to set ticket or sponsor prices - use samber/dev-event-organizer-skills@event-ticket-pricing or samber/dev-event-organizer-skills@event-sponsor-pricing.
+description: Build the budget and P&L for a technical event - every cost line split into fixed and per-head, the revenue mix against the funding model, a Good/Better/Best scope-tier ladder so break-even has three answers instead of one, a contingency sized as a stacked floor, pad and downgrade ladder whose cuts also price lost sponsor reach, a cross-edition reserve policy, annual funding decoupled from single events, and outflows scheduled against the dates sponsor and ticket money actually lands. Use whenever asked to build an event budget, model conference or hackathon costs, find break-even, size a contingency reserve, set a reserve or surplus policy across editions, fund a recurring meetup series annually, plan event cash flow, or decide what to cut when revenue falls short. Consumes prices and real vendor quotes, never sets them. Do NOT use to set ticket or sponsor prices - use samber/dev-event-organizer-skills@event-ticket-pricing or samber/dev-event-organizer-skills@event-sponsor-pricing.
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.1"
+  version: "1.1.0"
 ---
 
 # Event Budget
@@ -19,7 +19,7 @@ You model the money for one edition of a technical event. Produce five things:
 
 Consume prices - ticket, sponsor, venue, vendor - never derive them. Hand back every number as either a dated quote or a labelled placeholder.
 
-Treat every ranking below as a default, not a law. Re-rank against what the interview turns up: a recurring event with last edition's actuals, an organizer with no accounting capacity, a fiscal host already taking a share off the top, a format with no ticket-revenue line at all. Each overturns a default rung.
+Treat every ranking below as a default, not a law. Re-rank against what the interview turns up: a recurring event with last edition's actuals, an organizer with no accounting capacity, a fiscal host already taking a share off the top, a format with no ticket-revenue line at all, a recurring series funded by annual sponsors and membership. Each overturns a default rung.
 
 **No currency amount appears anywhere in this file.** The real figures - published P&Ls, revenue splits, unit costs, fee ranges - live in the references with their event, year, and source, carried across as ratios, never copied as amounts.
 
@@ -48,7 +48,7 @@ Take these as inputs. Re-deriving any of them produces a second, competing numbe
 | `event-risk-management`                              | The risk case for a reserve, go/no-go placement | **You pick the contingency number**                                                                        |
 | `event-growth-strategy` / `event-portfolio-strategy` | Whether the edition grows, portfolio split      | Re-run this model at whatever scale they set                                                               |
 
-Hand post-edition variance to `event-debrief`, never re-modelling it, and hand a cost line creeping across editions to `event-continuous-improvement`. Plan and track one edition only.
+Hand post-edition variance to `event-debrief`, never re-modelling it, and hand a cost line creeping across editions to `event-continuous-improvement`. Plan and track one edition only. Cross-edition money - the reserve and annual funding - enters this model as two per-edition lines: the reserve contribution out, the annual-funding allocation in.
 
 ## Interview
 
@@ -60,22 +60,27 @@ Ask one at a time, multiple-choice where possible. Questions 6-8 exist because t
 4. Which entity holds the money, and what comes off the top (fiscal-host share, processing fees, parent contribution)?
 5. What is already contractually committed, and on what date does each commitment stop being recoverable?
 6. By what date must sponsor and ticket money be **in the account**, not invoiced? A hard date promotes postures that book early.
-7. One-off edition, or one year of a recurring event? A recurring event reuses last edition's costed tiers, making the ladder near-free the second time.
+7. One-off edition, one year of a recurring event, or one evening of a recurring series (a monthly meetup)? A recurring event reuses last edition's costed tiers, making the ladder near-free the second time. A recurring series promotes the annual-funding posture.
 8. Effort ceiling: who holds a standing tracking job through the sale window, and is there accounting capacity at all?
 9. Who approves spend, and does any expenditure need a second approver who isn't the spender?
 10. Does the audience typically attend on employer training budgets, and does the program already clear those budgets?
 11. Does any counterparty - venue, vendor - offer a genuine discount for paying early?
+12. What is the organization's reserve policy across editions: break-even each time, or a surplus held back to survive a failed edition or a shock? Does a reserve exist today, how large against the organization's fixed yearly costs, and what may it fund? (See "Reserve policy" below.)
+13. Is there a membership scheme, and is membership tied to event ticket discounts?
 
 ## Workflow
 
 1. Run the interview. Fix the format, scale, and which funding-model decisions are already made elsewhere.
 2. **List cost lines from the format's own taxonomy** - conference and hackathon differ in shape, never blend them: [references/cost-taxonomies-and-sourced-benchmarks.md](references/cost-taxonomies-and-sourced-benchmarks.md).
-3. **Cut every line into fixed and per-head, naming each per-head driver.** Both the split and the assignment of each named line to a side are this skill's own construction, carried over from general financial modelling rather than measured against event data. Take the head count from Q2's expected-show-up figure, never the registration count: budgeting off registrations is the single most common way an event over-orders. Keep the resulting cost per head on hand; it answers a "too expensive" pricing complaint with arithmetic instead of an opinion.
+3. **Cut every line into fixed, per-head and per-speaker, naming each per-head driver.** Speaker travel and hotel reimbursement is its own per-speaker line, separate from the speakers' dinner and gifts; reimbursing expenses is normal at community events, while speaker fees are not the norm. Budget fees only where the program policy deliberately pays them.
+
+   Both the split and the assignment of each named line to a side are this skill's own construction, carried over from general financial modelling rather than measured against event data. Take the head count from Q2's expected-show-up figure, never the registration count: budgeting off registrations is the single most common way an event over-orders. Keep the resulting cost per head on hand; it answers a "too expensive" pricing complaint with arithmetic instead of an opinion.
+
 4. **Fill each line with a real dated quote or an explicit placeholder.** Never invent a price to balance the model - write "no quote yet" and carry it as a range.
 5. **Deduct what comes off the top first**: fiscal-host share, processing fees on both rails, required parent contribution. Fee ranges: [references/cash-flow-fiscal-hosting-and-tax.md](references/cash-flow-fiscal-hosting-and-tax.md).
 6. **Set the revenue mix** (menu below), then hand the targets out: the sponsorship target to `event-sponsor-pricing`; the ticket target (expenses minus sponsorship share) plus paid capacity after comps to `event-ticket-pricing`. Count comps from agreements actually held, never from a ratio.
-7. **Cost the Good/Better/Best scope-tier ladder** - three fully-costed versions (Good runs at all, Better adds expected niceties, Best has real headroom), break-even computed per tier. On free-by-construction, each tier is a fundraising target instead.
-8. **Size the contingency** using the three-tool stack below.
+7. **Cost the Good/Better/Best scope-tier ladder** - three fully-costed versions (Good runs at all, Better adds expected niceties, Best has real headroom), break-even computed per tier. On free-by-construction, each tier is a fundraising target instead. **Re-estimate sponsor revenue per tier, never carry one figure across all three**: sponsors price on reach, so a smaller tier sells less sponsorship. Ask `event-sponsor-pricing` which surfaces survive each downgrade; staff-free digital visibility usually does, booths and on-site activations usually do not.
+8. **Size the contingency** using the three-tool stack below, then **set the reserve contribution** from the reserve policy - a separate line, not part of the contingency.
 9. **Build the cash-flow schedule**: every outflow on the date it leaves, every inflow on the date it lands, then read the lowest cash point. Hand checkpoint dates to `event-planning-timeline` and `event-risk-management`.
 10. **Write the tax and jurisdiction question rather than answering it.** Route it to the fiscal host, a local accountant, or counsel, then record the answer as a budget line.
 11. **Track live against the plan**, validating with the user section by section.
@@ -86,6 +91,8 @@ If your harness has persistent memory, record:
 - The quotes, with their dates.
 - The three costed tiers.
 - The contingency figure, and how it was reached.
+- The reserve policy, this edition's contribution or draw, and the reserve balance after it.
+- Per tier, the sponsor revenue expected at that tier's reach.
 - The cash-flow schedule, with its lowest point.
 - After the edition, actual against planned, per line.
 
@@ -93,17 +100,22 @@ The next edition starts from that record instead of a blank spreadsheet. When re
 
 ## Revenue-mix posture
 
-Which shape the funding takes. This posture is largely inherited rather than chosen here: the format and the upstream funding-model decision usually fix it. Name which one arrived, and what it implies for the model. Ranking (default, not a law - re-rank against Q1, Q6, Q7):
+Which shape the funding takes. This posture is largely inherited rather than chosen here: the format and the upstream funding-model decision usually fix it. Name which one arrived, and what it implies for the model. Ranking (default, not a law - re-rank against Q1, Q6, Q7, Q13):
 
-- effort (modelling work plus the standing revenue management each posture demands): `registration-led > sponsor-led > sponsorship-by-construction`
-- value (budget covered without the decision to run hanging on money that arrives late): `sponsor-led > sponsorship-by-construction > registration-led`
-- efficiency: `sponsor-led > registration-led`
+- effort (modelling work plus the standing revenue management each posture demands): `registration-led > sponsor-led > annual-funding-led > sponsorship-by-construction`
+- value (budget covered without the decision to run hanging on money that arrives late): `annual-funding-led > sponsor-led > sponsorship-by-construction > registration-led`
+- efficiency: `annual-funding-led > sponsor-led > registration-led`
+
+Annual-funding-led sits below sponsor-led on effort because one yearly sale per sponsor and one yearly membership cycle replace a sale per edition, amortized across every edition of the series. It tops value because its cash lands about a year ahead of the editions it funds. It dominates sponsor-led on both axes, which is why it exists only for a recurring series - see its deletion rule below.
 
 - **Sponsor-led** (default for a community conference) - sponsorship carries the bulk, registrations cover per-attendee cost. Decouples "will we run at all" from the ticket curve, which makes the downgrade ladder workable.
 - **Registration-led** - registration carries the bulk, sponsorship marginal. Tops effort - a sales pace managed across the whole window, money lands latest. **Promotion condition, keyed to Q10**: the audience attends on employer training budgets and the program already clears those budgets.
+- **Annual-funding-led** (default for a recurring series, Q7) - annual sponsors and membership dues fund a self-managed yearly budget; each edition draws an allocation from it instead of raising its own revenue. Pricing the annual tier belongs to `event-sponsor-pricing`. **Anti-pattern, keyed to Q13: membership tied to event ticket discounts.** It produces a join spike just before each event, inflates and distorts member numbers, and re-couples the organization's income to single events. Decouple membership and annual sponsorship from any one event so no single edition carries the organization. Cost: concentration on a few annual sponsors (the Comdex shape in [references/budget-failure-case-studies.md](references/budget-failure-case-studies.md)), which the reserve policy below is there to absorb.
 - **Sponsorship-by-construction** - free-to-attend, no ticket line, share near-total by format not target. Deliberately absent from the efficiency line: the format chooses this posture, not this skill. Cost is concentration - one revenue source, no second lever.
 
 **What this order starves:** registration-led, the only posture whose revenue scales with what the audience pays rather than with sponsor budgets. Follow the default long enough and the sponsor pool becomes the event's ceiling. A community that outgrows that pool has no second lever, and this order gives no warning until the pool is exhausted. Promote registration-led on the condition above.
+
+**Delete, do not demote: annual-funding-led, on a one-off edition** - from this menu and the axis lines. With no series to spread a yearly sale across, it is sponsor-led under another name, and leaving it parked invites a "yearly sponsor" for an event that has no next year to deliver.
 
 **Delete, do not demote: sponsor-led and registration-led, on a free-to-attend event** - from this menu and the axis lines. Ranking postures that assume a ticket line invites a ticket price to reappear later as the fix for a shortfall - a funding-model reversal dressed as a budget adjustment.
 
@@ -138,6 +150,25 @@ Each rung rests on a sourced mechanic: the scope-tier ladder behind the tiers, t
 1. **Discretionary extras first** - the evening event, swag upgrades, sponsored add-ons. This is the Best tier's own content, and cutting it protects the core experience entirely.
 2. **Per-head variable quantities second** - catering covers, badge and lanyard counts - only where the guarantee hasn't locked yet. Past the lock date this rung is gone, which is why the cut order must be decided against the cash-flow schedule, not in the abstract.
 3. **Fixed structural lines last** - the venue tier, the core Media line. These commit earliest and can cost more to cut than to keep. Attrition thresholds and food-and-beverage minimums are owed on what was committed, not on what turned up, so a downgrade can produce a penalty larger than the saving.
+
+**Every cut also moves the revenue side.** Sponsors price on reach, so a downgrade that shrinks attendance, days or tracks shrinks what sponsors will pay - revenue is not independent of scope. Price each rung's cut net of the sponsor revenue it loses: a cut that saves less than the sponsorship it forfeits deepens the shortfall it was meant to close.md](references/budget-failure-case-studies.md) - a drastic mid-cycle cut drove sponsors out, and only digital visibility kept selling.
+
+## Reserve policy: across editions, not inside one
+
+The contingency stack protects one edition. The reserve protects the organization across editions: it is what lets it survive one failed edition or a shock (a pandemic-type cancellation) without folding. This is a decision with three parts, not a ranked menu - organizations legitimately differ, and nothing below is an industry figure.
+
+Some communities target break-even on every event; others build a small surplus on each large event. Meetups and conferences carry different commitments, so their policies differ.
+
+1. **Target** - the reserve size, self-set, expressed against the organization's own fixed yearly costs (for example, a number of months of fixed cost) or against the largest single non-recoverable commitment it signs. Never a percentage borrowed from another event.
+2. **Contribution per event** - how much each edition adds or draws, as its own budget line. A large ticketed event is the natural contributor; a free meetup evening usually contributes nothing and may draw.
+3. **What the reserve may fund** - written down before it is needed. Typical permitted uses: absorbing a failed edition's deficit, deposits for the next edition before sponsor money lands, seeding a new chapter in another city from a surplus. Anything not on the list needs the same second-approver rule as other major spend (Q9).
+
+Policy shapes, both legitimate:
+
+- **Break-even each edition** - surplus is not a goal; the reserve is whatever the contingency floor leaves unspent. Fits a meetup series whose commitments are small and short (a room, drinks), where one failed evening is survivable from organizers' pockets or the annual-funding budget.
+- **Surplus on large events** - each large ticketed edition carries a planned contribution line. Fits an organization signing venue deposits and multi-month commitments, where one failed edition without a reserve ends the organization.
+
+Hand the reserve's legal holding and any tax treatment of a surplus to the fiscal host or counsel (see "What this skill will never state"); a non-profit's surplus rules are jurisdiction-specific.
 
 ## Outflow commitment posture
 
@@ -179,6 +210,11 @@ A room block or catering guarantee committed at full size carries a usage thresh
 - **Announcing a date before there is a working way to process money.** Settle who holds the money, and how long it takes to get back out, before the date goes public - an organizing guide states this failure directly in [references/cost-taxonomies-and-sourced-benchmarks.md](references/cost-taxonomies-and-sourced-benchmarks.md).
 - **One budget instead of three tiers.** A single budget has one break-even and no move except cancelling. The ladder exists so a revenue miss has a response that is not a cancellation.
 - **Treating the money-handling share as a rounding error.** A fiscal host's cut and processing fees come off everything passing through, on both rails, before any line is funded.
+- **Modelling sponsor revenue as independent of scope.** Sponsors price on reach; a downgrade that shrinks the event shrinks sponsorship too, and sponsors may withdraw outright. Re-estimate sponsor revenue per tier and price each cut net of the sponsorship it loses.
+- **Signing the venue before demand is proven.** A large venue signed before sales are known turns a demand miss into a drastic mid-cycle cut, which then costs sponsor revenue on top of attrition (see [references/budget-failure-case-studies.md](references/budget-failure-case-studies.md)). Size the venue commitment to the Good tier, or hold it to the latest safe date.
+- **No reserve policy.** Break-even every time is a legitimate choice only when made on purpose; by default it means one failed edition or one shock ends the organization. Write the target, the per-event contribution and the permitted uses.
+- **Membership tied to event ticket discounts.** Members join just before each event, the member count spikes and distorts, and income stays coupled to single events. Decouple membership and annual sponsorship from any one edition.
+- **Speaker travel folded into the speakers' dinner line.** Travel and hotel reimbursement scales per speaker and per distance, not per head; hidden inside a small appreciation line, it is the first overrun nobody saw coming.
 - **Cutting a fixed structural line first.** Attrition thresholds and food-and-beverage minimums are owed on the commitment, so the penalty can exceed the saving. Follow the cut order.
 - **Quoting a contingency percentage, or a tax rule, as a standard.** Neither has an event-industry standard behind it. Saying so costs nothing; inventing either gets discovered by an auditor or a tax authority.
 - **Reading one published event's revenue split as a norm.** The three published actuals disagree almost completely. They bound the space of real postures; none of them is a target.
@@ -194,6 +230,9 @@ This skill sets one binary gate for itself, plus the self-set observables below.
 - **Lowest projected cash point against the lowest actual cash point** (self-set): if the actual trough is far below the projection, the inflow dates were optimistic, which is a different fix from the costs being wrong.
 - **Contingency drawn against contingency held** (self-set): drawing none for several editions is evidence the floor is oversized; drawing all of it is evidence the pad is undersized.
 - **Which tier the event actually ran at, against which was planned** (self-set): a ladder that never downgrades and never upgrades is not being used as a ladder.
+- **Sponsor revenue at the tier actually run, against the per-tier estimate** (self-set): a gap after a downgrade means the reach effect was under-modelled.
+- **Reserve balance against the reserve target** (self-set): read once per year, not per edition.
+- **Membership joins by month** (self-set, where membership exists): spikes in the weeks before each event mean membership is still coupled to events.
 
 ## Invocation examples
 
@@ -201,6 +240,8 @@ This skill sets one binary gate for itself, plus the self-set observables below.
 - "Sponsorship is at 60% of target with eight weeks to go - what do we cut, and in what order?"
 - "Our hackathon is free to attend. How do I work out what we need to raise, and how much cushion?"
 - "The venue wants a deposit in March but sponsor invoices are not due until June. Are we going to run out of money?"
+- "We run a monthly meetup with annual sponsors. How should the yearly budget and our reserve work?"
+- "Ticket sales are far behind plan for our two-day conference. If we cut to one day, what happens to sponsorship?"
 
 Expected output: a budget model containing:
 
@@ -211,6 +252,7 @@ Expected output: a budget model containing:
 - The sponsorship and ticket targets, with their arithmetic.
 - Three costed tiers, with a break-even each.
 - The contingency figure, with the three tools stated separately.
+- The reserve policy and this edition's contribution or draw.
 - A dated cash-flow schedule, with its lowest point marked.
 - The open tax question, written as a question.
 
@@ -220,7 +262,7 @@ Deliver it section by section for validation, with every number labelled publish
 
 - [references/cost-taxonomies-and-sourced-benchmarks.md](references/cost-taxonomies-and-sourced-benchmarks.md) - the two cost taxonomies with their fixed/per-head cut, the published itemized P&Ls and revenue splits with their events, years and sources, the per-person unit benchmarks, the comp and scholarship allocation figures with their caveats, and how to carry any of it across by ratio.
 - [references/cash-flow-fiscal-hosting-and-tax.md](references/cash-flow-fiscal-hosting-and-tax.md) - deposit and attrition mechanics, sponsorship payment schedules, fiscal-host fee structures with their dates and one recent structural change, fund-access timing, and the jurisdictional tax contrasts as examples routed to counsel.
-- [references/budget-failure-case-studies.md](references/budget-failure-case-studies.md) - five real events read for their financial mechanism rather than their headline cause, and what each one implies for a line in this model.
+- [references/budget-failure-case-studies.md](references/budget-failure-case-studies.md) - five published events plus one anonymized case (scope cut costing sponsor revenue) read for their financial mechanism rather than their headline cause, and what each one implies for a line in this model.
 
 See also, same collection:
 

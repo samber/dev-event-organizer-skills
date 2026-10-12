@@ -4,7 +4,7 @@ description: Run an organizer's own standing podcast or video channel as a cross
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.1"
+  version: "1.1.0"
 ---
 
 # Tech Podcast and Video Channel
@@ -135,6 +135,21 @@ It survives as an input only when made capacity-relative: read it against Q3's n
 - **Delete, do not demote - announcing a cadence nobody has agreed to hold.** Delete it from this menu and from the axis lines above. It is the cheapest-looking version of the low-cadence rung and it is precisely the failure `samber/dev-event-organizer-skills@event-portfolio-strategy` names: the promise is what creates the visible death, so a stated rhythm with no owner is worse than an unannounced one. State only the rhythm Q3's named person agreed to.
 - **Conditional delete - both original rungs, where Q3 names nobody for the quiet months.** Delete them from this menu and from the axis lines above. An original-content channel is a standing booking, vetting and publishing duty; with no owner it is not a cheaper channel, it is an abandoned one with the event's name on it.
 
+### Format effort, outside the menu
+
+Menu 1 ranks how much the team promises. Format decides what each promised episode costs, and it sits outside the menu because any rung can use any format. Organizers describe this effort ladder, cheapest first:
+
+1. **Unedited live stream** - record a conversation or session live and publish it as-is. It skips editing entirely, and the audio can double as a podcast-like format.
+2. **Short clips** - cut from existing recordings. Finding the moment is real extraction work, not a free by-product.
+3. **Produced podcast** - recorded, edited, published on a feed. The same organizers called it a very hard step.
+
+Read the ladder before promoting to an original rung. A low-cadence original channel built on unedited streams costs far less per episode than one built on produced episodes, so Q9's quiet-month hours stretch further. Two constraints hold anyway:
+
+- A live stream has no edit pass, so nothing can be cut out afterwards. The episode release must cover live publication before going live.
+- An unedited stream still needs a named publisher. Unedited is a format choice, not an ownership choice.
+
+The organizers also report that their video channels tend to get posted to only around their biggest conferences, leaving the quiet months empty. That is the lapse pattern Menu 1 warns about. Detail, clip sources and the speaker-loop test: [references/low-effort-formats-and-speaker-loop.md](references/low-effort-formats-and-speaker-loop.md).
+
 ## Menu 2 - Guest sourcing depth
 
 Where episode guests come from. Two value axes: fit is whether the guest belongs on this show, reach is the audience they bring that the event does not already have.
@@ -178,10 +193,24 @@ What the event cycle gives the channel:
 What the channel gives back:
 
 - a reason to contact a prospective speaker before you need them
+- a reason a prospective speaker wants to come (see § The speaker-recruitment loop)
 - cross-promotion inventory a swap can use
 - a surface that keeps working in the gap
 
 Do not promise a registration path in either direction: that is the sibling-stated gap above. The worked shape is in [references/property-shapes-and-cadence.md](references/property-shapes-and-cadence.md).
+
+## The speaker-recruitment loop
+
+Everything above treats the speaker pool as **input** to the channel. Run the reverse loop too: the channel as a **speaker-recruitment asset**.
+
+The hypothesis: a well-watched channel shows a prospective speaker that their talk will reach people beyond the room, which makes them want to come. Organizers hold this belief. Nobody in that report measured it, so treat it as a hypothesis, never as established practice.
+
+- Mark the `channel -> speaker sourcing` path _aspirational_ in the feed map until your own records support it.
+- Test it cheaply: add one optional question to the call for speakers or the invitation reply - "did our published videos play a part in your decision?" Record the answer per speaker.
+- Hand the evidence to `samber/dev-event-organizer-skills@event-speaker-sourcing` and `samber/dev-event-organizer-skills@event-speaker-cold-outreach`: a link to the speaker's predecessors' published talks is pitch material those skills can use.
+- Never promise a view count to a speaker. Promise publication under the release they signed, nothing more.
+
+This loop does not change Menu 1's rankings. It is a second reason to keep publishing, and it only works while the channel visibly publishes; a lapsed channel argues the opposite.
 
 ## Menu 3 - Wind-down and handover of the channel
 
@@ -219,6 +248,9 @@ By-construction is still never a pass.
 - **Letting the show become the community.** Publishing at people is not a space they belong to. If the plan starts needing a member list, replies or moderation, it is `samber/dev-event-organizer-skills@event-community-building`'s object.
 - **Booking only the people already booked.** The pool-only default is the efficient start, not the permanent shape - a show that only ever interviews this year's speakers becomes the programme in audio and reaches nobody new. Q5's pool size is the signal to promote a rung.
 - **Recording faster than the team can publish.** Unpublished recordings are the visible form of an over-committed cadence, and they carry a live release obligation while returning nothing.
+- **Publishing only around the flagship edition.** Organizers report that their channels get posts mostly around their biggest conferences. The channel then reads as a conference archive with long silences, not a property. Fix: pick the cheapest format on the effort ladder for the quiet months, or choose archive-only by decision.
+- **Starting with the hardest format.** A produced podcast as the first format spends the quiet-month hours on editing before the team knows whether it can hold any cadence. Fix: start at the unedited-stream rung of the effort ladder and climb only once a cadence has held.
+- **Claiming the channel recruits speakers.** The speaker-recruitment loop is a practitioner hypothesis. Mark it aspirational until the team's own speaker answers support it.
 
 ## Measurement
 
@@ -241,6 +273,8 @@ Self-set measures, declared before the cycle starts rather than read back from t
 - **Cadence kept** (binary per cycle): episodes committed versus episodes published. A miss that repeats is a demotion signal on Menu 1, not a discipline problem - no threshold is set here, because none is sourced.
 - **Pipeline depth**: guests named and agreed ahead of the next publish date. Report the count, never a rate - the denominator is meaningless at these sizes.
 - **Back-catalogue reachability** (gate-shaped): every published episode still resolves at its own address after a platform or account change.
+- **Speaker-loop answers** (self-set): speakers who said the published videos played a part in their decision, over speakers asked. Report the count. It is the only evidence that can move the speaker-recruitment path from aspirational to exists.
+- **Quiet-month publishing** (self-set, binary per gap): at least one item published between editions. A gap with nothing in it is the flagship-only pattern.
 
 Pass threshold, and iterate until met: the three gates, zero exceptions. A channel plan missing any one of them is not done, whatever its reach looks like.
 
@@ -267,6 +301,7 @@ Every unsourced element is labelled as this skill's own construction.
 
 - [references/property-shapes-and-cadence.md](references/property-shapes-and-cadence.md) - existence rungs, cadence commitment, feed relationship, archive closing note
 - [references/guest-pipeline-and-release.md](references/guest-pipeline-and-release.md) - sourcing rungs, vetting bar, stage vs. episode release, asset inventory, handover checklist
+- [references/low-effort-formats-and-speaker-loop.md](references/low-effort-formats-and-speaker-loop.md) - format effort ladder, short-clip sources, flagship-only pattern, speaker-recruitment loop test
 - samber/dev-event-organizer-skills@event-portfolio-strategy - portfolio decision that gates whether to have a media property at all
 - samber/dev-event-organizer-skills@event-content-repurposing - one-edition derivatives versus standing property boundary
 - samber/dev-event-organizer-skills@event-production - upstream recording capture and consent collection

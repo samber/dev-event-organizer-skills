@@ -1,10 +1,10 @@
 ---
 name: event-sponsor-pricing
-description: Build the sponsorship rate card for a technical event - the revenue target taken from the budget, an inventory of sellable surfaces, cost-recovery, market-comp and value-based price setting, a 2-4 tier ladder with anchoring and a sane top-to-floor ratio, add-on and exclusivity premiums, in-kind valuation, and the discount and negotiation policy written before the first sponsor call. Use whenever the user mentions sponsorship tier prices, a sponsor rate card, sponsor package pricing, or choosing between a published ladder, quote-gated pricing and no ladder at all - even if they never say "pricing". Do NOT use for attendee ticket prices - use samber/dev-event-organizer-skills@event-ticket-pricing; the deck is samber/dev-event-organizer-skills@event-sponsor-prospectus.
+description: Build the sponsorship rate card for a technical event - the revenue target taken from the budget, an inventory of sellable surfaces, cost-recovery, market-comp and value-based price setting, a 2-4 tier ladder with anchoring and a sane top-to-floor ratio, add-on and exclusivity premiums, in-kind valuation, and the discount and negotiation policy written before the first sponsor call, and annual sponsorship decoupled from events for a recurring series. Use whenever the user mentions sponsorship tier prices, a sponsor rate card, sponsor package pricing, or choosing between a published ladder, quote-gated pricing and no ladder at all - even if they never say "pricing". Do NOT use for attendee ticket prices - use samber/dev-event-organizer-skills@event-ticket-pricing; the deck is samber/dev-event-organizer-skills@event-sponsor-prospectus.
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.0"
+  version: "1.1.1"
 ---
 
 # Event Sponsor Pricing
@@ -24,6 +24,7 @@ Every ranking below is a default, not a law: it shifts with context and with who
 
 - A sold-out prior edition
 - A multi-event portfolio
+- A recurring series (monthly meetups) sold as one annual sponsorship
 - A volunteer team with no sales capacity
 - A free-to-attend funding model
 
@@ -34,13 +35,14 @@ Menu axis lines carry no currency amounts: ratios and orders of magnitude only. 
 Ask one question at a time, multiple-choice where possible. Questions 6-8 exist because the menus below diverge sharply on time-to-payoff, durability, and effort - the defaults cannot be picked for the user.
 
 1. Which pole does the event sit on: community-run (independent, CFP-driven, sponsors as cost recovery) or vendor/foundation-run (marketing budget, purchasable stage time and exclusivity)? This bounds the sellable inventory before anything gets a price.
-2. Is this a single event or one edition of a portfolio the same organizer runs? Is the event free-to-attend by design? (A portfolio unlocks bundling; a free event collapses the price-setting sequence - see the method menu.)
+2. Is this a single one-off event, a recurring series (a monthly meetup, a quarterly evening), or one edition of a portfolio the same organizer runs? Is the event free-to-attend by design? (A portfolio unlocks bundling; a recurring series makes annual sponsorship the strong default - see "Annual sponsorship for a recurring series"; a free event collapses the price-setting sequence - see the method menu.)
 3. Does a budget exist - total expenses and the sponsorship share it assigns? If not, stop and run `samber/dev-event-organizer-skills@event-budget` first; a rate card without a target under-prices tier by tier.
 4. What capacity constrains the card: venue floor space (booth/table count), attendee count, stage minutes the program policy allows to be sold, and how prior editions' tiers actually filled or sold out?
 5. Which comparable events' rate cards are in hand - same community, same region, same scale? Numbers with dates, not memories of numbers.
 6. When must sponsorship revenue close? Sponsors sign roughly a fiscal quarter ahead of the event; a near deadline promotes the early-bird rung and a shorter, simpler ladder over segmentation.
 7. Is this card a one-off raise or a compounding multi-edition asset? A compounding mandate promotes card integrity - the no-off-card-discount policy and scarcity-based repricing - over closing any single deal.
 8. What is the selling-effort ceiling: organizer hours, anyone with sales experience, appetite for per-deal negotiation? A volunteer team with no sales capacity deletes the quote-gated rung outright.
+9. What is the target sponsor segment's hiring pressure right now: are companies in the event's local tech market actively recruiting, holding, or cutting? Sponsors pay for two reasons, recruiting tech staff or selling to tech teams, and the recruiting half leaves first when hiring slows. A cooling market promotes a staff-free visibility tier and demotes booth-led tiers - see failure modes.
 
 ## Published ladder, quote-gated, or no ladder at all
 
@@ -50,12 +52,14 @@ The axis that changes the pricing work is disclosure architecture, and all three
 - **Quote-gated** - reach numbers published, prices per conversation. The clearest case is a network selling annual portfolio access to sophisticated repeat buyers, not a single event.
 - **No ladder by design** - a free-to-attend, donation/exhibitor-funded event never depended on tiered sponsorship; a flat stand fee plus donations is its whole card. This is a funding-model choice made at the budget/format level, not a pricing failure.
 
+For a single one-off event, "annual portfolio access" stays where the quote-gated rung below puts it: a network-scale offer, deleted for a volunteer team selling one event. A recurring series is a different case - see "Annual sponsorship for a recurring series" below.
+
 The community-run vs vendor-run pole this collection usually branches on still bounds _inventory_ - purchasable stage time and category exclusivity exist only at the vendor/foundation pole - but it does not pick the architecture: community and foundation events alike publish ladders. Say which architecture and which pole the card assumes.
 
 ## Workflow
 
 1. Run the interview; fix the pole, the architecture, and the constraints.
-2. **Fix the total first.** Sum the budget's expense lines and multiply by the sponsorship share: 75-80%+ of budget at community-conference scale (organizer guide's own target), effectively 100% for a free hackathon with no ticket line. This is the sum the whole card must raise - never a number to split evenly across tiers.
+2. **Fix the total first.** Sum the budget's expense lines and multiply by the sponsorship share: 75-80%+ of budget at community-conference scale, effectively 100% for a free hackathon with no ticket line. This is the sum the whole card must raise - never a number to split evenly across tiers.
 3. **Inventory the sellable surfaces**:
    - Booth/table slots the floor supports
    - Ticket allotments (a real, subtractable cost component, never free swag)
@@ -73,7 +77,11 @@ The community-run vs vendor-run pole this collection usually branches on still b
    - Anchoring: present the top tier first, make the middle tier the visibly best value
    - An optional permanently-free community tier for non-commercial local orgs (a reserved category, not a freemium funnel)
    - The booth price floor: floor presence starts at a hard tier, with no cheap route in beneath it (consistent across sourced prospectuses)
+   - At least one staff-free visibility tier (logo, digital and on-screen placement, no booth): a booth costs the sponsor staff days on top of the fee, so it is the first line a tightening sponsor budget cuts (Q9)
 6. **Price add-ons independently of the ladder.** A named branded surface may legitimately out-price a mid tier, at community and foundation scale alike. It cannibalizes only when it re-sells a tier's core gated benefit - floor presence, stage time - for less; price such an add-on above the cheapest tier that includes the benefit, or don't sell it. Keep one or two "contact us" lines for custom or sold-out slots.
+
+   A named live-captioning line ("captioning presented by ...") is one such surface. The sponsor buys visibility on the line, never control of the program, and the captioning is budgeted whether or not the line sells - the argument lives in `samber/dev-event-organizer-skills@event-accessibility-inclusion` § Who funds it.
+
 7. **Price exclusivity premiums** (vendor/foundation pole only): a track or category lead slot prices above the general ladder - published instances sit multiples above the top general tier, not add-on money - with a hard cap on count. At the community pole, the program policy rules these out: delete the line, don't park it.
 8. **Value in-kind sponsorship** with the framework in [references/in-kind-and-negotiation-policy.md](references/in-kind-and-negotiation-policy.md): an in-kind deal is worth the budget line it displaces, never the donor's stated retail value, and buys tier placement at that displaced-cost value.
 9. **Write the negotiation and discount policy before the first call**, from the same reference:
@@ -86,7 +94,7 @@ The community-run vs vendor-run pole this collection usually branches on still b
 
 10. **Set the calendar**: signing deadline about a quarter out to match sponsor fiscal lock-in, an early-bird date if the discount menu picked one, and add-on purchase cutoffs. Validate the card with the user section by section - total, ladder, add-ons, policy - then hand off to `samber/dev-event-organizer-skills@event-sponsor-prospectus`.
 
-If your harness has persistent memory, record: the revenue target and the share math behind it, the final card, each deviation granted and its reason, and every sellout or unsold tier. Next edition's repricing starts from that record instead of a blank sheet.
+If your harness has persistent memory, record: the revenue target and the share math behind it, the final card, each deviation granted and its reason, every sellout or unsold tier, each annual sponsor's renewal date, and the hiring-pressure read (Q9) the card was priced against. Next edition's repricing starts from that record instead of a blank sheet.
 
 ## Price-setting method
 
@@ -125,6 +133,25 @@ The segmentation gain and the choice cost roughly cancel.
 - **Quote-gated** - the starved option: tops value (per-deal price discrimination) and tops effort (every sponsor is a negotiation). Promotion condition: portfolio/network scale - selling annual reach across many events to sophisticated repeat buyers, which is the only sourced case. For a single event sold by a volunteer team (Q8), delete this rung - don't demote it: at that scale "contact us for pricing" stalls every deal behind organizer availability and reads as having something to hide.
 - **No-ladder-by-design** - an argued legitimate rung, not a fallback: right exactly when the funding model is donations plus flat exhibitor fees for a free event. It is chosen with `samber/dev-event-organizer-skills@event-budget`, not at pricing time.
 
+## Annual sponsorship for a recurring series
+
+A recurring series - monthly meetups, a regular evening format - sells one annual sponsorship instead of a sponsor per edition. This is a note outside the three menus, not a rung: it changes what is being priced (a year of the series), not the ladder shape or the discount mechanic.
+
+Organizers running monthly series found per-event sponsor hunting unsustainable and moved to annual sponsors plus a self-managed yearly budget. Treat this as field experience, not established practice.
+
+Why it is the strong default for a recurring series:
+
+- **Organizer time, not price, is the gain.** One sale per sponsor per year replaces one sale per sponsor per edition. Price the annual tier from the yearly cost-recovery total, not as a sum of per-event prices minus a percentage.
+- **Independence.** The sponsor funds the series, not a named edition, so no single evening's program reads as bought. Pair it with the editorial-independence clause in `samber/dev-event-organizer-skills@event-sponsor-agreement`.
+- **Cash arrives about a year ahead.** The budget runs on money already banked rather than on each edition's closing deals - hand the timing to `samber/dev-event-organizer-skills@event-budget`.
+
+How to apply it:
+
+- Keep the published ladder; tiers become annual tiers (same top:floor ratio logic, same feature-gating), with benefits stated per year: logo across all editions, a self-set number of on-stage mentions, hosting rotation if the sponsor has a venue.
+- Fix a renewal date one fiscal quarter before the series year starts (Q6 logic applies to the year, not each edition).
+- Keep the single-event rule for a one-off event: no annual tier, and the quote-gated deletion above still applies.
+- **Smaller variant:** a sponsor pays the drinks at a bar-hosted evening. A single-surface, per-edition deal for a series too small for an annual tier; price it at the displaced bar bill, using the in-kind displaced-cost logic.
+
 ## Discount mechanics
 
 What may reduce a published price. Ranking (default, not a law - re-rank against Q2, Q6, Q7):
@@ -136,6 +163,7 @@ What may reduce a published price. Ranking (default, not a law - re-rank against
 - **Early-bird deadline** - the default: one calendar-deadline price on the top tier only, dated to catch sponsors' fiscal lock-in about a quarter out (the one published community-scale early-bird works exactly this way: a date, not a percentage-off banner). A date on the card that pulls the largest deals forward for near-zero effort.
 - **Multi-event bundling** - the starved option. It tops value: it locks a multi-event commitment at a small fixed published rate, the closest published structured discount mechanic being a 3/5/8% step for one, two, three-plus events at foundation scale. It also tops effort: it requires a real portfolio and the contract mechanics to honor it. Promotion condition: the organizer actually runs two or more events under one banner (Q2).
 - **Negotiated case-by-case** - allowed only inside the written policy of workflow step 9, logged per deal. Without the policy, delete the rung.
+- **Annual series sponsorship is not a bundling discount** - a note outside this menu. Multi-event bundling discounts a portfolio of distinct events; an annual sponsorship of one recurring series is priced from the yearly total and sold for the organizer's time saved, not for a percentage off. Do not attach a bundle percentage to it by default.
 - **Year-over-year returning-sponsor discount** - deleted, not ranked: it stays off the card at community and foundation scale alike. The renewal lever is the post-event ROI report and the relationship - that work belongs to `samber/dev-event-organizer-skills@event-sponsor-fulfillment`, not to a rate cut that compounds into a permanently discounted anchor sponsor.
 
 ## Failure modes
@@ -148,6 +176,8 @@ What may reduce a published price. Ranking (default, not a law - re-rank against
 - **Discounting without a written policy.** The first exception becomes the market price; sponsors talk to each other.
 - **Passes treated as free swag.** A tier's ticket allotment is a subtractable cost component (published prospectuses value each pass individually); ignoring it under-prices exactly the tiers that carry the most passes.
 - **Ladder creep past four tiers.** A fifth tier is a price gap wearing a persona costume.
+- **Booth-first ladder with no staff-free visibility tier when budgets tighten.** Recruiting sponsors leave first when hiring slows, and a booth costs staff days on top of the fee, so booth-gated tiers stop selling while logo and digital visibility still sells. Fix: keep at least one staff-free visibility tier on every card, and re-read Q9 before each edition's repricing.
+- **Hunting sponsors edition by edition for a recurring series.** Per-event selling consumes the organizer time a monthly series cannot spare, and ties each sponsor to a specific evening. Fix: sell annual sponsorship and run a yearly budget.
 - **Deleting a sold-out surface from the public card.** The published pattern strikes it through and leaves it visible - live scarcity plus social proof - and a sellout is next edition's repricing signal, not a cleanup task.
 
 ## Measurement
@@ -157,6 +187,8 @@ Rate-card design cannot be measured against an industry pass rate, so never inve
 - **Target coverage by lock-in date**: share of the revenue target signed by roughly a quarter out. Behind pace reads as a price, ladder, or pipeline problem - split it with `samber/dev-event-organizer-skills@event-sponsor-outreach` before touching the card.
 - **Tier fill pattern**: the top tier selling out first and fast means it was under-priced - raise it next edition. The floor filling while the middle sits empty means the middle step-up buys no visible value.
 - **Add-on sellouts**: each one is a signal to price that surface higher next edition, never lower.
+- **Booth vs visibility sell-through** (self-set): share of booth-gated slots sold versus staff-free visibility slots, read against Q9. Booths lagging while visibility sells is a market signal, not a ladder bug.
+- **Annual renewal rate** (self-set, recurring series only): share of annual sponsors renewing by the renewal date.
 - **Deviation log frequency**: every off-card concession recorded per workflow step 9; a rising rate means the card is mispriced or the policy is too loose - decide which before the next deal, not after.
 
 ## Invocation examples
@@ -165,6 +197,7 @@ Rate-card design cannot be measured against an industry pass rate, so never inve
 - "Should our hackathon publish sponsorship prices or make sponsors ask? We're three volunteers."
 - "A sponsor wants to pay half in cloud credits and half in cash - what's that worth against our Gold tier?"
 - "Our top tier sold out in two weeks and the middle tier hasn't moved. Fix the ladder for next year."
+- "We run a monthly meetup and chasing a sponsor every month is killing us. How do we price a yearly sponsorship?"
 
 Expected output: a rate card, presented section by section for validation, every number labeled by the method that set it.
 

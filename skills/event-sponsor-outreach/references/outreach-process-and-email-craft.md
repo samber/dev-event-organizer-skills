@@ -44,14 +44,15 @@ Runs pre-prospectus - "sponsors haven't received your prospectus at this stage,"
 
 1. Explain what the event is, with an analogy for unfamiliar sponsors (the guide's example: a hackathon as a science fair).
 2. Sell the team and the event's story - competence is one of the four things sponsors weigh.
-3. Ask what success metrics they used in past sponsorships, and what they spent and got: "what have you spent and what did you get out of it?"
-4. Let the sponsor talk - prompt with guiding questions to surface their real goals rather than pitching over them.
-5. Schedule the follow-up call before hanging up. Always.
+3. Run needs discovery: ask what the company needs from the event - employer brand or hiring, selling to the audience, product feedback, brand awareness, community goodwill. Many sponsors cannot name it unprompted, so probe each need in turn and map the answer onto the value categories of `samber/dev-event-organizer-skills@event-sponsor-value-proposition`.
+4. Ask what success metrics they used in past sponsorships, and what they spent and got: "what have you spent and what did you get out of it?"
+5. Let the sponsor talk - prompt with guiding questions to surface their real goals rather than pitching over them.
+6. Schedule the follow-up call before hanging up. Always.
 
-**ANUM overlay** - run the qualification silently during step 4:
+**ANUM overlay** - run the qualification silently during steps 3-5:
 
 - **A**uthority: is this the budget holder, or do you need a referral upward?
-- **N**eed: which motivation (feedback, recruiting, brand) is actually theirs?
+- **N**eed: which value category does the need from step 3 map to, and can the event honestly carry it?
 - **U**rgency: where is their fiscal-year budget window right now?
 - **M**oney: what did they spend on comparable sponsorships?
 
@@ -59,7 +60,7 @@ Runs pre-prospectus - "sponsors haven't received your prospectus at this stage,"
 
 Send it **immediately after the call**, same day. Either the standard prospectus with the most relevant pre-built package highlighted, or a custom proposal when the standard tiers don't fit.
 
-State explicitly _why_ this proposal fits this sponsor: tie it to the success metric they named on the call. Always attach a sponsorship deadline.
+State explicitly _why_ this proposal fits this sponsor: tie it to the need and the success metric they named on the call. Name only activities the program already contains; never an attendee list or a purchased talk slot at a community-run event. Always attach a sponsorship deadline.
 
 ## The two cadences
 

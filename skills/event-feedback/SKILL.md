@@ -4,7 +4,7 @@ description: Design and run participant-feedback collection for one edition of a
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.1"
+  version: "1.1.0"
 ---
 
 # Event Feedback
@@ -189,6 +189,15 @@ Publishing nothing sits last on efficiency despite costing nothing: zero return 
 
 For a private or NDA-bound event, or where publication consent was not requested at collection time, **delete the public findings post** - the material is not yours to publish.
 
+## Recurring meetups: automatic pulse, level split, outcomes
+
+It is field testimony, not established practice.
+
+- **Send the pulse automatically after every event.** Automation is what keeps one meetup's number comparable to the next: same instrument, same delay, no organizer remembering to send it. Feed the result to the KPI shortlist in `samber/dev-event-organizer-skills@event-continuous-improvement` only if the team kept satisfaction as one of its 2-3 KPIs.
+- **Add one level question when the room is mixed.** Mixed-level rooms return contradictory feedback - "too technical" and "not technical enough" on the same session. Ask a closed level question ("for you, this was: too basic / about right / too advanced") and the respondent's own level, then cross the two. A split that tracks respondent level is an audience-level finding for `samber/dev-event-organizer-skills@event-positioning`, not a speaker-quality verdict.
+- **Ask about outcomes in the follow-up, not the pulse.** Projects started, collaborations, companies founded, jobs found - outcomes appear weeks or months later. A hackathon edition can produce at least one company. Ask in the hackathon follow-up (step 7) or a standing "tell us what came out of it" ask, and hand answers to the outcome log in `samber/dev-event-organizer-skills@event-continuous-improvement`.
+- **Questionnaires are one side of the impact question.** Organizers disagreed on whether the team or attendee questionnaires should judge impact. Hand the questionnaire's reading over as one input; never present it as the impact verdict.
+
 ## Re-ranking against the interview answers
 
 Say which answer moved which option, per menu, rather than silently reordering. Full Q1-Q8 breakdown against all three menus: [references/interview-answer-reranking.md](references/interview-answer-reranking.md).
@@ -208,6 +217,8 @@ Two moves are easy to miss:
 - **Promising anonymity and running a prize draw.** The draw needs an identity - pick one before fielding.
 - **Passing a free-text complaint straight to the named person.** `event-speaker-experience` owns what a speaker receives; the code-of-conduct pipeline owns allegations. Neither is a finding to forward on instinct.
 - **Collecting and never reporting back.** The failure that compounds: respondents who hear nothing do not answer next year.
+- **Averaging a level split.** "Too technical" plus "not technical enough" averages to "about right" and hides an undecided audience level. Cross the level answer with respondent level before reporting it.
+- **Hand-sending the meetup pulse.** A survey someone has to remember goes out late or not at all, and the series loses comparability. Automate the send.
 - **Surveying a hackathon like a conference.** Team formation, mentors, judging fairness, and tooling are the substance of that format; a conference core alone measures its catering.
 
 ## Measurement
@@ -225,6 +236,7 @@ Signals to record, not targets:
 - **Return intent** - below roughly two-thirds is an early warning; hand the trend to `event-continuous-improvement`.
 - **Completion vs. start rate** - where people abandon flags which question was too long or vague.
 - **Whether and how fast respondents heard back** - the single best predictor of next edition's rate.
+- **Level-split share** (mixed rooms only, self-set) - share of sessions rated both too basic and too advanced by different respondent levels. Hand the trend to `event-positioning`.
 
 ## Invocation examples
 

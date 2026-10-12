@@ -68,7 +68,7 @@ Decline early, in specifics, and offer what does exist. A late decline is worse 
 
 A provision nobody announces is used only by the people who already knew about it, which is the opposite of the point.
 
-- **In the opening**, name what exists and where: the quiet space, reserved seating, all-gender restrooms, the consent stickers and what the colours mean, the nursing room, who to find. Sixty seconds.
+- **In the opening**, name what exists and where: the quiet space, reserved seating, all-gender restrooms, the consent stickers and what the colours mean, the nursing room, who to find and how to recognize them - the marked inclusion team at a large conference, the organizers themselves at a small one. Sixty seconds.
 - **At the registration desk**, brief the volunteers on every provision, including the ones whose location is deliberately unpublished - the nursing room's location withheld until check-in only works if the desk actually knows it.
 - **Signpost the walk-up provisions** physically. Anything that requires asking a human filters out the people least willing to ask.
 - **Name the owner per provision** for the duration of the event, and make sure the desk knows who that is.

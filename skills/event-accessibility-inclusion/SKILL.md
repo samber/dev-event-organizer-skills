@@ -1,10 +1,10 @@
 ---
 name: event-accessibility-inclusion
-description: Decide which accessibility and inclusion provisions a technical event commits to - the physical, sensory, dietary, economic and digital-access set, at what depth, sized for whom, funded from where - plus the public declaration of it and the data-handling posture for accommodation requests. Use whenever asked what accessibility a conference should offer, whether to caption talks, whether to run a quiet room, childcare or travel grants, how to write an accessibility page, or how to answer an accommodation request, even if the user never says "accessibility". Decides the bar, not delivery. Do NOT use for the code of conduct - use samber/dev-event-organizer-skills@event-code-of-conduct. Not legal advice; access duties vary by jurisdiction.
+description: Decide which accessibility and inclusion provisions a technical event commits to - the physical, sensory, dietary, economic and digital-access set, at what depth, sized for whom, funded from where - plus the public declaration of it and the data-handling posture for accommodation requests. Use whenever asked what accessibility a conference should offer, whether to caption talks, whether to run a quiet room, childcare or travel grants, whether to staff an identifiable inclusion team, how to write an accessibility page, or how to answer an accommodation request, even if the user never says "accessibility". Decides the bar, not delivery. Do NOT use for the code of conduct - use samber/dev-event-organizer-skills@event-code-of-conduct. Not legal advice; access duties vary by jurisdiction.
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.0"
+  version: "1.3.0"
 ---
 
 # Event Accessibility and Inclusion
@@ -46,12 +46,16 @@ Ask one question at a time, multiple-choice where possible. Questions 7-9 exist 
 7. When must the provision set be published? Attendees book travel months ahead - a hard date promotes fast-acting rungs on every menu.
 8. One-off edition, or one year of a recurring event? Recurring promotes compounding rungs a one-off can never repay.
 9. Effort ceiling: organizer hours, anyone to staff a request channel through to the event, budget committable before tickets sell? No one to answer requests deletes the request-channel rungs entirely.
+10. What time of day does the event run, and is that slot still movable? An evening slot excludes caregivers before any provision can reach them (§ Before Menu 4: the slot itself).
+11. How large is the event: a meetup or single-room day where attendees can see the organizers, or a multi-day or high-attendance conference where they cannot? Decides whether a dedicated identifiable team exists at all (§ The people attendees turn to).
 
 ## Who funds it
 
 An attendee's access need is identical whether an employer or the attendee bought the ticket; no provision changes shape because of who paid.
 
 The axis that does discriminate is **who funds the provision line**. A foundation- or vendor-run event carries a standing accessibility budget, provisioning per-room live captioning, complimentary childcare, and equipment rental as normal practice. A community event funds the same provisions out of the money that would otherwise buy lunch - this moves menu 1 (depth), menu 2 (captioning) and menu 4 (economic access).
+
+At conference scale, live captioning is also a sponsorable line: a sponsor can fund it as a named line ("captioning presented by ..."). The sponsor buys visibility on the line, never control of the programme or of what gets captioned. Budget the provision first, so it exists whether or not the line sells; a sale offsets the cost, it does not create the provision. Pricing and presenting the line belong to `samber/dev-event-organizer-skills@event-sponsor-pricing` and `samber/dev-event-organizer-skills@event-sponsor-prospectus`.
 
 It does **not** move menu 3. A two-person volunteer team and a foundation face the identical problem once an attendee discloses a disability: the same duty of care, the same retention question, the same person who now has to answer. Say so rather than letting the funding pole read as an excuse that reaches every menu.
 
@@ -90,15 +94,27 @@ Ranking (default, not a law - re-rank against Q1, Q3, Q8):
 
 On-request tops compliance cost alone: the only rung that requires holding a named individual's disability disclosure and acting on it, where refusing after receiving one is the exposure. The two post-hoc rungs tie because both publish a derived text record and both raise one question - does the speaker's recording release cover a transcript and its translations - answered once, reversible by unpublishing a file. The two live rungs tie because the review is a vendor's retention terms plus the speaker's consent to a live transcript; fewer rooms changes how much is captioned, not which clause gets read.
 
+Every live rung assumes a human captioner: real-time stenotype captioning by a stenographer (also called CART; vélotypie in French), the quality option for live talks. Delivery mode does not re-rank the menu. The rungs measure how much of the programme is covered and on what trigger; an automatic feed lowers value at every scope without changing the scope, so it is a fallback inside a rung, never a rung of its own.
+
+The menu is mostly a conference decision. A meetup or small event (Q11) usually stays on the on-request rung.
+
 Sourced examples for each rung are in [references/provision-catalog.md](references/provision-catalog.md) § Captioning, interpretation and subtitles.
 
-- **On-request live provision** (efficiency default) - publish that interpretation/live captioning is available on request with a stated lead time, book it when asked. Its failure mode: only fires if someone discloses, and most don't.
+- **On-request live provision** (efficiency default) - publish that interpretation/live captioning is available on request with a stated lead time, book a human captioner when asked. Its failure mode: only fires if someone discloses, and most don't.
 - **Live captioning, main days/room only** - promote when Q3 shows the need is real and recurring. State which parts are covered - an unstated scope is what a deaf attendee discovers in the room.
 - **Post-event corrected captions** - the cheap floor: correct an automated pass over published recordings. Helps nobody in the room; never an answer to a live need.
-- **Live captioning in every room** (starved rung) - tops value and effort. Promote when Q1 named an existing budget line, or on-request has fired more than once.
+- **Live captioning in every room** (starved rung) - tops value and effort. Promote when Q1 named an existing budget line, or on-request has fired more than once. A sponsored captioning line (§ Who funds it) can pay for it; it never decides whether it exists.
 - **Standing subtitle pipeline** (starved rung) - crowdsourced volunteer subtitling after the event. Buys multi-language reach, compounds across editions, never ends. Promote when Q8 says recurring and a volunteer community already exists.
 
-Deleted rather than ranked: **treating production capability as a captioning provision.** A capable broadcast operation is not a captioning provision until someone states it, budgets it, and publishes what it covers.
+Whichever live rung wins, two rules apply:
+
+- **Brief the captioner on the jargon before the event**, even though a human transcribes. Technical talks are dense with terms a captioner who never saw them will get wrong. The accessibility owner (Q5) sends the programme, speaker names, slide decks when available, and a glossary of product names, acronyms, library and tool names, at a lead time agreed with the captioner. See [references/provision-catalog.md](references/provision-catalog.md) § Captioning, interpretation and subtitles for the pack.
+- **Treat a fully automatic feed as a fallback, not a captioner.** It struggles with jargon, code identifiers, accents and overlapping speech. Use it where no human is funded - a breakout room, a budgetless edition - or as a draft for post-event correction. Label it automatic on screen and on the page, and say which rooms have a human.
+
+Deleted rather than ranked:
+
+- **Treating production capability as a captioning provision.** A capable broadcast operation is not a captioning provision until someone states it, budgets it, and publishes what it covers.
+- **Announcing an unvetted automatic feed as captioning coverage.** It would win efficiency on every live rung, and the attendee who relied on it discovers the gap mid-talk. A room with only an automatic feed is not captioned in the sense the page promised.
 
 Whichever rung wins, hand delivery to `samber/dev-event-organizer-skills@event-production` to own the signal path and the budget line.
 
@@ -129,6 +145,16 @@ Deleted rather than ranked at any staffing level: **routing requests to the gene
 
 See [references/accessibility-page-and-request-flow.md](references/accessibility-page-and-request-flow.md) for the request-channel copy and the five-point data-handling posture to decide before the channel opens.
 
+## Before Menu 4: the slot itself
+
+Childcare is a provision to fund. The time slot decides whether caregivers need it at all, and it costs nothing to change while the date is still open.
+
+- Organizers report that evening events lose women mostly through childcare, and that experienced practitioners also skip evenings for family reasons.
+- The same reports describe women's share rising with daytime or lunch slots, and with broadly uniting topics: a product-themed conference, a workshop co-run with an HR meetup.
+- Read this as a cheaper move than any rung below, not as a substitute for them: a full-day conference still needs childcare, and some audiences can only come in the evening.
+
+Hand the slot question to `samber/dev-event-organizer-skills@event-date-selection` (§ Time of day) while it is movable. Hand topic breadth and co-hosting with a non-technical community to `samber/dev-event-organizer-skills@event-format-selection`. Once the slot is fixed in the evening, Menu 4's childcare rungs are the remaining lever.
+
 ## Menu 4 - Economic access
 
 Ticket price itself is not yours: the need-gated scholarship rung belongs to `samber/dev-event-organizer-skills@event-ticket-pricing`, which owns its application mechanic and reviewer. This menu is what access costs _beyond_ the ticket.
@@ -151,6 +177,29 @@ They do not tie on effort. A subsidized fee looks cheaper and is not: see [refer
 
 Deleted rather than ranked: an unpublished "email us and we'll see" hardship promise with no budget behind it.
 
+## The people attendees turn to
+
+Menu 3 shrinks what needs a written request; this is its human counterpart. At a large conference, make a team trained in handling inequality - discrimination, exclusion, unequal treatment, an access need nobody anticipated - physically identifiable for the whole event, a distinct t-shirt being the usual mark. An attendee then reaches the right person without first explaining to a stranger why they need help.
+
+Scope it by Q11, not by ambition:
+
+- **Large conference** (multi-day, or big enough that attendees cannot see the organizers): staff the dedicated team, on every day and floor the event uses.
+- **Meetup or small event**: skip the dedicated team. The organizers are the contact - name them and point at them in the opening, and say the same on the event page. Matching shirts at a single-room evening add a uniform, not reach.
+
+Three conditions make the team exist rather than just wear a colour:
+
+- **Announce it before the event or at the start**: event page, accessibility page, the pre-event attendee email, and the opening remarks - that the team exists, what it is for, and how to recognize it. A mark nobody was told about is decoration.
+- **Brief before identifying.** An identifiable team without training is worse than none: the attendee who finally asks gets a shrug and stops asking. Minimum briefing: every provision and where it is, how to listen without demanding justification, what a member may resolve alone, and the handoff path - provision owner, organizer on duty, code-of-conduct response team. Recruit and brief through `samber/dev-event-organizer-skills@event-volunteers`.
+- **Give it a handoff, not a desk of its own.** Every member knows who owns each provision and how to reach the organizer on duty; the team routes, it does not hold requests nobody else sees.
+
+### Not the code-of-conduct response team
+
+`samber/dev-event-organizer-skills@event-code-of-conduct` already makes physically identifiable on-site responders the default reporting channel for incidents, and owns that ranking. The inclusion team is broader and earlier: proactive help with access and unequal-treatment friction, most of which never becomes a report. Its small-event answer does not touch the response team, which that skill staffs at any size.
+
+- **Can share**: people (a trained responder can also serve here), one briefing session, and the shirt. One "ask us" mark is easier to announce than two colours attendees must decode - a default, not a law.
+- **Must not be conflated: intake.** A member who hears a code-of-conduct violation hands it to the response team under that skill's runbook and confidentiality promise; they do not investigate, decide or record it themselves. A shared shirt therefore requires every wearer to have that skill's staff briefing - a reporter cannot tell which wearer may take a report.
+- **Must not be conflated: purpose.** If only responders wear the mark, attendees read it as "for harassment only" and bring no access problem to it. When the mark is shared, the opening announcement states both purposes.
+
 ## The digital layer
 
 Web accessibility is a separate discipline and transfers here only to the event's own digital surface - the website, registration and CFP forms, the schedule, the livestream player, and published program materials. It says nothing about physical or sensory provisions on site, and must never be presented as covering them.
@@ -164,8 +213,8 @@ Target WCAG 2.2 level AA on those surfaces, structured by the four POUR categori
 3. **Write the accessibility criteria sheet** and hand it to `event-venue-sourcing` as a sourcing input; it checks candidates against your sheet.
 4. **Declare the set publicly on one page**, provision by provision, with what is covered and what isn't: [references/accessibility-page-and-request-flow.md](references/accessibility-page-and-request-flow.md).
 5. **Open the request channel** chosen in Menu 3, with owner, lead time, and retention rule stated on the form. Answer every request, including declines.
-6. **Route delivery**: captioning to `event-production`; dietary commitments to `event-vendor-sourcing`; a speaker's declared need to `event-speaker-experience`; placement and wayfinding to `event-attendee-experience`.
-7. **Staff it and say it on the day**: name who owns each provision, and open with what exists and where.
+6. **Route delivery**: captioning to `event-production`, with the captioner's jargon brief sent ahead by the accessibility owner; dietary commitments to `event-vendor-sourcing`; a speaker's declared need to `event-speaker-experience`; placement and wayfinding to `event-attendee-experience`.
+7. **Staff it and say it on the day**: name who owns each provision, and open with what exists and where. At a large conference, brief and mark the inclusion team, and announce how to recognize it; at a small event, the organizers name themselves as the contact.
 8. **Review after the event**: requested, delivered, declined and why. Delete the request data on the schedule published.
 
 If your harness has persistent memory, record the provision set as published, every request and how it was answered, the venue's real access facts, and which provisions went unused. Next edition provisions against that record instead of a template.
@@ -186,8 +235,11 @@ Say these out loud rather than inventing an answer:
 - **Treating the templated full page as a floor at community budget.** It is the top of a range most published events do not reach. Copying it produces a page of promises the budget cannot fund.
 - **Captioning part of the programme without saying which part.** Sourced practice scopes captioning to the highest-attendance days; the failure is not the scope, it is discovering the scope in the room.
 - **Deciding accessibility after the venue is signed.** Almost every physical provision is a property of the building. Once the contract is signed, the menu has already been chosen for you.
-- **Reading production capability as coverage.** A capable A/V team is not a captioning provision until someone states, budgets and publishes it.
+- **Reading production capability as coverage.** A capable A/V team, or an automatic caption feed, is not a captioning provision until someone states, budgets and publishes it, with the automatic feed labelled as such.
+- **Sending the captioner in cold.** A human captioner given no programme or glossary mis-renders product names, acronyms and library names all day. Fix: the accessibility owner sends the pack before the event (§ Menu 2).
+- **Marking a team nobody briefed.** Shirts go on without training, an attendee asks about a provision or an unfair moment, and gets a shrug. Fix: brief before the mark goes on, with a written handoff path (§ The people attendees turn to).
 - **Letting a request channel substitute for walk-up design.** Every provision that requires disclosure filters out the people least willing to disclose. Shrink the set that needs asking first.
+- **Funding childcare for an evening slot nobody questioned.** The slot was the cheaper lever. Fix: ask Q10 before Menu 4, while the date is still movable.
 - **Publishing a grant program without its access limit.** A reimbursement-only grant excludes anyone who cannot front the cost. Say so on the page rather than letting the applicant discover it.
 
 ## Measurement
@@ -197,14 +249,17 @@ Everything below is self-set - pick two or three and write down before the event
 - **Requests received against requests met** (self-set): the ratio, and the reason for every unmet one. A channel with zero requests is not evidence of zero need; it is usually evidence the page was published too late or the channel was not trusted.
 - **Provisions used against provisions funded** (self-set): a quiet space nobody entered and a childcare booking nobody took are different findings from an over-subscribed one, and both belong in the debrief.
 - **Lead time from page publication to the travel-booking window** (self-set): a page published after attendees have booked reached nobody it was for.
+- **Composition by time slot** (self-set, only where gender or caregiver status is collected with consent): share of women and of caregivers per slot type across editions.
 - **Requests carried forward** (self-set): needs that recur edition to edition should become walk-up provisions rather than repeat requests.
 
 ## Invocation examples
 
 - "We're running a 400-person community conference in a university building - what accessibility should we actually commit to, and what should we not promise?"
 - "Should we caption our talks? We have a good video team and no captioning budget."
+- "Can we use automatic captions instead of paying a stenographer for our conference?"
 - "Someone asked for a sign-language interpreter three weeks out. What do we do, and what should we have published?"
 - "Write our accessibility page. We have a quiet room, step-free access and no childcare."
+- "Almost no women come to our evening meetup. Should we fund childcare?"
 
 Expected output: a provision set and the request channel, presented section by section for validation, every item labelled sourced or self-set.
 
@@ -213,9 +268,9 @@ Expected output: a provision set and the request channel, presented section by s
 
 ## References
 
-- [references/provision-catalog.md](references/provision-catalog.md) - every sourced provision with its origin and date: the templated full page item by item, the historical 2019 page, FOSDEM's thin page including its stated absences, and the dietary categories with their fallback paths.
+- [references/provision-catalog.md](references/provision-catalog.md) - every sourced provision with its origin and date: the templated full page item by item, the historical 2019 page, FOSDEM's thin page including its stated absences, human real-time captioning with the captioner's jargon brief and the limits of automatic captions, and the dietary categories with their fallback paths.
 - [references/accessibility-page-and-request-flow.md](references/accessibility-page-and-request-flow.md) - how to structure the page, how to word a provision and its scope honestly, the request-channel copy, the data-handling posture, and what to announce on the day.
 - [references/economic-access-and-childcare.md](references/economic-access-and-childcare.md) - the childcare vendor due-diligence checklist with its sourced staffing ratios and vetting standards, the subsidy ratio, and the grant program's mechanics including its access limit.
 - [references/digital-layer-checklist.md](references/digital-layer-checklist.md) - the WCAG 2.2 AA checklist for the event's own website, forms, schedule and livestream, labelled digital-layer-only throughout.
 
-Sibling skills referenced throughout: `event-venue-sourcing`, `event-production`, `event-vendor-sourcing`, `event-attendee-experience`, `event-speaker-experience`, `event-code-of-conduct`.
+Sibling skills referenced throughout: `event-venue-sourcing`, `event-production`, `event-vendor-sourcing`, `event-attendee-experience`, `event-speaker-experience`, `event-code-of-conduct`, `event-volunteers`.

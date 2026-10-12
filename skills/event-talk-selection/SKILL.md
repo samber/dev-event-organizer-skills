@@ -4,7 +4,7 @@ description: Run the review and selection process on CFP submissions a technical
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
 # Event Talk Selection
@@ -40,6 +40,8 @@ Ask one question at a time, multiple-choice where possible. Questions 3-5 exist 
 9. What already exists that should re-rank the menus: a returning committee, last edition's rubric and its complaints, a CFP tool with a review mode, an archive of past decisions?
 10. Does the submission form also carry financial-assistance or travel-grant requests?
 11. Is this a multi-track program, or single-track?
+12. Who is actually in the room: experts, developers moving into the field, non-technical attendees, or a mix? Answer from last edition's attendance, not from the event's tagline. A mixed room changes the program-fit pass and the brief every accepted talk carries.
+13. Do organizers, their employers, or sponsors' staff submit to this call? Decide their rule before the first proposal is read (see Organizer and sponsor-affiliated submissions).
 
 ## Community vs vendor conference
 
@@ -59,7 +61,7 @@ Say which pole a recommendation assumes when they differ.
 5. Brief reviewers on conflict of interest before scoring opens, not after a conflict surfaces (see below). Name the fallback for a proposal that loses too many reviewers to recusal.
 6. Run round one: every proposal scored on the rubric, with written comments attached to every score. Mandatory comments are established practice and are what makes rounds two and three, and any real decline feedback, possible at all.
 7. Cut to a shortlist on score. State the cut as a rule before seeing the ranking - a threshold or a percentage - so the line is not drawn around a favourite.
-8. Run the program-fit pass on the shortlist, not on the whole pool: topic spread, employer spread, local versus out-of-town, first-time speakers, and however invited talks were decided in Q7. This is the step where a score-rank list becomes a program. It is also the least documented step in the field (see failure modes) - write down what you traded and why, because next edition's committee will ask.
+8. Run the program-fit pass on the shortlist, not on the whole pool: topic spread, employer spread, local versus out-of-town, first-time speakers, and however invited talks were decided in Q7. Add the field-reported checks below: lesson transfer for vendor talks, topic freshness, the depth gradient for a mixed room, and the edition's brand promise. This is the step where a score-rank list becomes a program. It is also the least documented step in the field (see failure modes) - write down what you traded and why, because next edition's committee will ask.
 9. Fill the slots, then build the waitlist before sending anything. Keep the backup list explicitly ordered.
 10. Notify, in this order:
     - Acceptances first, with a confirmation deadline.
@@ -163,6 +165,28 @@ The honest limit: both are honour-system recusals. No declared-conflict registry
 - Who arbitrates when a reviewer will not recuse.
 - What happens to a proposal that loses so many reviewers to recusal that its scores are no longer comparable.
 
+## Organizer and sponsor-affiliated submissions
+
+The reviewer brief above covers a reviewer scoring someone else. It does not cover the organizer who is also a submitter. Small meetup teams hit this every edition, because the organizers are often the most available speakers. Defaults to adapt:
+
+- **Disclose.** An organizer's own proposal is labelled as such to the rest of the committee before scoring opens. Under blind review, the organizer still knows their own text: they cannot be blind to it, so the label costs nothing the process had.
+- **Abstain on your own talk and your employer's.** The organizer does not score their own proposal or any proposal from their employer, by the same skip-the-question rule as above.
+- **Cap frequency.** Set a self-set ceiling on organizer-given talks per edition or per year, and write it down. Without one, an organizer team quietly becomes the program.
+- **Allow the opt-out.** Some organizers prefer never to speak at their own event. Treat that as a legitimate standing policy, not modesty to be talked out of.
+- **Cap sponsor-affiliated speakers.** A speaker employed by a current sponsor goes through the same review, and the program carries a self-set ceiling on how many such slots exist. The community-pole line still holds: no slot is bought. Put the editorial-independence wording in the sponsor contract itself via `samber/dev-event-organizer-skills@event-sponsor-agreement`, so the cap is a term the sponsor signed rather than a favour you are refusing.
+
+Record each disclosure and abstention next to the proposal. A program that later looks self-serving is defended by that record, not by memory.
+
+## Program-fit checks reported by practitioners
+
+They are field heuristics, not measured findings: present them as such. Detail and worked shapes are in [references/program-fit-field-reports.md](references/program-fit-field-reports.md).
+
+- **Lesson-transfer test for vendor and start-up talks.** Ask one question: if the audience forgot the product name tomorrow, would they keep the lesson? A start-up or vendor can speak when the takeaway is a lesson or an inspiration that transfers to any stack. A talk whose takeaway is the product fails, and a commercial demo fails outright. Add the commercial-content rule to the acceptance email (see the reference).
+- **Topic freshness.** In a fast-moving field, last year's hot topic goes stale within months. Check every "state of the art" or "latest" promise against the actual event date, not the submission date. Keep a self-set number of slots unfilled after review and fill them late, by invitation, close to the news cycle. Say in the program-fit record which slots were held open and why.
+- **Depth gradient for a mixed room** (keyed to Q12). One track can serve a mixed technical and non-technical room without splitting it. Brief each accepted talk to open where nearly everyone follows and end on material most of the room cannot follow. The practitioner heuristic: if a talk did not lose most of the room by the end, it did not go deep enough. Score proposals on whether they can carry both ends, and pass the evening order to `samber/dev-event-organizer-skills@event-schedule-design`.
+- **Audience level as it is, not as hoped.** Practitioners report that experts are hard to attract to general evening meetups, for family and availability reasons, and that regulars skew toward developers moving into the field. Pitch the deep end of each talk at that room. A program built for experts who do not come loses the people who do.
+- **Brand promise.** If the event promises a memorable moment every edition (a "wake-up call", a talk people still discuss a month later), selection alone cannot keep it. Back it with a shared good-talk framework applied at review, plus coaching and rehearsal after acceptance via `samber/dev-event-organizer-skills@event-speaker-experience`. If coaching capacity is not there this edition, soften the promise rather than missing it in public.
+
 ## Waitlist and declines
 
 Build the waitlist before notifying anyone. One documented size is about five backup talks for a single-track program; scale it to your decline risk, and say that you are extrapolating. No published data exists on how often a waitlisted talk is actually promoted, so never tell a waitlisted speaker their odds - tell them the date they will know.
@@ -196,6 +220,10 @@ One structural detail worth copying from a blind process: accepted speakers are 
 - **Waitlist promises.** "You're first in line" and "we'll definitely have room" are commitments nobody can keep. Promise a date, never a probability.
 - **Silent balance.** A program-fit pass that trades a higher-scored talk for spread and writes nothing down. Next edition's committee re-litigates it blind, and the submitter who asks gets an answer nobody can give.
 - **Reading oversubscription as a track shortage.** A high submission-to-slot ratio is a demand signal, not a live cue to add a track mid-cycle. The track count was fixed upstream by `samber/dev-event-organizer-skills@event-format-selection`; the demand read belongs to `samber/dev-event-organizer-skills@event-market-fit`.
+- **Organizer self-selection.** Organizers submit, score each other's talks, and fill the program with the team. Disclose, abstain, cap - and decide the rule before the call closes.
+- **Product talk admitted as a lesson.** A vendor proposal reads well, then ships a demo. Apply the lesson-transfer test at review and state the commercial-content rule in the acceptance, so the speaker hears it before writing the deck.
+- **Stale state of the art.** A program frozen months ahead promises "the latest" and delivers last season's news. Hold slots open late in a fast-moving field.
+- **Pitching the program at an absent audience.** Talks tuned for experts who do not attend, in a room of developers moving into the field. Read the room from attendance (Q12).
 - **Reviewing invited talks in the same pool.** An invited speaker's identity is the reason they were invited, so they cannot be blind-reviewed alongside the open pool without corrupting both. Decide their lane in advance (Q7).
 
 ## Measurement
@@ -240,6 +268,7 @@ Present it section by section for validation before review opens.
 
 - [references/committee-models-and-rubrics.md](references/committee-models-and-rubrics.md) - both established rubrics verbatim with their criteria wording, the cascade's percentage stages, the letter-scale aggregation mechanic, committee roles, and a worked positive/negative scoring example.
 - [references/decision-communication.md](references/decision-communication.md) - accept, decline and waitlist templates, the notification sequence and de-anonymization asymmetry, per-speaker duplicate-acceptance handling, and the tooling capabilities the flow needs.
+- [references/program-fit-field-reports.md](references/program-fit-field-reports.md) - program-fit checks: the lesson-transfer test with its commercial-content rule, topic freshness and late-held slots, the depth-gradient brief for a mixed room, audience-level reality, and the brand-promise chain, each labelled unpublished.
 - [references/selection-evidence-and-gaps.md](references/selection-evidence-and-gaps.md) - acceptance-rate and oversubscription benchmarks, diversity rules and targets, the panel composition rule, and an explicit list of what this domain does not document.
 
 See also, same collection:
@@ -248,5 +277,6 @@ See also, same collection:
 - `samber/dev-event-organizer-skills@event-speaker-sourcing` - the invited-speaker channel that merges into this program; decide its lane before review opens.
 - `samber/dev-event-organizer-skills@event-speaker-experience` - picks up at the acceptance email's "what we need next" line: collects those materials and runs everything after. It never touches decline or waitlist messaging, which stays here.
 - `samber/dev-event-organizer-skills@event-schedule-design` - places the accepted list into the track structure downstream.
+- `samber/dev-event-organizer-skills@event-sponsor-agreement` - carries the editorial-independence clause that backs the sponsor-affiliated speaker cap.
 - `samber/dev-event-organizer-skills@hackathon-judging` - judges projects built during an event, on different criteria and a same-day timeline; distinct from reviewing a talk proposal.
 - `samber/dev-event-organizer-skills@workshop-program-design` - owns the format-specific questions a hands-on proposal raises that a talk proposal does not: whether the instructor can run it at the capacity offered, and whether the exercise scales to the room.

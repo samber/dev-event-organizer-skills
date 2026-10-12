@@ -4,7 +4,7 @@ description: Pick the date a technical event runs on - the decision every other 
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
 # Event Date Selection
@@ -32,6 +32,30 @@ The split that decides this skill's first and largest question is **who owns the
 
 Same decision, opposite defaults, because the constraint is opposite. Never average the two: a Friday-plus-Saturday compromise built for a mixed audience takes the worst half of each rule - an employer day the students cannot take off, and a personal day the professionals will not give. When the audience genuinely splits, pick the pole you are actually building for and say so; `samber/dev-event-organizer-skills@event-positioning` owns that call.
 
+## Time of day: who an evening slot excludes
+
+Day type is not the whole slot. A weekday evening looks free for an employer-time audience, and it is where caregivers drop out.
+
+- Organizers report that evening events lose women mostly through childcare, and that experienced practitioners skip evenings for family reasons too.
+- The same reports describe women's share rising when the slot moved to daytime or lunch, and when the topic broadened (a product-themed conference, a workshop co-run with an HR meetup).
+- Treat both as reports, not measured effects. Check them against your own registration data where you collect gender or caregiver status with consent.
+
+Record which slot the event runs in (morning, lunch, afternoon, evening) beside the day type, and name who it excludes. Route the provisions that soften an unavoidable evening slot (childcare, caregiver tickets) to `samber/dev-event-organizer-skills@event-accessibility-inclusion`.
+
+## Recurring series: rotate the slot, not only the date
+
+A one-off picks one slot. A monthly or quarterly series picks a _pattern_, and a fixed pattern excludes the same people every time.
+
+- A fixed Tuesday evening permanently excludes anyone with a standing Tuesday conflict: a sports club, a custody arrangement, a weekly class. No single edition looks short; the loss is invisible because those people never appear in any edition's data.
+- One monthly series never reused the same weekday and hour twice in a row, and rotated formats too (dinner, lunch, after-work, talk, open session). It reported stable attendance over several years.
+- Rotation trades away habit: a regular who learned "first Tuesday" now has to read each announcement. Pay for that in the announcement, not by freezing the slot.
+
+Rotation pattern options, this skill's own construction rather than a ranked menu:
+
+- **Fixed slot** - one weekday and hour. Easiest habit, permanent exclusion of that slot's conflicts. Defensible when a venue offers only one slot.
+- **Rotating weekday, fixed hour** - spreads weekday conflicts, keeps the evening or lunch exclusion.
+- **Rotating weekday and hour** - spreads both. Pairs naturally with rotating format; settle formats with `samber/dev-event-organizer-skills@event-format-selection`.
+
 ## Interview
 
 Ask one question at a time, multiple-choice where possible. Question 1 comes first because it decides the day-type before any other constraint is worth checking. Questions 4-6 exist because the menus below diverge sharply on time-to-effect, durability, and effort; their default rankings cannot be picked for the user.
@@ -45,6 +69,8 @@ Ask one question at a time, multiple-choice where possible. Question 1 comes fir
 7. Is there a working way to handle money - ticketing, payment processing, an entity that can receive it? (This is a gate on announcing, not a preference; see below.)
 8. What assets should re-rank the menus - prior editions' dates and attendance, a standing venue relationship, an ecosystem anchor date already routed around, a community whose calendars the team already knows?
 9. Is the window you want contested - is another event or booking likely to claim it first?
+10. Is this one edition of a recurring series (monthly, quarterly), and does it hold a fixed weekday and hour today? (Decides whether § Recurring series applies.)
+11. What time of day is planned - morning, lunch, afternoon, evening - and who among the intended audience has caregiving duties at that hour? (See § Time of day.)
 
 ## Date-constraint checking depth
 
@@ -119,6 +145,8 @@ If your harness has persistent memory, record the chosen date and day type, the 
 - **Applying a generic "avoid all school breaks" rule.** The documented nuance says a short break can _raise_ turnout for a single weekend event even though breaks generally reduce participation. Check the specific break, not the category.
 - **Fixing one date before talking to the venue.** Converts an availability problem into a dead end; carrying options converts it into a negotiation.
 - **Checking only your own event family's calendar.** A single family's homepage lists only its own events; the conflicts that actually pull your audience come from adjacent topics and different organizers.
+- **Freezing a recurring series on one weekday and hour.** Excludes the same people every edition, and the loss never shows in attendance data because they never registered. Fix: rotate weekday and hour (§ Recurring series), or write down why the slot is fixed.
+- **Defaulting a professional audience to the weekday evening.** Looks like the zero-cost slot, and reportedly costs caregivers, mostly women, and experienced practitioners with families. Fix: record time of day and who it excludes (§ Time of day).
 - **Moving an announced date to rescue an unready plan.** Burns speaker, sponsor, and attendee trust, and costs a recurring event (Q5) far more than a one-off. Cut scope instead.
 
 ## Measurement
@@ -138,12 +166,15 @@ Track these edition over edition, self-set, as inputs to the next date decision,
 - Registrations in the first week after announcement, compared with the previous edition's.
 - No-show rate against the day type chosen.
 - How many attendees cite a conflict in the post-event survey.
+- For a recurring series: attendance and newcomer share per weekday and hour slot, so rotation is judged on data rather than habit. Newcomer share is defined in `samber/dev-event-organizer-skills@event-community-building`.
+- Where collected with consent: audience composition (for example women's share) per time-of-day slot.
 
 ## Invocation examples
 
 - "We're planning a two-day DevOps conference in Lisbon next spring for working engineers. Help me pick the date."
 - "Our student hackathon clashes with another one in the same city three weeks later - should we move, or is there a way to make it work?"
 - "The venue offered us two windows in March and one in May. Which do we take, and when do we announce?"
+- "Our monthly meetup has always run on Tuesday evenings. Should we keep it there?"
 
 Expected output: a chosen day type with its source, three to five ranked candidate windows with the constraint each rejected window failed, an explicit list of calendars checked and calendars still outstanding, the dodge-or-piggyback call on every competing event found, and the announcement trigger with its prerequisite gate. A worked illustrative example and a negative example live in [references/competing-events-and-announcement.md](references/competing-events-and-announcement.md).
 

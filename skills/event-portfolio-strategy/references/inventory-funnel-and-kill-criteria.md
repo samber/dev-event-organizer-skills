@@ -1,4 +1,4 @@
-# Worked shapes: inventory, funnel map, collision calendar, kill criteria, sponsor-bundle test
+# Worked shapes: inventory, funnel map, collision calendar, kill criteria and recipe test, sponsor-bundle test
 
 Five artifacts the workflow produces, each with the shape to copy and the mistake to avoid. Every figure below is illustrative - none is a benchmark, and none should be carried into a plan as a target.
 
@@ -7,7 +7,7 @@ Five artifacts the workflow produces, each with the shape to copy and the mistak
 - Property inventory
 - Pairwise funnel map
 - Build-up collision calendar
-- Add and kill criteria
+- Add and kill criteria, and the recipe test when one fires
 - The sponsor-bundle test
 
 ## Property inventory
@@ -81,6 +81,23 @@ Hackathon - written 2026-08-31, reviewed each November
 The floor is self-set; 15 carries no authority of its own. Its value is that it was chosen while the property was healthy and by the people who would otherwise argue about it later.
 
 Negative example: "we'll reassess if attendance drops." Every part is missing - no metric with a definition, no floor, no count of editions, no date. It reads like a criterion and functions as a deferral.
+
+### When the trigger fires
+
+The conversation ends in one written decision: change the recipe as a bounded test, merge, or retire. A recipe change is written in the same shape as the criterion that fired it:
+
+```
+Meetup - trigger fired 2027-03-15
+  Demand read: done (event-market-fit) - people still ask for the topic, not for this evening
+  Decision: change the recipe for 3 editions
+  Change:   weeknight talks -> one hands-on session per edition
+  Must move: attendance back above the floor in at least 2 of the 3
+  Keep-or-retire date: 2027-09-30, decided at the next team meeting
+```
+
+Every figure is illustrative. The load-bearing parts are the single named change, the bounded edition count, and the end date on which the team keeps or retires the property without reopening the question.
+
+Negative example: "let's try something different next time." No named change, no count, no end date - the slow drift in one sentence, and the team pays for each extra edition in volunteer hours.
 
 ## The sponsor-bundle test
 

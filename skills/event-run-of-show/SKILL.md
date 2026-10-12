@@ -4,7 +4,7 @@ description: Write and run the day-of run of show for a technical event once the
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.0"
+  version: "1.1.1"
 ---
 
 # Event Run of Show
@@ -100,6 +100,8 @@ Three roles come from published organizer guides. The fourth is one you define y
 - **Organizer on duty** (sourced) - the named person who takes last-minute decisions for a block, and the target of the routine escalation path. Sourced explicitly as single-point-of-failure mitigation for crisis decision-making, not as a fairness rota.
 - **Room lead** (a role you define yourself) - one person per room who owns that room's clock: holds a start, cuts a Q&A, gets the tech owner, and escalates to the on-duty organizer. Published practice assumes per-room ownership without fixing what that person may decide, so define its authority explicitly in your own document - what it may do alone, and what it must escalate.
 
+Identifiable teams arrive as inputs, not roles you define: the code-of-conduct responders from `samber/dev-event-organizer-skills@event-code-of-conduct` and, at a large conference, the inclusion team from `samber/dev-event-organizer-skills@event-accessibility-inclusion`. Put each on the on-duty rows and in the opening's spoken line: what each team is for and how to recognize it.
+
 ## Cue-sheet depth
 
 Ranking (default, not a law - Q5, Q6, Q7 and Q9 re-rank it):
@@ -174,6 +176,15 @@ Two segments carry disproportionate weight and deserve the cue sheet's deepest r
 
 The sourced opening content checklist and closing mechanics are in [references/cue-sheet-anatomy.md](references/cue-sheet-anatomy.md).
 
+### Protect the time after the closing
+
+The social time right after the last session is a segment, not the remainder. The closing drink is where peers teach each other in a fast-moving field; one organizer called it the most important part of the evening. Every overrun upstream lands on it, because nothing on the cue sheet defends it.
+
+- Give the closing occasion its own row: a hard start time, an owner, and the spoken line that opens it.
+- Put a hard-stop cue on the last session, owned by the room lead, tied to that start time rather than to the slot's published end.
+- When `samber/dev-event-organizer-skills@event-official-social-program` handed the schedule a protection requirement, treat the reserved time as protected in the disruption order: cut Q&A or a transition buffer first.
+- Watch for early departures at the last session. They mean the program ran long, or the closing never felt like part of the event.
+
 ## Handling a disruption live
 
 Do not decide fresh. Run the sequence:
@@ -204,6 +215,7 @@ Cold retrospectives recover the decisions and lose the timings.
 - **Organizer traffic on an attendee-facing channel.** The problem gets discussed in front of the people it concerns, and the message that mattered is buried under everyone else's. Create the separate channel before the day, not during it.
 - **Transitions with no cue.** The grid says a session ends at 11:20 and says nothing about who speaks, where the next person stands, or whose machine has the slides. The result is dead air that eats the buffer the schedule was designed around.
 - **Room reconfiguration assumed to happen invisibly.** A reset between two uses of the same space has no named owner and no timed row, so it either eats into the next segment or gets skipped. Give it the same row treatment as any other transition, started while the current segment is still running rather than after it ends.
+- **The closing social time absorbing every overrun.** Each session runs five minutes over, and the drink where peers actually trade knowledge shrinks to nothing. Fix: a hard-stop cue on the last session, tied to the closing row's start (§ Protect the time after the closing).
 - **A handoff with no live verification.** The incoming person says they have the channel and discovers at the first escalation that they do not. Check it live before the outgoing person walks away.
 - **Improvising a disruption order.** The schedule already published one and it exists precisely so this call is not made under pressure by whoever is nearest to the broken thing.
 - **Presenting your own conventions as industry practice.** Radio discipline, the room lead's authority and the shift-change mechanics are conventions you set, the last borrowed from on-call engineering practice. The live authority ladder's shape now draws on published stage-management and production convention, but its exact roster is still yours to name. Presenting your own specifics as an established standard spends the credibility the sourced parts need.
@@ -220,6 +232,7 @@ Every metric below is one you set rather than a benchmark to hit. Say so when yo
 - **Transition dead air** (self-set): seconds between one segment ending and the next starting, counted separately at transitions the cue sheet scripted and transitions it did not. That comparison is what justifies the depth rung next edition.
 - **Escalations that reached the on-duty person** (self-set): counted, and never minimized - zero usually means staff could not reach anyone, not that nothing happened.
 - **Live changes made against the published disruption order** versus improvised ones (self-set): the second number is the one to drive down.
+- **Closing-time kept** (self-set): minutes of closing social time actually delivered against minutes reserved, and a rough count of people who left before it started.
 - **Cue-sheet drift** (self-set): rows that turned out wrong - an owner who was elsewhere, tech that was not where it said, a segment that did not exist. This is what a recurring event's template inherits.
 
 Pick two or three, write down the revision each would trigger, and record them before the day rather than after.

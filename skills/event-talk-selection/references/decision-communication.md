@@ -36,8 +36,14 @@ Adapt the wording; keep the structure. Each template is short on purpose - lengt
 > What you get: {the perks exactly as the call stated them}. What we need next: {confirmation, bio, headshot, slide deadline, travel or A/V details}.
 >
 > {If they submitted more than one accepted proposal: which of these would you rather give? We can only schedule one.}
+>
+> One rule for every speaker: no commercial demo or sales pitch. The audience should leave with the lesson, not the product.
+>
+> {If the program runs a depth gradient: your talk sits {position} in the evening. Open so the whole room follows, and end deep.}
 
 The confirmation deadline is what makes the waitlist function. Without it, the backup list is decorative.
+
+For the commercial-content line and the depth-gradient line, see [program-fit-field-reports.md](program-fit-field-reports.md). Drop the depth-gradient line when the room is not mixed.
 
 ### Decline - the default rung, with criteria recap
 

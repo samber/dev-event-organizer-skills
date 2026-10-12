@@ -31,8 +31,8 @@ The honest terms (budget, deadline) attach to part 3 or part 5, wherever they re
 - [ ] **Event basics**: size, location, dates.
 - [ ] **How you found them**, in the first line. A directory listing, conference speaker page, or public profile is consent to be _found_, never consent to be _pitched_. Stating the discovery route is what makes the approach legible rather than harvested, and you follow the contact route they actually published rather than a guessed address.
 - [ ] **The specific angle**, from the sourcing packet's "why" - their work, not their reputation.
-- [ ] **Why this slot, this audience, this stage** - aimed at a speaker's incentive (peer audience, a room worth being seen in, a hearing for a topic), not the organizer's need.
-- [ ] **Honest terms**: what the budget covers - including "nothing beyond a ticket" or "unconfirmed" - and the date you need an answer by. Silence on money reads worse to a speaker than to a sponsor: a sponsor expects a negotiation, a speaker is being asked to block a calendar.
+- [ ] **Why this slot, this audience, this stage** - aimed at a speaker's incentive (peer audience, a room worth being seen in, a hearing for a topic), not the organizer's need. Where recordings are published, one verifiable reach figure for last edition, with its source.
+- [ ] **Honest terms**: what the budget covers - including "nothing beyond a ticket" or "unconfirmed" - and the date you need an answer by. For an event outside the region's main hub, state travel and lodging separately. Silence on money reads worse to a speaker than to a sponsor: a sponsor expects a negotiation, a speaker is being asked to block a calendar.
 - [ ] **The travel lead time, named** whenever the candidate has to travel and the answer date sits inside roughly four to six weeks. Do not let them discover the constraint.
 - [ ] **A specific, low-friction next step** with a proposed date.
 - [ ] **No links, no attachments, no images.** Corporate phishing filters auto-trash mail carrying them, and a speaker's work address is that kind of inbox. The CFP page, the program, the logo and the meeting link all wait for touch two.

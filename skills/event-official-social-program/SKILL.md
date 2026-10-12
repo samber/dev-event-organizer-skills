@@ -4,7 +4,7 @@ description: Decide how many official social occasions a technical event runs an
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.1"
+  version: "1.1.0"
 ---
 
 # Event Official Social Program
@@ -122,11 +122,24 @@ Each consequence below is a slate property, never an activity property:
 
 Hand the finished check back to `samber/dev-event-organizer-skills@event-accessibility-inclusion`, which owns the set and its published depth. You check a slate against its bar. You never set the bar.
 
+## The closing occasion is program, not leftover
+
+A slate decision has one more property the single-occasion menu does not carry: whether the occasion right after the last session gets real time, or whatever the overrun leaves.
+
+- In a fast-moving field, the closing drink is where peers teach each other what changed since last time.
+- It is the occasion a program overrun eats first, because nothing on the grid defends it.
+- Early departures before or at its start are a signal: the program ran long, or the occasion never felt like part of the event.
+
+What this changes here, and what it does not:
+
+- The occasion's format, length, start and end stay `samber/dev-event-organizer-skills@event-hospitality`'s decision.
+- Add a protection requirement to the hand-on below: the main programme ends early enough to leave the closing occasion its reserved time. The cue that enforces it on the day is `samber/dev-event-organizer-skills@event-run-of-show`'s.
+
 ## What you hand on
 
 Your output is a slate: a list of occasions, each with its own hospitality brief attached. Hand on what that slate generates:
 
-1. **To `samber/dev-event-organizer-skills@event-schedule-design`**: the non-overlap requirement. Name which occasions must not share hours with each other, and which must not share hours with the main programme. State it as a requirement. That skill places it, and you never move a session or a slot yourself.
+1. **To `samber/dev-event-organizer-skills@event-schedule-design`**: the non-overlap requirement, plus the closing-occasion protection requirement (§ The closing occasion is program, not leftover). Name which occasions must not share hours with each other, and which must not share hours with the main programme. State it as a requirement. That skill places it, and you never move a session or a slot yourself.
 2. **To `samber/dev-event-organizer-skills@event-side-event-coordination`**: the confirmed slate, as the calendar third-party satellites are deconflicted against. It cannot protect hours it does not know about.
 3. **To `samber/dev-event-organizer-skills@event-accessibility-inclusion`**: the per-slot floor check above, and any slot you could not clear.
 4. **To `samber/dev-event-organizer-skills@event-code-of-conduct`**: the count and the places, so the scope clause reaches every occasion rather than the one everybody remembered.
@@ -149,6 +162,7 @@ Next edition ranks against that record instead of this default.
 - **Adding an occasion because there is room in the evening.** The trigger is Q2's actual request plus Q5's actual owner, not an empty hour.
 - **Checking access activity by activity and calling the slate checked.** This is the failure the floor above exists for, and it passes every individual review on the way through.
 - **Publishing the slate before the access statement.** People plan around the slate the moment it appears. A statement arriving later reaches only whoever is still deciding, which is not the population it was written for.
+- **Treating the closing occasion as overflow.** Talks run long, the drink shrinks to ten minutes, and the peer exchange that brought people back is gone. Fix: hand a protection requirement to the schedule, and a hard cue to the run of show.
 - **Letting one owner hold a track.** A track with a single owner is a sequence with optimism attached. Q5 is worded per occasion to catch exactly this.
 
 ## Measurement
@@ -157,6 +171,7 @@ This skill supplies no attendance figure, no activity count and no ratio of its 
 
 - **Slot floor coverage** (gate): every hour the slate occupied offered at least one option clearing the published access set. No threshold applies; the number is zero uncovered slots.
 - **Occasions run against occasions owned** (self-set): an occasion that ran without the owner Q5 named is the failure this menu's delete condition exists to prevent.
+- **Closing-occasion retention** (self-set): roughly how many stayed for the closing occasion against how many attended the last session, counted by eye at its start and midway. Early departures are a signal to read, not a score.
 - **Who attended which occasion, by population** (self-set): the only read on whether a second occasion reached anybody the first did not, and so on whether the promotion condition was right.
 
 Pick one. Write down before the event what it would change next edition, then record it.

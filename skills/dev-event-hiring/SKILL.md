@@ -4,7 +4,7 @@ description: Employer-side hiring for tech-event-organizing roles - producer/man
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
 # Dev Event Hiring
@@ -17,6 +17,8 @@ Out of scope, hand off instead:
 - **The standing organizing team's own structure** - legal entity, decision rights, succession, the volunteer-to-paid threshold - samber/dev-event-organizer-skills@event-team-structure. Route "should we hire our first paid role at all" there; this skill answers "how do we hire well, once we've decided to."
 
 If the user is job-hunting rather than hiring, say so in one line and route them to dev-event-career.
+
+**Not this skill: hiring requests that reach organizers from their audience.** Organizers report a constant stream of "can you introduce me to..." and "do you know someone to hire..." requests from attendees and local companies. Those are not the organizing team's own hires. Route them to `samber/dev-event-organizer-skills@event-community-building` § Recruiting requests, which gives them a bounded outlet so the community does not drift into a job board.
 
 ## Interview
 
@@ -59,6 +61,7 @@ Ask one question at a time, multiple-choice where possible. Skip anything alread
 4. **Artefact 3 - sourcing plan.** Build from [references/sourcing-channels.md](./references/sourcing-channels.md):
    - use general event-industry boards (PCMA Career Center, MPI Career Center, BizBash, MeetingJobs/Cadre, Event Careers) since no dev/tech-conference-specific board exists
    - for a community-manager-shaped role, the CMX Job Board and its Slack community are the closest tech-adjacent channel
+   - where local meetups run a short, bounded announcement round at the start of each gathering ("who is looking for work, who is hiring?"), post the role there. It reaches people already attending community events, which is the community-manager-shaped role's core skill. state the role in one sentence and respect the round's time limit
 5. **Artefact 4 - compensation stance.** Build from [references/compensation-guidance.md](./references/compensation-guidance.md):
    - name the source explicitly - PCMA Convene's level-based figures, BLS's broad occupational median, or Glassdoor's tech-industry-premium cut for an in-house tech-company hire
    - never blend sources into one number; state which one the offer is anchored to and why
@@ -101,6 +104,7 @@ Score the artefacts against these checks before final delivery.
 | Quoting one blended salary figure with no named source                                | State PCMA, BLS, or Glassdoor explicitly, and the tech-industry premium if relevant          |
 | Inventing a tech-specific job board that doesn't exist                                | Use the real general event-industry boards, or CMX for community-manager-shaped roles        |
 | Hiring a first paid role at a community event before the threshold is reached         | Route to event-team-structure first to confirm the hire is warranted                         |
+| Treating attendees' "know anyone to hire?" requests as this skill's job               | Route to event-community-building § Recruiting requests: a bounded announcement round        |
 
 ## Reference
 

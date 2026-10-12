@@ -11,8 +11,9 @@ Clause shapes for a sponsorship term sheet. **Not legal advice, and none of this
 5. Cure periods and termination
 6. Liability, indemnification and insurance
 7. Code of conduct
-8. Logo and brand licensing
-9. Confidentiality, data and governing law
+8. Editorial independence
+9. Logo and brand licensing
+10. Confidentiality, data and governing law
 
 ## 1. Payment, late fees and non-payment
 
@@ -145,7 +146,26 @@ The default, not an option: a clause binding the sponsor's own staff to the even
 
 Pair the ejection right with the explicit no-refund consequence in the same sentence - every published example does, rather than leaving the refund question to the general cancellation section.
 
-## 8. Logo and brand licensing
+## 8. Editorial independence
+
+A default, not an option: none of the published contracts quoted in this library grants a sponsor program control, and none denies it in words either. Silence leaves the question to whoever pushes hardest during the edition. Write the denial down.
+
+**Why it needs its own clause.** Organizer guides already state the rule as a value proposition ("No sponsor should be able to buy their way into the program" - DevOpsDays organizing guide). The operating reason: an event whose program bends to one funder ends up depending on that one company, and loses the audience the sponsor paid to reach.
+
+**Clause shape (example elements, not signable language).**
+
+- **No program control.** The sponsor acquires no right to select, approve, veto or review speakers, talk topics, session content, panel composition, judging or the schedule.
+- **Organizer refusal right.** The organizer may refuse, edit for length or format, or withdraw any sponsor-supplied content - a talk, a demo, a workshop, printed or on-screen material - and any sponsor-nominated speaker, at its sole discretion.
+- **Consequence stated in the same clause.** Exercising the refusal right is not a breach and triggers no refund, mirroring the code-of-conduct pairing in §7. Draft the no-refund sentence here rather than leaving it to the cancellation clauses.
+- **Sponsor content is labelled.** Anything the sponsor does present carries a visible sponsor label, so attendees can tell bought placement from selected program.
+- **Optional cap on sponsor-affiliated speakers.** A self-set ceiling on talks given by a sponsor's employees per edition, applied at selection rather than negotiated per deal. The selection process that enforces it belongs to `samber/dev-event-organizer-skills@event-talk-selection`; the contract only states that sponsorship does not exempt a sponsor's staff from it.
+
+**Edge cases to flag for counsel.**
+
+- A sponsored workshop or demo slot sold as a perk is placement, not program: list it in the deliverables exhibit with its format and the refusal right attached, and keep it out of the selected program.
+- A sponsor whose employee wins a slot through the open call is not a breach. State that the slot was earned through the call and confers nothing on the sponsor.
+
+## 9. Logo and brand licensing
 
 Reciprocal, limited, promotion-only and time-bound - the same four qualifiers in every example below.
 
@@ -157,7 +177,7 @@ Reciprocal, limited, promotion-only and time-bound - the same four qualifiers in
 
 Carry both qualifiers into the drafted clause: use is subject to the other party's brand guidelines, and the licence expires automatically rather than continuing silently.
 
-## 9. Confidentiality, data and governing law
+## 10. Confidentiality, data and governing law
 
 **Confidentiality (structure from generic contract practice).** Define confidential information (non-public terms, pricing, business plans), set a survival period, and carve out public-domain, independently-developed and legally-compelled disclosure. This is generic contract practice rather than anything sponsorship-specific; counsel will have a house position.
 

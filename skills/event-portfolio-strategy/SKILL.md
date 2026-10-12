@@ -1,10 +1,10 @@
 ---
 name: event-portfolio-strategy
-description: Shape one organizing team's set of event properties - flagship conference, meetup series, hackathon, podcast or always-on online space - into a portfolio where each one feeds the others. Covers what each property is for, the funnel path between them, cadence collisions against one team and audience, how much brand, audience list, team and sponsors are shared, the allocation posture, and add/kill criteria written before they are needed. Use whenever asked whether to add a second event or format, how a meetup feeds a conference, how to keep momentum between editions, or which property to retire. Do NOT use for growing one event - use samber/dev-event-organizer-skills@event-growth-strategy - or swaps with other organizers' events - use samber/dev-event-organizer-skills@cross-event-promotion.
+description: Shape one organizing team's set of event properties - flagship conference, meetup series, hackathon, podcast or always-on online space - into a portfolio where each one feeds the others. Covers what each property is for, the funnel path between them, cadence collisions against one team and audience, how much brand, audience list, team and sponsors are shared, the allocation posture, add/kill criteria written before they are needed, and the dated change-the-recipe, merge or retire call when attendance falls. Use whenever asked whether to add a second event or format, how a meetup feeds a conference, how to keep momentum between editions, whether to merge overlapping meetups, or which property to retire. Do NOT use for growing one event - use samber/dev-event-organizer-skills@event-growth-strategy - or swaps with other organizers' events - use samber/dev-event-organizer-skills@cross-event-promotion.
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.0"
+  version: "1.2.0"
 ---
 
 # Event Portfolio Strategy
@@ -13,9 +13,9 @@ You are a portfolio strategist for one organizing team that runs (or is thinking
 
 Scope edge, stated up front: **a portfolio is format diversity under one team; a franchise is team diversity under one format.**
 
-- **Not this skill** - many independent city teams running the same event under one shared brand: the shape seen at a JavaScript conference family and a student hackathon network. `samber/dev-event-organizer-skills@event-growth-strategy` disclaims it too; name it as an open edge, do not absorb it.
-- **Closest partial coverage** - the domain-lead federation option in `samber/dev-event-organizer-skills@event-team-structure` handles the governance half.
-- **Genuine gap** - the brand-licensing half: recruiting, vetting and enforcing standards on teams you do not run. No skill in this collection covers it yet.
+- **Not this skill** - many independent city teams running the same event under one shared brand: the shape seen at a JavaScript conference family and a student hackathon network. `samber/dev-event-organizer-skills@event-growth-strategy` disclaims it too; route it out, do not absorb it.
+- **Where it goes** - `samber/dev-event-organizer-skills@event-team-structure` covers the governance half twice: the domain-lead federation option for one franchise with a mentor-organizer, and its peer-network section for independent local communities cooperating voluntarily under a shared manifesto (membership, opt-out, shared assets, local vs network KPIs).
+- **Remaining gap** - the brand-licensing half: recruiting, vetting and enforcing standards on teams you do not run under one licensed brand. No skill in this collection covers it yet.
 
 ## Interview
 
@@ -59,7 +59,12 @@ What changes the menus is who owns the properties:
 
    Route the money modelling to `samber/dev-event-organizer-skills@event-budget`.
 
-9. Write add/kill criteria per property, in advance and dated. Write the team's own: a named metric, a floor value, and the number of consecutive editions below it that trigger a retirement conversation. A criterion written after a property starts failing is a negotiation, not a criterion.
+9. Write add/kill criteria per property, in advance and dated. Write the team's own: a named metric, a floor value, and the number of consecutive editions below it that trigger a retirement conversation. A criterion written after a property starts failing is a negotiation, not a criterion. When a trigger fires, the conversation has two honest outcomes, and it must pick one on a date:
+   - **Change the recipe** - only as a dated test: one named change (format, day, length, theme, audience level), a fixed number of editions, the metric it must move, and a keep-or-retire date at the end. Read demand first with `samber/dev-event-organizer-skills@event-market-fit`: no recipe change fixes a job nobody has.
+   - **Retire the property** - announced, with its audience pointed at the property that remains.
+
+   Where two declining properties share one audience, merging them (composition menu) is a third outcome. Anything else - another edition "to see" - is the slow drift the failure modes name.
+
 10. When the composition call is contested inside the team, enter brainstorming mode instead of recommending:
     - Two or three candidate portfolio shapes, each with trade-offs and a recommendation.
     - Questions asked one at a time.
@@ -102,6 +107,14 @@ Re-rank against the interview:
   - A _different_ person can own it end to end.
 
   The flagship's own lead taking a second property is how both properties get worse.
+
+**Merging two overlapping properties** is the composition move in reverse, and it sits outside the add rankings above because it competes with "change the recipe" and "retire" (step 9), not with any add rung. It fits two or more meetups, or two small conferences, that step 4 flags as the same audience and that are each losing attendance: one property concentrates the audience, the volunteer hours and the sponsor conversation that two were splitting. Promote it only when all three hold:
+
+- The overlap is people, not topic: the attendee records or the cross-property carry rate show the same faces at both, not just similar titles.
+- Neither property carries an identity its regulars come specifically for; a merged event that drops the reason one crowd attended loses that crowd.
+- The organizers of the absorbed property stay, with a named role in the merged one. A co-organizer who wanted a property of their own (Q9) is usually a reason against: losing their volunteer energy can cost more than the merge saves.
+
+Run it like the step 9 test: a dated decision, one or two joint editions first, then keep both, merge, or retire one. A merge does not merge the audience lists: announce it to each property's list on that list's own consent, and let people opt into the merged one (shared-audience-list rung). When the meetups belong to different organizing teams, the merge also merges teams: route the governance to `samber/dev-event-organizer-skills@event-team-structure`. A joint edition between two teams that stay separate is a partner collaboration, covered by `samber/dev-event-organizer-skills@cross-event-promotion`.
 
 A second property under its own name with no announced relationship to the flagship, no shared list and no cross-promotion path is deleted from this menu, not ranked last. The portfolio's entire value is the funnel between properties; an unlinked property is a separate event that competes with your own flagship for the same team's hours while returning none of the compounding. Parked at the bottom, it comes back the moment a co-organizer wants their own brand.
 
@@ -155,12 +168,12 @@ Running two properties on adjacent days in different venues, without sharing the
 
 ## Failure modes
 
-- **Two properties for the same audience in the same quarter.** The audience does not have two evenings and two ticket budgets in eight weeks; the team does not have two build-ups. Step 4's calendar exists for this, and it fails most often through the _build-up_ overlap rather than the dates themselves.
+- **Two properties for the same audience in the same quarter.** The audience does not have two evenings and two ticket budgets in eight weeks; the team does not have two build-ups. Step 4's calendar exists for this, and it fails most often through the _build-up_ overlap rather than the dates themselves. When neither property can move and both are losing attendance, the fix may be one property, not two dates: see merging under the composition menu.
 - **Adding a property before the flagship is stable.** The stability gate in step 7 is the one hard gate in this skill. A shaky flagship plus a new property produces two weak properties and one exhausted team, and the flagship is the one that was working.
 - **Treating a franchise as a portfolio.** Independent teams under one shared brand need recruitment, vetting and distributed standards enforcement - none of which any menu here provides. Recognising the shape early saves the team from applying composition logic to a governance problem.
 - **Selling a cross-property sponsor package as established practice.** Present the first bundle as a test with a fallback, never as how this is normally done, and never attach a bundled price presented as a market rate.
 - **A property surviving because nobody wrote a kill criterion.** Properties do not die of low attendance; they die of a conversation nobody scheduled. A criterion written in advance, with a floor and a number of editions, is what turns that into a decision instead of an argument about someone's baby.
-- **Reaching for a kill criterion when the real problem is a stale concept.** A flagship losing energy is not always a portfolio question - check whether the property's own theme or format has simply run out of freshness before retiring it as a property. That renewal decision belongs to whichever skill owns the property's own format, not to this one; this skill only decides whether the property still belongs in the set.
+- **Reaching for a kill criterion when the real problem is a stale concept.** A flagship losing energy is not always a portfolio question - check whether the property's own theme or format has simply run out of freshness before retiring it as a property. The mirror failure is the slow drift: re-tweaking the recipe edition after edition with no end date, while the team burns out on an event fewer people want each time. Changing the recipe is honest only as the dated test in step 9, ending in keep or retire. The new recipe itself belongs to whichever skill owns the property's own format; this skill only decides whether the property still belongs in the set.
 - **A continuity surface that quietly becomes a fourth property.** An always-on space with no owner and no moderation plan is not the cheap rung it looked like - it is an unstaffed property with a code of conduct attached.
 - **Mistaking a shared logo for a funnel.** Step 3 marks each path _exists_ or _aspirational_ precisely because a portfolio page listing four properties looks identical whether or not anyone ever moves between them.
 
@@ -168,7 +181,7 @@ Running two properties on adjacent days in different venues, without sharing the
 
 Every threshold below is self-set, so declare each floor in advance rather than reading a number back from a first year and calling it a target.
 
-- **Cross-property carry rate** - share of one property's attendees who appear at another property within twelve months. The single number that says whether this is a portfolio or a set. Self-set floor, per pair, declared before the year starts.
+- **Cross-property carry rate** - share of one property's attendees who appear at another property within twelve months. The single number that says whether this is a portfolio or a set. Self-set floor, per pair, declared before the year starts. A high carry rate between two properties that are both declining is the merge signal, not a funnel success.
 - **Gap coverage** - longest stretch of the year with no touchpoint of any kind. The continuity surface's whole job is shrinking this.
 - **Single-owner coverage** - properties with exactly one named person who can run them end to end. A property with zero is already failing; a person owning two is the collision the calendar will not catch.
 - **Criteria written** - properties with an add/kill criterion on paper, dated, before the season starts.
@@ -188,6 +201,7 @@ The workflow hands them a question set at those points rather than a number - do
 - "We run a monthly meetup and an annual conference. Should we add a hackathon next year?"
 - "Our conference sells out but the audience disappears for eleven months. What property fixes that?"
 - "We have four events and one exhausted team - which one do we kill?"
+- "Our two meetups draw the same shrinking crowd. Should we merge them?"
 - "Can we sell one sponsorship covering the meetup, the conference and the podcast?"
 
 Expected output: the portfolio plan described under Measurement, delivered section by section for validation:
@@ -204,11 +218,12 @@ Expected output: the portfolio plan described under Measurement, delivered secti
 ## References
 
 - [references/portfolio-case-record.md](references/portfolio-case-record.md) - the three real multi-property portfolios behind every rung, what each one does and does not demonstrate, and the three decisions a team has to make for itself.
-- [references/inventory-funnel-and-kill-criteria.md](references/inventory-funnel-and-kill-criteria.md) - worked shapes for the property inventory, the pairwise funnel map, the build-up collision calendar, the kill-criteria template, and the sponsor-bundle test, with a negative example for each.
+- [references/inventory-funnel-and-kill-criteria.md](references/inventory-funnel-and-kill-criteria.md) - worked shapes for the property inventory, the pairwise funnel map, the build-up collision calendar, the kill-criteria template with the dated recipe-change test, and the sponsor-bundle test, with a negative example for each.
 
 See also, same collection:
 
 - `samber/dev-event-organizer-skills@event-format-selection` - picks the format of a property this skill decides to add.
-- `samber/dev-event-organizer-skills@event-market-fit` - validates demand for a new property before composition assumes it exists.
+- `samber/dev-event-organizer-skills@event-market-fit` - validates demand for a new property before composition assumes it exists, and reads demand before a fired kill criterion becomes a recipe change.
+- `samber/dev-event-organizer-skills@cross-event-promotion` - joint events and swaps with meetups run by other teams, including the joint edition that tests a merge across teams.
 - `samber/dev-event-organizer-skills@event-date-selection` - picks each property's actual date inside the cadence posture chosen here.
 - `samber/dev-event-organizer-skills@event-marketing-plan` - runs the acquisition campaign per property, inside the calendar this skill fixes.

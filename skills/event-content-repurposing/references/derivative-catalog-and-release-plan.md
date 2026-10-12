@@ -16,6 +16,11 @@ This table is this skill's own construction, not a measured benchmark. Effort is
 | Transcript-derived text page | The master's audio, plus a human correction pass         | A standing job across a programme                 | Search finds it long after a feed has moved on; the only derivative that translates         | An uncorrected machine transcript published as if it were a document |
 | Audio cut                    | The master's audio                                       | An hour per talk                                  | Nothing on its own - it needs a property that already has subscribers                       | Made because it is easy, published where nobody subscribes           |
 
+Two notes on the short-clips row:
+
+- Automatic clip tools can cut the "finding the moment" hour. Keep a human review before each publish, and run Menu 4's rights gate on the generated clip as on any other.
+- The same organizers also clip key conference moments and behind-the-scenes footage of the organizing work. Both sources are made from the photo and video archive rather than the master, and both usually show identifiable attendees.
+
 Two notes on the transcript row:
 
 - Post-event subtitling of conference talks runs as a standing, tooled, crowdsourced volunteer project with its own repositories, separate from the live production pipeline (c3subtitles) - that is the honest measure of what a correct text pass costs at programme scale.

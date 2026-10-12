@@ -1,6 +1,6 @@
 # Provision catalog, with provenance
 
-Every provision below carries where it came from and which edition it describes. Nothing here is an industry norm; each item is one organization's published practice at one point in time. Transpose the pattern, not the vendor and not the figure.
+Every provision below carries where it came from and which edition it describes. Nothing here is an industry norm; each item is one organization's published practice at one point in time, or a field note labelled as such. Transpose the pattern, not the vendor and not the figure.
 
 Provenance labels used throughout:
 
@@ -11,6 +11,7 @@ Provenance labels used throughout:
 - **Hackathon guide** - a large student-hackathon network's public organizer guide.
 - **IACC** - a meetings-industry venue association's own published dietary-requirements guide, produced with several catering and meetings-industry bodies.
 - **AdaCamp Toolkit** - a defunct tech/open-culture unconference series' public organizer toolkit, its content still live and citable.
+- **Field note** - organizer field experience, not a published page. Treat it as practice to test, never as a sourced norm.
 
 ## Table of contents
 
@@ -65,6 +66,14 @@ Treat the two full rows as promotable, high-effort targets, never as a bar every
 - **Day-scoped live captioning**: the main conference days captioned, the tutorial and sprint days explicitly not (PyCon 2019, historical). The scoping is legitimate; publishing it is what makes it legitimate.
 - **Interpretation on request**: "we do not plan to have interpreters at the conference unless we are notified by signing attendees" (PyCon 2019, historical). Note what this proves - captioning and interpretation are not bundled at the same trigger threshold even at a well-resourced conference.
 - **Post-event crowdsourced subtitling**: a standing volunteer project with its own repositories and a queue tool tracking which talks still need subtitles, organizationally and temporally separate from the live production pipeline (c3subtitles). It adds languages a live captioning vendor rarely offers, weeks after the fact. It is never a substitute for live provision in the room.
+- **Human real-time captioning** (field note): a stenographer writes live on a stenotype keyboard - also called CART, vélotypie in French. It is the quality option for live talks, and the delivery every live rung in the skill's Menu 2 assumes.
+- **The captioner's jargon brief** (field note): a pre-event task owned by the accessibility owner, not by the captioner. A human captioner still mis-renders terms never seen before, and technical talks are dense with them. Send, at a lead time agreed with the captioner (self-set):
+  - The programme, with session titles and abstracts.
+  - Speaker names, spelled as the speakers spell them.
+  - Slide decks when available.
+  - A glossary: product names, acronyms, library and tool names, and code identifiers likely to be spoken aloud.
+- **Automatic captions, and what they do not cover** (field note): a fully automatic feed gives a running text track at low marginal cost. It does not reliably render jargon, code identifiers, accented speech or overlapping speech in panels and Q&A, and nobody corrects it live. Use it as a fallback where no human is funded, or as a draft for post-event correction. Label it automatic on screen and on the page; never count it as captioning coverage.
+- **Sponsored captioning line** (field note): a sponsor can fund live captioning as a named line ("captioning presented by ..."), buying visibility on the line, never control of the programme. The provision is budgeted whether or not the line sells; pricing it belongs to `samber/dev-event-organizer-skills@event-sponsor-pricing`.
 - **The gap worth noticing**: one event with an exceptionally capable broadcast operation publishes no captioning provision at all on its accessibility page (FOSDEM 2026). Production capacity and a stated provision are different things, held by different people.
 
 ## Dietary accommodation

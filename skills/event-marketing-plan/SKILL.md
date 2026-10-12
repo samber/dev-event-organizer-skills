@@ -4,7 +4,7 @@ description: Build the attendee-acquisition plan for a technical event - audienc
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
 # Event Marketing Plan
@@ -89,6 +89,8 @@ For the in-between case - a nominal-fee event, or a free event with a hard capac
 7. Route each channel to the sibling that executes it (see References). Hand over the weight, the phase, and the dates. Do not write the sibling's content here.
 8. Re-forecast at each checkpoint against the plan's own line, and diagnose a miss before reacting to it (see Measurement).
 
+**Where acquisition sits among the organizer's priorities.** Organizers rank communication second only to speaker quality, and look for tooling that serves both - one contact base, one scheduler, one form tool feeding the speaker pipeline and the campaign. Treat it as a reason to pick tools once for both jobs, not as a ranking this plan enforces. A strong program still needs this plan; see the DevOpsDays warning under Failure modes.
+
 If your harness has persistent memory, record for each edition:
 
 - The spine chosen and why.
@@ -131,7 +133,7 @@ Each channel in full:
 - **Partner channels** - cross-event swaps, media and community partners, developer-ambassador programs. Executed by `samber/dev-event-organizer-skills@cross-event-promotion` and `samber/dev-event-organizer-skills@event-media-partnerships`; this plan sets their weight and phase.
 - **Paid ads** - targeted social ads. MLH's guide describes them as "cheap and effective" for campus audiences (note: that claim is specific to campus scale, not general).
 - **Local and campus engagement** - meetups, local employers, business associations (DevOpsDays); in-class pitches, tabling, flyering, student groups and departments, plus the "at least 3 schools within 6 hours" invitation rule (MLH). Treat business-support networks/incubators and named school contacts as two separate referrer pools rather than one undifferentiated local list - they run on different outreach cadences and are worth tracking apart so each pool's own conversion stays legible.
-- **Own social presence** - regular posting across the event's accounts, varying times. Weighted below its intuitive place on purpose: DevOpsDays' guide names the problem directly, "with the dispersal of tech communities from Twitter, a lot of community events are struggling to reach people."
+- **Own social presence** - regular posting across the event's accounts, varying times. Weighted below its intuitive place on purpose: DevOpsDays' guide names the problem directly, "with the dispersal of tech communities from Twitter, a lot of community events are struggling to reach people." Organizers add a low-confidence report that organizers' personal accounts reach more people than per-chapter or per-event pages. Keep the weight; let `samber/dev-event-organizer-skills@event-social-media` decide whose accounts carry it.
 - **Pre-event press** - school paper, local outlets, community media (MLH). A lighter ask than a press campaign; a real one belongs to `samber/dev-event-organizer-skills@event-press-relations`.
 
 Where to start:
@@ -199,6 +201,8 @@ Channel attribution is the honest weak point: **the whole-funnel checkpoints car
 - **Pace index against the event's own prior curve**: tickets-to-date divided by curve-expected, times 100. Above 100 is running hot, below 100 is a gap with a size and a deadline attached. It needs a prior curve, which is why step 8's memory record matters.
 - **Per-channel referral signal**: a distinct tracked link or registration code per channel, decided before launch because it cannot be added retroactively. A channel at zero across two editions loses its weight next edition. Where a partner channel serves several distinct closed communities (a school, a professional group), give each its own code rather than one shared partner-channel code: it tracks which specific community actually converts, and it reads to that community as an invitation made for them rather than a generic discount.
 - **Funnel demographics beyond headcount** (self-set, judged not a benchmark): role mix, geography, and one figure most plans skip - whether registering costs the attendee something real beyond the ticket price, such as time off work the next business day. A signup form that only asks role checkboxes filters cheaply but excludes anyone who fits no listed label; if that trade-off is made deliberately, invest the effort saved into messaging (who is welcome, what a typical attendee looks like) rather than leaving the exclusion unaddressed, and widen the checkbox list from the first edition rather than patching it in later once a gap is visible.
+- **Standing audience counters** (self-set, lagging): follower count on the professional network the event uses and view counts on its video channel, read once per edition. Organizers track both. They measure reach the event owns between editions, not registrations; never read a counter as a channel's conversion, and never set a target on one from outside your own history. The video channel itself is `samber/dev-event-organizer-skills@tech-podcast-youtube-channel`'s property.
+- **Post-event satisfaction** (handed over, not owned): an automated survey sent after the event feeds the next edition's positioning and channel weights. Its design is `samber/dev-event-organizer-skills@event-feedback`'s; its send is scheduled in `samber/dev-event-organizer-skills@event-comms-channels`.
 - **Self-reported source on the registration form**: "how did you hear about us" undercounts owned channels and double-counts whatever the registrant saw last. Useful only as a cross-check against tracked links, never as the primary attribution.
 - **Reach-versus-conversion split** (self-set diagnostic): healthy traffic to the registration page with low conversion points at the price or the page, not at the channel mix - route to `samber/dev-event-organizer-skills@event-ticket-pricing` or `samber/dev-event-organizer-skills@event-landing-page` rather than buying more reach.
 

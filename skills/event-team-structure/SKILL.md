@@ -1,10 +1,10 @@
 ---
 name: event-team-structure
-description: Design the standing organizing team of a recurring technical event - the structure that persists between editions. Covers legal-entity posture (none, fiscal sponsorship, own non-profit), decision-rights shape (board-plus-organizers split, domain-lead federation, consensus committee), the role taxonomy, succession and bus-factor planning, burnout guardrails, and the volunteer-to-paid-staff hiring gate. Use whenever the user mentions structuring or governing an organizing team, forming an association or non-profit for an event, splitting decision rights, organizer succession or rotation, organizer burnout, or hiring the first paid staff - even if they never say "team structure". Do NOT use for day-of staffing - use samber/dev-event-organizer-skills@event-volunteers instead.
+description: Design the standing organizing team of a recurring technical event - the structure that persists between editions. Covers legal-entity posture (none, fiscal sponsorship, own non-profit), decision-rights shape (board-plus-organizers split, domain-lead federation, consensus committee), the role taxonomy, succession and bus-factor planning, burnout guardrails, organizer conflict of interest, a voluntary peer network of independent local communities, and the volunteer-to-paid-staff hiring gate. Use whenever the user mentions structuring or governing an organizing team, forming an association or non-profit for an event, splitting decision rights, organizer succession or rotation, organizer burnout, finding co-organizers, organizers doing business through the event, several independent meetups cooperating as a network, or hiring the first paid staff - even if they never say "team structure". Do NOT use for day-of staffing - use samber/dev-event-organizer-skills@event-volunteers instead.
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
 # Event Team Structure
@@ -20,7 +20,7 @@ Who owns the event changes the menus (the same split `samber/dev-event-organizer
 - **Community-run** - volunteer-led, ticket/sponsor-funded: every menu below applies in full, and the practice they describe comes from this pole.
 - **Company-run** - the event is a marketing program and the company is the legal entity, budget owner, and employer. The entity menu collapses and the paid-hire gate becomes a headcount request; the decision-rights, role-taxonomy, succession, and burnout material still applies to the internal team. Route the strategy layer (goals, budget ownership, success metrics) to `samber/dev-event-organizer-skills@corporate-event-strategy`.
 
-A hybrid is common and legitimate: a community-run event whose organizers include company employees doing the work on paid time. Treat their employer's diverging interests as a named tension to manage (see the succession and burnout reference), not a disqualifier.
+A hybrid is common and legitimate: a community-run event whose organizers include company employees doing the work on paid time. Treat their employer's diverging interests as a named tension to manage (see the succession and burnout reference), not a disqualifier. An organizer's _own_ commercial interest - freelance services, a startup, a product - is the same tension one step closer; the conflict-of-interest clause below covers both.
 
 ## Interview
 
@@ -35,14 +35,15 @@ Ask one question at a time, multiple-choice where possible. Questions 7-9 exist 
 7. Is there a date by which the structure must change - an entity needed before the next venue signing, a departing lead's last edition? (A near deadline promotes the fast rungs: the two-deep rule, a charter - over an incorporation or a pipeline.)
 8. Is this a patch for the next edition, or the standing design for a multi-year institution? (A compounding mandate promotes the slow rungs: an own entity, a contributor pipeline.)
 9. What is the effort ceiling - organizer hours, appetite for legal paperwork, money available for vendors or a first hire - and what assets exist that the defaults assume away: a parent foundation that could umbrella you, a past organizer who'd mentor, a volunteer already acting like a lead?
-10. Does the event run as one unit, or as parallel tracks with their own CFPs or several cities?
+10. Does the event run as one unit, or as parallel tracks with their own CFPs or several cities? And is the community part of, or considering joining, a voluntary network of independent local communities? (A "yes" to the second half opens the peer-network section below.)
+11. What does each organizer, you included, get back from organizing - leads for their services, network, learning, less isolation, fun? Does anyone have a commercial interest in the audience? (The answers feed the burnout guardrails and the conflict-of-interest clause.)
 
 ## Workflow
 
 1. Run the interview, then draw the current structure as it actually operates - who decides what, who backs up whom - not the org chart the team describes. The gap between the two is usually the finding.
 2. Fix the entity posture first (menu below). Decision rights, hiring, and financial continuity all hang off who can legally hold money and sign contracts; deciding shapes before posture builds on sand.
-3. Pick the decision-rights shape (menu below). Write down which decisions live at the standing layer (money, contracts, legal, CoC escalation) and which live with the operational team (program, logistics) - the pattern every durable event shares.
-4. Lay out the standing role taxonomy: functional leads for program, sponsorship, finance, logistics/venue, marketing, volunteers, plus a CoC team. Every role gets a written one-paragraph scope with explicit boundaries - what it will _not_ absorb. Sanity check, borrowed from corporate org design: one coordinating layer handles roughly 5-8 leads before the structure needs another. Observed team sizes by event scale are in the governance reference. Use the same label set as the tag field on every planning task in `samber/dev-event-organizer-skills@event-planning-timeline`'s tracker - a task and its owning lead should share vocabulary, not a separate naming scheme someone has to translate between.
+3. Pick the decision-rights shape (menu below). Write down which decisions live at the standing layer (money, contracts, legal, CoC escalation) and which live with the operational team (program, logistics) - the pattern every durable event shares. If Q10 names a voluntary network of independent communities, design the network layer separately with the peer-network section below; never fold it into the chapter's own shape.
+4. Lay out the standing role taxonomy: functional leads for program, sponsorship, finance, logistics/venue, marketing, volunteers, plus a CoC team. Every role gets a written one-paragraph scope with explicit boundaries - what it will _not_ absorb. Sanity check, borrowed from corporate org design: one coordinating layer handles roughly 5-8 leads before the structure needs another. Observed team sizes by event scale are in the governance reference. Use the same label set as the tag field on every planning task in `samber/dev-event-organizer-skills@event-planning-timeline`'s tracker - a task and its owning lead should share vocabulary, not a separate naming scheme someone has to translate between. Add the conflict-of-interest clause (section below) to the charter in the same pass.
 5. Build the succession plan from the ranked mechanisms below, starting from the bus-factor map (interview Q4). Any role with a bus factor of 1 - including, especially, the lead - gets a mechanism this edition, not eventually.
 6. Install the burnout guardrails (section below). These are structure, not wellness advice: backups, boundaries, workload budgets, and an annual check with teeth.
 7. Run the paid-hire gate (menu below) against the published threshold. Re-run it every edition - it is a recurring gate, not a one-time decision.
@@ -52,8 +53,9 @@ Ask one question at a time, multiple-choice where possible. Questions 7-9 exist 
 If your harness has persistent memory, record:
 
 - The chosen entity posture and decision-rights shape, with the options rejected.
-- The role charter.
-- The bus-factor map, with each mitigation and owner.
+- The role charter, with the conflict-of-interest register.
+- The bus-factor map, with each mitigation and owner, and each organizer's named return.
+- For a peer-network member: the manifesto, the membership terms, and the shared assets with their owners.
 - The paid-hire gate verdict, and the threshold evidence it rested on.
 - Each edition's team-health answers.
 
@@ -102,6 +104,36 @@ The efficiency line rests on the arguments below, not on a passed check.
 
 These three describe org layers. When the team is instead debating _who gets influence_ (founder authority vs. earned roles vs. current activity), use the leadership-selection lenses borrowed from open-source governance in the succession reference - labeled as borrowed, never as event-industry fact.
 
+## Peer network of independent communities
+
+A third multi-unit shape sits outside the menu above: several independent local communities - often one topic, several cities - that choose to cooperate. No brand owner, no licence, no mentor with veto. It is not a domain-lead federation (one event) and not a franchise (one licensed brand). The test: a chapter that can leave tomorrow and keep its own name is in a peer network.
+
+Design the network layer in this order:
+
+1. **Write a short shared manifesto** - vision and values shared, implementation local: size, means, and context differ by city. Keep it readable in two minutes; a longer one is a franchise agreement in disguise.
+2. **Make membership voluntary, with a written opt-out path** - what a leaving chapter keeps (its name, list, money) and hands back (shared-tool access).
+3. **Fix the minimum binding set** - the few commitments every member keeps, self-set. Candidates: the manifesto's values, a per-chapter code of conduct with a named response team, the conflict-of-interest clause below.
+4. **Pick 2-3 shared assets to start, each with an owner** - from the menu reported: good-talk framework, speaker coaching, speaker bank, pitch bank, venue bank on a common tool, playbooks per event type, working groups, comms automation.
+5. **Split local KPIs from network KPIs**, 2-3 each, every one with an owner and an action that moves it. The shortlist method lives in `samber/dev-event-organizer-skills@event-continuous-improvement`.
+6. **List what is not shared unless decided** - money, brand use, audience lists. Each needs a recorded decision before it starts.
+7. **Answer the legal-structure question at network level** - run the entity menu above for the network, separately from each chapter. The reported tension: mutualize without draining local energy. No network entity is the default while nothing is pooled.
+8. **Plan for local relays** - finding co-organizers was the most common pain reported. One solo organizer sought 4-6 relays; a public call for help at the end of a hackathon or meetup recruited new organizers there. Set your own relay target against the bus-factor map.
+
+Shared-asset table, manifesto template, membership terms, and the legal-structure trade-off: [references/peer-network-and-organizer-incentives.md](references/peer-network-and-organizer-incentives.md).
+
+## Conflict-of-interest clause
+
+The charter covers an employer's interest today; extend it to every organizer's own commercial interest.
+
+- **Welcome business among attendees** - hiring, freelancing, partnerships are welcome, and the event can facilitate them.
+- **Forbid self-prospecting as the motive** - organizers do not run the event mainly to prospect for themselves.
+- **Write it in the founding text**: "business is a consequence, not the goal." The same framing - no commercial demos on stage - fits a peer-network manifesto.
+- **Disclose** - each organizer lists employer, own company or freelance services, and sponsor ties in a team-visible register.
+- **Abstain** - on decisions about their own talk, their employer's talk or sponsorship, and any vendor they have a stake in.
+- **Stay independent** - the community is not tied to one company.
+
+A disclosed lead-generation return is legitimate; an undisclosed one is the conflict this clause exists to surface.
+
 ## Succession mechanisms
 
 Ranking (default, not a law). Re-rank against the interview:
@@ -124,6 +156,8 @@ Ranking (default, not a law). Re-rank against the interview:
 Parked at the bottom it reads as the fair option and gets adopted on fairness grounds.
 
 Onboarding nugget, from MLH's organizer guide: when integrating new organizers, run the mini-events you're considering for attendees as team-building exercises.
+
+Plan onboarding for a sudden influx, not only a trickle. One team grew from one operational person to about fifteen. Write the role catalog before the recruits arrive, pair each newcomer with one existing organizer, give each one bounded first task with a date, then re-run the bus-factor map. Checklist in the peer-network reference.
 
 ## Paid-hire gate
 
@@ -162,6 +196,7 @@ Install these as standing structure:
 3. A workload budget per organizer, reviewed yearly - the published meetup-scale estimate is 4-8 hours a month; a role structurally exceeding its budget is a role to split, not a person to exhort.
 4. The annual pleasantness check, per person, with teeth: "is organizing still pleasant?" A "no" triggers a structural response - shrink scope, add a backup, rotate the person out for an edition - this edition, not a sympathetic nod. (`samber/dev-event-organizer-skills@event-growth-strategy` treats the same signal as a growth-reversal benchmark; the two skills read one instrument.)
 5. Celebrate and surface positive feedback deliberately - silent satisfied attendees plus loud complainers skews every organizer's felt impact.
+6. Name each organizer's return, per person (interview Q11). Organizers stayed for freelance leads - a visible meetup is a large acquisition channel for services - network, learning, less isolation, and fun. Record the return beside the bus-factor map: a return that disappears (a job change, a client base that no longer needs leads) is an early departure signal. A lead-generation return stays legitimate under the conflict-of-interest clause.
 
 Full case quotes, survey limits, and the open-source parallels: see the succession and burnout reference.
 
@@ -173,6 +208,9 @@ Full case quotes, survey limits, and the open-source parallels: see the successi
 - **Hiring a community manager first.** Documented first hires are event coordinators or managers, and in one case an executive director - never a community manager. The year-round logistics burden is what breaks volunteer teams, not community energy. A community-manager-first hire spends the budget on the part volunteers still enjoy.
 - **The clique perception.** An opaque leadership team erodes the street cred that legitimizes organizers with a tech audience (the finding comes from open-source communities, but the audience it describes is exactly this one). The charter's public join-paths are the cheap fix.
 - **Event accounts on a personal account.** Domain, socials, ticketing, bank access held by one person is a silent bus-factor-1 on the event's whole identity. Shared custody with a backup admin, this week.
+- **The event as one organizer's sales funnel.** An organizer running the community mainly to prospect for themselves erodes the trust the community runs on. Fix: the conflict-of-interest clause - disclose, abstain, and write "business is a consequence, not the goal" into the founding text.
+- **A peer network that hardens into a franchise.** A manifesto that grows mandatory formats, cadences, and sponsor decks loses the chapters that joined for peer support. Fix: keep the minimum binding set short and the opt-out path written.
+- **A network with no relays.** Shared assets cannot replace local co-organizers; a chapter with one organizer stays bus factor 1 whatever the network offers. Fix: a relay target per chapter and a public call for help at the end of each event.
 - **Treating the structure as finished.** The EuroPython Society reworked its own structure seven years in to fix workload imbalance and silos. Put the review on a cadence; a design nobody may revisit ossifies into the org chart nobody follows.
 
 ## Measurement
@@ -184,6 +222,8 @@ All thresholds below are self-set - declare them when the design ships, then aud
 - The lead's successor is identified with a handover window inside the published 6-12-month range.
 - The annual per-person pleasantness check ran, and every "no" got a structural response with an owner.
 - The paid-hire gate was re-run this edition against the published threshold, with the verdict recorded.
+- Every organizer has a current entry in the conflict-of-interest register, and a named return.
+- For a peer-network member: the manifesto, the opt-out path, and an owner per shared asset exist in writing.
 
 Success for this skill's own output: a standing-team design, each choice labeled as published practice, borrowed, or self-set, and the options rejected, naming:
 
@@ -192,7 +232,9 @@ Success for this skill's own output: a standing-team design, each choice labeled
 - The role taxonomy, with backups.
 - The succession mechanism per at-risk role.
 - The burnout guardrails, with owners.
+- The conflict-of-interest clause.
 - The paid-hire verdict.
+- The network layer, when the community belongs to a peer network.
 
 A design missing the bus-factor map or the guardrails is not done.
 
@@ -201,6 +243,8 @@ A design missing the bus-factor map or the guardrails is not done.
 - "Our conference just ran its fourth edition and every decision still goes through me. How should we structure the team?"
 - "Should we create a non-profit association for our meetup that turned into a 400-person conference?"
 - "Two core organizers are leaving after this edition - how do we keep the event from dying with them?"
+- "Five meetups on the same topic in different cities want to work together without anyone owning the brand. How do we set it up?"
+- "One of our organizers is a freelancer who gets most of their clients from the meetup. Is that a problem?"
 
 Expected output: the standing-team design described under Measurement, delivered section by section for validation - current-structure diagnosis, entity posture, decision-rights shape, role taxonomy, succession plan, guardrails, paid-hire verdict.
 
@@ -208,6 +252,7 @@ Expected output: the standing-team design described under Measurement, delivered
 
 - [references/governance-case-records.md](references/governance-case-records.md) - the case record: the three decision-rights shapes with named instances, six governance case studies including the standing-entity-vs-rotation natural experiment, team-size benchmarks by scale, and the first-paid-hire evidence and threshold.
 - [references/succession-and-burnout-evidence.md](references/succession-and-burnout-evidence.md) - the succession practices and the 6-12-month handover figure, the burnout shutdown cases in the organizers' own words, the survey evidence with its honest limits, and the OSS and corporate parallels kept as supporting framing.
+- [references/peer-network-and-organizer-incentives.md](references/peer-network-and-organizer-incentives.md) - the peer network of independent communities (shape test, manifesto template, membership terms, shared-asset table, local vs network KPIs, legal-structure trade-off, relays), the conflict-of-interest clause, the organizer return map, and the influx onboarding checklist.
 
 See also, same collection:
 

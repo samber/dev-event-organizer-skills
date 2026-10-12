@@ -4,7 +4,7 @@ description: Write and sequence the cold invitation to a speaker a shortlist alr
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
 # Event Speaker Cold Outreach
@@ -28,7 +28,7 @@ Ask one question at a time, multiple-choice where possible. Questions 4-6 exist 
 4. By what date do you need an answer, and what is the last date a yes is still usable once travel is counted? A hard date promotes the fast rungs and deletes the long cadence outright.
 5. One-off edition, or a compounding annual program? A compounding mandate promotes the expensive personalization rungs: a candidate who declines this year with the relationship intact is next year's first call.
 6. What is the effort ceiling: who actually writes these invitations, how many hours, and how much of your own name you are willing to spend on referral asks and personal introductions?
-7. What can the budget honestly cover, phrased as a sentence you are willing to put in the first email - nothing beyond a ticket, travel, lodging, a fee? If it is unconfirmed, "unconfirmed" is what goes in the email.
+7. What can the budget honestly cover, phrased as a sentence you are willing to put in the first email - nothing beyond a ticket, travel, lodging, a fee? If it is unconfirmed, "unconfirmed" is what goes in the email. For an event outside the region's main hub, answer travel and lodging separately: a speaker who cannot get home the same evening needs the night covered.
 8. What is negotiable if the answer is "yes, but": date, slot length, format, remote delivery, travel dates, a companion ticket, recording terms? Fix that list before the first message, never during the negotiation.
 9. Who has authority to agree a fee or a condition, and is that person you? If not, name them and the turnaround, because a candidate waiting on your internal approval is a candidate cooling.
 
@@ -73,9 +73,9 @@ The first message is incomplete without every one of these.
 - **Event basics** - size, location, dates. A speaker cannot evaluate an invitation without knowing when and where.
 - **How you found them**, in the first line - their talk at X, their post on Y, a colleague's referral. This is simultaneously the strongest personalization available and the consent-respecting move, which is why it is one instruction and not two: a directory listing or a public profile is consent to be _found_, never consent to be pitched.
 - **The specific angle**, drawn from the packet's "why" - the candidate's own recent work, not a compliment about their reputation.
-- **Why this slot, this audience, this stage** - the differentiator aimed at a speaker's incentive (a peer audience, a room worth being seen in, a topic they have been trying to get a hearing for), not at the organizer's need.
-- **Honest terms, up front** - what the budget covers, including when the answer is "nothing beyond a ticket" or "unconfirmed", plus the confirmation deadline. Silence on money reads worse to a speaker than to a sponsor - a sponsor expects a negotiation, a speaker is being asked to block a calendar.
-- **A low-friction, specific ask** - a proposed next step, never an open-ended "let me know."
+- **Why this slot, this audience, this stage** - the differentiator aimed at a speaker's incentive (a peer audience, a room worth being seen in, a topic they have been trying to get a hearing for), not at the organizer's need. If a prior edition's recordings are published, state their reach as one verifiable number - views on last edition's talks, subscribers on the channel - with where to check it, in the second touch if the number needs a link. Organizers report believing that a well-watched video channel makes speakers want to come. Treat that as a hypothesis to test with your own decline reasons, not a finding, and never round the number up.
+- **Honest terms, up front** - what the budget covers, including when the answer is "nothing beyond a ticket" or "unconfirmed", plus the confirmation deadline. For an event outside the region's main hub, travel plus lodging belongs in the offer itself, not in a later perk: organizers of regional meetups report that capital-based speakers rarely travel to regional events otherwise. Reimbursing travel is normal; a speaking fee is not, and offering lodging does not imply one. Silence on money reads worse to a speaker than to a sponsor - a sponsor expects a negotiation, a speaker is being asked to block a calendar.
+- **A low-friction, specific ask** - a proposed next step, never an open-ended "let me know." For a practitioner who has never spoken and would never answer a call for papers, make the first ask lighter still: a short format, a co-speaker seat, or a fifteen-minute call to shape the topic together. Organizers report many such quiet practitioners accept when asked directly.
 - **No links, attachments, or images in the first email.** Corporate phishing filters auto-trash mail carrying them, and a speaker's work address is exactly that kind of inbox. The CFP page, the program and your logo all wait for the second touch.
 
 ## First-touch channel
@@ -201,6 +201,8 @@ A sponsor negotiation has a rate card behind it. A speaker invitation has nothin
 - **Inviting without the sourcing "why".** An invitation that cannot answer "why me, why this event, why now" is a form letter to someone you specifically chose. Send it back to sourcing rather than writing around the gap.
 - **Links, attachments or images in the first email.** Auto-trashed unread by corporate filters. Everything visual waits for touch two.
 - **Inventing a speaker fee, a market rate or an "industry standard".** Saying "I don't have a benchmark, here is our budget" is the honest and stronger move.
+- **Inviting a hub-based speaker to a regional event with travel or lodging left vague.** The candidate does the cost arithmetic, finds a night unpaid, and declines without saying why. State both in the first message.
+- **Citing a reach number nobody can check.** "Thousands of views" with no source reads as a sales line. Give the exact figure and where it lives, or leave it out.
 - **Inviting inside the travel window without saying so.** The four-to-six-week travel floor is the earliest a travelling candidate could plausibly commit; an invitation arriving under it is functionally a request to decline unless you name the constraint yourself.
 - **Promising a slot, a format or a fee you do not control.** See Q9 - check your authority before the sentence, not after.
 

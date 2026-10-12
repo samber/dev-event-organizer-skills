@@ -4,7 +4,7 @@ description: Write a technical event's code of conduct and build the enforcement
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.0"
+  version: "1.1.1"
 ---
 
 # Event Code of Conduct
@@ -46,7 +46,9 @@ Harassment is the same conduct and needs the same enumerated list whoever bought
 - **Single-organizer event** (PyCon US model). One entity runs the venue, the volunteers, the program, and the sanctions: everything here is yours to decide and execute. The constraint is capacity - a small named team, a compressed on-site clock, no one above you to escalate to when the report is about a member of that team. PyCon US answers this with three individually named leads (Incident Responder, PSF Director of Operations, Conference Chair), each publishing separate contact details, so a report about one of them still has somewhere to go.
 - **Multi-organizer franchise or umbrella event** (MLH member-event model). A central body owns the policy; local organizers adopt it because the membership agreement obliges them to: "you are expected to adopt, make publicly available, and enforce the MLH Code of Conduct." Local organizers cannot run an ad hoc process: "organizers must immediately involve the onsite MLHers or MLH Incidents Team." Your policy work is mostly _not drafting_ - it is verifying which document actually binds you, learning the central runbook, and knowing that the central body decides whether anything is said publicly, with local wording and timing agreed centrally first.
 
-State which model a recommendation assumes whenever they differ. Most of the policy anatomy transfers to both; the response-team staffing menu, the appeals route and the public-statement authority do not.
+A third shape sits between the two: a **voluntary peer network of independent local communities** sharing a short manifesto, with no brand owner and no membership agreement that binds enforcement (`samber/dev-event-organizer-skills@event-team-structure` designs that network layer). For the code of conduct, treat each chapter as a single-organizer event: it owns its policy, its response team, and its sanctions. The network can share a base text and a runbook as assets, and can make "a published code of conduct with a named response team" part of its minimum binding set - but a manifesto of values is not a policy, and no network body decides a chapter's case unless the members agreed to that in writing. Business framing in a manifesto ("business is a consequence, not the goal", no commercial demos on stage) belongs in talk guidelines, not in the sanctions ladder.
+
+State which model a recommendation assumes whenever they differ. Most of the policy anatomy transfers to all three; the response-team staffing menu, the appeals route and the public-statement authority do not.
 
 Sponsor and booth staff sit on this seam either way. They are in scope of your policy - MLH, PyCon US and `confcodeofconduct.com` all name sponsors in their own scope clauses - but they are bound by a contract their employer signed, not by a ticket they bought. Say plainly in the policy that they are covered; the clause wording lives in `samber/dev-event-organizer-skills@event-sponsor-agreement`.
 
@@ -60,8 +62,9 @@ Sponsor and booth staff sit on this seam either way. They are in scope of your p
 6. **Write the incident runbook** from [references/incident-runbook-and-response-team.md](references/incident-runbook-and-response-team.md): intake script, capture fields, escalation, decision method fixed in advance, the four-part notification, closure. Set the response clock in hours and days, and publish it.
 7. **Publish the sanctions ladder before the first incident**, using [references/sanctions-ladder-appeals-and-transparency.md](references/sanctions-ladder-appeals-and-transparency.md). Inventing a sanction after the fact is what turns an incident into a governance crisis.
 8. **Decide the appeal route and say which rungs carry one.** A uniform appeal right is rarely what an event means; MLH makes only suspensions and permanent bans appealable. State the asymmetry rather than implying it.
-9. **Rehearse before doors open.** Walk the team through two or three practice cases. An unrehearsed team discovers its decision rule during the incident.
-10. **Commit to a transparency report** for the edition, and to what it will and won't contain.
+9. **Brief all staff, not only the response team**, from [references/staff-guidance-geek-feminism-ada-initiative.md](references/staff-guidance-geek-feminism-ada-initiative.md): any staff member can give a verbal warning, one-time talk slips get a word afterward, serious ones get stopped, and every warning reaches the designated contact.
+10. **Rehearse before doors open.** Walk the team through two or three practice cases. An unrehearsed team discovers its decision rule during the incident.
+11. **Commit to a transparency report** for the edition, and to what it will and won't contain.
 
 If your harness has persistent memory, store the scope decisions, the response team roster with their conflict declarations, the published response clock, and every sanction with its rung and reason. The next edition starts from a ladder that already exists and a record that makes a repeat offence visible - which is the only thing that lets rung 2 mean anything.
 
@@ -151,6 +154,7 @@ The umbrella route is near-zero effort where it exists and unavailable everywher
 - **A uniform appeal right that the team did not mean.** Fix: state which rungs are appealable, to whom, in what form, and by when. MLH restricts appeals to suspensions and bans, by written email with evidence attached.
 - **Sponsors and booth staff treated as outside the policy.** Fix: name them in the scope clause, and confirm the sponsor contract carries the compliance clause and the ejection-without-refund right.
 - **Handling a case entirely in private.** A case resolved with nobody told reads, correctly, as no enforcement - the documented failure is a target concluding nothing happened and leaving. Fix: everyone who knew about the violation learns that a response occurred; the notification is private, the fact of enforcement is not.
+- **A peer network's manifesto read as a shared policy.** Chapters assume the network will handle a report; the network assumes each chapter will. Fix: every chapter publishes its own policy and response team, and the network writes down that it decides no cases unless members agreed otherwise.
 - **A local organizer free-lancing a public statement.** Fix: name in advance who holds public-statement authority, and agree wording and timing centrally before anyone speaks.
 - **Adopting a ladder the team cannot execute.** A published rung nobody has the standing to apply is worse than a shorter honest ladder. Fix: cut the ladder to what the team can actually do with leadership backing.
 
@@ -188,9 +192,10 @@ Expected output:
 
 ## Reference
 
+- [references/staff-guidance-geek-feminism-ada-initiative.md](references/staff-guidance-geek-feminism-ada-initiative.md) for the staff-facing half of the Geek Feminism and Ada Initiative sample policy: warnings, stopping a talk, taking a report, expulsion grounds.
 - samber/dev-event-organizer-skills@event-volunteers for recruiting and shift-scheduling people into the responder role this skill specifies.
 - samber/developer-relations-skills@developer-community-moderation for the standing, cross-event community and its ongoing moderation - this skill's own policy and response team govern a single dated event only, and hand back to that skill for a report, a pattern, or a person that outlasts the event.
 - samber/dev-event-organizer-skills@event-attendee-experience for the quiet room this runbook borrows as an intake space.
-- samber/dev-event-organizer-skills@event-accessibility-inclusion for designing the event so violations against the groups this policy protects are less likely in the first place, and for the interaction-consent stickers whose photography boundary [references/policy-anatomy-and-scope.md](references/policy-anatomy-and-scope.md) enforces. Do NOT use this skill for your code of conduct; use the skill in the description instead.
+- samber/dev-event-organizer-skills@event-accessibility-inclusion for designing the event so violations against the groups this policy protects are less likely in the first place, and for the interaction-consent stickers whose photography boundary [references/policy-anatomy-and-scope.md](references/policy-anatomy-and-scope.md) enforces. At a large conference it also staffs an identifiable inclusion team that may share people and a shirt with the response team, never its intake. Do NOT use this skill for your code of conduct; use the skill in the description instead.
 - samber/dev-event-organizer-skills@event-comms-channels for the attendee-facing chat spaces and event app this policy has to cover - every channel it stands up is a space the scope clause must name, and its roster decides who is bound and who moderates.
 - samber/dev-event-organizer-skills@event-cultural-identity for the values-in-the-room content a policy's preamble can carry - that skill defines the culture, this one writes the policy and the enforcement.

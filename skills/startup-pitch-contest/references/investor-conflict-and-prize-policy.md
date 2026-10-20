@@ -9,7 +9,6 @@
 - The sponsor hard case
 - The award commitment checklist
 - The routing ladder for the three gates
-- Gap list
 
 ## Why the hackathon conflict shape is insufficient here
 
@@ -49,9 +48,9 @@ Promote it when an award carries capital, or when a recurring contest's publishe
 
 Deliver in writing, before a judge sees a single application; not before scoring. Wording that works, at the right level of specificity:
 
-> You will see companies here before most people do. That is part of why we invited you, and it is also why we ask three things. Tell us now if you or your fund hold a position in any applicant, or in anything competing with one; we will move you off that company's score. Tell us if your own firm's rules prevent you from sitting or from seeing this material; we would rather know now. And if you want to talk to a company after the block, tell us, and we will make the introduction. You are judging for the event today, not sourcing for your fund.
+> You will see companies here before most people do. That is part of why we invited you, and it is also why we ask three things. Tell us now if you or your fund hold a position in any applicant, or in anything competing with one; we will move you off that company's score. Tell us if your own firm's rules prevent you from sitting or from seeing this material; we would rather know now. And if you want to talk to a company after the block, tell us. You are judging for the event today, not sourcing for your fund.
 
-The last clause is the one doing the work, and it is deliberately an offer rather than a prohibition. A protocol that forbids contact will be ignored; one that routes it is easier to follow than to evade.
+The last clause is the one doing the work. Under the contact-protocol rung, extend the third request with "and we will make the introduction": a protocol that forbids contact will be ignored, and one that routes it is easier to follow than to evade.
 
 ## The contact protocol, as publishable text
 
@@ -93,7 +92,7 @@ Run this per item, before anything is announced. An award that fails is bad; an 
 
 Three published contests show what "in writing, from someone with authority to commit it" looks like once the checklist reaches the actual payment:
 
-- A major university business-plan competition releases no award until the recipient has filed the required tax documentation, and pays the company or its affiliated institution rather than an individual.
+- A major university business-plan competition releases no award until the recipient has filed the required tax documentation, and pays the startup rather than an individual.
 - A federal start-up challenge pays by electronic transfer subject to standard tax withholding and reporting, naming the specific approving official who signs off on the award.
 - A recurring international pitch contest states plainly that its prize goes to the business named in the application, not to whichever person happens to be standing on stage.
 

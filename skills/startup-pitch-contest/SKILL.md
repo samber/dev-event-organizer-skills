@@ -1,10 +1,10 @@
 ---
 name: startup-pitch-contest
-description: Run a startup pitch contest or demo day inside a technical event - the pre-event application and selection funnel, the pitch format and the time it costs, the rubric dimensions an investor judge actually scores, the conflict of interest specific to a judge who may want to invest in the company just ranked, and a prize built from introductions and committed meetings rather than cash. Use whenever the user mentions a pitch competition or demo day, opening applications for startups, picking a slate, briefing an investor jury, pitch time limits, or what the winner gets - even if they never say "pitch contest". Routes securities and contest-law questions to counsel. Do NOT use for projects built during the event - use samber/dev-event-organizer-skills@hackathon-judging instead.
+description: Run a startup pitch contest or demo day inside a technical event - the pre-event application and selection funnel, the pitch format and the time it costs, the rubric dimensions an investor judge actually scores, the conflict of interest of a judge who may invest in the company just ranked, and a prize the winner can use - introductions, committed slots or equity-free cash. Use whenever the user mentions a pitch competition or demo day, opening applications for startups, picking a slate, briefing an investor jury, pitch time limits, or what the winner gets - even if they never say "pitch contest". Routes securities and contest-law questions to counsel. Do NOT use for projects built during the event - use samber/dev-event-organizer-skills@hackathon-judging instead.
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.1"
+  version: "1.1.0"
 ---
 
 # Startup Pitch Contest
@@ -34,12 +34,10 @@ A hackathon judges an artifact assembled inside the event, in a room the judges 
   - Open that skill, load that reference, feed it your own numbers, and consume the answer.
   - Only one input changes meaning: the hackathon per-team figure is dominated by setup and swap at a physical handoff, and a serial stage block has none of that. Take the formulas, and re-measure the input.
   - The full adaptation is in [references/pitch-block-and-rubric.md](references/pitch-block-and-rubric.md).
-- **Founder-to-investor 1:1 meetings are not yours.** `samber/dev-event-organizer-skills@event-b2b-matchmaking` owns them, and already names the configuration a pitch contest tends to grow into: "a curated founder-and-investor day, not a conference with a meeting corner." A pitch is a broadcast to a jury; a meeting is a booked pair. Route it there and build no booking mechanic here.
-- **Cash prize structure almost certainly does not apply.** `samber/dev-event-organizer-skills@hackathon-cash-prize` is named and scoped to hackathons throughout, and its medium menu is built on one hackathon organizer's prize guidance. Do not reach for it by default.
-  - Its refusal to state a threshold, a form name or a currency amount transfers and is adopted below.
-  - Its routing shape transfers and is adopted below.
+- **Founder-to-investor 1:1 meetings are not yours.** `samber/dev-event-organizer-skills@event-b2b-matchmaking` owns them, founder-investor pairing included, which is where a pitch contest tends to grow. A pitch is a broadcast to a jury; a meeting is a booked pair. Route it there and build no booking mechanic here.
+- **Cash payout mechanics are not yours.** When the award list holds equity-free cash, `samber/dev-event-organizer-skills@hackathon-cash-prize` owns payout eligibility and its tax and payment routing. Its medium menu is built for hackathon teams and does not transfer; its refusal to state a threshold, a form name or a currency amount does, and is adopted below.
 
-Do not state any of the following, in this skill or in anything built from it:
+Never recommend, default or invent any of the following, in this skill or in anything built from it:
 
 - Pitch length.
 - Slate size.
@@ -49,7 +47,7 @@ Do not state any of the following, in this skill or in anything built from it:
 - Prize amount.
 - Equity percentage.
 
-Those seven are exactly the quantities that feel safe to invent, and an invented number outlives the caveat attached to it. One published figure is the exception: DevOpsDays' organizing guide states people usually need at least 4-6 weeks to arrange travel or time off before a pitch event.
+Those seven are exactly the quantities that feel safe to invent, and an invented number outlives the caveat attached to it. A figure a named contest publishes may be cited as that contest's own choice, with its name attached, never as a target: the references carry published slot shapes and timeline gaps on those terms. Prize amount and equity percentage stay out even then, because no currency amount transfers across markets.
 
 Every ranking below is a default, not a law. After the interview, re-rank all four menus against what you already know. Each of the following overturns a default rung:
 
@@ -60,7 +58,7 @@ Every ranking below is a default, not a law. After the interview, re-rank all fo
 
 ## Interview
 
-Ask one question at a time, multiple-choice where possible. The menus below turn on questions 4-6 and 9-10, and nothing else surfaces the facts they carry.
+Ask one question at a time, multiple-choice where possible. The menus below turn on questions 1-6 and 9-10, and nothing else surfaces the facts they carry.
 
 1. Is the contest already committed in the published programme, and what has already been said publicly about how a company gets on that stage? Read it before designing anything - a published route is a promise, not a starting position.
 2. Who is the pitching population, described as a stage of company rather than a number: pre-product, first customers, or raising against traction? Who decided that, and is it written down anywhere an applicant can read?
@@ -76,15 +74,14 @@ Ask one question at a time, multiple-choice where possible. The menus below turn
 ## Workflow
 
 1. Run the interview. Read what was already published (Q1) and the block you were given (Q3) before designing anything.
-2. **Decide the prize before the funnel** - the same ordering `samber/dev-event-organizer-skills@hackathon-cash-prize` argues for its own domain. What the winner receives decides who applies, which judges will sit, and whether counsel has to see the structure at all.
-3. Pick the funnel from its menu and write the published route down as a sentence before you build any form. Field lists are in [references/application-and-slate-mechanics.md](references/application-and-slate-mechanics.md).
-4. Publish the criteria and their weights in the call itself, before applications close. `samber/dev-event-organizer-skills@hackathon-judging` states the reason in one line that transfers without modification: "Undisclosed weights score a competition nobody entered."
+2. Run the three gates below on Q6-Q8, then **decide the prize before the funnel** - the same ordering `samber/dev-event-organizer-skills@hackathon-cash-prize` argues for its own domain. What the winner receives decides who applies and which judges will sit; a fired gate sends the structure to counsel or the committing party before anything is announced.
+3. Collect every judge's and reviewer's declared interests and set the conflict rule from its menu, before the call names who reads applications. Full ladder and the sponsor hard case are in [references/investor-conflict-and-prize-policy.md](references/investor-conflict-and-prize-policy.md).
+4. Pick the funnel from its menu and write the published route down as a sentence before you build any form. Field lists are in [references/application-and-slate-mechanics.md](references/application-and-slate-mechanics.md).
 5. Pick the pitch format from its menu, then take the arithmetic - not the numbers - from `samber/dev-event-organizer-skills@hackathon-judging`'s allocation math and check the block actually holds the slate.
-6. Build the rubric on what a judge can reach, splitting observable dimensions from claimed ones. Both lists and a positive/negative scoring pair are in [references/pitch-block-and-rubric.md](references/pitch-block-and-rubric.md).
-7. Set the conflict rule from its menu, and brief every judge on it before they see a single application - not before they score. Full ladder and the sponsor hard case are in [references/investor-conflict-and-prize-policy.md](references/investor-conflict-and-prize-policy.md).
-8. Run the three gates below. If any one fires, counsel or the committing party reviews the structure before the award is announced.
-9. Run the block. Announce from a prepared list, and state the same contest path `samber/dev-event-organizer-skills@hackathon-judging` prescribes: who receives a challenge, a window that closes before anything of value changes hands, and what can actually change.
-10. Record what was delivered against what was announced, per item and per party, and hand nothing downstream - the award is yours to close out.
+6. Build the rubric on what a judge can reach, splitting observable dimensions from claimed ones, then publish criteria and weights in the call before applications close. `samber/dev-event-organizer-skills@hackathon-judging` keeps weights internal by default against gaming, publishing them only where published rules promise them. Publish them here for a different reason: a founder decides on the weights whether to spend a company's month applying. Lists and a scoring pair are in [references/pitch-block-and-rubric.md](references/pitch-block-and-rubric.md).
+7. Brief every judge on the conflict rule before they see a single application, not before they score.
+8. Run the block. Announce from a prepared list, and state the same contest path `samber/dev-event-organizer-skills@hackathon-judging` prescribes: who receives a challenge, a window that closes before anything of value changes hands, and what can actually change.
+9. Record what was delivered against what was announced, per item and per party, and hand nothing downstream - the award is yours to close out.
 
 Present the design section by section for validation - prize, funnel, format, rubric, conflict rule - before the call goes public. A published call is a promise to founders who will rearrange a company's month around it.
 
@@ -107,11 +104,13 @@ Four rungs:
 
 The breadth `==` is argued rather than used to avoid a decision: breadth is fixed by _who is allowed to apply_, and both open rungs are open to exactly the same population. A second pass cuts the slate; it never widens the pool. The two rungs are genuinely equal on that axis and differ on every other one.
 
-The compliance axis is real here and is easy to miss. Every applicant hands over material about a private company. The wider the call and the more people who read it, the more custody you take on and the less of it you can withdraw: a deck circulated to a reviewer cannot be un-circulated. The screening call tops the axis because it is the rung where a founder says more than the form asked for, with no record of what was said.
+The compliance axis is real here and is easy to miss. Every applicant hands over material about a private company. The wider the call and the more people who read it, the more custody you take on and the less of it you can withdraw: a deck circulated to a reviewer cannot be un-circulated. The screening call tops the axis because it is the rung where a founder says more than the form asked for, handing over custody nobody scoped.
+
+On this menu compliance cost runs rank for rank with effort, because both grow with how many people read how much material. It stays as its own line because it carries an obligation effort does not: what the call must say about who reads the material and when it is deleted.
 
 **Dominance check, re-derived: 6 pairs, zero strict-dominance relations, and the reason accounts for all six in two groups.**
 
-- Four pairs, the screening rung against each of the other three, and nomination against curated invitation, are blocked the ordinary way: the rung ahead on value costs strictly more on effort _and_ on compliance.
+- Four pairs, the screening rung against each of the other three, and nomination against curated invitation, are blocked the ordinary way: the rung ahead on value costs strictly more. Effort and compliance block these four together, as one mechanism rather than two, since the axes share an order here.
 - The other two pairs are blocked because the two value axes genuinely disagree: **open single pass against nomination, and open single pass against curated invitation**. There, the open rung tops breadth and trails on slate quality, so neither rung can be at least equal on both.
 
 Clean only by construction. The check catches nothing, and the efficiency line rests on the arguments below.
@@ -120,7 +119,7 @@ Clean only by construction. The check catches nothing, and the efficiency line r
 - **Nomination by named referrers.** A referrer's own standing rides on the company they put forward, and the pool is wider than the organizer's address book.
   - **Promotion condition, keyed to Q10:** named referrers who would actually nominate already exist.
   - Built for one edition from nothing, the rung stops paying: its recruiting and briefing cost lands before a single application arrives.
-- **Curated invitation.** Cheapest on every axis, and it ranks third rather than first for a specific reason: the slate is one the organizer could have produced with no contest at all, so the mechanic earns nothing its own name promises.
+- **Curated invitation.** Cheapest on both cost axes, and it ranks third rather than first for a specific reason: the slate is one the organizer could have produced with no contest at all, so the mechanic earns nothing its own name promises.
   - **Delete it, from this menu and from the axis lines above, when Q1 says a public route onto the stage has already been announced.** Running a call and then filling the slate from your own contacts is the single most contestable thing in this skill.
 - **Open application plus a screening call - the starved option.** Top of slate quality, top of effort, top of compliance cost, so efficiency never picks it. It is also the only rung that tests what the form cannot show: whether the founder can hold a room. Two promotion conditions, each traced separately:
   - **Keyed to Q3:** the block is fixed and short relative to the slate it must hold, so one weak pitch costs a share of the block you cannot get back.
@@ -201,7 +200,7 @@ The compliance axis is deliberately non-monotone, and the argument is specific t
 - Four pairs, the contact protocol against each of the other three, and disclosure against recusal only, are blocked the ordinary way: the higher-value rung costs strictly more on effort and on compliance.
 - The other two pairs are the informative ones, blocked by effort alone: **disclosure beats no stated rule, and recusal only beats no stated rule, each on value and on compliance simultaneously**. In both cases, only the effort of writing the rule down stops the relation.
 
-Read that as the menu's actual finding. The bottom rung is not a cheap version of a rule; it is worse on a cost axis as well as on value, which is why it is deleted rather than ranked.
+Read that as the menu's actual finding. The bottom rung is not a cheap version of a rule; it is worse on a cost axis as well as on value, which is why it is deleted whenever an investor sits on the panel.
 
 - **Recusal plus disclosure to the pitching companies - the default.** Recusal alone is imported from a domain where the interest is the vote; here the interest is created by watching, so recusal buys much less than it does at a hackathon. Disclosure costs one more line in the brief and one slide before the block, and it is the first rung that addresses the interest that actually exists.
 - **Scoring recusal only.** Honest where the panel is operators and customers rather than investors. Say plainly what it does not cover.
@@ -212,40 +211,28 @@ Read that as the menu's actual finding. The bottom rung is not a cheap version o
 
 ## Prize and opportunity structure
 
-Four rungs:
+Five rungs:
 
 - **Recognition only**: a title, the stage moment, a write-up.
 - **Committed introductions**: named warm introductions the organizer or a judge will actually make.
-- **A committed slot with a named third party**: a partner meeting, a program place, a block of office hours.
+- **A committed slot or in-kind item from a named third party**: a partner meeting, a program place, office hours, credits or professional services.
+- **Equity-free cash**: a payment that takes nothing from the company.
 - **Capital as the prize**: an investment, a convertible instrument, or any award carrying equity.
 
-- value, what the winner can actually use: `capital > committed slot > committed introductions > recognition only`
-- value, deliverability (the winner receives what was announced, and receives it): `recognition only > committed introductions > committed slot > capital`
-- effort (securing the commitment in writing, coordinating a third party, chasing delivery after everyone has gone home): `capital > committed slot > committed introductions > recognition only`
-- compliance cost, as the review it triggers and the reversibility it costs: `capital > committed slot > committed introductions > recognition only`
-- efficiency: `committed introductions > recognition only > committed slot > capital`
+- value, what the winner can use net of what it costs them: `equity-free cash > capital > committed slot > committed introductions > recognition only`
+- effort (securing the commitment in writing, coordinating a third party, chasing delivery after everyone has gone home): `capital > committed slot > equity-free cash > committed introductions > recognition only`
+- compliance cost, as the review it triggers and the reversibility it costs: `capital > equity-free cash > committed slot > committed introductions > recognition only`
+- efficiency: `committed introductions > recognition only > equity-free cash > committed slot > capital`
 
-The deliverability axis is the one a pitch-contest organizer forgets, because the party promising the award is enthusiastic in the room and absent three months later.
+Deliverability is the risk organizers forget, and the effort axis prices it: the party promising the award is enthusiastic in the room and absent three months later. Recognition and an introduction are delivered by you alone; a slot depends on somebody else's calendar; capital depends on diligence and a decision the announcer may not hold, and can be announced and then simply not happen. Cash sits above capital on value because capital costs the winner equity. Its effort position assumes the organizer holds the money; sponsor-funded cash takes the slot rung's written-commitment rule and its effort position.
 
-- Recognition is delivered on stage by you alone.
-- An introduction is one message you control.
-- A committed slot depends on somebody else's calendar.
-- Capital depends on a process: diligence, documents, a decision the announcer may not personally hold. It is the one award that can be announced and then simply not happen.
+**Dominance check, re-derived: 10 pairs, one strict-dominance relation.** Equity-free cash dominates capital: more value net of cost, less effort, less compliance cost. It holds even scoring the two equal on value. Capital therefore survives only through its promotion condition below, where the menu does not decide it. The other nine pairs are blocked the ordinary way: the rung ahead on value costs more on at least one cost axis.
 
-This is `samber/dev-event-organizer-skills@hackathon-cash-prize`'s own warning about its opportunity rung, extended into a full axis. Its catalogue does not transfer wholesale, and it is not empty here either: its opportunity rung already names an investor introduction and a seed-funding pitch, so the introductions rung below is shared ground. Capital itself is the part it has no rung for.
-
-**Dominance check, re-derived: 6 pairs, zero strict-dominance relations, one mechanism covering all six.**
-
-- The two value axes are exact reverses of one another, so in every pair the rung ahead on usable value is behind on deliverability, and no rung can be at least equal on both.
-- The cost axes are never reached in any pair, worth stating rather than leaving implied.
-- Distrust that mechanism rather than reading it as a pass: deliverability is rank-identical to inverse effort _and_ to inverse compliance, so it discriminates nothing the cost axes do not already say, and makes the check vacuous twice over. It stays because it names a real risk, not because it decides anything.
-
-The ordering rests on the arguments below.
-
-- **Committed introductions - the default.** The one rung whose value is specific to this population and whose delivery you control end to end: a list of named people who already agreed, and one message each, sent by a date you publish alongside the award. Consent runs both ways: the person on the receiving end has to agree to the introduction as well.
-- **Recognition only.** Near-zero on every axis and a legitimate structure rather than a failure, exactly as the cash-prize sibling argues for its own recognition rung. Correct wherever the contest's purpose is the stage rather than the award.
-- **A committed slot with a named third party.** Real value, and its whole cost is that somebody who is not you has to do something months later. Get the commitment in writing before it is announced, with a named person and a date, or you have announced somebody else's intention.
-- **Capital as the prize - the starved option.** Top of usable value, bottom of deliverability, top of effort and top of compliance cost, so efficiency never picks it.
+- **Committed introductions - the default.** The one rung whose value is specific to this population and whose delivery you control end to end: a list of named people who already agreed, and one message each, sent by a date you publish alongside the award. Consent runs both ways: the person receiving the introduction has to agree as well. `samber/dev-event-organizer-skills@hackathon-cash-prize`'s opportunity rung names the same ground.
+- **Recognition only.** Near-zero on every axis and a legitimate structure, exactly as the cash-prize sibling argues for its own recognition rung. Correct wherever the contest's purpose is the stage rather than the award.
+- **Equity-free cash.** Top of value, yet below recognition on efficiency: the money has to exist before the call names it. Ahead of the slot when the organizer holds the money, because its cost is a documented payment process rather than a third party acting months later. Route the payout to the cash-prize sibling's tax and payment categories, and confirm the payee is the company, not whoever stands on stage.
+- **A committed slot or in-kind item.** Real value, and its whole cost is that somebody who is not you has to do something later. Get the commitment in writing before it is announced, with a named person and a date, or you have announced somebody else's intention.
+- **Capital as the prize - the starved option.** Dominated by equity-free cash, so efficiency never picks it.
   - **Delete it, from this menu and from the axis lines above, when Q5 says no party has committed it in writing**: an award that fails is bad, and an award of capital that fails is a company that made decisions on it.
   - **Promotion condition, keyed to Q6:** placing that capital is the reason the contest exists rather than a prize attached to a contest that would run anyway. When that is the answer, the award is the point and efficiency has no vote on it, but the first gate below fires regardless.
 
@@ -253,15 +240,16 @@ The ordering rests on the arguments below.
 
 The efficiency ranking gets no vote on these. Each gate is an obligation rather than a preference, so it decides the response instead of being weighed against effort. Efficiency then orders only what is left.
 
-All three share a shape. Each fires on a single interview answer, and each has to be settled before the moment it protects: the announcement for Q6, the close of applications for Q7, the block itself for Q8.
+Contest-law classification routes to counsel whatever the award: whether the competition counts as a skill-based contest, or as something else, where it runs. Cash makes it bite hardest.
 
-- **Q6 - any award carrying capital, a convertible instrument or equity.** Route it to counsel before the award is announced.
+All three gates share a shape. Each fires on a single interview answer, and each has to be settled before the moment it protects: the announcement for Q6, the close of applications for Q7, the block itself for Q8.
+
+- **Q6 - any award carrying capital, a convertible instrument or equity, including a program place that takes equity.** Route it to counsel before the award is announced.
   - **This skill states no securities threshold, no investment-law classification, no exemption name and no currency amount, ever.** This is the standing policy `samber/dev-event-organizer-skills@hackathon-cash-prize` sets for its own domain, adopted here for the same reason: a plausible-sounding threshold in a document telling an organizer how to structure an investment is worse than no guidance at all.
   - That sibling reached the same edge from the other side and stopped in the same place, finding that such an award "plausibly intersects employment or securities rules in some jurisdictions."
-  - Contest-law classification is the second live category and routes the same way: whether the competition counts as a skill-based contest, or as something else, in the place it runs.
 - **Q7 - a sponsor with a contractual say in who pitches or who wins.** This is not a rung on the conflict menu but the hard case. Handle it the way `samber/dev-event-organizer-skills@hackathon-judging` handles a sponsor judging its own track: confine the say to what was bought, and pair it with neutral judges. Check whether the result survives dropping those scores, and disclose the composition before applications close.
   - One line is not negotiable: "no speaker spots can be bought by sponsors: not ever - period" (DevOpsDays organizing guide).
-  - A stage slot in front of investors is a speaking slot, and it is not for sale.
+  - A stage slot in front of investors is a speaking slot, and it is not for sale. Neither is a place in the funnel: no fee, ticket or package purchase may be a condition of applying or pitching.
 - **Q8 - recording, streaming or press in the room that applicants were not told about.** You cannot retrofit this: either the room is not recorded, or every applicant is told and re-consents before the block. On a pitch stage a founder says things whose distribution they control exactly once.
 
 ## Failure modes
@@ -324,7 +312,7 @@ Presented section by section for validation before the call goes public, every b
 
 - [references/application-and-slate-mechanics.md](references/application-and-slate-mechanics.md) - the published route as a sentence, the application field list with each field's purpose and which are custody-bearing, the criteria-in-the-call template, the screening call and its limits, the timeline anchors, and a published-route pair.
 - [references/pitch-block-and-rubric.md](references/pitch-block-and-rubric.md) - the observable-versus-claimed split, a worked rubric naming each dimension's verification source, how to consume `samber/dev-event-organizer-skills@hackathon-judging`'s allocation formulas without re-deriving them, the tie-break ladder, and a scoring pair.
-- [references/investor-conflict-and-prize-policy.md](references/investor-conflict-and-prize-policy.md) - the conflict ladder in detail with the judge brief wording, the sponsor hard case, the contact protocol as publishable text, the award-commitment checklist, the routing ladder for the three gates, and the full gap list.
+- [references/investor-conflict-and-prize-policy.md](references/investor-conflict-and-prize-policy.md) - the conflict ladder in detail with the judge brief wording, the sponsor hard case, the contact protocol as publishable text, the award-commitment checklist with published payment mechanics, and the routing ladder for the three gates.
 
 See also, same collection:
 

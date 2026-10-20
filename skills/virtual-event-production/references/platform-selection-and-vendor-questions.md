@@ -21,7 +21,7 @@ Read this beside Menu 1 in SKILL.md, not instead of it. The ranking lives there;
   - a login the audience has to hold twice
   - a question that arrives somewhere the speaker is not looking
 
-  A real network-layer cost for this rung: FOSDEM runs this shape of stack for its own streaming, and its video team's published requirement is 10 Mbit/s of outgoing bandwidth per room streamed, with a stated 2 Mbit/s floor the team itself describes as sacrificing resilience rather than as a safe minimum. Budget the uplink per room, not per event, and budget above the floor.
+  A real network-layer cost for any self-run encoder: FOSDEM's video team publishes a requirement of 10 Mbit/s outgoing bandwidth per streamed room, with a 2 Mbit/s floor it describes as sacrificing resilience rather than as a safe minimum. That figure sizes a venue room's uplink, camera plus slides, not a speaker's home connection. Budget the uplink per stream origin, not per event, and budget above the floor.
 
 ## The one published channel roster, and what does not transfer
 
@@ -46,7 +46,7 @@ Ask these of the vendor, of procurement, or of whoever already signed. Get the a
 3. What is the concurrent-viewer ceiling on the plan being bought, and what happens at the ceiling - a queue, a refusal, or an upgrade invoice?
 4. Can the stream be restarted mid-session without the audience losing their place, or does a restart change the address?
 
-A real scale to calibrate question 3 against: FOSDEM 2021 ran its per-talk interactive video rooms on infrastructure provisioned for about 100 concurrent rooms, and peaked at 46 in simultaneous use on the first day alone, across a devroom-heavy schedule with dozens of parallel tracks. A single-track event comes nowhere near that ceiling. A multi-track technical conference can approach it.
+A real scale to calibrate question 3 against: FOSDEM 2021 ran its per-talk interactive video rooms on infrastructure provisioned for about 100 concurrent rooms, and had 46 in use at one point on the first day, across a devroom-heavy schedule with dozens of parallel tracks. A single-track event comes nowhere near that ceiling. A multi-track technical conference can approach it.
 
 **Sessions and speakers**
 

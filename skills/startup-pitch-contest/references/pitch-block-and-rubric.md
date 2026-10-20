@@ -21,7 +21,13 @@ Two adaptations, and only two:
    - The practical consequence is that the sampled-panel rung is usually unavailable to you. The levers that remain are the ones that skill names: cut the field before the block, shorten the slot, extend the block, or move part of the judging out of the live window.
    - The pre-scored rung on this skill's format menu is the corresponding option.
 
-One established program confirms the two-part shape without fixing its length: TechCrunch's Startup Battlefield structures a slot as a company pitch followed by live judge questions, the same shape the format menu's default rung assumes. It does not publish the minutes; measure your own stage per the instruction above.
+Published contests confirm the two-part slot the format menu's default rung assumes, and disagree on its proportions. Read these as each contest's own choice, never as a length to copy:
+
+- TechCrunch's Startup Battlefield publishes a six-minute pitch and live demo followed by six minutes of judge questions: questions equal to the pitch.
+- SXSW Pitch finalists have been described by a regional partner organization as getting a strict two-minute pitch, mic cut at the limit, then four minutes of questions: questions double the pitch.
+- One finalist's account of an earlier Slush 100 edition gives question time growing round by round, from a third of the pitch in the first round to more than the pitch in the final.
+
+The transferable pattern is the ratio, not the minutes: question time ranges from a fraction of the pitch to double it, and where one contest runs several rounds, later rounds give questions more of the slot. TechCrunch and Slush both cut the field to a handful of companies for a final round, and TechCrunch seats a new panel for it. Measure your own stage per the instruction above.
 
 Run its feasibility gate before fixing the slate size, not after. A slate that does not fit the block is the failure this arithmetic exists to catch, and it is caught for free before anyone is accepted.
 
@@ -29,7 +35,7 @@ Run its feasibility gate before fixing the slate size, not after. A slate that d
 
 This is the split the whole rubric turns on, and it is the direct consequence of there being no build phase. Sort every candidate dimension into one of two lists before assigning a single weight.
 
-Published pitch-competition rubrics weight several dimensions already: University of Delaware's Horn Entrepreneurship judging guide weights feasibility and growth potential alongside a "wow factor" score. They confirm that weighted, multi-dimension rubrics are real practice. None makes the observable-versus-claimed split explicit, and that distinction is this skill's own construction.
+Published pitch-competition rubrics weight several dimensions already: University of Delaware's Horn Entrepreneurship judging guide, written for its high-school Diamond Challenge, weights feasibility and growth potential alongside a "wow factor" score. They confirm that weighted, multi-dimension rubrics are real practice. None makes the observable-versus-claimed split explicit, and that distinction is this skill's own construction.
 
 **Observable in the block** - a judge sees it happen and can score it from the room.
 
@@ -60,7 +66,7 @@ This rubric is an invented illustration built to show the mechanic. It is not a 
 | Team fit to this problem       | `[w]`  | Claimed    | The application's team field, checked before the block                         |
 | Fit to the award on offer      | `[w]`  | Claimed    | The application's "what the company wants" field                               |
 
-Weights are integers summing to 100, published in the call. `samber/dev-event-organizer-skills@hackathon-judging`'s rubric reference already prescribes that shape: nobody reading a rubric should have to parse a decimal. Two properties of it are worth keeping:
+Weights are integers summing to 100, published in the call. `samber/dev-event-organizer-skills@hackathon-judging`'s rubric reference prescribes the integer shape, so nobody reading a rubric parses a decimal; publishing them is this contest's departure from its default. Two properties of it are worth keeping:
 
 - Every claimed dimension names the field it is checked against. A claimed dimension with no field is a rubric bug, not a scoring difficulty.
 - The last dimension is unusual and is deliberate: an award is only worth what it is worth to the winner, and a company that does not need what is on offer will not use it. Scoring fit is how the contest avoids awarding introductions to a company that has already raised.
@@ -76,7 +82,7 @@ Two consequences of the serial block:
 - **Score after each company, before the next starts.** A panel scoring at the end scores a memory, and the memory favours whoever went last.
 - **Say in the brief that the first company is scored against the scale, not against nothing.** A panel still calibrating disadvantages the first slot, and naming it is the cheapest correction available.
 
-A peer-reviewed rating instrument built specifically to measure entrepreneurial pitch success (the Entrepreneurial Pitching Success scale, published in the Journal of Small Business Management) tested the anchoring instruction above directly, by measuring judge agreement rather than assuming it. An unanchored five-point scale scored by untrained coders produced weak agreement on most items, measured by intraclass correlation coefficient. Agreement improved once the scale carried written behavioral anchors and a third coder was added, though it never became uniformly strong.
+A peer-reviewed rating instrument built specifically to measure entrepreneurial pitch success (the Entrepreneurial Pitching Success scale, published in the Journal of Small Business Management) measured agreement among researchers rating recorded pitches, which bears on the anchoring instruction above without testing a live jury. An unanchored five-point scale scored by untrained coders produced weak agreement on most items, measured by intraclass correlation coefficient. Agreement improved once the scale carried written behavioral anchors and a third coder was added, though it never became uniformly strong.
 
 The same study found a second effect worth planning for rather than mistaking for a rubric defect. When everyone on stage is well-rehearsed, the range of scores narrows and measured agreement drops for a reason that has nothing to do with the rubric: a professionally coached field really does look more alike than a mixed one. Do not read a tight, low-variance spread on one dimension as proof the anchors failed; check whether the field itself was uniformly polished before rewriting the scale.
 
@@ -99,7 +105,7 @@ Both sheets below are illustrations. Every score in them is invented to show the
 
 > Company 3: 8/10. Great team, big market, I'd take a meeting.
 
-Nothing survives a challenge. It cannot say which dimension carried the score, cannot be compared with another judge's 8, cannot feed a tie-break. The specific failure here: "I'd take a meeting" is the judge's own interest showing up inside the score, which is precisely what the conflict rule is meant to keep visible and separate.
+Nothing survives a challenge. It cannot say which dimension carried the score, cannot be compared with another judge's 8, cannot feed a tie-break. The specific failure here: "I'd take a meeting" is the judge's own interest showing up inside the score. Investability can be a legitimate criterion, and some contests rank on it, but only when the call published it with a weight.
 
 **Positive - the same judge, same block, on the rubric above**
 

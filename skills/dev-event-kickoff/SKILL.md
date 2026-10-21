@@ -4,7 +4,7 @@ description: Before answering any event-organizing request that opens a new proj
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.3"
+  version: "1.0.4"
 ---
 
 # Dev Event Kickoff
@@ -113,9 +113,10 @@ A blank gate means the row is always reachable. One exception crosses a gate: wh
 | `samber/dev-event-organizer-skills@event-sponsor-value-proposition` | What each sponsor segment genuinely buys, and why      |      |
 | `samber/dev-event-organizer-skills@event-sponsor-pricing`           | The rate card, its tier ladder and its discount policy |      |
 | `samber/dev-event-organizer-skills@event-sponsor-prospectus`        | The published packages document sponsors read          |      |
-| `samber/dev-event-organizer-skills@event-sponsor-outreach`          | Target list through to a signed yes, and renewals      |      |
+| `samber/dev-event-organizer-skills@event-sponsor-outreach`          | Net-new target list through to a signed yes            |      |
 | `samber/dev-event-organizer-skills@event-sponsor-agreement`         | The term sheet counsel reviews before signature        |      |
-| `samber/dev-event-organizer-skills@event-sponsor-fulfillment`       | Delivering what was signed, then the renewal case      |      |
+| `samber/dev-event-organizer-skills@event-sponsor-fulfillment`       | Delivering what was signed, then the post-event report |      |
+| `samber/dev-event-organizer-skills@event-sponsor-renewal`           | Renewal ask, offers, price changes, at-risk sponsors   |      |
 
 ### G. Programme - the talks lane
 
@@ -235,7 +236,7 @@ The user's question is never "which of these exists" but "which one do I run fir
 5. **Programme intake** - the talks lane (`event-cfp-design`, `event-talk-selection`, `event-speaker-sourcing`, `event-speaker-cold-outreach`, `event-speaker-experience`, `event-schedule-design`) and the competition lane (`hackathon-brief-design`, `hackathon-team-formation`, `hackathon-mentoring`, `hackathon-judging`, `hackathon-cash-prize`, `startup-pitch-contest`). Buys the content people came for. Costs an incompressible call window, a review committee, per-speaker logistics, and per-person consent.
 6. **Place and duty of care** - `event-venue-sourcing`, `event-vendor-sourcing`, `event-sustainability-plan`, `event-code-of-conduct`, `event-risk-management`, `event-accessibility-inclusion`, `event-volunteers`, `event-volunteer-experience`, `event-team-structure`. Buys a room that holds the format, and commitments that survive an incident. Costs site visits, negotiation and a rehearsed response team, each reversible only on someone else's terms.
 7. **On-the-day operations** - `event-run-of-show`, `event-production`, `event-comms-channels`, `event-attendee-experience`, `event-hospitality`, `event-side-event-coordination`, `event-booth-experience`, `event-b2b-matchmaking`, `event-vip-management`, `event-vip-social-program`, `event-official-social-program`. Buys the day the promise already sold gets redeemed. Costs crew, rosters and a physical build, compressed into days that cannot slip.
-8. **Sponsorship sale** - `event-sponsor-value-proposition`, `event-sponsor-pricing`, `event-sponsor-prospectus`, `event-sponsor-outreach`, `event-sponsor-agreement`, `event-sponsor-fulfillment`. Buys the revenue line tickets rarely cover. Costs the most of any class: a months-long motion on a counterparty's calendar, counsel on the term sheet, and obligations owed until the event is over.
+8. **Sponsorship sale** - `event-sponsor-value-proposition`, `event-sponsor-pricing`, `event-sponsor-prospectus`, `event-sponsor-outreach`, `event-sponsor-agreement`, `event-sponsor-fulfillment`, `event-sponsor-renewal`. Buys the revenue line tickets rarely cover. Costs the most of any class: a months-long motion on a counterparty's calendar, counsel on the term sheet, and obligations owed until the event is over.
 9. **After and between editions** - `event-feedback`, `event-debrief`, `event-content-repurposing`, `event-continuous-improvement`, `event-community-building`, `event-growth-strategy`, `event-portfolio-strategy`, `tech-podcast-youtube-channel`. Buys the next edition's starting position. Cheap per session, but the payoff lands after this cycle's finish line.
 
 The axes disagree, which is exactly where the choice is hard:
@@ -323,7 +324,7 @@ The six candidates below are this skill's own construction, not a standard routi
 3. **Kickoff re-invocation** → this skill. Costs near-zero per firing. Keeps the artifact and the routing current, which stops every other routine firing at work that no longer exists.
 4. **Go/no-go review** → `samber/dev-event-organizer-skills@event-risk-management`. Anchored a step ahead of each rung of the venue's cancellation-fee curve, never at the rung. Carries the highest compliance exposure in the set: the decision is contractual and cannot be unsaid.
 5. **Post-edition trend read** → `samber/dev-event-organizer-skills@event-continuous-improvement`. Fires once a debrief lands, reading several editions together. Cannot fire before two exist.
-6. **Sponsor pipeline and renewal sweep** → `samber/dev-event-organizer-skills@event-sponsor-outreach`. Fires against the budget windows the pipeline already records. Carries the highest standing cost: every account it names needs a person to chase it.
+6. **Sponsor pipeline and renewal sweep** → `samber/dev-event-organizer-skills@event-sponsor-renewal` for last edition's sponsors, `samber/dev-event-organizer-skills@event-sponsor-outreach` for net-new. Fires against the budget windows the pipeline already records. Carries the highest standing cost: every account it names needs a person to chase it.
 
 - efficiency: `ticket-pace check > work-back checkpoint > kickoff re-invocation > go/no-go review > trend read > sponsor sweep`
 - value: `go/no-go review > ticket-pace check > sponsor sweep > work-back checkpoint > trend read > kickoff re-invocation`

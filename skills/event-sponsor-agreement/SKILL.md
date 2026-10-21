@@ -4,7 +4,7 @@ description: Turn a sold event sponsorship into a term sheet a lawyer can review
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.1.0"
+  version: "1.1.1"
 ---
 
 # Event Sponsor Agreement

@@ -4,7 +4,7 @@ description: Build the sponsorship rate card for a technical event - the revenue
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.1.1"
+  version: "1.1.2"
 ---
 
 # Event Sponsor Pricing
@@ -164,7 +164,7 @@ What may reduce a published price. Ranking (default, not a law - re-rank against
 - **Multi-event bundling** - the starved option. It tops value: it locks a multi-event commitment at a small fixed published rate, the closest published structured discount mechanic being a 3/5/8% step for one, two, three-plus events at foundation scale. It also tops effort: it requires a real portfolio and the contract mechanics to honor it. Promotion condition: the organizer actually runs two or more events under one banner (Q2).
 - **Negotiated case-by-case** - allowed only inside the written policy of workflow step 9, logged per deal. Without the policy, delete the rung.
 - **Annual series sponsorship is not a bundling discount** - a note outside this menu. Multi-event bundling discounts a portfolio of distinct events; an annual sponsorship of one recurring series is priced from the yearly total and sold for the organizer's time saved, not for a percentage off. Do not attach a bundle percentage to it by default.
-- **Year-over-year returning-sponsor discount** - deleted, not ranked: it stays off the card at community and foundation scale alike. The renewal lever is the post-event ROI report and the relationship - that work belongs to `samber/dev-event-organizer-skills@event-sponsor-fulfillment`, not to a rate cut that compounds into a permanently discounted anchor sponsor.
+- **Year-over-year returning-sponsor discount** - deleted, not ranked: it stays off the card at community and foundation scale alike. The renewal lever is the post-event report and the relationship - the report belongs to `samber/dev-event-organizer-skills@event-sponsor-fulfillment` and the renewal ask to `samber/dev-event-organizer-skills@event-sponsor-renewal`, not to a rate cut that compounds into a permanently discounted anchor sponsor.
 
 ## Failure modes
 
@@ -188,7 +188,7 @@ Rate-card design cannot be measured against an industry pass rate, so never inve
 - **Tier fill pattern**: the top tier selling out first and fast means it was under-priced - raise it next edition. The floor filling while the middle sits empty means the middle step-up buys no visible value.
 - **Add-on sellouts**: each one is a signal to price that surface higher next edition, never lower.
 - **Booth vs visibility sell-through** (self-set): share of booth-gated slots sold versus staff-free visibility slots, read against Q9. Booths lagging while visibility sells is a market signal, not a ladder bug.
-- **Annual renewal rate** (self-set, recurring series only): share of annual sponsors renewing by the renewal date.
+- **Annual renewal rate** (recurring series only): computed by `samber/dev-event-organizer-skills@event-sponsor-renewal`, one cohort per series year, against the renewal date this card fixes.
 - **Deviation log frequency**: every off-card concession recorded per workflow step 9; a rising rate means the card is mispriced or the policy is too loose - decide which before the next deal, not after.
 
 ## Invocation examples
@@ -220,4 +220,4 @@ See also, same collection:
 - `samber/dev-event-organizer-skills@event-sponsor-outreach` - sells the card and feeds objections and deviation requests back into the log.
 - `samber/dev-event-organizer-skills@event-ticket-pricing` - the attendee side of the revenue mix; the two targets must reconcile in the budget.
 - `samber/dev-event-organizer-skills@event-budget` - owns the expense total and revenue mix the card's target comes from.
-- `samber/dev-event-organizer-skills@event-sponsor-fulfillment` - owns the renewal lever this skill's deleted discount rung defers to.
+- `samber/dev-event-organizer-skills@event-sponsor-renewal` - owns the renewal motion this skill's deleted discount rung defers to, and communicates any increase this card sets.

@@ -1,10 +1,10 @@
 ---
 name: event-sponsor-outreach
-description: Run the sponsor sales motion for a technical event, from target list to signed yes - target list building and scoring, outreach timed against sponsor fiscal-year budget lock-in, first-touch channel choice (warm intro, referral ask, cold email under sponsor-specific etiquette), the needs-discovery exploratory call, capped follow-up cadences, objection handling, pipeline tracking, and renewal versus net-new as distinct motions. Use whenever the user mentions finding sponsors, a sponsor outreach email, pitching a sponsorship, a sponsor objection, or chasing renewals - even if they never say "outreach". Do NOT use for the rate card - use samber/dev-event-organizer-skills@event-sponsor-pricing; post-sale delivery is samber/dev-event-organizer-skills@event-sponsor-fulfillment.
+description: Run the sponsor sales motion for a technical event, from target list to signed yes - target list building and scoring, outreach timed against sponsor fiscal-year budget lock-in, first-touch channel choice (warm intro, referral ask, cold email), the needs-discovery exploratory call, capped follow-up cadences, objection handling, pipeline tracking, and sponsors released by renewal or absent a full edition re-entering as net-new. Use whenever the user mentions finding sponsors, a sponsor outreach email, pitching a sponsorship, a sponsor objection, or a prospect gone silent - even if they never say "outreach". Do NOT use for the rate card - use samber/dev-event-organizer-skills@event-sponsor-pricing; use samber/dev-event-organizer-skills@event-sponsor-renewal to renew last edition's sponsors.
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.1.0"
+  version: "1.2.0"
 ---
 
 # Event Sponsor Outreach
@@ -22,7 +22,7 @@ One timing fact governs the whole motion: sponsor prospectus outreach belongs at
 
 Every ranking below (target-list sources, first-touch channels, follow-up cadence) is a default, not a law: it shifts with context and with who executes it. Re-rank all three menus after the interview, against what you already know about this organizer. Each of the following overturns a default rung:
 
-- A returning-sponsor roster.
+- A lapsed or released sponsor roster from earlier editions.
 - An organizer who works at a target company.
 - A first edition with no roster at all.
 - A paid events team instead of volunteers.
@@ -33,11 +33,11 @@ Ask one question at a time, multiple-choice where possible. Questions 6-8 exist 
 
 1. Which pole does the event sit on: community-run (independent, volunteer organizers, sponsors as cost recovery) or company/foundation-run (vendor-owned, marketing budget, sponsors as pipeline)? This decides which warm channels exist and what the call can honestly promise.
 2. Which inputs exist already: a per-segment value proposition, a prospectus, a rate card? Which sponsor-facing activities does the program actually contain (hiring corner, hands-on feedback session, opt-in demo space, or talks only)? First touch and the exploratory call run before the prospectus is sent (MLH organizer guide), so start without the deck. The proposal step needs packages and prices, so route missing inputs to the siblings above before that step. Outreach pitches only activities already in the program; a talks-only program convinces sponsors less than one with a business-oriented layer, and adding that layer belongs to `samber/dev-event-organizer-skills@event-positioning` and `samber/dev-event-organizer-skills@business-event-formats`, not to the sales call.
-3. Which sponsors from the last edition are renewal candidates, and which portion of the revenue goal must come from net-new? Renewal and net-new run as distinct motions in the same pipeline (see Renewal vs net-new).
+3. Which portion of the revenue goal must come from net-new once last edition's sponsors are counted? Last edition's sponsors belong to `samber/dev-event-organizer-skills@event-sponsor-renewal` (see Returning sponsors).
 4. How far out is the event date, and when do the top targets plan next year's budget? Under T-8 months, the fiscal-year window is already closing - flag it and prioritize targets whose budget cycle is still open.
 5. What is the sponsorship revenue goal and the average package price? These size the target list backward (see [references/pipeline-and-renewal.md](references/pipeline-and-renewal.md)). The close and reply rates in that math are self-set assumptions, not benchmarks.
 6. By what date must sponsorship revenue close? (A near deadline promotes the warm rungs everywhere - they convert fastest - and rules out slow-building inbound as anything but background.)
-7. Is each sponsor a one-off sale or a compounding multi-edition relationship? (A compounding mandate promotes renewal care, the dedicated-liaison practice, and the adjacent-event scan that builds next year's list.)
+7. Is each sponsor a one-off sale or a compounding multi-edition relationship? (A compounding mandate promotes the dedicated-liaison practice and the adjacent-event scan that builds next year's list.)
 8. What is the effort ceiling: a volunteer organizer with a few hours a week, or a dedicated sponsorship lead? (This answer alone decides the cadence menu.)
 9. Does this event belong to a franchise or multi-city series with sibling editions?
 
@@ -50,7 +50,7 @@ The axis that changes the sales motion is who owns the event, the same split `sa
 
 ## Workflow
 
-1. Run the interview. Fix the pole (Q1), split renewal from net-new (Q3), and size the list backward from the revenue goal (Q5).
+1. Run the interview. Fix the pole (Q1), net out last edition's sponsors (Q3), and size the list backward from the revenue goal (Q5).
 2. Build the candidate list from the target-list menu below, sourcing 2-3 times more candidates than the sponsors needed, since qualification culls hard (a lead-generation rule of thumb, not a sponsorship benchmark). Diversify across startups, midsized companies, and large enterprises rather than concentrating on one segment (MLH guide).
 3. Qualify and score each candidate Hot / Warm / Cold / Skip with a source URL and date per claim, public business contact channels only (detail in [references/pipeline-and-renewal.md](references/pipeline-and-renewal.md)).
 4. Run the warm-path check per target before anything colder: does anyone in the organizing team or community network work at, or know someone at, the target? The MLH and DevOpsDays organizer guides both put the personal/community network first.
@@ -63,14 +63,13 @@ The axis that changes the sales motion is who owns the event, the same split `sa
    - Confirm amount and payment method in writing.
    - Verify the receiving account works.
    - Hand off to `samber/dev-event-organizer-skills@event-sponsor-agreement` (close mechanics in [references/pipeline-and-renewal.md](references/pipeline-and-renewal.md)).
-10. Run the renewal motion for last edition's sponsors as its own track (see Renewal vs net-new).
+10. Leave last edition's sponsors to `samber/dev-event-organizer-skills@event-sponsor-renewal`; take back only the sponsors it releases (see Returning sponsors).
 
 If your harness has persistent memory, record:
 
 - The scored target list with each claim's source.
 - Per-sponsor pipeline stage and liaison.
 - The objection log by segment.
-- The renewal roster with each sponsor's budget-cycle month.
 
 Next edition's outreach starts from that record instead of a blank list.
 
@@ -84,7 +83,7 @@ Where candidates come from. Ranking (default, not a law - Q3 and a first edition
 
 The effort tie is argued: the previous-sponsor roster and the organizer-network employer list are both records the team already holds - the sponsor list of past editions and the organizers' own employers and contacts. Each is an afternoon of writing down what is already known, with no research step.
 
-- **Previous-sponsor roster** - the default first source: sponsors of this event's past editions, and of other events in the same series, particularly local ones (MLH guide). These leads have already bought this exact thing once.
+- **Previous-sponsor roster** - the default first source: sponsors of this event's earlier editions that lapsed or were released (last edition's sponsors belong to the renewal skill), and of other events in the same series, particularly local ones (MLH guide). These leads have already bought this exact thing once.
 - **Organizer-network employers** - the community-pole structural warm channel (DevOpsDays guide). Also LinkedIn-visible personal contacts (MLH guide).
 - **Adjacent-event sponsor scan** - companies sponsoring neighboring events in the same technology space: published sponsor pages are public evidence of budget, motivation, and fit. This channel extends the ecosystem-adjacency fit logic rather than repeating established organizer practice, so treat it as judged.
 - **Institutional channels** - university career services (who sponsors tech job fairs) and community fundraising announcements (MLH guide). Mostly recruiting-motivated buyers.
@@ -164,13 +163,9 @@ A sponsor who has to chase these answers reads the event as poorly run (DevOpsDa
 
 Build the objection library in [references/objection-handling.md](references/objection-handling.md), using a five-field response structure and a two-format delivery (quick-reference table for the live call, detailed doc for prep) borrowed from general B2B sales enablement. Fill it with sponsor-specific content built from the four sponsor concerns (attendee value, co-sponsor mix, package value, organizer competence) and the organizers' own answers. That framework's "Technical" objection category has no sponsor equivalent: it is dropped, not force-fit.
 
-## Renewal vs net-new
+## Returning sponsors
 
-Run both through the same pipeline, as distinct motions:
-
-- **Net-new** runs the full workflow: research, warm-path check, first touch, call, proposal, follow-up.
-- **Renewal** skips or shortens research and first touch - the target is known, and the community's core-organizer network is a direct path to a past sponsor's contact (DevOpsDays guide). It starts near the exploratory-call step, anchored on the post-event report that `samber/dev-event-organizer-skills@event-sponsor-fulfillment` produces. Fulfillment builds the renewal ask; this skill executes the contact motion.
-- Renewal and net-new run on different clocks, not the same T-8 checkpoint: renewal outreach starts at or within days of event close, before the sponsor's attention or budget line moves elsewhere (Sponsorship Collective), while net-new keeps its own fiscal-year-indexed lead time of 3-9 months (WW Sponsorship) - detail in [references/pipeline-and-renewal.md](references/pipeline-and-renewal.md).
+Last edition's sponsors are renewals, run by `samber/dev-event-organizer-skills@event-sponsor-renewal` on its own clock from event close. This skill takes back only what that motion releases - a released sponsor, a sponsor absent for a full edition, a departed champion's new employer - and re-enters it at the exploratory call (detail in [references/pipeline-and-renewal.md](references/pipeline-and-renewal.md)).
 
 Never cold-pitch a returning sponsor as if net-new: an email explaining what the event is, to a company that wrote a check for it last year, reads as not knowing your own sponsors.
 
@@ -182,7 +177,7 @@ Never cold-pitch a returning sponsor as if net-new: an email explaining what the
 - **Selling activities the program does not contain.** A hiring corner or demo space promised on the call but absent on the day turns a signed yes into a lost renewal. Pitch the program as it stands; route missing activities to `samber/dev-event-organizer-skills@business-event-formats`.
 - **Following up past the cap.** Every touch past it costs more goodwill than it recovers (the collapse curve is a B2B SaaS sales benchmark, not a sponsorship one - the community-reputation cost is the sponsorship-specific reason).
 - **Ignoring an opt-out until the next scheduled touch.** Remove them the moment they ask, mid-sequence.
-- **Treating renewals as net-new.** See Renewal vs net-new - it wastes the warmest leads in the pipeline and insults them in the same email.
+- **Treating returning sponsors as net-new.** See Returning sponsors - it wastes the warmest leads in the pipeline and insults them in the same email.
 - **Reading SaaS rates as sponsorship facts.** Planning on "9-15% reply" or "20-30% close" imports another industry's benchmarks into a category they were never measured in. Use your own edition-over-edition observed rates as they accumulate.
 - **Nobody owns the relationship.** Prospects tracked nowhere, or by everyone, go stale silently. One named liaison per sponsor, one shared pipeline.
 
@@ -191,16 +186,16 @@ Never cold-pitch a returning sponsor as if net-new: an email explaining what the
 Event sponsorship publishes no reply rate, close rate or sales-cycle length of its own, so never import a SaaS figure in place of one. What is trackable is your own funnel, self-set and edition-over-edition:
 
 - **Pipeline coverage** (self-set): prospects in play versus the backward-sized list the revenue goal requires. A shortfall at the list stage predicts a shortfall at close, months earlier.
-- **Stage conversion** (self-set): first touch → call, call → proposal, proposal → close, tracked per channel and per motion (renewal vs net-new). By edition 2 these are your own benchmarks - the only sponsorship-specific rates you will ever have.
+- **Stage conversion** (self-set): first touch → call, call → proposal, proposal → close, tracked per channel, with re-entering lapsed sponsors tagged apart from cold net-new. By edition 2 these are your own benchmarks - the only sponsorship-specific rates you will ever have.
 - **Objection recurrence**: a recurring objection in the log is a defect in that segment's value-proposition statement, not a sales problem - route it to `samber/dev-event-organizer-skills@event-sponsor-value-proposition`.
-- **Renewal rate** reads on the whole relationship (delivery, report quality), not on outreach alone. It belongs to `samber/dev-event-organizer-skills@event-market-fit` (signal) and `samber/dev-event-organizer-skills@event-sponsor-fulfillment` (driver).
+- **Renewal rate** reads on the whole relationship (delivery, report quality), not on outreach. `samber/dev-event-organizer-skills@event-sponsor-renewal` computes it; `samber/dev-event-organizer-skills@event-market-fit` reads it as a demand signal.
 
 ## Invocation examples
 
 - "We need €40k in sponsorship for our 400-person community conference next October. Build the target list and the outreach plan."
 - "Draft the first email to a dev-tools company we want as a sponsor - nobody on the team knows anyone there."
 - "A sponsor prospect went silent after we sent the proposal two weeks ago. What now?"
-- "Six of last year's ten sponsors haven't re-signed. Set up the renewal outreach without treating them like strangers."
+- "Two sponsors from two editions ago never came back. Can we pitch them again without pretending we never met?"
 
 Expected output:
 
@@ -213,7 +208,7 @@ Expected output:
 
 - [references/outreach-process-and-email-craft.md](references/outreach-process-and-email-craft.md) - the five-step process, the first-email content checklist and etiquette rules, title targeting by sponsor motivation, the referral-ask mechanic, the exploratory-call script with the ANUM overlay, proposal rules, and both cadences with what each rate behind them is worth.
 - [references/objection-handling.md](references/objection-handling.md) - the five-field objection framework and its two-format delivery, filled with a sponsor-specific objection set built from the four sponsor concerns, including "we don't see the value" handled as discovery; inferred rows flagged as such.
-- [references/pipeline-and-renewal.md](references/pipeline-and-renewal.md) - the Hot/Warm/Cold/Skip scoring rubric and lead-sheet shape, backward pipeline math with its self-set-rate caveat, tracking and liaison practice, close mechanics, and the renewal motion's boundary with fulfillment.
+- [references/pipeline-and-renewal.md](references/pipeline-and-renewal.md) - the Hot/Warm/Cold/Skip scoring rubric and lead-sheet shape, backward pipeline math with its self-set-rate caveat, tracking and liaison practice, close mechanics, and how lapsed sponsors re-enter from the renewal motion.
 
 See also, same collection:
 
@@ -222,6 +217,7 @@ See also, same collection:
 - `samber/dev-event-organizer-skills@event-sponsor-prospectus` - the document sent after the exploratory call.
 - `samber/dev-event-organizer-skills@event-sponsor-pricing` - the rate card the proposal step draws packages from.
 - `samber/dev-event-organizer-skills@event-sponsor-agreement` - contracts the yes this skill produces.
-- `samber/dev-event-organizer-skills@event-sponsor-fulfillment` - delivers what was sold and writes the post-event report the renewal motion is anchored on.
+- `samber/dev-event-organizer-skills@event-sponsor-fulfillment` - delivers what was sold and writes the post-event report.
+- `samber/dev-event-organizer-skills@event-sponsor-renewal` - owns last edition's sponsors: the renewal ask, offers and rescue, and what it releases back here.
 
 Cross-repo (recommendation, not a dependency): `samber/developer-relations-skills@developer-event-sponsorship` covers the same transaction from the buyer's side - its due-diligence checklist is exactly what your call and first email must be ready to answer, and your target-list fit test is that diligence run in reverse.

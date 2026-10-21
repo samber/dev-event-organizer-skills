@@ -136,7 +136,7 @@ Value-proposition framing cannot be measured against an industry conversion figu
 - **First-call coverage** (self-set): sponsor calls should open with the three known questions - what audience, why sponsor, what per level (DevOpsDays) - already answered by the proposition. Calls that stall on "what do we actually get" mean the How is vague. Calls that stall on "who attends" mean the composition proof point is missing.
 - **Objection log** (self-set): have `samber/dev-event-organizer-skills@event-sponsor-outreach` tag objections by segment; a recurring objection is a defect in that segment's statement, not a sales problem.
 - **Statement reuse** (self-set): the prospectus, pricing, and outreach runs should quote the statements near-verbatim; if they rewrite them, the statement wasn't concrete enough to survive contact.
-- Sponsor renewal rate reads on the whole relationship - delivery, report quality, relationship - not on this skill alone; it belongs to `samber/dev-event-organizer-skills@event-market-fit` (signal) and `samber/dev-event-organizer-skills@event-sponsor-fulfillment` (driver).
+- Sponsor renewal rate reads on the whole relationship - delivery, report quality, relationship - not on this skill alone; it belongs to `samber/dev-event-organizer-skills@event-market-fit` (signal) and `samber/dev-event-organizer-skills@event-sponsor-renewal` (tracking).
 
 ## Invocation examples
 

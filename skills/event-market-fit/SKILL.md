@@ -4,7 +4,7 @@ description: Read whether a technical event's concept, audience and price combin
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.1.1"
+  version: "1.1.2"
 ---
 
 # Event Market Fit
@@ -32,7 +32,7 @@ Ask one question at a time, multiple-choice where possible. Questions 5-7 exist 
 
 What changes the signal set is who owns the event (same split the sibling launch skill uses):
 
-- **Community-run** - paid tickets, external sponsors, an open CFP: the full signal set below is available, and everything sourced in this skill (the DevOpsDays checkpoint ladder, sponsor-renewal benchmarks, CFP ratios) comes from this pole.
+- **Community-run** - paid tickets, external sponsors, an open CFP: the full signal set below is available, and everything sourced in this skill (the DevOpsDays checkpoint ladder, the sponsor-renewal aim, CFP ratios) comes from this pole.
 - **Company-run** - often free or nominal tickets funded by a marketing budget, the vendor as its own main sponsor. Sellout speed weakens as a signal (nothing was bought) and sponsor renewal mostly disappears (the sponsor is the owner). Substitute registration-to-show-up rate for sellout speed (free events run 40-60% no-shows: sourced) and pipeline/adoption outcomes for sponsor renewal, presented as reasoned stand-ins rather than measured equivalents.
 
 ## Workflow
@@ -60,7 +60,7 @@ If your harness has persistent memory, record the declared thresholds and each i
 
 Ranking (default, not a law; re-rank against the interview, especially an owned asset like an existing meetup or sponsor relationships; stage gates availability - mid-sale and post-edition instruments only exist once there is a sale or an edition to read):
 
-- effort: `paid probe series > sponsor-renewal audit == sales-pace instrumentation > deposit-backed waitlist > CFP probe > saturation scan` (tie argued: each is a standing routine rather than a one-off; a weekly read across the whole sale, or a 72-hour reporting cycle per sponsor every edition. The waitlist sits above the CFP probe rather than tied with it: a deposit needs a payment rail, refund terms, and a refund pass, where the CFP is one published form.)
+- effort: `paid probe series > sponsor-renewal audit == sales-pace instrumentation > deposit-backed waitlist > CFP probe > saturation scan` (tie argued: each is a standing routine rather than a one-off; a weekly read across the whole sale, or a two-stage reporting cycle per sponsor every edition. The waitlist sits above the CFP probe rather than tied with it: a deposit needs a payment rail, refund terms, and a refund pass, where the CFP is one published form.)
 - value (evidence strength toward the go call): `paid probe series > sponsor-renewal audit > sales-pace instrumentation > deposit-backed waitlist > CFP probe > saturation scan`
 - efficiency: `saturation scan > CFP probe > deposit-backed waitlist > sponsor-renewal audit > sales-pace instrumentation > paid probe series` (the two tied-effort instruments keep their value order here; at equal effort the stronger evidence wins the ratio)
 
@@ -68,7 +68,7 @@ Ranking (default, not a law; re-rank against the interview, especially an owned 
 - **CFP probe** - a low-stakes CFP or talk-interest form. The default first positive instrument: 2-3:1 oversubscription is a strong local signal that a speaker base and by extension an audience exists (treat the ratio as a self-set target scaled down from flagship figures). Undersubscription is a stop signal (stay at meetup scale).
 - **Deposit-backed waitlist** - a waitlist with a small refundable deposit and a pre-declared conversion target. A deposit filters curiosity from intent, which is why it ranks above a free list at all (the conversion target stays self-set per event, so flag it as non-standard). A free waitlist without a declared target is deleted from this menu below.
 - **Sales-pace instrumentation** - the checkpoint ladder or pace index, weekly (menu 2). Once tickets are on sale this replaces every proxy above it.
-- **Sponsor-renewal audit** - per-edition renewal rate plus a 72-hour post-event ROI report to every sponsor (the report is both the measurement vehicle and the single highest-leverage renewal action: sourced). Needs a completed edition.
+- **Sponsor-renewal audit** - per-edition logo, gross and net revenue retention from `samber/dev-event-organizer-skills@event-sponsor-renewal`, read against the two-stage post-event report from `samber/dev-event-organizer-skills@event-sponsor-fulfillment` (the report is the named highest-leverage renewal action). Needs a completed edition.
 - **Paid probe series** - the starved option: 2-3 higher-intensity probe events (a paid deep-dive, a mini-hackathon) measuring **paid conversion, not RSVPs**. Highest evidence value, loses every efficiency round. **Promotion conditions, keyed to Q9**: the next commitment is large (venue deposit, date announcement), the concept is contested inside the team, or no meetup baseline exists to multiply.
 
 Raw free-RSVP counts and social reach are deleted from this menu, not ranked last; they measure curiosity, and ~50% of free RSVPs don't show (sourced). Parking them at the bottom would let them silently reappear as evidence.
@@ -105,12 +105,12 @@ A single-signal go/no-go ("it sold out fast, therefore fit") is deleted from thi
 
 ## Measurement
 
-Thresholds this skill reads against, each labelled sourced, synthesis or self-set:
+Thresholds this skill reads against, each labelled sourced, synthesis, practitioner aim or self-set:
 
 - Early-bird ≈15% of expected sales, +10% at speaker/agenda announcement, 40-50% one month out (sourced).
 - Pace index persistently <80 at the one-month checkpoint across two editions (synthesis).
 - Attendee return >30% (sourced floor; a tight developer community should beat it, so treat 30% as failing-grade-avoided, not success); paid show-up 90-97%, free events 40-60% no-show (sourced).
-- Sponsor renewal ≥70% per edition (sourced).
+- Sponsor renewal ≥70% per edition (a practitioner aim, not a measured benchmark).
 - CFP oversubscription 2-3:1 on a first CFP (sourced for flagship 6.5:1; this is a scaled-down proxy); undersubscription is a sourced stop signal.
 - Waitlist conversion target (self-set per event, only valid if set before the list opens).
 - Return rate split by audience level or segment, when the event serves more than one (self-set). A total that holds while the advanced segment falls is the drain signal.

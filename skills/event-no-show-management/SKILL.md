@@ -4,7 +4,7 @@ description: Reduce and absorb no-shows at a technical event - an overbooking ra
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.1"
+  version: "1.0.2"
 ---
 
 # Event No-Show Management

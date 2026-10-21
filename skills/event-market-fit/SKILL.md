@@ -4,7 +4,7 @@ description: Read whether a technical event's concept, audience and price combin
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.1.2"
+  version: "1.1.3"
 ---
 
 # Event Market Fit

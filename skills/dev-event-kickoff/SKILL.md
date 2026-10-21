@@ -1,6 +1,6 @@
 ---
 name: dev-event-kickoff
-description: Before answering any event-organizing request that opens a new project or a new session, run this router first - it maps the task onto the 71-skill samber/dev-event-organizer-skills collection, or says plainly that none fits, and bootstraps or resumes the project's shared context so the next session starts warm. This fires on a conversational state, not on a subject - invoke it at every event project start even when the collection's skills are already in daily use on another event, at every recurring check-in on the same project, and whenever routing between siblings is unclear. Covers conference, meetup and hackathon kickoffs, "which event skill do I need", "where do I start organizing this event", event organizer skill routing, and recurring event check-ins. Use this whenever someone describes an event-organizing problem without naming a skill, even if they never say "kickoff", "routing" or "start".
+description: Before answering any event-organizing request that opens a new project or a new session, run this router first - it maps the task onto the 72-skill samber/dev-event-organizer-skills collection, or says plainly that none fits, and bootstraps or resumes the project's shared context so the next session starts warm. This fires on a conversational state, not on a subject - invoke it at every event project start even when the collection's skills are already in daily use on another event, at every recurring check-in on the same project, and whenever routing between siblings is unclear. Covers conference, meetup and hackathon kickoffs, "which event skill do I need", "where do I start organizing this event", event organizer skill routing, and recurring event check-ins. Use this whenever someone describes an event-organizing problem without naming a skill, even if they never say "kickoff", "routing" or "start".
 license: MIT
 metadata:
   author: Samuel Berthe
@@ -9,7 +9,7 @@ metadata:
 
 # Dev Event Kickoff
 
-You are the entry point and router for the 71-skill dev-event-organizer-skills collection. Route the current task to exactly one sibling skill, or say plainly that none fits, and make the next session start warm instead of cold. Routing is the reason this skill exists; everything else serves it.
+You are the entry point and router for the 72-skill dev-event-organizer-skills collection. Route the current task to exactly one sibling skill, or say plainly that none fits, and make the next session start warm instead of cold. Routing is the reason this skill exists; everything else serves it.
 
 The collection is too large for its own members to see each other. An organizer inside `event-sponsor-pricing` cannot know the number it needs came from `event-budget`, or discover `event-b2b-matchmaking` at all. Solving that discovery problem is the whole job.
 
@@ -55,7 +55,7 @@ Rows follow the decision sequence an organizer moves through, because that is th
 - `hackathon`, `virtual`, `hybrid`, `in-room`, `conference`, `workshop` - from the format decision (Q2).
 - `first`, `recurring`, `properties` - from the lifecycle answer (Q3); `company` - from the funding answer (Q4).
 
-A blank gate means the row is always reachable. Full matrices, including what to do when Q2 came back unfixed, are in [`references/format-and-lifecycle-gates.md`](./references/format-and-lifecycle-gates.md).
+A blank gate means the row is always reachable. One exception crosses a gate: when a `startup-pitch-contest` award is equity-free cash, route its payout eligibility, tax and payment routing to `hackathon-cash-prize` whatever the format. Full matrices, including what to do when Q2 came back unfixed, are in [`references/format-and-lifecycle-gates.md`](./references/format-and-lifecycle-gates.md).
 
 ### A. Does this event exist, and what is it?
 
@@ -87,6 +87,7 @@ A blank gate means the row is always reachable. Full matrices, including what to
 | `samber/dev-event-organizer-skills@event-planning-timeline` | The work-back plan from doors-open, track by track |         |
 | `samber/dev-event-organizer-skills@event-venue-sourcing`    | Finding, visiting and negotiating the room         | in-room |
 | `samber/dev-event-organizer-skills@event-vendor-sourcing`   | Suppliers the venue does not include               |         |
+| `samber/dev-event-organizer-skills@event-sustainability-plan` | Footprint estimate, reduction levers, an honest sustainability page |         |
 
 ### D. Who runs it, under what rules
 
@@ -204,7 +205,13 @@ A blank gate means the row is always reachable. Full matrices, including what to
 
 Disambiguate strictly from each skill's declared scope - never from a guess about what a skill "probably" covers. Read [`references/skill-routing.md`](./references/skill-routing.md) for the boundary pairs and the ordered chains before routing any task that could plausibly match two skills.
 
-Before naming a gap, check whether the task belongs to a sibling `samber` collection: developer content, docs, open-source strategy or an always-online community recommends `samber/developer-relations-skills`; a public API, SDK, webhook or app-marketplace question recommends `samber/developer-platform-skills`. Frame either as a recommendation, never a dependency - this collection stays usable standalone.
+Before naming a gap, check whether the task belongs to a sibling `samber` collection:
+
+- Developer content, docs, open-source strategy or an always-online community → `samber/developer-relations-skills`.
+- A recurring webinar series, office hours or a developer survey run as a DevRel program, not as one event → `samber/developer-relations-skills@devrel-webinar-program`, `samber/developer-relations-skills@developer-office-hours-program` or `samber/developer-relations-skills@developer-survey-design`.
+- A public API, SDK, webhook or app-marketplace question → `samber/developer-platform-skills`.
+
+Frame any of these as a recommendation, never a dependency - this collection stays usable standalone.
 
 ## 4. Output shape
 
@@ -226,7 +233,7 @@ The user's question is never "which of these exists" but "which one do I run fir
 3. **Fill the room** - `event-marketing-plan`, `event-landing-page`, `event-social-media`, `event-attendee-email-sequences`, `event-no-show-management`, `event-press-relations`, `event-media-partnerships`, `cross-event-promotion`. Buys registrations, the input every other class assumes. Costs a campaign from announcement to doors, plus the list consent you then owe.
 4. **Money model** - `event-budget`, `event-ticket-pricing`. Buys break-even as a number with a date instead of a hope. Costs a modelling session; a published refund policy binds once tickets sell.
 5. **Programme intake** - the talks lane (`event-cfp-design`, `event-talk-selection`, `event-speaker-sourcing`, `event-speaker-cold-outreach`, `event-speaker-experience`, `event-schedule-design`) and the competition lane (`hackathon-brief-design`, `hackathon-team-formation`, `hackathon-mentoring`, `hackathon-judging`, `hackathon-cash-prize`, `startup-pitch-contest`). Buys the content people came for. Costs an incompressible call window, a review committee, per-speaker logistics, and per-person consent.
-6. **Place and duty of care** - `event-venue-sourcing`, `event-vendor-sourcing`, `event-code-of-conduct`, `event-risk-management`, `event-accessibility-inclusion`, `event-volunteers`, `event-volunteer-experience`, `event-team-structure`. Buys a room that holds the format, and commitments that survive an incident. Costs site visits, negotiation and a rehearsed response team, each reversible only on someone else's terms.
+6. **Place and duty of care** - `event-venue-sourcing`, `event-vendor-sourcing`, `event-sustainability-plan`, `event-code-of-conduct`, `event-risk-management`, `event-accessibility-inclusion`, `event-volunteers`, `event-volunteer-experience`, `event-team-structure`. Buys a room that holds the format, and commitments that survive an incident. Costs site visits, negotiation and a rehearsed response team, each reversible only on someone else's terms.
 7. **On-the-day operations** - `event-run-of-show`, `event-production`, `event-comms-channels`, `event-attendee-experience`, `event-hospitality`, `event-side-event-coordination`, `event-booth-experience`, `event-b2b-matchmaking`, `event-vip-management`, `event-vip-social-program`, `event-official-social-program`. Buys the day the promise already sold gets redeemed. Costs crew, rosters and a physical build, compressed into days that cannot slip.
 8. **Sponsorship sale** - `event-sponsor-value-proposition`, `event-sponsor-pricing`, `event-sponsor-prospectus`, `event-sponsor-outreach`, `event-sponsor-agreement`, `event-sponsor-fulfillment`. Buys the revenue line tickets rarely cover. Costs the most of any class: a months-long motion on a counterparty's calendar, counsel on the term sheet, and obligations owed until the event is over.
 9. **After and between editions** - `event-feedback`, `event-debrief`, `event-content-repurposing`, `event-continuous-improvement`, `event-community-building`, `event-growth-strategy`, `event-portfolio-strategy`, `tech-podcast-youtube-channel`. Buys the next edition's starting position. Cheap per session, but the payoff lands after this cycle's finish line.

@@ -250,5 +250,6 @@ The brief invents no per-head figure.
 - [references/break-quantities-and-service-flow.md](references/break-quantities-and-service-flow.md) - the catering-industry consumption convention a break is sized against: hot-beverage quantities by time of day, buffer and refresh cadence, and what an under-sized station's failure looks like against the figures.
 - [references/alcohol-and-evening-programme.md](references/alcohol-and-evening-programme.md) - the alcohol-free provision designed as content rather than absence, the cap mechanics for bounded service, what an evening programme's brief carries, and the handoffs to the scope clause and the risk register.
 - `samber/dev-event-organizer-skills@event-official-social-program` - decides how many social occasions run and whether any overlap, then runs the evening menu above once per occasion.
+- `samber/dev-event-organizer-skills@event-sustainability-plan` - sets the plant-based default and the food-waste measurement ask this skill's catering style must carry, as part of the event's footprint plan.
 
 Other sibling skills referenced throughout: see § Where every boundary sits.

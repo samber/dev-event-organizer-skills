@@ -25,7 +25,7 @@ Each gate's value comes from one place:
 Three consequences worth stating, because each deletes rows a reader expects to see:
 
 - A fully virtual event closes `in-room` outright: no venue to source, no room to lay out, no catering, no physical signal path. `virtual-event-production` replaces all four, and `event-accessibility-inclusion` still applies because its digital-access provisions need no room.
-- `hackathon` and `conference` are not mutually exclusive. A multi-track conference running a hackathon track opens both, and `startup-pitch-contest` is ungated on purpose: it judges companies that existed before the event, so it fits either.
+- `hackathon` and `conference` are not mutually exclusive. A multi-track conference running a hackathon track opens both, and `startup-pitch-contest` is ungated on purpose: it judges companies that existed before the event, so it fits either. When its award is equity-free cash, it reaches `hackathon-cash-prize` for payout mechanics despite that row's `hackathon` gate.
 - `conference` is not a synonym for "big". Its threshold is qualitative and self-set, not a measured headcount: it opens when the event has the surface - a floor, a press pool, guests who create protocol obligations - not when the organizer hopes it will.
 
 ## Lifecycle gate matrix

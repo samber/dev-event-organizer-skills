@@ -41,6 +41,8 @@ DevOpsDays' organizing guide: **ask** attendees for sizing at registration - "Do
 
 ### Less-but-better, or none-plus-donation (the sustainability axis)
 
+For swag's measured waste and carbon line, and what a public sustainability claim may say about it, see `samber/dev-event-organizer-skills@event-sustainability-plan`.
+
 - Fast Company's Elizabeth Segran ("Can We Finally Kill Off Cheap, Disposable Conference Swag?") is the most-cited neutral piece; PCMA and BizBash document the planner shift toward fewer, higher-quality items or none.
 - Donation-instead-of-swag is a real, named practice: Alation is cited by Prevue as replacing swag with a charity donation "for the past several years".
 - HashiCorp's "we will never have a ball pit at HashiConf" is the sharpest statement of the underlying discipline: extras are subordinated to purpose.

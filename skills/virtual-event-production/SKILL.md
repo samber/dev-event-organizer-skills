@@ -280,3 +280,7 @@ Presented section by section for validation before anything is signed.
 See also, same collection:
 
 - `samber/dev-event-organizer-skills@hybrid-event-design` - owns the event serving a room and a remote audience at once. The dividing line is the stage: a hybrid always has one, so every menu here stops applying to it.
+
+See also, sibling collection:
+
+- `samber/developer-relations-skills@devrel-webinar-program` - owns the recurring developer webinar series this skill delivers one session of: formats, seasons, topics, replay strategy and the sales handoff contract.

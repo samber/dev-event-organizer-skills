@@ -4,7 +4,7 @@ description: Before answering any event-organizing request that opens a new proj
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.5"
+  version: "1.0.6"
 ---
 
 # Dev Event Kickoff

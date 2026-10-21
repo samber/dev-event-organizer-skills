@@ -55,7 +55,7 @@ Rows follow the decision sequence an organizer moves through, because that is th
 - `hackathon`, `virtual`, `hybrid`, `in-room`, `conference`, `workshop` - from the format decision (Q2).
 - `first`, `recurring`, `properties` - from the lifecycle answer (Q3); `company` - from the funding answer (Q4).
 
-A blank gate means the row is always reachable. Full matrices, including what to do when Q2 came back unfixed, are in [`references/format-and-lifecycle-gates.md`](./references/format-and-lifecycle-gates.md).
+A blank gate means the row is always reachable. One exception crosses a gate: when a `startup-pitch-contest` award is equity-free cash, route its payout eligibility, tax and payment routing to `hackathon-cash-prize` whatever the format. Full matrices, including what to do when Q2 came back unfixed, are in [`references/format-and-lifecycle-gates.md`](./references/format-and-lifecycle-gates.md).
 
 ### A. Does this event exist, and what is it?
 

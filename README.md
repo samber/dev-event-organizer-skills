@@ -151,6 +151,7 @@ This collection covers the full event-organizing surface.
 - [`virtual-event-production`](./skills/virtual-event-production): Runs delivery for an event with no room: platform choice, moderation posture, remote-speaker readiness, and the failure drill.
 - [`hybrid-event-design`](./skills/hybrid-event-design): Designs programme and staffing for in-room and remote audiences at once: session eligibility, parity depth, crew split, and cue track.
 - [`event-learning-expedition-design`](./skills/event-learning-expedition-design): Takes your own audience into a host organization you do not control: host-dependency posture, access rules, and repeatability.
+- [`event-sustainability-plan`](./skills/event-sustainability-plan): Estimates the event's footprint, ranks the levers that cut it (travel first), schedules the data to collect, and writes an offset-free sustainability page.
 
 ### Tickets & attendees
 

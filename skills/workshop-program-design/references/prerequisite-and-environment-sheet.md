@@ -6,7 +6,7 @@ The artifact a participant reads before deciding whether to take your seat, and 
 
 - [What practitioners actually publish](#what-practitioners-actually-publish)
 - [Three prerequisite classes](#three-prerequisite-classes)
-- [Environment rungs, with what the record shows](#environment-rungs-with-what-the-record-shows)
+- [Environment rungs, with published instances](#environment-rungs-with-published-instances)
 - [Materials, and the window they stay reachable](#materials-and-the-window-they-stay-reachable)
 - [Compliance review triggers](#compliance-review-triggers)
 - [A filled prerequisite block](#a-filled-prerequisite-block)
@@ -14,11 +14,11 @@ The artifact a participant reads before deciding whether to take your seat, and 
 
 ## What practitioners actually publish
 
-Every quoted string in the three-classes and environment sections below comes from a published DevOpsDays workshop page: the eight workshops of the Singapore 2025 edition (`content/events/2025-singapore/program/workshop-*.md`) and the Vilnius 2024 workshop page.
+The quotes below come from DevOpsDays workshop pages (Singapore 2025, Vilnius 2024). PyCon US tutorial pages and SmashingConf workshop pages carry the same per-session field.
 
-All eight Singapore pages carry a _Prerequisites for Participants_ heading. Seven fill it. The one that leaves it blank is the leadership and discussion workshop, whose own agenda is four segments of exercises and modelling with printed materials - nothing to install, so the empty section is accurate rather than neglectful.
+All eight Singapore 2025 workshop pages carry a _Prerequisites for Participants_ heading. Seven fill it. The blank one is a leadership discussion workshop with printed materials and nothing to install, so its empty section is accurate rather than neglectful.
 
-Read that as evidence of what practitioners publish, never as a standard: eight pages, one event, one year, one region, written by the people running the sessions rather than by a guide telling anyone what to do. Nothing in it makes a prerequisite section mandatory.
+Treat this as what practitioners publish, never as a standard: the session leads wrote these pages, and no guide makes the section mandatory.
 
 ## Three prerequisite classes
 
@@ -44,7 +44,7 @@ The seven filled sections sort cleanly into three classes. Write all three, in t
   - _"Launch a modern browser. (Use edge or chrome for the best experience)"_
   - _"Bring your own laptop with RDP client (RDP protocol allowed) to access Windows10 Jump host or Chrome Browser to access KASM desktop (Linux Jump host)"_ - the parenthesis is about the network, not the laptop, which is why it appears again in the network evidence reference.
 
-  Name versions where the exercise depends on them. Name the install route where a participant would otherwise pick a broken one: one page links each install directly - _"Install: [Node.js]"_, _"Install: [python3]"_, _"Install the [Snyk CLI]"_.
+  Name the operating systems and chip architectures the exercise supports, and say what a participant on a locked employer laptop should do. Name versions where the exercise depends on them. Name the install route where a participant would otherwise pick a broken one: one page links each install directly - _"Install: [Node.js]"_, _"Install: [python3]"_, _"Install the [Snyk CLI]"_.
 
 - **3. Accounts - what they must have signed up for, separately from what they installed.** This is the class most often forgotten, and it fails worst. The published examples ask for it constantly:
 
@@ -55,7 +55,7 @@ The seven filled sections sort cleanly into three classes. Write all three, in t
 
   An account is not an install. It needs a signup form, an email that has to arrive, sometimes an employer's single sign-on, and sometimes a payment card on file for a free tier. All of that lands at minute zero, on the room's network, for every participant simultaneously. Treat it as the highest-risk prerequisite class and the one most worth chasing in the pre-event mail.
 
-## Environment rungs, with what the record shows
+## Environment rungs, with published instances
 
 - **Published prerequisites, participant sets up their own machine.** The majority pattern above. Cost is one document that survives to the next edition; that durability is what makes it the efficiency leader when the exercise runs every year.
 
@@ -108,7 +108,8 @@ Invented and illustrative. The event, workshop and tooling are fictional; every 
 
 ```
 WORKSHOP: Shipping a service to Kubernetes without a cluster of your own
-LENGTH: 150 minutes, in three segments      CAPACITY: 24 (bound by: licence seats)
+LENGTH: 150 minutes, in three segments      CAPACITY: 24 (bound by: coverage)
+STAFF: 2 instructors, 3 helpers who have run the exercise
 HANDS-ON: yes, on your own machine  - a provisioned browser environment is
           available on request, ask us by the 12th
 
@@ -133,8 +134,8 @@ BEFORE YOU TRAVEL (5 minutes, on a network you trust)
   download that would break it
 
 ON THE DAY
-  If it does not work, say so in the first ten minutes  - someone is
-  walking the room specifically for that
+  If it does not work, put the yellow note on your screen in the first
+  ten minutes  - three helpers are walking the room for exactly that
   Known weirdness: corporate VPNs block the local port we use; turn it off
   for the session
 
@@ -145,6 +146,8 @@ AFTER
 ```
 
 ## Negative example: the prerequisite block that guarantees a broken room
+
+Invented and illustrative.
 
 ```
 Bring a laptop. Some familiarity with cloud and containers is helpful.

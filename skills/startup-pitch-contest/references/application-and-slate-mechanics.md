@@ -50,12 +50,13 @@ A custody-bearing field is one whose content the applicant would not publish. Ev
 
 - Traction facts, any financial detail, a deck, and anything said on a screening call.
 - The rule that follows: **name, in the call, who reads applications and what happens to them afterwards.** "The organizing team" is not a name. If reviewers include people who invest, say so - that is the same fact the conflict rule exists to handle, met earlier and more cheaply.
+- Say in the call that judges and reviewers sign no NDA, so applicants include nothing they need kept confidential.
 - Delete, do not archive, what the review no longer needs. An application store that outlives the contest is a store nobody is minding.
 - Pick the deletion trigger from your own jurisdiction's claims-limitation period, not from a round number that feels safe. A recurring international pitch contest's own published privacy notice sets its deletion date to a stated number of years after the award is completed, reasoned explicitly from the statutory period during which a claim connected to the contest could still be brought. Copy the reasoning, not the figure: the right window is set by where the contest runs, not by this one.
 
 ## Criteria in the call itself
 
-Publish the criteria and their weights in the call, before applications close. The reason carries over unchanged from a sibling skill: "Undisclosed weights score a competition nobody entered" (`samber/dev-event-organizer-skills@hackathon-judging`).
+Publish the criteria and their weights in the call, before applications close. `samber/dev-event-organizer-skills@hackathon-judging` holds that "undisclosed _categories_, not undisclosed weights, are what score a competition nobody entered", and keeps weights internal against gaming. A pitch call publishes them anyway: the founder decides on them whether to apply, and claimed dimensions checked against the application leave little to game.
 
 Stage (Q2) is rarely the only eligibility gate in force. Check each of these before publishing the template's point 1 below, and name only what applies:
 

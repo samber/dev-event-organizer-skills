@@ -4,7 +4,7 @@ description: Run the technical and audience-facing delivery of a fully-remote te
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.1"
+  version: "1.0.2"
 ---
 
 # Virtual Event Production
@@ -26,7 +26,7 @@ Its whole model has meaning only where a room exists: a mixing board, a camera o
 - **The day.** `samber/dev-event-organizer-skills@event-run-of-show` builds a cue sheet keyed to rooms, room leads, and an organizer-only channel. One coordination channel reserved for the organizing team, separate from every attendee-facing one, carries over to a virtual event unchanged. Nothing else about a room-keyed cue sheet does.
 - **Accessibility.** `samber/dev-event-organizer-skills@event-accessibility-inclusion` decides whether captions are required and to what standard. Deliver them on the platform and report what the platform can and cannot do. Never set the bar yourself.
 
-Every ranking below is a default, not a law. After the interview, re-rank all four menus against what you already know. Each of these overturns a default rung:
+Every ranking below is a default, not a law. Every value ordering is argued from mechanism, not measured; the only survey evidence in the four menus sits on Menu 2's pre-recorded rung. Where this audience's own evidence disagrees with an ordering, the evidence wins. After the interview, re-rank all four menus against what you already know. Each of these overturns a default rung:
 
 - a community that already lives in a chat space
 - an organizer who has streamed before
@@ -39,7 +39,7 @@ Each promotion condition below names its interview question inside the condition
 
 Ask one question at a time, multiple-choice where possible. Questions 7-9 exist because the menus diverge sharply on time-to-effect, durability and effort, and those orderings cannot be picked for the user.
 
-1. **Is there an interaction surface at all, or is this a feed people watch?** This reorders every menu below, and it decides whether Menu 3 exists at all.
+1. **Is there an interaction surface at all, or is this a feed people watch?** This reorders every menu below, and it decides whether Menu 3's moderation rungs apply at all.
 2. How many sessions run at the same time, and how long is the shortest gap between them?
 3. Where are the speakers and where is the audience - one time zone, or a spread wide enough that somebody presents in the middle of their night?
 4. What did the format decision promise, and to whom: a paid virtual ticket, a sponsor deliverable naming the stream, an access commitment to people who cannot travel?
@@ -68,7 +68,7 @@ Say which of the two a recommendation assumes whenever they differ.
 2. **Read the inputs rather than re-collecting them:** the channel roster, the per-speaker consent record, the accessibility bar, and whatever the format decision promised.
 3. **Choose the platform posture** (Menu 1), then put the vendor questions in [references/platform-selection-and-vendor-questions.md](references/platform-selection-and-vendor-questions.md) to whoever can answer them, in writing, before committing.
 4. **Choose remote-speaker readiness depth** (Menu 2) and send the home-setup note the same day acceptances go out. Details in [references/remote-speaker-readiness.md](references/remote-speaker-readiness.md).
-5. **Staff moderation** (Menu 3) per concurrent session, by name, not by function. Skip this step entirely if step 1 said "a feed people watch".
+5. **Staff moderation** (Menu 3) per concurrent session, by name, not by function. If step 1 said "a feed people watch", skip the moderation rungs: staff each concurrent feed with a technical watcher, plus a host when Menu 3's **Q1** condition fires.
 6. **Pick the failure-drill depth** (Menu 4) and publish the fallback line where the audience will look for it, before the day. Runbook in [references/moderation-and-failure-drills.md](references/moderation-and-failure-drills.md).
 7. **Rehearse once, on the platform the event actually runs on.** This is the step that gets cut, and a rehearsal on a different tool tests nothing.
 8. **Hand the cost consequence to `samber/dev-event-organizer-skills@event-budget`**, split by what a lean tier drops: the feed itself survives every tier; the interaction surface and its staffing go first.
@@ -90,7 +90,7 @@ A platform used twice is worth not re-learning.
 
 The platform is your venue. Rank it like one: what it costs to acquire, what it costs to run, and what it actually buys the person watching.
 
-Ranking (default, not a law - Q1, Q6, Q7 and Q10 re-rank it):
+Ranking (default, not a law - Q1, Q2, Q4, Q6, Q7, Q9 and Q10 re-rank it):
 
 - ops effort (setup hours, people on the day, skill required): `assembled stack > managed virtual-venue platform > broadcast tool with a built-in question queue > one-way feed plus the existing chat space > single one-way feed`
 - procurement cost (lead time to acquire, commitment signed, how reversible up to the date): `managed virtual-venue platform > broadcast tool with a built-in question queue > assembled stack == one-way feed plus the existing chat space > single one-way feed` - argued tie: both are assembled from things you can start and abandon in the same week, with nothing signed. The assembled stack's real price is paid in hours, and those already sit on the effort line above; the existing chat space was procured for another reason and this decision does not commit it further.
@@ -102,11 +102,11 @@ Ranking (default, not a law - Q1, Q6, Q7 and Q10 re-rank it):
 **Dominance check: 5 rungs, 10 pairs, four cost-and-value axes plus compliance, one real strict-dominance relation.**
 
 - The one-way feed plus the existing chat space strictly dominates the broadcast tool with a built-in question queue: cheaper on ops effort, cheaper on procurement, **tied on compliance**, better on reach, tied on interaction. Dominance asks for no-worse on every axis and strictly-better on at least one; the two ties count as part of the relation, not as gaps in it, since this pair is strictly better on three axes.
-- Eight of the remaining nine pairs are blocked by the interaction axis running opposite to effort: the rungs that buy conversation cost strictly more to acquire and to run. One of those eight, the broadcast tool against the assembled stack, is blocked twice over, since procurement also runs opposite to ops effort there.
+- Eight of the remaining nine pairs are blocked by the interaction axis running opposite to effort: the rungs that buy conversation cost strictly more to run, and no less to acquire except where noted. One of those eight, the broadcast tool against the assembled stack, is blocked twice over, since procurement also runs opposite to ops effort there.
 - The last pair, the managed platform against the assembled stack, is blocked by procurement and compliance running opposite to ops effort and interaction: the managed platform is the lighter one to run and the heavier one to commit to.
 - That accounts for all ten pairs (1 relation + 8 + 1).
 
-**One warning about the reach axis.** Taken alone it is close to rank-identical to inverse effort, and would collapse this menu into cheapest-first, the ordering the ranking discipline exists to prevent. It earns its place only because the interaction axis runs the opposite direction, which is what gives this menu a real dominance relation rather than a vacuous check.
+**One warning about the reach axis.** Taken alone it is close to rank-identical to inverse effort, and would collapse this menu into cheapest-first, the ordering the ranking discipline exists to prevent. It earns its place only because the interaction axis runs the opposite direction, which keeps the check from collapsing into cheapest-dominates-all. That interaction ordering is argued, not measured, and the whole menu rests on it. If **Q10** ("last edition's failures") says this audience barely used live interaction, accept the collapse: the single feed is then the right answer, not a fallback.
 
 - **One-way feed plus the existing chat space** - the default. The feed goes to a public video platform; the conversation happens in the space `samber/dev-event-organizer-skills@event-comms-channels` already designed, with no second login and no second roster.
 
@@ -121,7 +121,7 @@ Ranking (default, not a law - Q1, Q6, Q7 and Q10 re-rank it):
 
   Major League Hacking's warning applies here in full: a well-run digital event is far more than a chat server. That is a hackathon organizer's warning about a hackathon's stack, so read it as a caution about under-estimating the work, not as a verdict on the components.
 
-- **Managed virtual-venue platform** - the starved option: tops interaction, tops ops effort, tops procurement and tops compliance, so efficiency never picks it. Promotion conditions, each keyed separately:
+- **Managed virtual-venue platform** - the starved option: tops interaction, procurement and compliance and sits second on ops effort, so efficiency never picks it. Promotion conditions, each keyed separately:
   - several sessions running at once with attendees moving between them, keyed to **Q2** ("How many sessions run at the same time")
   - a sponsor deliverable that names a virtual booth, or an attendee directory sold as a ticket benefit, both keyed to **Q4** ("a paid virtual ticket, a sponsor deliverable naming the stream")
   - a procurement constraint that leaves no alternative, keyed to **Q6** ("which platform may be used - an employer's procurement, a sponsor's contract")
@@ -142,9 +142,9 @@ Ranking (default, not a law - Q3, Q4, Q8, Q10 and Q11 re-rank it):
 **Dominance check: 5 rungs, 10 pairs, two cost axes and two value axes, zero strict-dominance relations.**
 
 - Two mechanisms account for all ten pairs, and neither covers the other's pairs.
-- Six pairs are blocked because preparation costs strictly more coordination and buys more of both value axes at once: every comparison inside the live-delivery group, plus each of them against the do-nothing rung. Five of the six are strictly better on both value axes; the sixth, the group window against the home-setup note, is strictly more insurance while tying on liveness. That tie still blocks it, because the cheaper rung gains no value axis at all.
+- Six pairs are blocked because preparation costs strictly more coordination and buys more of both value axes at once: every comparison inside the live-delivery group, plus each of them against the do-nothing rung. Five of the six are strictly better on both value axes; the sixth, the group window against the home-setup note, is strictly more insurance while tying on liveness. Effort against insurance still blocks it: the cheaper rung wins effort while gaining no value axis.
 - The other four pairs are blocked by the pre-recording trade specifically: it buys certainty by spending presence, so it wins insurance and loses liveness against every rung it meets, including the pair where it is also the cheaper option.
-- Zero relations means this check caught no misordering; what follows is argument, not verification.
+- Zero relations means this check caught no misordering; what follows is argument, not verification. The effort line is an estimate too: for a speaker who already records well, a pre-recorded talk can cost the organizer less than the group window. Re-rank effort per speaker; the pairs stay blocked either way, because liveness still opposes insurance.
 
 - **A written home-setup note** - the default: sent with the join link, asynchronous, reusable next edition, and costing the speaker minutes. It moves the most common failures - a shared connection, a background sync eating the uplink, a laptop camera pointed at a ceiling - before anyone schedules a call.
 
@@ -155,7 +155,7 @@ Ranking (default, not a law - Q3, Q4, Q8, Q10 and Q11 re-rank it):
   - an unrepeatable session ("Which sessions cannot be re-run or rescheduled")
   - a speaker whose connection is unknown or known-bad ("which speakers have an unknown connection")
   - a talk carrying a live demo ("which carry a live demo")
-- **A pre-recorded talk played to schedule, with the speaker live in chat** - the starved option: tops insurance, near-tops effort, bottoms liveness, so efficiency never picks it. Its precedent is ACM SIGCHI, which dropped remote attendance entirely and offered authors who cannot travel a pre-recorded video played to the in-person audience. **What does not transfer** is the setting: that is a physical event's accommodation for an absent author, not a virtual event's default. Promotion conditions, each keyed separately:
+- **A pre-recorded talk played to schedule, with the speaker live in chat** - the starved option: tops insurance, near-tops effort, bottoms liveness, so efficiency never picks it. ICFP 2020, an academic programming-languages conference, ran its whole virtual programme pre-recorded, with live Q&A in a separate room rather than in chat. In its post-conference survey, 43% of 407 respondents preferred pre-recorded talks to live ones, a question asked alongside repeating sessions for other time zones, and 60% of 388 rated the video quality at least as high as an in-person talk's. A majority still did not prefer pre-recorded, but liveness is worth less to a large minority than the axis implies, so ask before spending effort to buy it. Promotion conditions, each keyed separately:
   - a session landing in the middle of the speaker's night, keyed to **Q3** ("a spread wide enough that somebody presents in the middle of their night")
   - a demo that has already failed live once, keyed to **Q11** ("which carry a live demo") together with **Q10** ("last edition's failures")
   - a speaker who cannot hold a live slot at all, keyed to **Q11** ("which speakers have an unknown connection")
@@ -166,11 +166,11 @@ Ranking (default, not a law - Q3, Q4, Q8, Q10 and Q11 re-rank it):
 
 ## Menu 3 - Live moderation staffing
 
-**Skip this menu entirely if Menu 1 landed on the single one-way feed.** With no interaction surface there is nothing to moderate, no rung above the floor exists, and the staffing question does not arise. Everything below assumes a surface is open.
+**If Menu 1 landed on the single one-way feed, skip the moderation rungs, never the watching.** With no interaction surface there is nothing to moderate, but a dead broadcast still fails as silence. Staff each concurrent feed with a technical watcher and no moderator; add a host on the feed when the host rung's **Q1** condition below fires, which it does exactly here. Everything else assumes a surface is open.
 
 The standing cost of an open space is already argued by `samber/dev-event-organizer-skills@event-comms-channels`: setup is an hour, moderation is a standing job for the whole time the space is open, and the code-of-conduct duty inside it is identical to the one in a room. Do not re-derive it. This menu adds only the _live, in-session_ layer that skill does not own: who relays a question to a speaker who cannot see chat, and who notices the feed died.
 
-Ranking (default, not a law - Q1, Q2, Q9, Q10 and Q11 re-rank it):
+Ranking (default, not a law - Q1, Q2, Q4, Q9, Q10 and Q11 re-rank it):
 
 - effort (people on duty per session-hour): `moderator, technical watcher and a host on the feed > moderator plus a technical watcher > one moderator per concurrent session > one moderator across the whole event > no moderation staffing`
 - value, the space is held (questions reach the speaker, and conduct is enforced where it happens): `moderator, technical watcher and a host on the feed > one moderator per concurrent session == moderator plus a technical watcher > one moderator across the whole event > no moderation staffing` - argued tie: the technical watcher does not read chat. Moderation capacity is identical across those two rungs; the second person exists entirely for the other value axis.
@@ -181,7 +181,7 @@ Ranking (default, not a law - Q1, Q2, Q9, Q10 and Q11 re-rank it):
 **Dominance check: 5 rungs, 10 pairs, two cost axes and two value axes, zero strict-dominance relations.**
 
 - Three mechanisms account for all ten pairs.
-- Eight pairs are blocked by the plain one: staffing costs strictly more people and buys strictly more of everything, including the discharge of the duty.
+- Eight pairs are blocked by the plain one: staffing costs strictly more people and buys strictly more of both value axes and no less discharge of the duty. Effort is the only axis blocking these eight, because the compliance inversion points the same way as both value axes. When people are not the constraint, read the larger rung of each pair as the better one.
 - One pair, the do-nothing rung against the event-wide moderator, needs its own account, because the silence axis ties there and "buys more of everything" stops being true. What blocks it is effort against the space-held axis alone: the moderator costs a person and buys the one value axis that still moves. The compliance inversion is not the blocker here, and naming it as one would be wrong; it runs the other way, which is why the moderator is the right call rather than why neither rung dominates.
 - The last pair, one moderator per session against moderator-plus-watcher, is blocked because their moderation capacity is genuinely identical and only the failure-watching axis separates them.
 - Zero relations means the check caught no misordering here.
@@ -191,7 +191,7 @@ Ranking (default, not a law - Q1, Q2, Q9, Q10 and Q11 re-rank it):
 - **Moderator plus a technical watcher** - a second person per session whose only job is whether the feed is up, audible and in sync. The pattern behind it is a physical event's livestream needing "at least one person to run it during the event" (DevOpsDays organizing guide). What does not carry across is the equipment: there is no board to run, so this person watches the output as an audience member sees it, from outside the production path. Promotion conditions, keyed separately:
   - anything live that cannot be re-run, keyed to **Q11** ("Which sessions cannot be re-run or rescheduled")
   - a previous edition where a dead feed went unnoticed, keyed to **Q10** ("last edition's failures")
-- **Moderator, technical watcher and a host on the feed** - the starved option: tops both value axes and tops effort, so efficiency never picks it. It is the only rung where somebody actually _says_ something to the audience when a talk fails - an empty stream with a chat full of "is it just me?" is the failure mode the two rungs below leave open. Promotion conditions, each keyed separately:
+- **Moderator, technical watcher and a host on the feed** - the starved option: tops both value axes and tops effort, so efficiency never picks it. It is the only rung where somebody speaks on the feed itself when a talk fails - an empty stream with a chat full of "is it just me?" is the failure mode the two rungs below leave open. Promotion conditions, each keyed separately:
   - a paid virtual ticket, or a sponsor deliverable naming the stream, both keyed to **Q4** ("a paid virtual ticket, a sponsor deliverable naming the stream")
   - a multi-hour continuous programme with gaps to fill, keyed to **Q2** ("how long is the shortest gap between them")
   - an audience that has no other way to find out what is happening, keyed to **Q1** ("Is there an interaction surface at all, or is this a feed people watch")
@@ -213,7 +213,7 @@ Ranking (default, not a law - Q4, Q8, Q10 and Q11 re-rank it):
 - No compliance axis is printed, because nothing here varies on one: every rung's exposure is whatever the platform and consent decisions already fixed.
 - Three mechanisms account for all ten pairs.
 - Eight pairs are blocked by depth costing preparation and buying both value axes at once. Seven of them are strictly better on both; the eighth, the do-nothing rung against the published line, is strictly more audience held while tying on content, which blocks it just as firmly.
-- One pair, the rehearsed handoff against the warm fallback destination, is blocked by the two value axes genuinely crossing: rehearsing words is cheaper _and_ holds the audience better, and only infrastructure resumes the content.
+- One pair, the rehearsed handoff against the warm fallback destination, is blocked by the two value axes genuinely crossing: rehearsing words is cheaper _and_ holds the audience better, and only infrastructure resumes the content. The content-survives axis alone keeps the warm destination and the full drill on the menu. If every session is recorded and can simply be re-posted later, that axis stops mattering and the rehearsed handoff dominates both. That is why every full-drill promotion below is a live-only stake.
 - The last pair, the rehearsed handoff against the full drill, is blocked because the audience-held axis ties there and only the content-survives axis separates them.
 - Zero relations means the check caught no misordering.
 
@@ -223,7 +223,7 @@ Ranking (default, not a law - Q4, Q8, Q10 and Q11 re-rank it):
 - **A full outage drill on a second platform** - the starved option: tops the content axis, ties the top of the audience axis, and tops effort, so efficiency never picks it. Promotion conditions, each keyed separately:
   - a paid virtual ticket you could be asked to refund, or a sponsor contract naming the stream, both keyed to **Q4** ("a paid virtual ticket, a sponsor deliverable naming the stream")
   - a session that genuinely cannot be rescheduled, keyed to **Q11** ("Which sessions cannot be re-run or rescheduled")
-  - a previous edition whose feed died, keyed to **Q10** ("last edition's failures") and **Q8** (a recurring edition, which is what makes last edition's failures predictive)
+  - a previous edition whose feed died on a session that could not be re-posted, keyed to **Q10** ("last edition's failures") and **Q8** (a recurring edition, which is what makes last edition's failures predictive)
 - **Delete, do not demote: a contingency document nobody has read aloud.** Delete it from this menu and from the axis lines above. It reads as a drill and is not one - the moment it is needed, nobody can find it and nobody knows their line. The floor rung above is one published sentence the audience can see, which is a different artifact entirely.
 
 ## Failure modes
@@ -235,7 +235,7 @@ Ranking (default, not a law - Q4, Q8, Q10 and Q11 re-rank it):
 - **Publishing past the consent record.** A recording that exists is one somebody will ask to publish. `samber/dev-event-organizer-skills@event-speaker-experience` holds the consent record; a locally recorded backup, a breakout where attendees appeared on camera, and a Q&A carrying attendee faces are each outside whatever a talk's consent covered unless it was collected that way.
 - **Buying interaction nobody uses.** Breakout rooms, booths and directories cost procurement, ops and a data-handling review whether or not anyone opens them. Published remote-turnout evidence points the same way, and it comes from outside technology - treat it as direction, not as a number.
 - **Assuming the physical event's numbers.** The published cost evidence prices a _hybrid_ run's virtual layer, not a standalone virtual production. Never carry it across as if it sized your event.
-- **Assuming attendance falls.** Total headcount across a conference's own editions moves either way once it goes virtual: PyCon US counted about 22% fewer people in 2021 (virtual, ~2,650) than in 2019 (in-person, 3,393 checked in), while KubeCon+CloudNativeCon North America's registrations nearly doubled the same way (11,891 in 2019, in-person, to 22,816+ in 2020, virtual). Removing travel cost and geography can grow the number as easily as losing the room shrinks it. Plan capacity from this event's own signals, not from either direction as a default.
+- **Assuming attendance falls.** Total headcount across a conference's own editions moves either way once it goes virtual: PyCon US counted about 22% fewer people in 2021 (virtual, ~2,650) than in 2019 (in-person, 3,393 checked in), while KubeCon+CloudNativeCon North America's registrations (a looser count than check-ins) nearly doubled the same way (11,891 in 2019, in-person, to 22,816+ in 2020, virtual). Removing travel cost and geography can grow the number as easily as losing the room shrinks it. Plan capacity from this event's own signals, not from either direction as a default.
 - **Scheduling for your own time zone.** A programme built where the organizers live puts some speakers and some of the audience in the middle of their night. That is Q3, and it promotes the pre-recorded rung for exactly those slots.
 
 ## Measurement

@@ -2,6 +2,8 @@
 
 Contents: the home-setup note · the tech-check script · instructing a local backup recording · the time-zone rule · a negative and a positive speaker briefing.
 
+The setup note, the tech-check script and both briefings are constructed guidance, not a record of any event's practice. Only the two sources named inline, the DevOpsDays music warning and ICFP 2020's walkthrough timing, describe what a real event did.
+
 The speaker relationship itself - the acceptance, the deadline ladder, the single named point of contact, the recording consent record - belongs to `samber/dev-event-organizer-skills@event-speaker-experience`. Send the material below through that skill's existing contact rather than opening a second correspondence with the same person.
 
 ## The home-setup note

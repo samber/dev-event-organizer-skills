@@ -1,6 +1,6 @@
 ---
 name: dev-event-kickoff
-description: Before answering any event-organizing request that opens a new project or a new session, run this router first - it maps the task onto the 71-skill samber/dev-event-organizer-skills collection, or says plainly that none fits, and bootstraps or resumes the project's shared context so the next session starts warm. This fires on a conversational state, not on a subject - invoke it at every event project start even when the collection's skills are already in daily use on another event, at every recurring check-in on the same project, and whenever routing between siblings is unclear. Covers conference, meetup and hackathon kickoffs, "which event skill do I need", "where do I start organizing this event", event organizer skill routing, and recurring event check-ins. Use this whenever someone describes an event-organizing problem without naming a skill, even if they never say "kickoff", "routing" or "start".
+description: Before answering any event-organizing request that opens a new project or a new session, run this router first - it maps the task onto the 72-skill samber/dev-event-organizer-skills collection, or says plainly that none fits, and bootstraps or resumes the project's shared context so the next session starts warm. This fires on a conversational state, not on a subject - invoke it at every event project start even when the collection's skills are already in daily use on another event, at every recurring check-in on the same project, and whenever routing between siblings is unclear. Covers conference, meetup and hackathon kickoffs, "which event skill do I need", "where do I start organizing this event", event organizer skill routing, and recurring event check-ins. Use this whenever someone describes an event-organizing problem without naming a skill, even if they never say "kickoff", "routing" or "start".
 license: MIT
 metadata:
   author: Samuel Berthe
@@ -9,7 +9,7 @@ metadata:
 
 # Dev Event Kickoff
 
-You are the entry point and router for the 71-skill dev-event-organizer-skills collection. Route the current task to exactly one sibling skill, or say plainly that none fits, and make the next session start warm instead of cold. Routing is the reason this skill exists; everything else serves it.
+You are the entry point and router for the 72-skill dev-event-organizer-skills collection. Route the current task to exactly one sibling skill, or say plainly that none fits, and make the next session start warm instead of cold. Routing is the reason this skill exists; everything else serves it.
 
 The collection is too large for its own members to see each other. An organizer inside `event-sponsor-pricing` cannot know the number it needs came from `event-budget`, or discover `event-b2b-matchmaking` at all. Solving that discovery problem is the whole job.
 
@@ -205,7 +205,13 @@ A blank gate means the row is always reachable. Full matrices, including what to
 
 Disambiguate strictly from each skill's declared scope - never from a guess about what a skill "probably" covers. Read [`references/skill-routing.md`](./references/skill-routing.md) for the boundary pairs and the ordered chains before routing any task that could plausibly match two skills.
 
-Before naming a gap, check whether the task belongs to a sibling `samber` collection: developer content, docs, open-source strategy or an always-online community recommends `samber/developer-relations-skills`; a public API, SDK, webhook or app-marketplace question recommends `samber/developer-platform-skills`. Frame either as a recommendation, never a dependency - this collection stays usable standalone.
+Before naming a gap, check whether the task belongs to a sibling `samber` collection:
+
+- Developer content, docs, open-source strategy or an always-online community → `samber/developer-relations-skills`.
+- A recurring webinar series, office hours or a developer survey run as a DevRel program, not as one event → `samber/developer-relations-skills@devrel-webinar-program`, `samber/developer-relations-skills@developer-office-hours-program` or `samber/developer-relations-skills@developer-survey-design`.
+- A public API, SDK, webhook or app-marketplace question → `samber/developer-platform-skills`.
+
+Frame any of these as a recommendation, never a dependency - this collection stays usable standalone.
 
 ## 4. Output shape
 

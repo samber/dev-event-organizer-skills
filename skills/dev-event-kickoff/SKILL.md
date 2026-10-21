@@ -20,6 +20,7 @@ Run this skill at every project start, even when the collection is already in da
 Every fact you derive from the environment is a question the user never has to answer. Run detection first; the interview cap only survives if it does.
 
 **Memory: Use the harness's built-in memory mechanism; separate task info in different sections, remove finished tasks, add dates to tasks, and note that interview responses may differ between tasks.**
+
 1. Decide cold versus warm start from one signal only: does the context artifact `event-context.md` exist in the project? Present → warm start. Absent → cold start. Never ask the user which one it is.
 2. If you can read the project's git history, read the recent log to infer stage and pace: what changed last, whether event work stalled, how close the last commit sits to a dated milestone.
 3. Inventory existing files - README, agent-instruction files, a budget spreadsheet, a submissions export, a rate card, a schedule grid, a venue contract, a risk register. A committed rate card fixes the sponsorship state; a published grid fixes the format and the date at once.
@@ -81,12 +82,12 @@ A blank gate means the row is always reachable. One exception crosses a gate: wh
 
 ### C. When and where
 
-| Skill                                                       | Route here when the task is…                       | Gate    |
-| ----------------------------------------------------------- | -------------------------------------------------- | ------- |
-| `samber/dev-event-organizer-skills@event-date-selection`    | Picking the date every other plan hangs off        |         |
-| `samber/dev-event-organizer-skills@event-planning-timeline` | The work-back plan from doors-open, track by track |         |
-| `samber/dev-event-organizer-skills@event-venue-sourcing`    | Finding, visiting and negotiating the room         | in-room |
-| `samber/dev-event-organizer-skills@event-vendor-sourcing`   | Suppliers the venue does not include               |         |
+| Skill                                                         | Route here when the task is…                                        | Gate    |
+| ------------------------------------------------------------- | ------------------------------------------------------------------- | ------- |
+| `samber/dev-event-organizer-skills@event-date-selection`      | Picking the date every other plan hangs off                         |         |
+| `samber/dev-event-organizer-skills@event-planning-timeline`   | The work-back plan from doors-open, track by track                  |         |
+| `samber/dev-event-organizer-skills@event-venue-sourcing`      | Finding, visiting and negotiating the room                          | in-room |
+| `samber/dev-event-organizer-skills@event-vendor-sourcing`     | Suppliers the venue does not include                                |         |
 | `samber/dev-event-organizer-skills@event-sustainability-plan` | Footprint estimate, reduction levers, an honest sustainability page |         |
 
 ### D. Who runs it, under what rules
@@ -120,14 +121,15 @@ A blank gate means the row is always reachable. One exception crosses a gate: wh
 
 ### G. Programme - the talks lane
 
-| Skill                                                           | Route here when the task is…                       | Gate |
-| --------------------------------------------------------------- | -------------------------------------------------- | ---- |
-| `samber/dev-event-organizer-skills@event-cfp-design`            | Writing and timing the published call for papers   |      |
-| `samber/dev-event-organizer-skills@event-talk-selection`        | Reviewing and choosing what the call brought in    |      |
-| `samber/dev-event-organizer-skills@event-speaker-sourcing`      | Finding and qualifying speakers outside the call   |      |
-| `samber/dev-event-organizer-skills@event-speaker-cold-outreach` | The invitation to a speaker already shortlisted    |      |
-| `samber/dev-event-organizer-skills@event-speaker-experience`    | From acceptance through to the post-talk thank-you |      |
-| `samber/dev-event-organizer-skills@event-schedule-design`       | Laying selected sessions into a published grid     |      |
+| Skill                                                           | Route here when the task is…                                               | Gate |
+| --------------------------------------------------------------- | -------------------------------------------------------------------------- | ---- |
+| `samber/dev-event-organizer-skills@event-cfp-design`            | Writing and timing the published call for papers                           |      |
+| `samber/dev-event-organizer-skills@event-talk-selection`        | Reviewing and choosing what the call brought in                            |      |
+| `samber/dev-event-organizer-skills@event-speaker-sourcing`      | Finding and qualifying speakers outside the call                           |      |
+| `samber/dev-event-organizer-skills@event-speaker-cold-outreach` | The invitation to a speaker already shortlisted                            |      |
+| `samber/dev-event-organizer-skills@event-speaker-experience`    | From acceptance through to the post-talk thank-you                         |      |
+| `samber/dev-event-organizer-skills@event-speaker-coaching`      | Coaching accepted speakers: dry runs, talk and slide feedback, nerves, Q&A |      |
+| `samber/dev-event-organizer-skills@event-schedule-design`       | Laying selected sessions into a published grid                             |      |
 
 ### H. Programme - the competition lane
 
@@ -234,7 +236,7 @@ The user's question is never "which of these exists" but "which one do I run fir
 2. **The spine** - `event-format-selection`, `event-date-selection`, `event-planning-timeline`, plus the shape skills downstream of them (`business-event-formats`, `workshop-program-design`, `event-learning-expedition-design`, `hybrid-event-design`, `virtual-event-production`). Buys the three decisions every other class then works inside. Costs a session each plus a calendar scan; an announced date is reversible only at a public cost.
 3. **Fill the room** - `event-marketing-plan`, `event-landing-page`, `event-social-media`, `event-attendee-email-sequences`, `event-no-show-management`, `event-registration-forecast`, `event-press-relations`, `event-media-partnerships`, `cross-event-promotion`. Buys registrations, the input every other class assumes. Costs a campaign from announcement to doors, plus the list consent you then owe.
 4. **Money model** - `event-budget`, `event-ticket-pricing`. Buys break-even as a number with a date instead of a hope. Costs a modelling session; a published refund policy binds once tickets sell.
-5. **Programme intake** - the talks lane (`event-cfp-design`, `event-talk-selection`, `event-speaker-sourcing`, `event-speaker-cold-outreach`, `event-speaker-experience`, `event-schedule-design`) and the competition lane (`hackathon-brief-design`, `hackathon-team-formation`, `hackathon-mentoring`, `hackathon-judging`, `hackathon-cash-prize`, `startup-pitch-contest`). Buys the content people came for. Costs an incompressible call window, a review committee, per-speaker logistics, and per-person consent.
+5. **Programme intake** - the talks lane (`event-cfp-design`, `event-talk-selection`, `event-speaker-sourcing`, `event-speaker-cold-outreach`, `event-speaker-experience`, `event-speaker-coaching`, `event-schedule-design`) and the competition lane (`hackathon-brief-design`, `hackathon-team-formation`, `hackathon-mentoring`, `hackathon-judging`, `hackathon-cash-prize`, `startup-pitch-contest`). Buys the content people came for. Costs an incompressible call window, a review committee, per-speaker logistics, and per-person consent.
 6. **Place and duty of care** - `event-venue-sourcing`, `event-vendor-sourcing`, `event-sustainability-plan`, `event-code-of-conduct`, `event-risk-management`, `event-accessibility-inclusion`, `event-volunteers`, `event-volunteer-experience`, `event-team-structure`. Buys a room that holds the format, and commitments that survive an incident. Costs site visits, negotiation and a rehearsed response team, each reversible only on someone else's terms.
 7. **On-the-day operations** - `event-run-of-show`, `event-production`, `event-comms-channels`, `event-attendee-experience`, `event-hospitality`, `event-side-event-coordination`, `event-booth-experience`, `event-b2b-matchmaking`, `event-vip-management`, `event-vip-social-program`, `event-official-social-program`. Buys the day the promise already sold gets redeemed. Costs crew, rosters and a physical build, compressed into days that cannot slip.
 8. **Sponsorship sale** - `event-sponsor-value-proposition`, `event-sponsor-pricing`, `event-sponsor-prospectus`, `event-sponsor-outreach`, `event-sponsor-agreement`, `event-sponsor-fulfillment`, `event-sponsor-renewal`. Buys the revenue line tickets rarely cover. Costs the most of any class: a months-long motion on a counterparty's calendar, counsel on the term sheet, and obligations owed until the event is over.

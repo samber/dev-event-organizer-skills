@@ -120,6 +120,7 @@ This collection covers the full event-organizing surface.
 - [`event-speaker-sourcing`](./skills/event-speaker-sourcing): Finds and qualifies the speakers a call for papers will not bring in, and returns a ranked shortlist with evidence.
 - [`event-speaker-cold-outreach`](./skills/event-speaker-cold-outreach): Writes and sequences the invitation to a shortlisted speaker: what to disclose, which channel, how to personalize, when to follow up.
 - [`event-speaker-experience`](./skills/event-speaker-experience): Takes care of a speaker who already accepted: point of contact, material deadlines, A/V, consent, on-site hosting, and post-event follow-up.
+- [`event-speaker-coaching`](./skills/event-speaker-coaching): Runs the coaching program for accepted speakers: the offer, mentor pairing, dry runs, capped feedback, timing cuts, Q&A and slide accessibility.
 - [`event-schedule-design`](./skills/event-schedule-design): Lays selected talks into the published grid: slot lengths, room matching, clash detection, buffers, and publication timing.
 - [`workshop-program-design`](./skills/workshop-program-design): Runs the hands-on session itself: facilitator coverage, participant prerequisites, capacity ceilings, session length, materials, and the room's network posture.
 - [`startup-pitch-contest`](./skills/startup-pitch-contest): Runs a pitch contest or demo day inside a larger event: applications, judge conflicts, prizes, and the scoring slate.

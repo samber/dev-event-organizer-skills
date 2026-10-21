@@ -4,7 +4,7 @@ description: Discover what each sponsor of a technical conference actually needs
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.2.0"
+  version: "1.2.1"
 ---
 
 # Event Sponsor Value Proposition

@@ -290,4 +290,4 @@ Expected output: a capacity plan covering every figure, labelled sourced or self
 - samber/dev-event-organizer-skills@event-market-fit - what a show-up rate says about demand
 - samber/dev-event-organizer-skills@event-attendee-experience - check-in desk and walk-in lane staffing
 - samber/dev-event-organizer-skills@event-budget - per-head cost lines
-- samber/dev-event-organizer-skills@event-feedback - no overlap (no-shows do not enter feedback survey)
+- samber/dev-event-organizer-skills@event-registration-forecast - the projected registrations and the date they reach this skill's ceiling

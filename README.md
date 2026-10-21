@@ -164,6 +164,7 @@ This collection covers the full event-organizing surface.
 - [`event-attendee-email-sequences`](./skills/event-attendee-email-sequences): Designs and writes the attendee email arc: sequence depth, reminder cadence within caps, segmentation, and the know-before-you-go email.
 - [`event-comms-channels`](./skills/event-comms-channels): Designs the attendee-facing channel architecture: which channels exist, who is on each, message routing, writer consistency, and wind-down.
 - [`event-no-show-management`](./skills/event-no-show-management): Reduces and absorbs no-shows: the show-up expectation, an overbooking ceiling, waitlist design, and day-of gap absorption.
+- [`event-registration-forecast`](./skills/event-registration-forecast): Forecasts final registrations from the sign-up pace curve as a low/mid/high band, with the commit figure at each lock date and attendance by ticket type.
 - [`event-vip-social-program`](./skills/event-vip-social-program): Runs the private room once a named-guest programme exists: seat list, invitation and door access, and placement against the public programme.
 
 ### Experience & day-of operations

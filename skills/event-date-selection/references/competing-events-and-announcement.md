@@ -12,6 +12,11 @@ Contents:
 
 The DevOpsDays organizing guide frames this check as **"load balancing"** across the field, not turf protection: the field is better off when its events are spread out. An organizer who only asks "does this hurt me" misses the events that hurt the audience by stacking.
 
+Run every step below for each candidate date at two radii:
+
+- **Same date** - a direct clash: attendees, speakers, and volunteers must pick one event.
+- **Same week, Monday to Sunday** - no overlap, but the events still split travel budgets, days off work, speaker availability, sponsor attention, and the local press cycle. Same-week hits are also where piggybacking lives, so record them even when nothing overlaps.
+
 1. **List your own event family first.** Any event network with a shared homepage lists its scheduled editions; this is the cheapest hit and the one the DevOpsDays guide names directly. It is also the narrowest - it surfaces only events branded like yours.
 2. **Widen to adjacent topics and different organizers.** This is the gap step 1 cannot close, and where most real conflicts live: your attendees choose between your event and _any_ event they would spend the same travel budget on, not only ones in your category.
 3. **Consult a cross-topic public conference calendar.** A crowdsourced dataset such as confs.tech is one example of the kind of tool that does this - named as an example of the category, not as a dependency. Its coverage is contributed by organizers who already know about it, so absence from it proves nothing.

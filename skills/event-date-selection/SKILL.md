@@ -4,7 +4,7 @@ description: Pick the date a technical event runs on - the decision every other 
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.1.0"
+  version: "1.1.1"
 ---
 
 # Event Date Selection
@@ -92,7 +92,7 @@ Cumulative rungs: each includes the ones below it. Ranking (a default, not a law
 
 A competing event is not automatically fatal, and treating it that way throws away the field's most useful scheduling move.
 
-- **Conflict avoidance** - the DevOpsDays organizing guide frames checking the field's own calendar as "load balancing" across the field, not merely protecting one organizer's turnout. Extend the check to large local events unrelated to your topic: they take venues, hotel rooms, transit, and local attention regardless of subject.
+- **Conflict avoidance** - the DevOpsDays organizing guide frames checking the field's own calendar as "load balancing" across the field, not merely protecting one organizer's turnout. Search the exact date first, then the whole week around it: a same-week event splits travel budgets, days off, and speakers even without overlapping. Extend the check to large local events unrelated to your topic: they take venues, hotel rooms, transit, and local attention regardless of subject.
 - **Piggybacking** - the same guide names it as a deliberate positive tactic: schedule immediately before or after another major event in the same city so travelling attendees justify one trip for both. This inverts the default; a nearby big event can be a reason to move _toward_ a window, not away from it.
 - **Ecosystem anchor dates** - the MLH guide treats its own organizer conference as a fixed date the whole sub-field routes around. Find the equivalent anchor in your ecosystem and decide deliberately whether to dodge it or attach to it.
 
@@ -128,7 +128,7 @@ Once published, the date holds and scope moves instead - `samber/dev-event-organ
 2. Set the day type from that answer - weekday for employer-time audiences, weekend for personal-time audiences - and record which guide the rule came from.
 3. Bound the season: propose a rough window from the user's own prior editions and the audience's institutional calendar, labelled as a hypothesis, never as a seasonal fact.
 4. Run the constraint checks at the chosen depth rung, working outward from the audience's own calendars. Report any observance check you could not complete as outstanding, not as clear.
-5. Scan competing and anchor events across the window; for each hit, decide explicitly whether to dodge it or piggyback on it.
+5. For each candidate date, search for other events on that exact date, then across its whole week (Monday to Sunday); for each hit, decide explicitly whether to dodge it or piggyback on it.
 6. Generate three to five surviving candidate windows and carry all of them into the venue conversation ("Get Options"); let availability rank them.
 7. Check the money gate (Q7). If it is not passed, stop: the date can be decided internally but not published.
 8. Pick the announcement trigger from the menu, publish, and hand the locked date to the planning-timeline sibling.
@@ -157,7 +157,7 @@ Gates, checked before the date is published (pass/fail on the decision, not the 
 
 - **Day type matches the audience's time ownership**, with the guide it came from named.
 - **Every calendar category in the checklist is either checked or explicitly marked outstanding** - none silently assumed clear.
-- **The competing-event scan covered adjacent topics and different organizers**, not just your own event family.
+- **The competing-event scan covered the exact date and the same week of every candidate**, across adjacent topics and different organizers, not just your own event family.
 - **The money gate passed before publication.**
 - **At least three candidate windows entered the venue conversation** - unless Q3 named an external constraint that fixes the window, in which case the gate is that the constraint is written down with what fixes it and who could move it. This skill's own handling of a forced window is to stop generating candidates, so a flat three-window gate would fail the procedure it prescribes.
 

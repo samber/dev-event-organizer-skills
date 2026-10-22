@@ -4,7 +4,7 @@ description: Before answering any event-organizing request that opens a new proj
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.4"
+  version: "1.0.5"
 ---
 
 # Dev Event Kickoff
@@ -152,6 +152,7 @@ A blank gate means the row is always reachable. One exception crosses a gate: wh
 | `samber/dev-event-organizer-skills@cross-event-promotion`          | Reciprocal swaps with other organizers' events      |            |
 | `samber/dev-event-organizer-skills@event-press-relations`          | Earned coverage, accreditation, the press room      | conference |
 | `samber/dev-event-organizer-skills@event-no-show-management`       | Overbooking, waitlist, walk-ins, the real headcount |            |
+| `samber/dev-event-organizer-skills@event-registration-forecast`    | Projected registrations, lock-date headcounts       |            |
 
 ### J. Care on site, by population
 
@@ -231,7 +232,7 @@ The user's question is never "which of these exists" but "which one do I run fir
 
 1. **Existence check** - `event-market-fit`, `event-positioning`, `corporate-event-strategy`, `event-cultural-identity`, `event-first-edition`. Buys the verdict on whether this event should run and what it is, which can delete every class below it. Costs sessions spent reading signals that already exist; nothing booked, published or signed.
 2. **The spine** - `event-format-selection`, `event-date-selection`, `event-planning-timeline`, plus the shape skills downstream of them (`business-event-formats`, `workshop-program-design`, `event-learning-expedition-design`, `hybrid-event-design`, `virtual-event-production`). Buys the three decisions every other class then works inside. Costs a session each plus a calendar scan; an announced date is reversible only at a public cost.
-3. **Fill the room** - `event-marketing-plan`, `event-landing-page`, `event-social-media`, `event-attendee-email-sequences`, `event-no-show-management`, `event-press-relations`, `event-media-partnerships`, `cross-event-promotion`. Buys registrations, the input every other class assumes. Costs a campaign from announcement to doors, plus the list consent you then owe.
+3. **Fill the room** - `event-marketing-plan`, `event-landing-page`, `event-social-media`, `event-attendee-email-sequences`, `event-no-show-management`, `event-registration-forecast`, `event-press-relations`, `event-media-partnerships`, `cross-event-promotion`. Buys registrations, the input every other class assumes. Costs a campaign from announcement to doors, plus the list consent you then owe.
 4. **Money model** - `event-budget`, `event-ticket-pricing`. Buys break-even as a number with a date instead of a hope. Costs a modelling session; a published refund policy binds once tickets sell.
 5. **Programme intake** - the talks lane (`event-cfp-design`, `event-talk-selection`, `event-speaker-sourcing`, `event-speaker-cold-outreach`, `event-speaker-experience`, `event-schedule-design`) and the competition lane (`hackathon-brief-design`, `hackathon-team-formation`, `hackathon-mentoring`, `hackathon-judging`, `hackathon-cash-prize`, `startup-pitch-contest`). Buys the content people came for. Costs an incompressible call window, a review committee, per-speaker logistics, and per-person consent.
 6. **Place and duty of care** - `event-venue-sourcing`, `event-vendor-sourcing`, `event-sustainability-plan`, `event-code-of-conduct`, `event-risk-management`, `event-accessibility-inclusion`, `event-volunteers`, `event-volunteer-experience`, `event-team-structure`. Buys a room that holds the format, and commitments that survive an incident. Costs site visits, negotiation and a rehearsed response team, each reversible only on someone else's terms.
@@ -365,7 +366,7 @@ No skill in the collection covers these. Name the gap; never promise or invent a
 - **Conference proceedings and a paper track** - peer review ending in a published paper rather than a stage slot. `event-talk-selection` reviews talk proposals only.
 - **A community awards programme** - nominations, a jury, an awards ceremony as a segment. `startup-pitch-contest` and `hackathon-judging` each judge one competition against its own entry rules; neither is an awards programme.
 - **Running the programme in two languages** - translated tracks, a bilingual host, per-language labelling. `event-accessibility-inclusion` covers interpretation and captioning as access provisions on request, not a second language as a design choice.
-- **Attendee travel and accommodation as a programme** - a negotiated hotel block, travel booking, visa invitation letters at attendee scale. `event-venue-sourcing` reads room-block terms inside the venue contract; `event-speaker-sourcing` flags visa lead time for one invited speaker only.
+- **Attendee travel and accommodation as a programme** - a negotiated hotel block, travel booking, visa invitation letters at attendee scale. `event-venue-sourcing` reads room-block terms inside the venue contract; `event-registration-forecast` sizes the block's room-nights from the attendance band; `event-speaker-sourcing` flags visa lead time for one invited speaker only.
 
 Out of scope by design, not gaps: attending an event rather than running one, sponsoring someone else's, exhibiting on a floor you do not own, and speaking at one.
 

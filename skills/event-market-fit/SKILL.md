@@ -4,7 +4,7 @@ description: Read whether a technical event's concept, audience and price combin
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.1.2"
+  version: "1.1.3"
 ---
 
 # Event Market Fit
@@ -41,7 +41,7 @@ What changes the signal set is who owns the event (same split the sibling launch
 2. Frame the demand question as a job statement: "When [circumstance], the attendee wants to [progress], so they can [outcome]" and map the four forces on the ticket decision (push, pull, anxiety, habit) plus the real competition, including staying home. Expect the framework described in [references/reading-failures.md](references/reading-failures.md) to clarify the job statement. A concept that can't fill in the job statement has no demonstrated job yet.
 3. Establish the pre-launch baseline: best local meetup draw × 2-3 for a first-edition conference expectation (sourced), community size against the verified size thresholds (7/13/50/90/150 - the widely-quoted "5/12/45" is a misquote), and a saturation scan of competing events and CFP listings. Numbers and tools in [references/demand-signal-benchmarks.md](references/demand-signal-benchmarks.md).
 4. Pick leading instruments from the menu below. Declare each instrument's pass threshold **before** opening it; a waitlist or CFP without a pre-declared target measures curiosity, and any number can be rationalized after the fact.
-5. Mid-sale: instrument the sales curve weekly against the checkpoint ladder or a pace index (menu 2). On a shortfall, run the differential before concluding anything: marketing-execution gap (visibility push skipped → checkpoints land at 25-30% instead of 40-50%), price misfit (healthy page traffic, low conversion in the first two weeks), or genuine demand gap. Only the third is this skill's verdict; the first two route to marketing and pricing siblings.
+5. Mid-sale: instrument the sales curve weekly against the checkpoint ladder or a pace index (menu 2). On a shortfall, run the differential before concluding anything: marketing-execution gap (visibility push skipped → checkpoints land at 25-30% instead of 40-50%), price misfit (healthy page traffic, low conversion in the first two weeks), or genuine demand gap. Only the third is this skill's verdict; the first two route to marketing and pricing siblings. The projected final, its band and the headcounts to commit at lock dates come from `samber/dev-event-organizer-skills@event-registration-forecast`; read its band, never rebuild it here.
 6. Post-edition: read the three lagging signals **separately, never blended into one score** - attendee return rate, sponsor renewal rate, sellout-speed trend edition over edition. Separating them is what catches an event that acquires well but doesn't retain (a Big Hire that fails the Little Hire; see the reading-failures reference).
 7. Compose the read (menu 2) into one of four calls, then check the failure differential in the reference before a pivot or stop verdict; shutdown-looking evidence is often a trust, governance, or logistics story, not a demand story.
    - **go** - signals green; route to the launch or growth sibling.

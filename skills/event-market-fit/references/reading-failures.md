@@ -62,9 +62,9 @@ A shutdown, a decline, or a soft sale is only demand evidence if the organizer's
 | Signal                            | Declared threshold                   | Actual        | Confidence                      | Read  |
 | --------------------------------- | ------------------------------------ | ------------- | ------------------------------- | ----- |
 | Attendee return                   | >30% (aim 45% for a tight community) | 41%           | threshold sourced; aim self-set | green |
-| Sponsor renewal                   | ≥70%                                 | 58% (7 of 12) | threshold sourced               | red   |
+| Sponsor renewal                   | ≥70% (practitioner aim)              | 58% (7 of 12) | self-set target                 | red   |
 | Sales pace vs own edition-1 curve | pace ≥90 at day 30                   | 96            | method sourced; gate self-set   | green |
 
-**Call:** hold-and-fix, not go - two of three green, but the red axis is the high-confidence one, and renewal money is deliberate. The differential shows attendee demand intact; the sponsor axis needs its own diagnosis (were 72-hour ROI reports sent? was the value proposition ever articulated beyond a logo?). Scale decisions wait one edition.
+**Call:** hold-and-fix, not go - two of three green, but the red axis is the high-confidence one, and renewal money is deliberate. The differential shows attendee demand intact; the sponsor axis needs its own diagnosis (were the recap and the second-stage report sent? did logo retention hide downgrades in gross and net revenue retention? was the value proposition ever articulated beyond a logo?). Scale decisions wait one edition.
 
 **Negative example** (the same data misread): "We're at pace 96 and attendees are returning - book the bigger venue." This blends the axes into one optimistic score, ignores that sponsors fund the budget, and repeats the documented pattern of an event dying on the sponsor axis while its watched signals stayed green. A composite read that cannot produce a hold verdict from mostly-green data is a rubber stamp, not an instrument.

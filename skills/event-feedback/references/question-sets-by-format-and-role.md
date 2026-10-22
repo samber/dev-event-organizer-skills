@@ -65,7 +65,18 @@ Published by Bizzabo, Formbricks, SurveyMonkey, Cvent:
 - Logistical support: booth setup, signage, communications.
 - Likelihood to sponsor again.
 
-When a sponsor answers "no" to sponsoring again, treat it as a trigger for an immediate phone call, not as a spreadsheet row to analyze later.
+When a sponsor answers "no" to sponsoring again, treat it as a trigger for an immediate phone call, not as a spreadsheet row to analyze later - run it through `samber/dev-event-organizer-skills@event-sponsor-renewal`'s rescue path.
+
+### Attendees, about sponsors
+
+Asked of attendees, feeding each sponsor's post-event report (`samber/dev-event-organizer-skills@event-sponsor-fulfillment`). Constructed on IEG's aware-vs-unaware logic, not a published set:
+
+- Unaided recall: which sponsors do you remember?
+- Aided recall: the sponsor list plus one company that did not sponsor (the decoy's rate is the guessing baseline).
+- Interaction: talked with staff / attended their session / used their API or prize track.
+- Perception shift, 5-point.
+
+Keep contact opt-ins for sponsors out of the anonymous survey: an opt-in needs an identity. At a many-sponsor event, rotate sponsors across respondents.
 
 For a hackathon or event run specifically for hiring, add:
 

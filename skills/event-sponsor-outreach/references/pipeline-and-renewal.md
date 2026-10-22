@@ -1,4 +1,4 @@
-# Pipeline, tracking, and the renewal motion
+# Pipeline, tracking, and lapsed sponsors
 
 ## Scoring the candidate list
 
@@ -60,12 +60,12 @@ The moment a sponsor says yes:
 
 Then hand the relationship to the agreement process for terms, and keep the liaison assignment through fulfillment.
 
-## The renewal motion
+## Lapsed sponsors re-entering
 
-**Boundary:** fulfillment _produces_ the renewal ask, the post-event report and the evidence that makes a returning sponsor say yes again. Outreach _executes_ the contact motion for renewal leads exactly as it does for net-new ones. The two skills meet at the report: renewal outreach without it is just a cold email to someone who happens to know you.
+**Boundary:** last edition's sponsors belong to `samber/dev-event-organizer-skills@event-sponsor-renewal`, which works from the post-event report `samber/dev-event-organizer-skills@event-sponsor-fulfillment` writes. This pipeline covers net-new only.
 
-**The shortened sequence:** a renewal lead skips research (the target is known) and skips the cold first touch - the community's core-organizer network is a direct path to a company that sponsored before. Entry point is at or near the exploratory call: a conversation anchored on last edition's report, this edition's changes, and the same budget-cycle question as net-new.
+**What comes back here:** a sponsor the renewal motion released, a sponsor absent for a full edition, and a departed champion's new employer. Each re-enters at the exploratory call: research is short because the event is known to them, but the need is re-discovered, never assumed from last time.
 
-**Timing:** renewal and net-new run on different clocks, not the same T-8 checkpoint. Renewal outreach starts at or within days of event close, anchored to the post-event report while the sponsor's ROI evidence is still fresh - waiting three months and skipping that report is the named failure mode (Sponsorship Collective's "Sponsorship Renewal in 90 Days"). Net-new prospecting keeps its own lead time indexed to the sponsor's fiscal-year type: 6-9 months for an anchor-tier sponsor, 3-4 months for a supplementary one, with six weeks out named as almost always too late; a calendar-year sponsor budget favors outreach in Q3 or early Q4 of the prior year, a financial-year budget favors Q1 (WW Sponsorship). Fold T-8 into the net-new track only.
+**Timing:** net-new keeps its own lead time indexed to the sponsor's fiscal-year type: 6-9 months for an anchor-tier sponsor, 3-4 months for a supplementary one, with six weeks out named as almost always too late; a calendar-year sponsor budget favors outreach in Q3 or early Q4 of the prior year, a financial-year budget favors Q1 (WW Sponsorship). The T-8 checkpoint is a net-new anchor.
 
-**Pipeline hygiene:** track renewal and net-new as separate motions with separate stage-conversion rates. Renewal conversion is also a demand signal about the event itself, not just about outreach quality - that reading belongs to `samber/dev-event-organizer-skills@event-market-fit`.
+**Pipeline hygiene:** tag re-entering sponsors "lapsed" so their conversion rate stays separate from cold net-new.

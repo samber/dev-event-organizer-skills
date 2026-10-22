@@ -4,7 +4,7 @@ description: Design and run participant-feedback collection for one edition of a
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.1.0"
+  version: "1.1.1"
 ---
 
 # Event Feedback

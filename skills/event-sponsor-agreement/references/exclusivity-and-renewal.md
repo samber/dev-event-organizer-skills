@@ -54,7 +54,7 @@ Write the definition as a named list plus named exclusions plus these carve-outs
 
 Best practice is to bound exclusivity strictly to the sponsorship term that funds it: exclusivity should not outlast the paid tier's own term by default.
 
-When a sponsor pushes for multi-edition protection, the safer mechanic than a flat multi-year grant is a **right of first refusal on renewal** - the sponsor's competitive protection extends into the next edition only if they re-up, at terms offered within a defined window. Documented in academic sports-sponsorship literature, and it composes cleanly with the renewal mechanic below. It also keeps next edition's inventory sellable if the sponsor walks, which a flat multi-year exclusivity grant does not.
+When a sponsor pushes for multi-edition protection, the safer mechanic than a flat multi-year grant is a **right of first refusal on renewal** - the sponsor's competitive protection extends into the next edition only if they re-up, at terms offered within a defined window. Documented in academic sports-sponsorship literature, and it composes cleanly with the renewal mechanic below. It also keeps next edition's inventory sellable if the sponsor walks, which a flat multi-year exclusivity grant does not. Draft it as a time-boxed window to re-up, not as a right to match competing bids: a matching right chills competing bids, and `samber/dev-event-organizer-skills@event-sponsor-renewal` decides which hold to offer.
 
 ## 6. Price premium bands
 

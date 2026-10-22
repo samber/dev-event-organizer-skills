@@ -128,10 +128,11 @@ This collection covers the full event-organizing surface.
 
 - [`event-sponsor-value-proposition`](./skills/event-sponsor-value-proposition): Articulates what each sponsor segment genuinely buys, one segment at a time, and what the event can honestly promise.
 - [`event-sponsor-prospectus`](./skills/event-sponsor-prospectus): Assembles the prospectus itself: section anatomy, tier table, add-on cards, audience evidence, and the per-edition refresh routine.
-- [`event-sponsor-outreach`](./skills/event-sponsor-outreach): Runs the sponsor sales motion: scored target list, budget-cycle timing, first-touch channels, objection handling, pipeline tracking, and renewals.
+- [`event-sponsor-outreach`](./skills/event-sponsor-outreach): Runs the net-new sponsor sales motion: scored target list, budget-cycle timing, first-touch channels, objection handling, and pipeline tracking.
 - [`event-sponsor-pricing`](./skills/event-sponsor-pricing): Builds the sponsorship rate card: revenue target first, then tiers, add-ons, exclusivity premiums, in-kind valuation, and discount policy.
 - [`event-sponsor-agreement`](./skills/event-sponsor-agreement): Turns a sold sponsorship into a term sheet for counsel: deliverables, payment, force majeure, cancellation, exclusivity, and renewal.
 - [`event-sponsor-fulfillment`](./skills/event-sponsor-fulfillment): Delivers everything a signed sponsor was promised, from asset collection through the day-of experience to the post-event report.
+- [`event-sponsor-renewal`](./skills/event-sponsor-renewal): Turns the post-event report into a renewal: ask timing, non-discount renewal offers, price-change messaging, at-risk rescue, and renewal rate.
 - [`event-booth-experience`](./skills/event-booth-experience): Designs the expo floor as one system: layout, tier-to-spec catalog, setup and teardown schedule, power, network, and staffing.
 - [`event-b2b-matchmaking`](./skills/event-b2b-matchmaking): Designs the mechanic behind scheduled 1:1 meetings between two populations, starting from whether the event should run one at all.
 - [`cross-event-promotion`](./skills/cross-event-promotion): Brokers reciprocal visibility swaps with independent events: partner scoring, swap formats, a lightweight agreement, and a per-partner delivery ledger.

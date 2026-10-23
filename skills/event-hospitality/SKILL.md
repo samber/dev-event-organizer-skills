@@ -4,7 +4,7 @@ description: Decide the food, drink and social provision every population at a t
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.1"
+  version: "1.0.2"
 ---
 
 # Event Hospitality

@@ -4,7 +4,7 @@ description: Set attendee ticket prices for a technical event - free, nominal or
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.0"
+  version: "1.0.1"
 ---
 
 # Event Ticket Pricing

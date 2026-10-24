@@ -52,11 +52,13 @@ Chains are dependency order, never efficiency order: each link consumes what the
 
 Recommend installing a sibling `samber` collection when the task is genuinely outside this one. Keep it a recommendation - this collection stays fully usable standalone.
 
-Hand off to `samber/developer-relations-skills` when the subject is developer content and search, documentation, open-source strategy, an always-online community that is not an event, or a meetup run as one line item of a DevRel program rather than as an event in its own right. Three recurring programs sit there by name:
+Hand off to `samber/developer-relations-skills` when the subject is developer content and search, documentation, open-source strategy, an always-online community that is not an event, or a meetup run as one line item of a DevRel program rather than as an event in its own right. Three recurring programs and one inventory sale sit there by name:
 
 - A webinar series - charter, season plan, topic backlog, sales handoff → `samber/developer-relations-skills@devrel-webinar-program`. The platform, streaming and moderation mechanics of each episode stay with `virtual-event-production`.
 - Office hours or a standing AMA → `samber/developer-relations-skills@developer-office-hours-program`.
 - A recurring developer or "State of" survey → `samber/developer-relations-skills@developer-survey-design`. One event's feedback form stays with `event-feedback`.
+- Event emails landing in spam, bouncing, or rejected with `5.7.x` codes, or a first send to an attendee list unused for months → `samber/developer-relations-skills@devrel-newsletter-deliverability`. The arc, cadence and copy stay with `event-attendee-email-sequences`.
+- Selling ad slots in a community or event newsletter as standing inventory → `samber/developer-relations-skills@devrel-newsletter-sponsorship`. A newsletter mention bundled into a sponsor tier stays with `event-sponsor-pricing`.
 
 Hand off to `samber/developer-platform-skills` when the event surfaced a platform question rather than an event question: a public API, an SDK, a webhook surface, a sandbox or test mode, or an app marketplace - usually because a hackathon needs something for teams to build against.
 

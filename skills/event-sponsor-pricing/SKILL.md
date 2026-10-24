@@ -4,7 +4,7 @@ description: Build the sponsorship rate card for a technical event - the revenue
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.1.2"
+  version: "1.1.3"
 ---
 
 # Event Sponsor Pricing
@@ -221,3 +221,7 @@ See also, same collection:
 - `samber/dev-event-organizer-skills@event-ticket-pricing` - the attendee side of the revenue mix; the two targets must reconcile in the budget.
 - `samber/dev-event-organizer-skills@event-budget` - owns the expense total and revenue mix the card's target comes from.
 - `samber/dev-event-organizer-skills@event-sponsor-renewal` - owns the renewal motion this skill's deleted discount rung defers to, and communicates any increase this card sets.
+
+See also, sibling collection:
+
+- `samber/developer-relations-skills@devrel-newsletter-sponsorship` - prices and sells newsletter ad slots as standalone inventory, outside any event tier.

@@ -4,7 +4,7 @@ description: Before answering any event-organizing request that opens a new proj
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.6"
+  version: "1.0.7"
 ---
 
 # Dev Event Kickoff
@@ -213,6 +213,8 @@ Before naming a gap, check whether the task belongs to a sibling `samber` collec
 
 - Developer content, docs, open-source strategy or an always-online community → `samber/developer-relations-skills`.
 - A recurring webinar series, office hours or a developer survey run as a DevRel program, not as one event → `samber/developer-relations-skills@devrel-webinar-program`, `samber/developer-relations-skills@developer-office-hours-program` or `samber/developer-relations-skills@developer-survey-design`.
+- Moving attendees, registrants or badge scans into a standing developer newsletter, or growing that newsletter's list from talks and booths → `samber/developer-relations-skills@devrel-newsletter-growth`.
+- Event email that lands in spam, bounces or gets rejected → `samber/developer-relations-skills@devrel-newsletter-deliverability`.
 - A public API, SDK, webhook or app-marketplace question → `samber/developer-platform-skills`.
 
 Frame any of these as a recommendation, never a dependency - this collection stays usable standalone.

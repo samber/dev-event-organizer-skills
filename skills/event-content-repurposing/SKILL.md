@@ -4,7 +4,7 @@ description: Turn one edition's already-captured material into derivative publis
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.1.0"
+  version: "1.1.1"
 ---
 
 # Event Content Repurposing

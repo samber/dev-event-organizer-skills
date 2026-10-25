@@ -38,4 +38,4 @@ Sending slides to captioners and interpreters on time is a calendar deadline, no
 
 ## Who checks
 
-A volunteer with this list and a contrast tool can review a deck in about twenty minutes. The event-wide provisions (captioning, interpreters, hearing loops) are decided in `samber/dev-event-organizer-skills@event-accessibility-inclusion`; this review only checks the speaker's deck against them.
+A volunteer with this list and a contrast tool can review a deck in about ten minutes. The event-wide provisions (captioning, interpreters, hearing loops) are decided in `samber/dev-event-organizer-skills@event-accessibility-inclusion`; this review only checks the speaker's deck against them.

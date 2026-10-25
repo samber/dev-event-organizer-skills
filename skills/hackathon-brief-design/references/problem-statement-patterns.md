@@ -10,7 +10,7 @@ Contents: the four rungs in detail · the structured-statement skeleton · a wor
 
 **Structured statement.** The default. Context, the challenge as a question, constraints, resources provided, and a minimum viable submission. Skeleton below.
 
-**Fully specified challenge.** A structured statement plus a starter repository, a dataset, and acceptance tests a submission either passes or does not. Organizer engineering work measured in days.
+**Fully specified challenge.** A structured statement plus a starter repository, a dataset, and acceptance tests a submission either passes or does not. Organizer engineering work: a day or two, most of it testing the repo end to end.
 
 It buys near-perfect comparability, and it changes the event: teams execute a specification rather than choose a problem. Reserve it for long time boxes or for a sponsor whose integration tests already exist and can be handed over unchanged.
 

@@ -19,7 +19,7 @@ The warning signs the same diligence flags - vague or unverifiable attendee numb
 
 ## Instruments
 
-- **Returning-sponsor rate + edition count** - count sponsors per edition from the roster already kept; rate = returned / eligible-to-return. The single strongest cheap trust signal: sponsors who renew are voting with budget. An afternoon of counting.
+- **Returning-sponsor rate + edition count** - count sponsors per edition from the roster already kept; rate = returned / eligible-to-return. The single strongest cheap trust signal: sponsors who renew are voting with budget. An hour or so of counting.
 - **Program-content ratio** - from the published program, compute technical sessions vs sponsor-delivered content. At a community-run event where no slot is sellable, the ratio is a structural guarantee - say so in the statement.
 - **Registration-form demographics** - add role, seniority band, and company-size band to the ticket form this edition; report in aggregate only. This is the honest substitute for lead data at a community-run event (DevOpsDays allows exactly this: "share demographics in aggregate"), and the instrument that compounds edition over edition. Keep it to 2-3 required fields - form friction is a real cost.
 - **Sponsor testimonials** - ask returning sponsors _why they came back_, in their own words, attributable by name (the JetBrains/PyCon quote is the model). Modest evidence weight for a diligent stranger, high warmth; brand buyers are persuaded more by photos and evidence of past events than by a pitch alone (MLH) - pair quotes with visuals.

@@ -4,7 +4,7 @@ description: Discover what each sponsor of a technical conference actually needs
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.2.1"
+  version: "1.2.2"
 ---
 
 # Event Sponsor Value Proposition
@@ -107,7 +107,7 @@ Every claim in the How needs evidence a diligent sponsor would accept - their du
 
 Both ties are argued:
 
-- **Effort**: returning-sponsor rate and program-content ratio are each an afternoon of counting records the organizer already keeps - the sponsor roster per edition and the published program - with no new collection.
+- **Effort**: returning-sponsor rate and program-content ratio are each an hour or so of counting records the organizer already keeps - the sponsor roster per edition and the published program - with no new collection.
 - **Compliance cost**: the survey and the registration fields both collect personal data and need a privacy notice, a retention rule and a lawful basis, but the survey asks employment and buying-authority detail and cannot be un-asked, while a form field is dropped next edition. A named testimonial needs the sponsor's own sign-off on an attributed quote, withdrawable on request.
 - **Bottom three**: tie at zero because each counts records the organizer already holds and reports them in aggregate - no new personal data, nothing to clear, nothing to undo.
 

@@ -4,7 +4,7 @@ description: Recruit and organize the volunteer workforce that staffs one editio
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.1.0"
+  version: "1.1.1"
 ---
 
 # Event Volunteers
@@ -58,7 +58,7 @@ Scale, and the formality it forces, changes every mechanic below. A registration
 State which rung a recommendation assumes whenever they differ. The middle rung is where nearly every reader sits, and where both failure directions are live:
 
 - Applying DevOpsDays' one-month, network-only recruitment at conference scale leaves posts empty.
-- Building FOSDEM's volunteer site for a 150-person event spends a month of coordinator time on a spreadsheet's worth of work.
+- Building FOSDEM's volunteer site for a 150-person event spends a week of coordinator time on a spreadsheet's worth of work.
 
 ## Workflow
 

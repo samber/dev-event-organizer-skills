@@ -4,7 +4,7 @@ description: Decide which accessibility and inclusion provisions a technical eve
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.3.0"
+  version: "1.3.1"
 ---
 
 # Event Accessibility and Inclusion
@@ -76,7 +76,7 @@ Value and effort share one order: the rung that converts more non-attendance int
 
 The two middle rungs tie on compliance cost because exposure arrives the moment the event holds any disability disclosure, not with how many provisions it feeds - a channel receives disclosures in writing, a provision set receives them at the desk (asking where the nursing room is _is_ a disclosure), and both trigger the same data-handling and retention review, neither reversible. Funded-access sits above both because minors, insurance and money transfers each add their own review. Venue-floor facts sit alone at the floor: the only rung that publishes a building property and collects nothing.
 
-- **Published page and request channel** (efficiency default) - one page naming every provision, the venue's real access facts, a named human to write to. An afternoon plus an inbox.
+- **Published page and request channel** (efficiency default) - one page naming every provision, the venue's real access facts, a named human to write to. An hour or two plus an inbox.
 - **Venue-floor facts** - promote only when Q9 leaves no one to answer a channel: state what the building does, publish a step-free route, promise nothing that needs staffing.
 - **On-site provision set** - quiet space, reserved seating, all-gender restrooms, nursing room, interaction-consent stickers. Real coordination and day-of ownership. Promote when Q3 surfaced a need this set answers.
 - **Funded-access set** (starved rung) - tops value and effort (each piece is a contract, a budget line, a standing job). Promote when Q1 named a foundation/sponsor budget. **Delete outright**, not rank, when Q4 found no legal entity.

@@ -6,7 +6,7 @@ Every shape below is illustrative and this skill's own construction. Argue each 
 
 ## The re-engagement touchpoint
 
-One deliberate contact aimed at last edition's attendees, timed to the next edition's opening rather than to the calendar. Its whole advantage is breadth: it reaches everyone on the list for roughly an afternoon.
+One deliberate contact aimed at last edition's attendees, timed to the next edition's opening rather than to the calendar. Its whole advantage is breadth: it reaches everyone on the list for roughly an hour or two.
 
 What earns the open:
 

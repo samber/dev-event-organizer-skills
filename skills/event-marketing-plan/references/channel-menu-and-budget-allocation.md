@@ -95,7 +95,7 @@ These shares are generic B2B/B2C SaaS marketing-budget conventions, borrowed rat
 
 Posture: barter-only plus a fixed test budget.
 
-- €0 to owned channels (mailing list, comms hub, social): organizer hours only, ~3h/week across the cycle.
+- €0 to owned channels (mailing list, comms hub, social): organizer hours only, ~1-2h/week across the cycle.
 - €0 to partner channels (four swaps and two media partners, routed to `samber/dev-event-organizer-skills@cross-event-promotion` and `samber/dev-event-organizer-skills@event-media-partnerships`).
 - €600 as a capped test on targeted social ads in the two weeks after the announcement, aimed at one named segment, with a tracked link.
 - €1,400 held for the final-two-weeks push, released only if the one-month-out checkpoint lands below 40%.

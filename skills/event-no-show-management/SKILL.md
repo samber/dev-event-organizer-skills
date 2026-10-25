@@ -4,7 +4,7 @@ description: Reduce and absorb no-shows at a technical event - an overbooking ra
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.2"
+  version: "1.0.3"
 ---
 
 # Event No-Show Management
@@ -130,10 +130,10 @@ What happens to the people who arrive after the ceiling. Ranking (default, not a
 
 - **FIFO on a fixed date** - the default: collect above the ceiling, promote in one batch on a date you name when the waitlist opens. Mechanical, defensible to whoever is skipped, and it costs one afternoon rather than a standing job.
 - **Proximity-prioritised** - the starved option: order the waitlist by how close someone is to the venue. This approach assumes people closer to the event are more likely to show up. What it buys is a higher show-up rate per promoted seat. What it spends:
-  - The hours to order the list by hand.
+  - An hour or so to sort the list by distance and check it, on top of the batch FIFO already costs.
   - An allocation decision made on registrants' location data that you must be able to state publicly and cannot quietly change mid-window.
 
-  Promotion condition: the effort ceiling covers someone ordering the list by hand (Q10) **and** registrations (Q3) run far enough past the ceiling that promotion order actually changes who gets in rather than merely who gets in first.
+  Promotion condition: the effort ceiling covers someone sorting and checking the list (Q10) **and** registrations (Q3) run far enough past the ceiling that promotion order actually changes who gets in rather than merely who gets in first.
 
 - **No waitlist** - close registration at the ceiling and say so on the page. Honest, and it still costs something: the requests arrive by email anyway, and an unordered list in an inbox is a waitlist with no rule and no date.
 

@@ -156,7 +156,7 @@
       "files": [],
       "expectations": [
         "Names FIFO drained on a fixed date as the default waitlist ordering rule.",
-        "States the promotion conditions for proximity ordering: the effort ceiling covers someone ordering the list by hand, and registrations run far enough past the ceiling that promotion order changes who gets in rather than only who gets in first.",
+        "States the promotion conditions for proximity ordering: the effort ceiling covers someone sorting and checking the list, and registrations run far enough past the ceiling that promotion order changes who gets in rather than only who gets in first.",
         "States that the proximity rule is given as a reason rather than a measurement, so the size of the gain is unquantified.",
         "Flags the contradiction between proximity ordering and the event's published four-country regional-draw positioning.",
         "States that proximity ordering is an allocation decision made on registrants' location data that must be stated publicly.",

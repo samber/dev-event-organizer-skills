@@ -4,7 +4,7 @@ description: "Plans, measures and reports the environmental footprint of a techn
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.0"
+  version: "1.0.1"
 ---
 
 # Event Sustainability Plan
@@ -115,7 +115,7 @@ Table rows follow the long-haul efficiency line.
 | Venue energy ask               | `-` / `-` / `-`                     | `++`   | influence | one request in the venue brief       | Separate a renewable supply contract from unbundled certificates.                                                                     |
 | Remote attendance tier         | `+++` / deleted / `++`              | `--`   | influence | a standing job                       | Input to `event-format-selection`; remote engagement and cost evidence is poor. Offer, never steer one region to it.                  |
 | Rail deal with an operator     | `+` / `++` / deleted                | `-`    | influence | weeks of back-and-forth              | Worth it once the host city is fixed and a large share can arrive by train.                                                           |
-| Host city                      | `+` / `+++` / `++`                  | `-`    | decide    | days of desk work, plus a new venue  | Only while the venue is unsigned. Choose by attendee origin, not by the team's home city.                                             |
+| Host city                      | `+` / `+++` / `++`                  | `-`    | decide    | a day of desk work, plus a new venue | Only while the venue is unsigned. Choose by attendee origin, not by the team's home city.                                             |
 | Cadence                        | `+++` / `++` / `+++`                | `---`  | decide    | a community-wide decision            | Biennial, or alternating in-person and online years. Route to `event-format-selection` and `event-budget`.                            |
 | Regional hub or edition        | `+++` / deleted / deleted           | `---`  | decide    | a quarter or more, a second team     | The starved option, see below.                                                                                                        |
 

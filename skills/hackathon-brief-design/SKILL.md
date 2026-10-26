@@ -4,7 +4,7 @@ description: Write the hackathon challenge document teams read before they build
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.1.0"
+  version: "1.1.1"
 ---
 
 # Hackathon Brief Design
@@ -63,7 +63,7 @@ Ask one question at a time, multiple-choice where possible. Questions 3-5 and 8-
 
 Q9's three answers each move a named rung. Say which as you re-rank:
 
-- A near publication date promotes the adopted standard rule set over anything drafted, and demotes the fully specified challenge, whose starter repo and acceptance tests are the longest lead time on any menu here.
+- A near publication date promotes the adopted standard rule set over anything drafted, and demotes the fully specified challenge, whose starter repo and acceptance tests are the longest organizer build on any menu here.
 - A recurring edition promotes the rungs written once and reused, the adopted set with its carve-outs and the per-track prompt skeleton, because their cost amortises across editions where a one-off pays it in full.
 - An effort ceiling with no counsel behind it does not demote full legal-grade, it removes the route to it. Say so rather than substituting self-written legal-sounding text.
 
@@ -123,7 +123,7 @@ The design consequence runs through every rung below: write each prompt so that 
 
   Where the pitch mechanic is chosen, publish one refinement alongside it: require the pitch to state a problem, not a solution. A team pitching "we want to build X" commits to an approach before anyone has tested whether the problem is real; a team pitching "this target group has this problem, here is the evidence" leaves the approach open to whoever joins. Publish two things with it - a short evidence requirement (interviews, numbers, a lived account - whatever counts as evidence here) and a stated minimum before a team may move to building - and hand both to `samber/dev-event-organizer-skills@hackathon-team-formation` as content the pitch mechanic runs.
 
-- **Fully specified challenge** - the starved option: top of value, top of effort, so efficiency never picks it. Building a starter repo, a dataset and acceptance tests is organizer engineering work measured in days.
+- **Fully specified challenge** - the starved option: top of value, top of effort, so efficiency never picks it. Building a starter repo, a dataset and acceptance tests is organizer engineering work: a day or two, most of it testing the repo end to end.
 
   Promotion condition, keyed to Q1 and Q5: a time box of a week or longer, **or** a sponsor whose own integration tests already exist and can be handed over as-is. Below roughly a weekend it also changes what the event is, turning a build into a graded exercise.
 

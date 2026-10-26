@@ -4,7 +4,7 @@ description: Assemble a technical event's sponsorship prospectus - the published
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.0.1"
+  version: "1.0.2"
 ---
 
 # Event Sponsor Prospectus
@@ -84,9 +84,9 @@ How much document to build. Ranking (default, not a law - Q6-Q8 re-rank):
 - value (conversion signal to a diligent sponsor: prices visible, proof visible, forwardable inside the prospect's org): `full illustrated PDF kit > in-page tier-table page > text one-pager`
 - efficiency: `in-page tier-table page > text one-pager > full illustrated PDF kit`
 
-The effort tie is argued: both bottom rungs are an afternoon of assembling content the sibling skills already produced, with no photography and no layout tooling required. The difference between a prose summary and an HTML table is formatting, not new work.
+The effort tie is argued: both bottom rungs are an hour or two of assembling content the sibling skills already produced, with no photography and no layout tooling required. The difference between a prose summary and an HTML table is formatting, not new work.
 
-- **In-page tier-table page** - the default rung: a web page carrying the full tier grid, prices, and a contact email. Ships in days with zero design capacity, and it is a real format - DevOpsDays Graz built exactly this table before moving to a PDF kit. Right for a first edition with no photo assets or a hard outreach deadline (Q6).
+- **In-page tier-table page** - the default rung: a web page carrying the full tier grid, prices, and a contact email. Ships within a day or two with zero design capacity, and it is a real format - DevOpsDays Graz built exactly this table before moving to a PDF kit. Right for a first edition with no photo assets or a hard outreach deadline (Q6).
 - **Text one-pager with tier prices** - the floor when even a table can't be maintained. Keep the price summary and the three facts sponsors always ask about (audience, why sponsor, what per level).
 - **Full illustrated PDF kit linked from a web stub** - the starved option: tops value and effort, so efficiency never picks it, yet it is the dominant pattern for community conferences past edition one - the live sponsor page is a short stub whose real prospectus is a downloadable, dated PDF. Promotion conditions: prior-edition photos and testimonials exist (Q3), design hours are available (Q8), or the mandate is a compounding annual asset (Q7).
 - **A no-price document is deleted, not demoted** - a prospectus that never states prices forces a reply-to-ask step that costs conversions. The one exception: the rate card was deliberately quote-gated in `samber/dev-event-organizer-skills@event-sponsor-pricing` (a network/portfolio-scale pattern) - then the gate is a pricing decision this document inherits, not a document omission.

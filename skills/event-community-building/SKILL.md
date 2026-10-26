@@ -4,7 +4,7 @@ description: Animate one recurring technical event's own audience in the gaps be
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.1.0"
+  version: "1.1.1"
 ---
 
 # Event Community Building
@@ -142,7 +142,7 @@ No rung dominates another here either, and again the axes make that true rather 
 
 No compliance-cost axis. Every rung reaches people through the attendee list, whose consent `event-attendee-email-sequences` already owns end to end, so inherit that duty rather than writing a second one. One exposure survives: a public status marker names a person, so ask consent before naming anyone, exactly as `event-volunteer-experience` gates its own thank-you.
 
-- **Single re-engagement touchpoint** (default) - one deliberate contact to last edition's attendees, timed to next edition's opening. Reaches the whole list for an afternoon. Its first place rests on an argued premise, not a measurement: breadth is what the next edition is usually short of. Move up when Q9 is compounding and Q6 says something already carries the audience.
+- **Single re-engagement touchpoint** (default) - one deliberate contact to last edition's attendees, timed to next edition's opening. Reaches the whole list for an hour or two. Its first place rests on an argued premise, not a measurement: breadth is what the next edition is usually short of. Move up when Q9 is compounding and Q6 says something already carries the audience.
 - **Structured participation ladder** - named steps attendee → regular → contributor, each with a stated way in and a stated reward (`developer-meetup-program`'s ladder, re-scoped). What doesn't transfer: a meetup runs on monthly contact, so a rung can take three meetings; an annual event gives one live touch a year, so every rung above the first must be climbable asynchronously or it never gets climbed. For a long-running event, inviting past winners or standout contributors back as participants at an anniversary edition is a concrete top rung. It reuses the alumni base as both a returning-attendee mechanism and the edition's own concept hook, rather than treating alumni only as a mailing list to reach.
 - **Fed local cohort** (starved rung) - a group of the event's own audience in one city, kept warm between visits. Tops effort (needs a standing local owner who isn't you). Promote when Q5 is genuinely multi-city and Q10 names a willing local person. Read § Local cohorts first.
 - **No mechanism** - whoever remembers comes back. Near-zero effort, near-zero return; the rung a team lands on by not deciding. A first edition with no list yet is a defensible case.

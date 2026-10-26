@@ -4,7 +4,7 @@ description: Pick the date a technical event runs on - the decision every other 
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.1.1"
+  version: "1.1.2"
 ---
 
 # Event Date Selection
@@ -83,7 +83,7 @@ Cumulative rungs: each includes the ones below it. Ranking (a default, not a law
 - **Audience-calendar pass** - the floor: day type from the section above, plus the calendars of the audience's own institutions. Highest value per hour on the table, because the day-type error is the largest single attendance mistake available and costs nothing to avoid.
   - Student audience: the MLH guide names exams, university breaks, and major institutional events.
   - Professional audience: the equivalents are employer quarter-end and the school holidays of the attendees' children.
-- **Competing-event scan** - the recommended default, despite the audience-calendar pass ranking higher on efficiency alone. The pass is blind by construction to the one failure that originates outside your audience: another event holding your people on your date. The scan costs an afternoon, is the only rung that can see that failure, and stays skippable only when Q3 has already externally forced the date and no scan result could change it.
+- **Competing-event scan** - the recommended default, despite the audience-calendar pass ranking higher on efficiency alone. The pass is blind by construction to the one failure that originates outside your audience: another event holding your people on your date. The scan costs an hour or two, most of it spent checking each hit. It is the only rung that can see that failure, and stays skippable only when Q3 has already externally forced the date and no scan result could change it.
 - **Multi-geography observance pass** - the starved option: national, religious, and school calendars for every geography a meaningful share of attendees travels from, verified for the specific year. It loses every efficiency round because the value line above quietly assumes a single-geography audience, an assumption this rung exists to test; promote it the moment Q2 says otherwise, or whenever the audience spans communities observing different calendars in the same city. The category checklist is in [references/audience-calendars.md](references/audience-calendars.md); the dates themselves are not in this skill.
 
 **Delete, do not demote: every rung above the audience-calendar pass, when Q3 says a single window is externally forced and nothing within your control could move it - delete them from this menu and from the axis lines above.** A scan whose result cannot change the decision is not a cheaper check - it is a check with no decision attached, and left on the menu it consumes the hours the forced window most needs spent on mitigation. Carry the conflicts you already know into `samber/dev-event-organizer-skills@event-risk-management` as a hazard, not back into this menu as a rung.

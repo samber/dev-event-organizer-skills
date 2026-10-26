@@ -40,10 +40,10 @@ Two volunteers, a few hours a week each:
 
 1. Rehearsal kit sent with the offer.
 2. Group dry-run sessions (video call works) in the two weeks before D: one 3-hour session per three 30-minute talks, or per about eight lightning talks.
-3. Accessibility checklist run on every deck by one volunteer, about twenty minutes each.
+3. Accessibility checklist run on every deck by one volunteer, about ten minutes each.
 4. A stage walk-through slot on the day.
 
-Count the hours before promising: per speaker, talk time + 20 minutes of feedback (10 for a lightning talk) + 5 minutes of changeover, plus twenty minutes per deck. If that exceeds the ceiling, give dry-run places first to speakers who answered intake question 5 with "yes" (a self-declared first talk at an event this size, asked of everyone), then by lottery, and the kit to the rest. Tell every speaker the rule in the offer. First-come would quietly reward the most confident responders.
+Count the hours before promising: per speaker, talk time + 20 minutes of feedback (10 for a lightning talk) + 5 minutes of changeover, plus ten minutes per deck. If that exceeds the ceiling, give dry-run places first to speakers who answered intake question 5 with "yes" (a self-declared first talk at an event this size, asked of everyone), then by lottery, and the kit to the rest. Tell every speaker the rule in the offer. First-come would quietly reward the most confident responders.
 
 Anything less is a kit with no listener. Say that to the user rather than calling it a program.
 

@@ -4,7 +4,7 @@ description: Run the speaker-side experience from the moment a speaker confirms 
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.2.0"
+  version: "1.2.1"
 ---
 
 # Event Speaker Experience
@@ -101,7 +101,7 @@ What you add on top of what was promised. Anything the call or the invitation al
 - **Last tie**: the honest zero - a document and a link to somebody else's course collect nothing.
 
 - **Named point of contact** - the default and the floor: a person or a pair handling all speaker communications. Highest value per hour in the menu because it removes the failure every other rung is also trying to remove - a speaker with a question and nobody to ask. Move up one rung as soon as you pass roughly five speakers or any deadline that must land on a single day: past that, the contact spends their hours re-answering the same question by hand.
-- **Written speaker packet** - one document carrying slot, deadlines, logistics, recording policy and the contact. Costs an afternoon once and is reused every edition, which is why it sits second on efficiency despite sitting fourth on value.
+- **Written speaker packet** - one document carrying slot, deadlines, logistics, recording policy and the contact. Costs an hour or two once, most of it checking the facts, and is reused every edition, which is why it sits second on efficiency despite sitting fourth on value.
 - **Linked orientation course** - recommend an existing course for accepted speakers rather than writing one. Near-zero effort, real value where the community has one, and nothing to maintain.
 - **Speakers' dinner and small appreciation gifts** - a real budgeted expense line, not a nice-to-have somebody improvised. Promote it whenever Q5 says the edition recurs: it is the rung that turns a speaker into next year's referral, and its return lands entirely after this edition is over.
 - **Travel and lodging concierge** - the starved option: book and pay for flights and hotel on the speaker's behalf rather than reimbursing. It ties for the top of value and tops both effort and compliance cost outright, so efficiency never picks it. Promote it for any international speaker, for any speaker who cannot front the cost of a flight - reimbursement quietly filters your lineup by who has a spare month of salary - and wherever a visa letter is needed. Handle the documents it requires under a stated retention limit. See step 10.

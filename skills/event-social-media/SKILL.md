@@ -4,7 +4,7 @@ description: Run a technical event's own social presence inside the weight, phas
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.1.0"
+  version: "1.1.1"
 ---
 
 # Event Social Media
@@ -89,13 +89,13 @@ Ranked menu: reach bought per unit of organizer effort. The orderings below are 
 
 - effort (writing, adaptation, account upkeep): `full presence > two natively adapted > home plus mirror > single home platform`
 - value (people reached who were not already coming, judged): `two natively adapted > full presence > home plus mirror > single home platform`
-- efficiency: `home plus mirror > single home platform > two natively adapted > full presence`
+- efficiency: `home plus mirror > two natively adapted > single home platform > full presence`
 
 Value puts a well-run two-platform presence above a full spread on purpose. Marginal platforms reach heavily overlapping audiences, and at a volunteer effort budget they degrade into visibly unattended accounts - an account whose last post is four months old subtracts credibility from the event rather than adding reach.
 
 - **Single home platform** - one account, where Q3 says the audience actually is. Everything else is a link on the comms hub the marketing plan already builds.
 - **Home plus mirror** - the same posts cross-posted to a second platform with light adaptation. Cheap because nothing is rewritten.
-- **Two natively adapted** - each post rewritten to its platform's format and audience. This is where the hours go.
+- **Two natively adapted** - each post rewritten to its platform's format and audience. The rewrite itself is quick; the hours go into reviewing each version against its platform's register and keeping both accounts answered.
 - **Full presence** - four or more accounts, each maintained. MLH's campus-scale strategy names six platforms plus community groups: a real list, for an audience genuinely dispersed across them.
 
 - **Default rung:** home plus mirror.

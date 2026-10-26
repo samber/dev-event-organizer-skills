@@ -4,7 +4,7 @@ description: Write a technical event's code of conduct and build the enforcement
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.1.1"
+  version: "1.1.2"
 ---
 
 # Event Code of Conduct
@@ -92,7 +92,7 @@ Efficiency (recommended order): **adapt an established text > adopt one verbatim
 - Compliance cost never separates a pair either - it restates the same order with the two adapting rungs tied.
 - The check catches no misordering here; the ordering rests on the argument below.
 
-Adopting verbatim is near-free and still loses, because the template names roles and contacts that do not exist at your event - which makes its reporting sentence unusable - and `confcodeofconduct.com` disclaims its own enforceability. Adapting costs an afternoon and fixes exactly that. The `==` on compliance cost is real rather than a dodge: both adapting postures keep the same Creative Commons attribution obligation and trigger the same single read by whoever holds legal authority; a culture preamble adds words, not legal surface.
+Adopting verbatim is near-free and still loses, because the template names roles and contacts that do not exist at your event - which makes its reporting sentence unusable - and `confcodeofconduct.com` disclaims its own enforceability. Adapting costs an hour or two and fixes exactly that. The `==` on compliance cost is real rather than a dodge: both adapting postures keep the same Creative Commons attribution obligation and trigger the same single read by whoever holds legal authority; a culture preamble adds words, not legal surface.
 
 **Default: adapt an established text.** Promote to the culture preamble whenever a stated identity or values document already exists.
 
@@ -101,7 +101,7 @@ A narrower variant of adopting verbatim: for a small volunteer-run event, linkin
 **Starved: adapt plus a culture preamble** - highest value and highest effort, so efficiency starves it every round.
 
 - It is the posture that makes a CoC a document people read rather than skim. !!Con's own policy states that "where many Codes of Conduct start and stop at preventing harassment, ours is part of an intentional effort to define the culture of !!Con events," and titles its expectations section "How to be !!Con".
-- Promote it when the event has already done cultural-identity work (see `samber/dev-event-organizer-skills@event-cultural-identity`), which turns a week of drafting into an editing pass.
+- Promote it when the event has already done cultural-identity work (see `samber/dev-event-organizer-skills@event-cultural-identity`), which turns a few days of drafting into an editing pass.
 
 **Deleted, not demoted: writing your own from scratch.** Delete it unless the event has in-house counsel and a specific reason no template fits.
 

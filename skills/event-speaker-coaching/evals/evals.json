@@ -81,7 +81,7 @@
         "States that a structural change after the content freeze is an unrehearsed talk: cut, do not rebuild",
         "Runs Mateus's dry run on the event's own video tool, sets his recording deadline before 9 November, and hands the production side to the virtual-event production skill",
         "States that an overrun found after 9 November, when captioners hold the deck, is fixed by skipping whole sections, never by editing slides, with the skipped slide numbers sent to the captioners",
-        "Runs the accessibility Blocking checklist (contrast, flashing, colour-only meaning) on every deck before 9 November, about twenty minutes each",
+        "Runs the accessibility Blocking checklist (contrast, flashing, colour-only meaning) on every deck before 9 November, about ten minutes each",
         "Books the coaching hours as named tasks in the calendar so the program cannot silently vanish again",
         "Keeps a stage walk-through before doors on 18 November for the in-person speakers, and hands the equipment tech check to the speaker-experience skill",
         "Shows the user the offer text and the dated calendar before anything goes out"
@@ -90,11 +90,11 @@
     {
       "id": 5,
       "prompt": "Wrenfield Code Camp is meetup-scale: 14 talks of 30 minutes (no Q&A in the slot, questions go to the hallway) and 8 Ignite-style lightning talks, 20 slides auto-advancing every 15 seconds. Final decks are due 27 November for the printed programme and the captions, which gives us three weeks from Monday. Coaches are me and one other volunteer, about 2 hours a week each. I was going to offer everyone a one-to-one rehearsal and hand out slots first-come-first-served. Two speakers also asked whether we'd record the rehearsals so they can rewatch. Does this plan work?",
-      "expected_output": "An hour count showing the plan does not fit (about 23 hours needed against 12 available), group dry-run sessions as the default rung, dry-run places ordered by the self-declared first-talk answer then lottery with the rule stated in the offer, words-per-slide cutting for the Ignite talks, Critical Response Process in the group sessions, recordings only on each speaker's yes and deleted after the event.",
+      "expected_output": "An hour count showing the plan does not fit (about 19 hours needed against 12 available), group dry-run sessions as the default rung, dry-run places ordered by the self-declared first-talk answer then lottery with the rule stated in the offer, words-per-slide cutting for the Ignite talks, Critical Response Process in the group sessions, recordings only on each speaker's yes and deleted after the event.",
       "files": [],
       "expectations": [
-        "Computes the listening cost per speaker as talk time plus about 20 minutes of feedback (10 for a lightning talk) plus 5 minutes of changeover, plus about 20 minutes per deck for the accessibility checklist",
-        "Arrives at roughly 23 hours needed (about 12h50 for the 14 talks, 2h40 for the 8 lightning talks, 7h20 for 22 decks) against 12 hours available, and says the plan does not fit as proposed",
+        "Computes the listening cost per speaker as talk time plus about 20 minutes of feedback (10 for a lightning talk) plus 5 minutes of changeover, plus about 10 minutes per deck for the accessibility checklist",
+        "Arrives at roughly 19 hours needed (about 12h50 for the 14 talks, 2h40 for the 8 lightning talks, 3h40 for 22 decks) against 12 hours available, and says the plan does not fit as proposed",
         "Replaces universal one-to-one rehearsals with group dry-run sessions as the default rung, and states that a 3-hour session holds three 30-minute talks or about eight lightning talks",
         "Rejects first-come-first-served because it rewards the most confident responders, and orders dry-run places by the intake answer to 'is this your first talk at an event this size', then by lottery, with the kit going to the rest",
         "States the allocation rule in the offer itself, and still sends the same offer in the same words to all 22 speakers",

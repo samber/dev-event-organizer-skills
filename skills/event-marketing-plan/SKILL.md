@@ -4,7 +4,7 @@ description: Build the attendee-acquisition plan for a technical event - audienc
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.1.0"
+  version: "1.1.1"
 ---
 
 # Event Marketing Plan
@@ -117,7 +117,7 @@ The other four channels carry no compliance cost of their own: posting on your o
 
 Both ties are argued:
 
-- **Effort tie** (paid ads == pre-event press): a paid-ads run and a press pitch are each a few hours of setup or writing followed by waiting on someone else's system. Neither is a standing job the way social posting is.
+- **Effort tie** (paid ads == pre-event press): a paid-ads run and a press pitch are each an hour or two of setup or writing followed by waiting on someone else's system. Neither is a standing job the way social posting is.
 - **Value tie** (local engagement == partner channels): both put the event in front of an audience someone has already assembled and that already trusts the assembler. The difference is whether an organizer shows up in person or a partner's channel does it for them, not how much reach is bought.
 
 Compliance cost is real on exactly three rungs:

@@ -4,7 +4,7 @@ description: Deliver everything a signed event sponsor was promised, from counte
 license: MIT
 metadata:
   author: Samuel Berthe
-  version: "1.1.0"
+  version: "1.1.1"
 ---
 
 # Event Sponsor Fulfillment
@@ -73,7 +73,7 @@ How asset collection and expectation-setting run after signing. The Des Moines F
 **Dominance check: 3 pairs, zero strict-dominance relations - clean only by construction, and by-construction is never a pass.** Value and effort are the same list, so one mechanism blocks every pair: the instrument that gets assets in earlier costs strictly more to run. No third axis is printed to block or rescue a pair. The check catches nothing; the efficiency line rests on the arguments below.
 
 - **Checklist email** - the default: one welcome email per sponsor generated from their matrix column, listing every asset owed, its format, and its hard deadline. Near-zero marginal effort once the matrix exists. Write it against specific program moments rather than as a flat benefits list - which talk slot, which named time block, which reception the sponsor's people are invited to - so the sponsor's own team can put the day on their calendar instead of reading "you're welcome to attend" and guessing when. A minimal fixed asset kit travels with it: photos, a presentation template, and one contact-request email - deliberately narrow rather than a sprawling toolkit nobody finishes.
-- **Intake form** - a structured form collecting the same assets with validation (file formats, character limits for blurbs). Worth its setup cost from roughly five sponsors up, when chasing malformed logos one by one costs more than building the form once.
+- **Intake form** - a structured form collecting the same assets with validation (file formats, character limits for blurbs). Worth its setup cost from roughly three sponsors up, when chasing malformed logos one by one costs more than building the form once.
 - **Kickoff call** - the starved option: highest value, highest effort, so efficiency never picks it. Promotion conditions: a top-tier sponsor, a first-time sponsor, a compounding relationship (Q7), or any perk needing live coordination - a pitch talk, a workshop, a sponsored track.
 
 ## Lead-capture posture

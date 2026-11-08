@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
+  <title id="title">Dev Event Organizer Skills</title>
+  <desc id="desc">A warm orange event beacon made from a stage, audience, and radiating signal.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="400" gradientUnits="userSpaceOnUse"><stop stop-color="#14121D"/><stop offset="1" stop-color="#2B1D1B"/></linearGradient>
+    <linearGradient id="flare" x1="126" y1="88" x2="282" y2="310" gradientUnits="userSpaceOnUse"><stop stop-color="#FFD36D"/><stop offset="1" stop-color="#F06432"/></linearGradient>
+  </defs>
+  <rect width="1200" height="400" rx="36" fill="url(#bg)"/>
+  <g opacity=".18" stroke="#FFD36D" fill="none"><path d="M302 70c58 39 96 104 96 178"/><path d="M338 32c82 55 136 147 136 252"/></g>
+  <g id="event-mark">
+    <rect x="80" y="80" width="240" height="240" rx="54" fill="#251C20" stroke="#6A3D2D" stroke-width="2"/>
+    <path d="M124 242h152l-18 29H142l-18-29Z" fill="#F06432"/>
+    <path d="M142 222h116l18 20H124l18-20Z" fill="url(#flare)"/>
+    <circle cx="200" cy="166" r="35" fill="none" stroke="url(#flare)" stroke-width="20"/>
+    <path d="M200 103v-24M151 118l-17-17M249 118l17-17M249 213l17 17M151 213l-17 17" stroke="#FFD36D" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <g fill="#FFF8ED" font-family="Inter, ui-sans-serif, system-ui, sans-serif">
+    <text x="380" y="170" font-size="28" font-weight="700" letter-spacing="5" fill="#FFB552">SAMBER / SKILLS</text>
+    <text x="380" y="232" font-size="58" font-weight="800" letter-spacing="-2">Dev Event Organizer</text>
+    <text x="383" y="282" font-size="25" font-weight="500" fill="#D8C8BC">Conferences · meetups · hackathons · community programs</text>
+  </g>
+</svg>
